@@ -136,18 +136,27 @@ public class SampleCreditCardCollectionImpl implements YFSCollectionCreditCardUE
 			if(YFCCommon.isVoid(input.creditCardExpirationDate)){
 				return true;
 			} else {
+				
 				String[] dmy =  input.creditCardExpirationDate.split("/");
 				int sMonth = 0;
 				int sYear = 0;
+				int sDay = 28;
+				
 				if(dmy.length == 2){
 					sMonth = Integer.parseInt(dmy[0]);
 					sYear = Integer.parseInt(dmy[1]);
+					
 				} else if(dmy.length == 3){
 					sMonth = Integer.parseInt(dmy[0]);
 					sYear = Integer.parseInt(dmy[2]);
+					sDay = Integer.parseInt(dmy[1]);
 				}
+				
 				if(sMonth != 0 && sYear != 0){
-					if(sYear >= YDate.newDate().getYear() || (sMonth >= YDate.newDate().getMonth() && sYear == YDate.newDate().getYear())){
+					Calendar date = Calendar.getInstance();
+					date.set(sYear, sMonth, sDay);
+					
+					if(Calendar.getInstance().before(date)){
 						return false;
 					}
 				}
