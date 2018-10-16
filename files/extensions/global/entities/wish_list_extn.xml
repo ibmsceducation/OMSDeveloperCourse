@@ -59,7 +59,7 @@ US Government Users Restricted Rights - Use, duplication or disclosure restricte
             Description="An integer used to track and prevent concurrent modifications."
             Name="Lockid" Nullable="false" XMLName="Lockid"/>
 	</Attributes>
-	<PrimaryKey DB2Name="EXT_CUST_WISH_ITEM_PK">
+	<PrimaryKey DB2Name="EXT_CUST_WISH_PK">
 		<Attribute Name="Customer_Wish_List_Item_Key" />
 	</PrimaryKey>		
 	<Indices>
