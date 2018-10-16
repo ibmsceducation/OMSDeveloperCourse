@@ -73,11 +73,11 @@ US Government Users Restricted Rights - Use, duplication or disclosure restricte
 		</Index>
 	</Indices>
 	
-	<Parent ParentTableName="YFS_CUSTOMER" XMLName="Customer">
+	<Parent ParentTableName="YFS_CUSTOMER" XMLName="YFSCustomer">
 		<Attribute ColumnName="CUSTOMER_KEY" ParentColumnName="CUSTOMER_KEY" />
 	</Parent>
 	<ForeignKeys>
-		<ForeignKey ParentTableName="YFS_ITEM" XMLName="Item">
+		<ForeignKey ParentTableName="YFS_ITEM" XMLName="YFSItem">
 			<Attribute ColumnName="ITEM_KEY" ParentColumnName="ITEM_KEY" />
 		</ForeignKey>
 	</ForeignKeys>
