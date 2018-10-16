@@ -18,9 +18,6 @@ US Government Users Restricted Rights - Use, duplication or disclosure restricte
         <Attribute ColumnName="CUSTOMER_KEY" 
         	DataType="Key" Description="Customer Identifier" Name="Customer_Key"
             Nullable="false" XMLName="CustomerKey" />		  
-        <Attribute ColumnName="CUSTOMER_CONTACT_KEY" 
-        	DataType="Key" Description="Customer Contact Identifier" 
-          	Nullable="true" XMLName="CustomerContactKey" /> 
 		<Attribute ColumnName="ITEM_KEY" 
 			DataType="Key" Description="Item Identifier" 
           	Nullable="false" XMLName="ItemKey" /> 
@@ -69,11 +66,10 @@ US Government Users Restricted Rights - Use, duplication or disclosure restricte
 		<Index DB2Name="CUST_WISH_I1"
 			Name="CUST_WISH_I1" Unique="true">
 			<Column Name="CUSTOMER_KEY" />
-			<Column Name="CUSTOMER_CONTACT_KEY" />
 			<Column Name="ITEM_KEY" />	
 		</Index>
 		<Index DB2Name="CUST_WISH_I2" Name="CUST_WISH_I2">
-			<Column Name="CUST_WISH_KEY" />
+			<Column Name="CUST_WISH_ITEM_KEY" />
 		</Index>
 	</Indices>
 	
