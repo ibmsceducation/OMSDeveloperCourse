@@ -28,7 +28,7 @@ US Government Users Restricted Rights - Use, duplication or disclosure restricte
 			DataType="Quantity" DefaultValue="1" Description="Quantity to add to wish list"
 			Nullable="false" XMLName="Quantity" Name="Quantity" />
 		<Attribute ColumnName="EXPIRE_DATE"
-			DataType="Timestamp" Description="The date in which this wish list item will expire"
+			DataType="TimeStamp" Description="The date in which this wish list item will expire"
 			Name="Expiration_Date" Nullable="true" XMLName="ExpirationDate" />
 		<Attribute ColumnName="ACTIVE_FLAG"
 			DataType="Flag" DefaultValue="'Y'"
