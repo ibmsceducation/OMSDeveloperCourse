@@ -10,7 +10,7 @@ US Government Users Restricted Rights - Use, duplication or disclosure restricte
     
       <Entity TableName="EXT_CUST_WISH_ITEM" ApiNeeded="Y" AuditRequired="N" EntityType="TRANSACTION"
       	Description="Stores Customer Wishlist Items" XMLName="CustomerWishListItem" 
-      	Name="Customer_Wish_List_Item" HasHistory="N" PREFIX="EXT" KeyType="Random" >
+      	Name="Customer_Wish_List_Item" HasHistory="N" Prefix="EXT" KeyType="Random" >
         <Attributes>
         <Attribute ColumnName="CUST_WISH_ITEM_KEY" DataType="Key" DefaultValue="' '"
         	Description="Primary Key" Name="Customer_Wish_List_Item_Key" Nullable="false"
