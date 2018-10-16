@@ -60,10 +60,6 @@ public class DemoCreateCustomerForOrder implements YFSBeforeCreateOrderUE {
 				getCustomerID(env, eOrder, true);
 			}
 		}
-		if (!YFCCommon.isVoid(eOrder.getAttribute("CustomerEMailID"))
-				&& YFCCommon.equals(eOrder.getAttribute("CustomerEMailID"), "robertp@gmail.com")) {
-			eOrder.setAttribute("PriorityCode", "VIG");
-		}
 		return input;
 	}
 
