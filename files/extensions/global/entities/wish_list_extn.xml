@@ -8,11 +8,13 @@ US Government Users Restricted Rights - Use, duplication or disclosure restricte
 <DBSchema>
    <Entities>        
     
-      <Entity TableName="DEMO_CUST_WISH" ApiNeeded="Y" AuditRequired="N" Description="Stores Customer Wishlist Items" XMLName="CustomerWishListItem" Name="Customer Wish List Item" HasHistory="N" PREFIX="DEMO" KeyType="Random" >
+      <Entity TableName="DEMO_CUST_WISH_ITEM" ApiNeeded="Y" AuditRequired="N" EntityType="TRANSACTION"
+      	Description="Stores Customer Wishlist Items" XMLName="CustomerWishListItem" 
+      	Name="Customer_Wish_List_Item" HasHistory="N" PREFIX="DEMO_" KeyType="Random" >
         <Attributes>
-        <Attribute ColumnName="CUST_WISH_KEY" DataType="Key" DefaultValue="' '"
-        	Description="Primary Key" Name="Customer_Wish_List_Key" Nullable="false"
-        	XMLName="CustomerWishKey" />
+        <Attribute ColumnName="CUST_WISH_ITEM_KEY" DataType="Key" DefaultValue="' '"
+        	Description="Primary Key" Name="Customer_Wish_List_Item_Key" Nullable="false"
+        	XMLName="CustomerWishListItemKey" />
         <Attribute ColumnName="CUSTOMER_KEY" 
         	DataType="Key" Description="Customer Identifier" Name="Customer_Key"
             Nullable="false" XMLName="CustomerKey" />		  
@@ -60,8 +62,8 @@ US Government Users Restricted Rights - Use, duplication or disclosure restricte
             Description="An integer used to track and prevent concurrent modifications."
             Name="Lockid" Nullable="false" XMLName="Lockid"/>
 	</Attributes>
-	<PrimaryKey DB2Name="WISH_LIST_KEY" Name="WISH_LIST_KEY">
-		<Attribute Name="Customer_Wish_List_Key" />
+	<PrimaryKey DB2Name="CUST_WISH_ITEM_KEY" Name="CUST_WISH_ITEM_KEY">
+		<Attribute Name="Customer_Wish_List_Item_Key" />
 	</PrimaryKey>		
 	<Indices>
 		<Index DB2Name="CUST_WISH_I1"
@@ -74,17 +76,15 @@ US Government Users Restricted Rights - Use, duplication or disclosure restricte
 			<Column Name="CUST_WISH_KEY" />
 		</Index>
 	</Indices>
-	<RelationShips>
-		<RelationShip Cardinality="OneToMany"
-			ForeignEntity="Customer" Name="Customer"
-			Type="Bidirectional" ValidateDelete="true" XMLName="Customer">
-			<Attribute Name="Customer_Key" ParentName="Customer_Key" />
-		</RelationShip>
-		<RelationShip Cardinality="OneToMany" ForeignEntity="Item"
-			Name="Item" Type="Bidirectional" DeleteCascade="true" XMLName="Item">
-			<Attribute Name="Item_Key" ParentName="Item_Key" />	
-		</RelationShip>
-	</RelationShips>
+	
+	<Parent ParentTableName="YFS_CUSTOMER" XMLName="Customer">
+		<Attribute ColumnName="CUSTOMER_KEY" ParentColumnName="CUSTOMER_KEY" />
+	</Parent>
+	<ForeignKeys>
+		<ForeignKey ParentTableName="YFS_ITEM" XMLName="Item">
+			<Attribute ColumnName="ITEM_KEY" ParentColumnName="ITEM_KEY" />
+		</ForeignKey>
+	</ForeignKeys>
       </Entity>
 	</Entities>
 </DBSchema>
