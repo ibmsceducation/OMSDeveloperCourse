@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed Materials - Property of IBM
+IBM Sterling Selling and Fulfillment Suite
+(C) Copyright IBM Corp. 2001, 2013 All Rights Reserved.
+US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+-->
+<DBSchema>
+   <Entities>        
+    
+      <Entity TableName="DEMO_CUST_WISH" ApiNeeded="Y" AuditRequired="N" Description="Stores Customer Wishlist Items" XMLName="CustomerWishListItem" Name="Customer Wish List Item" HasHistory="N" PREFIX="DEMO" KeyType="Random" >
+        <Attributes>
+        <Attribute ColumnName="CUST_WISH_KEY" DataType="Key" DefaultValue="' '"
+        	Description="Primary Key" Name="Customer_Wish_List_Key" Nullable="false"
+        	XMLName="CustomerWishKey" />
+        <Attribute ColumnName="CUSTOMER_KEY" 
+        	DataType="Key" Description="Customer Identifier" Name="Customer_Key"
+            Nullable="false" XMLName="CustomerKey" />		  
+        <Attribute ColumnName="CUSTOMER_CONTACT_KEY" 
+        	DataType="Key" Description="Customer Contact Identifier" 
+          	Nullable="true" XMLName="CustomerContactKey" /> 
+		<Attribute ColumnName="ITEM_KEY" 
+			DataType="Key" Description="Item Identifier" 
+          	Nullable="false" XMLName="ItemKey" /> 
+		<Attribute ColumnName="QUANTITY" 
+			DataType="Quantity" DefaultValue="1" Description="Quantity to add to wish list"
+			Nullable="false" XMLName="Quantity" Name="Quantity" />
+		<Attribute ColumnName="EXPIRE_DATE"
+			DataType="Timestamp" Description="The date in which this wish list item will expire"
+			Name="Expiration_Date" Nullable="true" XMLName="ExpirationDate" />
+		<Attribute ColumnName="ACTIVE_FLAG"
+			DataType="Flag" DefaultValue="'Y'"
+			Nullable="false" XMLName="Active" Name="Active" />
+		<Attribute ColumnName="CREATETS" DataType="TimeStamp"
+            DefaultValue="sysdate "
+            Description="Timestamp when the record was created."
+            Name="Createts" Nullable="false" XMLName="Createts"/>
+        <Attribute ColumnName="MODIFYTS" DataType="TimeStamp"
+            DefaultValue="sysdate "
+            Description="Timestamp when the record was last modified."
+            Name="Modifyts" Nullable="false" XMLName="Modifyts"/>
+        <Attribute ColumnName="CREATEUSERID"
+            DataType="Createuserid" DefaultValue="' '"
+            Description="User who created the record."
+            Name="Createuserid" Nullable="false" XMLName="Createuserid"/>
+        <Attribute ColumnName="MODIFYUSERID"
+            DataType="Modifyuserid" DefaultValue="' '"
+            Description="User who modified the record."
+            Name="Modifyuserid" Nullable="false" XMLName="Modifyuserid"/>
+        <Attribute ColumnName="CREATEPROGID"
+            DataType="ProgramID" DefaultValue="' '"
+            Description="Program that created the record."
+            Name="Createprogid" Nullable="false" XMLName="Createprogid"/>
+        <Attribute ColumnName="MODIFYPROGID"
+            DataType="ProgramID" DefaultValue="' '"
+            Description="Program that modified the record."
+            Name="Modifyprogid" Nullable="false" XMLName="Modifyprogid"/>
+        <Attribute ColumnName="LOCKID" DataType="Lockid"
+            DefaultValue="0"
+            Description="An integer used to track and prevent concurrent modifications."
+            Name="Lockid" Nullable="false" XMLName="Lockid"/>
+	</Attributes>
+	<PrimaryKey DB2Name="WISH_LIST_KEY" Name="WISH_LIST_KEY">
+		<Attribute Name="Customer_Wish_List_Key" />
+	</PrimaryKey>		
+	<Indices>
+		<Index DB2Name="CUST_WISH_I1"
+			Name="CUST_WISH_I1" Unique="true">
+			<Column Name="CUSTOMER_KEY" />
+			<Column Name="CUSTOMER_CONTACT_KEY" />
+			<Column Name="ITEM_KEY" />	
+		</Index>
+		<Index DB2Name="CUST_WISH_I2" Name="CUST_WISH_I2">
+			<Column Name="CUST_WISH_KEY" />
+		</Index>
+	</Indices>
+	<RelationShips>
+		<RelationShip Cardinality="OneToMany"
+			ForeignEntity="Customer" Name="Customer"
+			Type="Bidirectional" ValidateDelete="true" XMLName="Customer">
+			<Attribute Name="Customer_Key" ParentName="Customer_Key" />
+		</RelationShip>
+		<RelationShip Cardinality="OneToMany" ForeignEntity="Item"
+			Name="Item" Type="Bidirectional" DeleteCascade="true" XMLName="Item">
+			<Attribute Name="Item_Key" ParentName="Item_Key" />	
+		</RelationShip>
+	</RelationShips>
+      </Entity>
+	</Entities>
+</DBSchema>
