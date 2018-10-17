@@ -74,7 +74,7 @@ public class CustomerWishList {
 					if(!YFCCommon.isVoid(dItemList)) {
 						YFCElement eItemList = dItemList.getDocumentElement();
 						if (eItemList.getChildNodes().getLength() == 1) {
-							sItemKey = eItemList.getFirstChildElement().getAttribute("ItemKey");
+							sItemKey = eItemList.getFirstChildElement().getAttribute("ItemKey").trim();
 						}
 					}
 				}
@@ -85,6 +85,8 @@ public class CustomerWishList {
 			if(!YFCCommon.isVoid(sItemKey)) {
 				eTest.setAttribute("CustomerKey", sCustomerKey);
 				eTest.setAttribute("ItemKey", sItemKey);
+				eInput.setAttribute("CustomerKey", sCustomerKey);
+				eInput.setAttribute("ItemKey", sItemKey);
 			} else {
 				throw new YFSException("No Item Defined");
 			}
@@ -95,13 +97,14 @@ public class CustomerWishList {
 			YFCElement eResponse = YFCDocument.getDocumentFor(dResponse).getDocumentElement();
 			if(eResponse.hasChildNodes()) {
 				eInput.setAttribute("CustomerWishListItemKey", eResponse.getFirstChildElement().getAttribute("CustomerWishListItemKey"));
-				return cai.changeCustomerWishListItem(env, dInput.getDocument());
+				dResponse = cai.changeCustomerWishListItem(env, dInput.getDocument());
 			} else {
-				return cai.createCustomerWishListItem(env, dInput.getDocument());
+				dResponse = cai.createCustomerWishListItem(env, dInput.getDocument());
 			}
-		} 
-		return cai.createCustomerWishListItem(env, dInput.getDocument());
-		
+		} else {
+			dResponse = cai.createCustomerWishListItem(env, dInput.getDocument());	
+		}
+		return dResponse;
 		
 	}
 }
