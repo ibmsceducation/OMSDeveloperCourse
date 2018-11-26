@@ -55,7 +55,7 @@ public class CustomerWishList {
 	 * @throws YFSException
 	 */
 	public Document manageWishList(YFSEnvironment env, Document input) throws YFSException {
-		YFCDocument dInput = YFCDocument.getDocumentFor(input);
+		/* YFCDocument dInput = YFCDocument.getDocumentFor(input);
 		YFCElement eInput = dInput.getDocumentElement();
 		CustomApiImpl cai = new CustomApiImpl();
 		
@@ -143,6 +143,8 @@ public class CustomerWishList {
 			dResponse = cai.createCustomerWishListItem(env, dInput.getDocument());	
 		}
 		return dResponse;
+		*/
 		
+		return input;
 	}
 }
