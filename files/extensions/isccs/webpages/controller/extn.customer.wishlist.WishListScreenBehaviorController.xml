@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Controller
+    className="com.sterlingcommerce.ui.web.platform.controller.SCUIXAPIMashupController"
+    controllerId="extn.customer.wishlist.WishListScreenBehaviorController"
+    requestMethodSupported="POST" screenId="extn.customer.wishlist.WishListScreen">
+</Controller>

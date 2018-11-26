@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionMetaData>
+    <ScreenExtension extnClassName="OrderPortletExtn"
+        extnPackage="extn.home.portlets"
+        originalScreen="isccs.home.portlets.OrderPortlet"
+        originalScreenPackage="isccs.home.portlets" type="diffrential">
+        <Items>
+            <TextField _sc_extensibility_moveOrder="1"
+                _sc_extensibility_operation="insert"
+                _sc_extensibility_position="before"
+                _sc_extensibility_referenceUId="pnlSearchBar"
+                label="$(_scBundle:ZipCode)" uId="extn_txtZipCode">
+                <BindingData>
+                    <SourceBinding namespace="screenInput" path="Order.CustomerZipCode"/>
+                    <TargetBindings>
+                        <TargetBinding allowEmpty="true"
+                            namespace="getOrderList"
+                            path="Order.CustomerZipCode" scExtensibilityArrayItemId="extn_TargetBindings_0"/>
+                    </TargetBindings>
+                </BindingData>
+            </TextField>
+        </Items>
+    </ScreenExtension>
+</ExtensionMetaData>

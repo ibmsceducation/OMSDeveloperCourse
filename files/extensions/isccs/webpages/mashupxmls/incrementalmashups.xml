@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mashups>
+    <mashup id="customerDetails_getCompleteConsumerCustomerDetails">
+        <API Name="getCompleteCustomerDetails">
+            <Input/>
+            <Template>
+                <Customer>
+                    <CustomerContactList>
+                        <CustomerContact AggregateStatus="" Company=""
+                            CustomerContactID="" DateOfBirth=""
+                            DayFaxNo="" DayPhone="" EmailID=""
+                            EveningFaxNo="" EveningPhone="" FirstName=""
+                            LastName="" MiddleName="" MobilePhone=""
+                            SpouseDateOfBirth="" Title="" UserID=""
+                            WeddingAniversaryDate="" WeddingAnniversaryDate="">
+                            <DefaultBillToAddress AddressType="">
+                                <PersonInfo/>
+                            </DefaultBillToAddress>
+                            <User DisplayUserID="" Loginid=""/>
+                            <DefaultShipToAddress AddressType="">
+                                <PersonInfo/>
+                            </DefaultShipToAddress>
+                        </CustomerContact>
+                    </CustomerContactList>
+                    <DefaultBillToAddress>
+                        <PersonInfo/>
+                    </DefaultBillToAddress>
+                    <BuyerOrganization/>
+                    <DefaultShipToAddress>
+                        <PersonInfo/>
+                    </DefaultShipToAddress>
+                    <DefaultSoldToAddress>
+                        <PersonInfo/>
+                    </DefaultSoldToAddress>
+                    <ParentCustomer>
+                        <BuyerOrganization/>
+                    </ParentCustomer>
+                    <Extn>
+                        <CustomerWishListItemList TotalNumberOfRecords="">
+				<CustomerWishListItem Active="" Quantity="">
+					<YFSItem ItemID="" UnitOfMeasure="">
+						<PrimaryInformation ImageLocation="" ImageID="" ExtendedDisplayDescription="" />
+					</YFSItem>
+				</CustomerWishListItem>
+			</CustomerWishListItemList>
+                    </Extn>
+                </Customer>
+            </Template>
+        </API>
+    </mashup>
+</mashups>

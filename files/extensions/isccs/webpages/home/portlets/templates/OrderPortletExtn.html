@@ -1,0 +1,37 @@
+		<div>
+		 	<div data-dojo-type="idx/form/TextBox" 
+	 					data-dojo-props="data_dojo_props_diff: {
+	 								uId : 'extn_txtZipCode' , 
+		_sc_extensibility_operation : 'insert' , 
+		_sc_extensibility_moveOrder : '1' , 
+		_sc_extensibility_position : 'before' , 
+		_sc_extensibility_referenceUId : 'pnlSearchBar'  
+ 		,scExtensionDataFn :
+		 function() { 
+			return { 
+			 	bindingData : 	{
+		 targetBinding : 	[
+	 		{
+		 path : 			'Order.CustomerZipCode'
+,
+		 allowEmpty : 			true
+,
+		 namespace : 			'getOrderList'
+,
+		 scExtensibilityArrayItemId : 			'extn_TargetBindings_0'
+	}
+	]
+,
+		 sourceBinding : 	{
+		 path : 			'Order.CustomerZipCode'
+,
+		 namespace : 			'screenInput'
+	}
+	}
+,	
+			 	label : 			this.getBundleString('ZipCode')
+			}
+		}
+	 					}">
+		 	</div>  
+		</div>

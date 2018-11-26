@@ -1,0 +1,25 @@
+<div class="sc-platform-screen-default wishlistscreen">
+	<div data-dojo-type="idx/layout/ContentPane" data-dojo-props="'class':'listscreen',uid: 'LST_ListScreenContent', 'aria-live': 'assertive', 'scParamDataFn': function() {return {'aria-label': 'Wish List'}}, 'data-dojo-props-diff': {}" role="region">
+		<div data-dojo-type="gridx/Grid" data-dojo-props="spanLabel: true, autoWidth: false, uId: 'listGrid', autoHeight: true, cacheClass: 'gridx/core/model/cache/Async', modules: [
+			{moduleClass: 'gridx/modules/ColumnWidth', autoResize: true},
+			{moduleClass: 'gridx/modules/HLayout'}],
+			scParamDataFn: function() { 
+				return {
+					toolBar:[], 
+					structure: [
+						{field: 'Product', uId: 'tblColProduct', bindingData: {sFieldBinding: { path: 'YFSItem.PrimaryInformation.ExtendedDisplayDescription'}}, aria_label: 'Product', width: '50%', name: 'Product'},
+						{field: 'Quantity', uId: 'tblColQuantity', bindingData: {sFieldBinding: { path: 'Quantity'}}, aria_label: 'Quantity', width: '25%', name: 'Quantity'}
+					],
+					bindingData: {
+						targetBinding: [], 
+						sourceBinding: {'path': 'CustomerWishListItemList.CustomerWishListItem', namespace: 'screenInput'}
+					}, 
+					bodyLoadingInfo: this.getSimpleBundleString('Loading'), 
+					bodyEmptyInfo: 'No Wish List Items',
+					'data-dojo-props-diff': {}
+				}
+			}">
+
+		</div>
+	</div>
+</div>

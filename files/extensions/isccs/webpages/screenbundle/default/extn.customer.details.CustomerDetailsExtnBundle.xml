@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScreenBundle
+    screenBundleId="extn.customer.details.CustomerDetailsExtnBundle" screenId="extn.customer.details.CustomerDetailsExtn">
+    <BundleEntries>
+        <BundleEntry bundleEntryId="extn_pnlWishList_ContentPane_title"
+            bundleKey="extn_Wish_List" bundleValueFn="_scSimpleBundle"
+            property="title" type="WIDGET" uId="extn_pnlWishList"/>
+    </BundleEntries>
+</ScreenBundle>

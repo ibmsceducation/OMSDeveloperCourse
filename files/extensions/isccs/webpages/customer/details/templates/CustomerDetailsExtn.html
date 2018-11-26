@@ -1,0 +1,52 @@
+		<div>
+			<div data-dojo-type="sc/plat/dojo/widgets/ControllerWidget"
+				data-dojo-props="data_dojo_props_diff: {
+				uId: 'extn_screenrefWishList',
+				packageName: 'extn.customer.wishlist',
+				className: 'WishListScreen',
+				handleInit: true,
+				'class': 'wishlistscreen',
+			_sc_extensibility_operation: 'insert',
+			_sc_extensibility_referenceUId: 'extn_pnlWishList',
+			_sc_extensibility_position: 'first',
+			_sc_extensibility_moveOrder: '2',
+			scExtensionDataFn: function() {
+				return {
+			 	bindingData : 	{
+		 fwdbindingData : 	{
+		 sourceMapping : 	[
+	 		{
+		 childpath : 			'CustomerWishListItemList'
+,
+		 childnamespace : 			'screenInput'
+,
+		 parentnamespace : 			'getCompleteCustomerDetails_output'
+,
+		 parentpath : 			'Customer.Extn.CustomerWishListItemList'
+,
+		 scExtensibilityArrayItemId : 			'extn_SourceMappings_0'
+	}
+	]
+	}
+	}
+				}
+			}}">
+	</div>
+		 	<div data-dojo-type="idx/layout/ContentPane" 
+	 					data-dojo-props="data_dojo_props_diff: {
+	 								uId : 'extn_pnlWishList' , 
+		_sc_extensibility_operation : 'insert' , 
+		_sc_extensibility_moveOrder : '1' , 
+		'class' : 'singlecolumntable' , 
+		spanLabel : true , 
+		_sc_extensibility_position : 'last' , 
+		_sc_extensibility_referenceUId : 'customerDetailsRelatedInfo'  
+ 		,scExtensionDataFn :
+		 function() { 
+			return { 
+			 	title : 			this.getSimpleBundleString('extn_Wish_List')
+			}
+		}
+	 					}">
+		 	</div>  
+		</div>

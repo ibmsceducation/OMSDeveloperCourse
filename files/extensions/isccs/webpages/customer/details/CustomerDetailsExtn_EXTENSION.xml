@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionMetaData>
+    <ScreenExtension extnClassName="CustomerDetailsExtn"
+        extnPackage="extn.customer.details"
+        originalScreen="isccs.customer.details.CustomerDetails"
+        originalScreenPackage="isccs.customer.details" type="diffrential">
+        <Items>
+            <ScreenRef _sc_extensibility_moveOrder="2"
+                _sc_extensibility_operation="insert"
+                _sc_extensibility_position="first"
+                _sc_extensibility_referenceUId="extn_pnlWishList"
+                class="wishlistscreen" className="WishListScreen"
+                handleInit="true" packageName="extn.customer.wishlist" uId="extn_screenrefWishList">
+                <BindingData>
+                    <Mappings>
+                        <SourceMappings>
+                            <SourceMapping childnamespace="screenInput"
+                                childpath="CustomerWishListItemList"
+                                parentnamespace="getCompleteCustomerDetails_output"
+                                parentpath="Customer.Extn.CustomerWishListItemList" scExtensibilityArrayItemId="extn_SourceMappings_0"/>
+                        </SourceMappings>
+                    </Mappings>
+                </BindingData>
+            </ScreenRef>
+            <ContentPane _sc_extensibility_moveOrder="1"
+                _sc_extensibility_operation="insert"
+                _sc_extensibility_position="last"
+                _sc_extensibility_referenceUId="customerDetailsRelatedInfo"
+                class="singlecolumntable" spanLabel="true"
+                title="$(_scSimpleBundle:extn_Wish_List)" uId="extn_pnlWishList"/>
+        </Items>
+        <Subscribers>
+            <Local>
+                <Subscriber eventId="extn_pnlWishList_onShow"
+                    isExtn="true" sequence="51">
+                    <Handler methodName="loadWishList"/>
+                </Subscriber>
+            </Local>
+        </Subscribers>
+        <MashupRefs>
+            <Init>
+                <MashupRef
+                    mashupId="customerDetails_getCompleteConsumerCustomerDetails"
+                    mashupRefId="getCompleteCustomerDetails" sourceNamespace="getCompleteCustomerDetails_output"/>
+            </Init>
+        </MashupRefs>
+    </ScreenExtension>
+</ExtensionMetaData>

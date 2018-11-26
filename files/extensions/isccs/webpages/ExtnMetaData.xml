@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Extensions>
+    <Identifier id="">
+        <UIExtns>
+            <UIExtn appScreen="isccs.home.portlets.OrderPortlet"
+                extnScreen="extn.home.portlets.OrderPortletExtn" type="diffrential"/>
+            <UIExtn appScreen="isccs.customer.details.CustomerDetails"
+                extnScreen="extn.customer.details.CustomerDetailsExtn" type="diffrential"/>
+            <UIExtn appScreen="extn.customer.wishlist.WishListScreen" extnScreen="extn.customer.wishlist.WishListScreen" type="override" />
+	</UIExtns>
+    </Identifier>
+</Extensions>

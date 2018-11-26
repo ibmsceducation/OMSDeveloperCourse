@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScreenBundle screenBundleId="extn.home.portlets.OrderPortletExtnBundle" screenId="extn.home.portlets.OrderPortletExtn">
+    <BundleEntries>
+        <BundleEntry bundleEntryId="extn_txtZipCode_TextField_label"
+            bundleKey="ZipCode" bundleValueFn="_scBundle"
+            property="label" type="WIDGET" uId="extn_txtZipCode"/>
+    </BundleEntries>
+</ScreenBundle>
