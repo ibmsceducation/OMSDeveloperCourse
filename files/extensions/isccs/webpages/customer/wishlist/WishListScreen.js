@@ -50,19 +50,8 @@ function(
 			}]
 		},
 		
-		save: function() {
-			var eventDefinition = null;
-			_scEventUtils.fireEventToParent(this, "onSaveSuccess", eventDefinition);
-		},
-
-		orderSearchAction: function(event, bEvent, ctrl, args) {
-		},
-		orderSearch: function() {
-		},
 		initializeScreen: function(event, bEvent, ctrl, args) {
-			console.log("Event: " + event);
 			console.log(args);
-			console.log(this);
 			//_scScreenUtils.setModel(this, "screenInput", args.screen.scEditorInput, null);
 			
 		}
