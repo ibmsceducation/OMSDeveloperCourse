@@ -1,0 +1,87 @@
+<!--
+Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),  IBM Order Management (5737-D18), IBM Store Engagement (5737D58)
+ (C) Copyright IBM Corp. 2017 All Rights Reserved.
+ US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+ -->
+
+
+
+<div class="container-pack" ng-form="containerPackForm">
+	<div class="screen-holder has-header-secondary whole-screen">
+		<div class="screen-header tile-layout">
+			<div>			
+				<div class="back-chevron">
+					<a href="#" id="goBack"
+						ng-if="$root.$showBackButtonForStates" ng-click="$emit('$backButtonClicked')" tabindex="0">
+			    		<span class="glyphicon glyphicon-chevron-left " aria-hidden="true"></span>
+			    		<span class="sr-only" isc-i18n="app.aria_backButton"></span>
+					</a>
+				</div>
+				
+				<div role="heading" aria-level="1" class="screen-header-text two-actions">
+					<span isc-i18n="containerPack.LABEL_packOrder"></span>
+					<!--  <span ng-bind="uiGetFormattedOrderNo(model.shipmentDetails.Shipment.DisplayOrderNo)"></span>-->
+					<div class="header_secondary_label">
+						<span class="due-in">
+							<!-- span ng-if="(ui.slaImageFullURL  != null && ui.slaImageFullURL  != '' && ui.slaImageFullURL  != undefined)">
+								<img ng-src="{{ui.slaImageFullURL}}" alt="{{model.shipmentDetails.Shipment.ImageAltText}}" title="{{model.shipmentDetails.Shipment.ImageAltText}}"isc-encode-attr="src"></img>
+							</span> -->
+							<span class="duein app-glyphicons app-icon-{{model.shipmentDetails.Shipment.SLACssClass}} {{model.shipmentDetails.Shipment.SLACssClass}} sla_icon" title="{{model.shipmentDetails.Shipment.ImageAltText}}">
+	                        </span>	
+							<!--  <span class="" ng-bind="model.shipmentDetails.Shipment.TimeRemaining"></span>-->
+							<span ng-bind="uiGetFormattedOrderNo(model.shipmentDetails.Shipment.DisplayOrderNo)"></span>
+						</span>
+						<span class="shipment-status hide-mobile" ng-class="{'no-border' : uiShowBorderForHoldLocation() }" ng-bind="model.shipmentDetails.Shipment.HoldLocation"></span>
+						<span class="shipment-status hide-mobile" ng-bind="ui.displayStatus"></span>
+						<!-- <span class="comapps-label order-status hide-in-mobile" ng-class="{'order-status':(ui.isShipmentCancelled == false),'cancelled-order-status':(ui.isShipmentCancelled == true)}"name="lblStatus" ng-bind="model.shipmentModel.Shipment.Status.StatusDisplay"></span> -->
+						<a href="#" id="viewMore" class="app-glyphicons app-icon-more_header has-action show-hand-held" popover-placement="bottom"
+						popover-trigger="click" uib-popover-template="ui.shipmentPreviewTemplate" isc-i18n="[title]backroomPick.TOOLTIP_ViewMoreDetails"></a>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="action-holder pull-right" role="region">
+					<div>
+					   	<button id="closeButton" class="btn btn-default btn-secondary close-button" type="button" role="button" ng-click="uiCancel()" >
+							<span class="app-glyphicons app-icon-cancel_action_30 btn-icon-font"></span>						
+							<span class="btn-text" isc-i18n="globals.ACTION_Close"></span>						
+						</button>
+						<button id="closeButton" class="btn btn-default btn-primary" type="button" role="button" ng-click="uiFinishPack()">
+							<span class="app-glyphicons app-icon-done_30 btn-icon-font"></span>						
+							<span class="btn-text" isc-i18n="containerPack.Action_finishPack"></span>						
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="success-message tile-layout" role="alert" aria-live="assertive" ng-class="{'show-message' : ui.showSuccessMessagePanel === true}">
+			<span class="app-glyphicons app-icon-success_ok_30"></span>
+			<span class="grp-hdr-txt" name="lblSuccessMsg" ng-bind="ui.successPanelMessage">
+			</span>
+		</div>
+		<div class="container-pack-details" ng-class="{'container-pack-details-success' : ui.showSuccessMessagePanel === true}" isc-media="gt-800">
+			<div class="pack-details">	
+				<div class="product-list" ng-include="'./store/views/shipment/containerpack/pack-products/pack_products-panel.tpl.html'" ></div>
+				<div class="container-list-main" ng-include="'./store/views/shipment/containerpack/pack-products/pack-container-details.tpl.html'" ></div>
+			</div>
+		</div>
+		<div class="pack-page" ng-class="{'pack-page-success' : ui.showSuccessMessagePanel === true}" isc-media="lte-800">
+			<uib-tabset class="tab-style-underline" role="region" >
+				<uib-tab select="uiLoadShipmentContainerDetails()" active="ui.showPackageView">
+				    <uib-tab-heading>
+				        <label  isc-i18n="[i18n]({count:'{{ui.totalNoOfpackages || 0}}'})containerPack.TITLE_PackageCount"> </label>
+				    </uib-tab-heading>
+					<div class="scroll-holder">
+				        <div class="container-tab" ng-include="'./store/views/shipment/containerpack/pack-products/pack-container-details.tpl.html'"></div>
+					</div>
+				</uib-tab>
+				<uib-tab select="uiOnProductsTabSelection()" active="ui.showProductView" >
+					<uib-tab-heading>
+						<label  isc-i18n="[i18n]({count:'{{ui.productsToPack || 0}}'})containerPack.LABEL_Producth_count"> </label>
+					</uib-tab-heading>
+			        <div class="products-tab" ng-include="'./store/views/shipment/containerpack/pack-products/pack_products-panel.tpl.html'" ></div>
+				</uib-tab>
+			</uib-tabset>
+		</div>
+	</div>
+</div>

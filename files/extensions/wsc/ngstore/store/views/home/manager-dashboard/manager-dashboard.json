@@ -1,0 +1,132 @@
+{
+	"shipFromStore": {
+		"shipmentStatus": {
+			"displayStatuses": [{
+				"statusName": "notStarted",
+				"combinedStatusArray": ["1100.70.06.10"],
+				"ui_chartConfig": {
+					"labelKey": "managerDashboard.LABEL_NotStarted",
+					"unitValueInnerPadding": 0.75,
+					"radiusInnerPadding": 0,
+					"cssClass": "notStarted"
+				}
+			}, {
+				"statusName": "inProgress",
+				"combinedStatusArray": ["1100.70.06.20", "1100.70.06.50", "1100.70.06.70"],
+				"ui_chartConfig": {
+					"labelKey": "managerDashboard.LABEL_InProgress",
+					"unitValueInnerPadding": 0.5,
+					"radiusInnerPadding": 0,
+					"cssClass": "inProgress"
+				}
+			}, {
+				"statusName": "complete",
+				"combinedStatusArray": ["1300", "1400"],
+				"ui_chartConfig": {
+					"labelKey": "managerDashboard.LABEL_Completed",
+					"unitValueInnerPadding": 0,
+					"radiusInnerPadding": 0.3,
+					"cssClass": "complete"
+				}
+			}],
+			ui_chartId: "sfsChart_orderStatus"
+		},
+		"sla": {
+			"displayStatuses": [{
+				"statusName": "overdue",
+				"combinedStatusArray": ["Past Due"],
+				"statusUIDefaults": "Past Due",
+				"ui_chartConfig": {
+					"labelKey": "managerDashboard.LABEL_Overdue",
+					"unitValueInnerPadding": 0,
+					"radiusInnerPadding": 0
+				}
+			}, {
+				"statusName": "dueSoon",
+				"combinedStatusArray": ["15 Minutes Remaining"],
+				"statusUIDefaults": "Time Left High Priority",
+				"ui_chartConfig": {
+					"labelKey": "managerDashboard.LABEL_DueSoon",
+					"unitValueInnerPadding": 0,
+					"radiusInnerPadding": 0.2
+				}
+			}, {
+				"statusName": "withinSLA",
+				"combinedStatusArray": ["Above 60 Minutes Remaining"],
+				"statusUIDefaults": "Above 60 Minutes Remaining",
+				"ui_chartConfig": {
+					"labelKey": "managerDashboard.LABEL_WithinSLA",
+					"unitValueInnerPadding": 0,
+					"radiusInnerPadding": 0.35
+				}
+			}],
+			shipmentStatusToExclude: "complete",
+			ui_chartId: "sfsChart_sla"
+		}
+	},
+	"pickupInStore": {
+		"shipmentStatus": {
+			"displayStatuses": [{
+				"statusName": "notStarted",
+				"combinedStatusArray": ["1100.70.06.10"],
+				"ui_chartConfig": {
+					"labelKey": "managerDashboard.LABEL_NotStarted",
+					"unitValueInnerPadding": 0.75,
+					"radiusInnerPadding": 0,
+					"cssClass": "notStarted"
+				}
+			}, {
+				"statusName": "inProgress",
+				"combinedStatusArray": ["1100.70.06.20"],
+				"ui_chartConfig": {
+					"labelKey": "managerDashboard.LABEL_InProgress",
+					"unitValueInnerPadding": 0.5,
+					"radiusInnerPadding": 0,
+					"cssClass": "inProgress"
+				}
+			}, {
+				"statusName": "complete",
+				"combinedStatusArray": ["1100.70.06.30", "1400"],
+				"ui_chartConfig": {
+					"labelKey": "managerDashboard.LABEL_Completed",
+					"unitValueInnerPadding": 0,
+					"radiusInnerPadding": 0.3,
+					"cssClass": "complete"
+				}
+			}],
+			ui_chartId: "bopusChart_orderStatus"
+		},
+		"sla": {
+			"displayStatuses": [{
+				"statusName": "overdue",
+				"combinedStatusArray": ["Past Due"],
+				"statusUIDefaults": "Past Due",
+				"ui_chartConfig": {
+					"labelKey": "managerDashboard.LABEL_Overdue",
+					"unitValueInnerPadding": 0,
+					"radiusInnerPadding": 0
+				}
+			}, {
+				"statusName": "dueSoon",
+				"combinedStatusArray": ["15 Minutes Remaining"],
+				"statusUIDefaults": "Time Left High Priority",
+				"ui_chartConfig": {
+					"labelKey": "managerDashboard.LABEL_DueSoon",
+					"unitValueInnerPadding": 0,
+					"radiusInnerPadding": 0.2
+				}
+			}, {
+				"statusName": "withinSLA",
+				"combinedStatusArray": ["Above 60 Minutes Remaining"],
+				"statusUIDefaults": "Above 60 Minutes Remaining",
+				"ui_chartConfig": {
+					"labelKey": "managerDashboard.LABEL_WithinSLA",
+					"unitValueInnerPadding": 0,
+					"radiusInnerPadding": 0.35
+				}
+			}],
+			shipmentStatusToExclude: "complete",
+			ui_chartId: "bopusChart_sla"
+		}
+	}
+}

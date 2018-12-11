@@ -1,0 +1,18 @@
+<!--
+  Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10)
+  (C) Copyright IBM Corp.  2015, 2016 All Rights Reserved.
+  US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+-->
+<div class="address-display">
+	<div class="form-view">
+		<!--span class="grp-hdr-txt" name="lblName" isc-i18n="[i18n]({firstname:'{{personInfo.FirstName}}',lastname:'{{personInfo.LastName}}'})address.LABEL_Display_name"></span-->
+		<span class="comapps-label" name="lblAddressLine1" ng-bind="personInfo.AddressLine1"></span>
+		  <span class="comapps-label" name="lblAddressLine2" ng-bind="personInfo.AddressLine2"></span>
+		 	<span class="comapps-label" name="lblCityStateZip" ng-bind="getFormattedDisplay(personInfo.City)" ></span>
+		  <span class="comapps-label" name="lblCountry" ng-bind="personInfo.Country"></span>
+		  <span class="comapps-label" name="lblPhone" ng-bind="personInfo.EMailID"></span>
+		  <span class="comapps-label" name="lblEmail" ng-bind="personInfo.DayPhone"></span>
+		
+		
+	</div>
+</div>
