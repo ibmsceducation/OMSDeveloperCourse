@@ -3,7 +3,7 @@
 <xsl:template match="/">
   <Customer>
   	<xsl:attribute name="CustomerKey">
-		<xsl:value-of select="/LastViewed/Customer/@CustomerKey" />
+		<xsl:value-of select="/LastViewed/Customer@CustomerKey" />
 	</xsl:attribute>
   </Customer>
 </xsl:template>
