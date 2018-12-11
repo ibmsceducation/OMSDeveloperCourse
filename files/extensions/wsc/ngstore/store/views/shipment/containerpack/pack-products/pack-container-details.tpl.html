@@ -1,0 +1,290 @@
+<!--
+Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),  IBM Order Management (5737-D18), IBM Store Engagement (5737D58)
+ (C) Copyright IBM Corp. 2017 All Rights Reserved.
+ US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+ -->
+<div class="container-screen">
+	<div class="scan-container">
+		<label  isc-media="gt-800" isc-i18n="[i18n]({count:'{{uiPackagesCount(ui.totalNoOfpackages)|| 0}}'})containerPack.TITLE_PackageCount" class="grp-hdr-text-highlight"> </label>
+		
+		<div class="instore-scanner" role="region" isc-i18n="[aria-label]returns.aria_salesOrderScanRegion">
+			<div class="input-group input-icon common-theme">
+				<div class="scan-input inline-block">
+					<input type="text" class="form-control" isc-i18n="[placeholder]containerPack.LABEL_Scan;[aria-label]batchpick.LABEL_Scan;[title]batchpick.LABEL_Scan" ng-model="model.scanItemInput.barcodeData" isc-focus="true" 
+					 isc-enter="uiScanProduct(model.scanItemInput.barcodeData)" isc-barcode-scanner="DEFAULT">
+					<span class="input-group-btn">
+						<button class="btn btn-icon" type="button" ng-click="uiScanProduct(model.scanItemInput.barcodeData)" isc-i18n="[title]globals.TOOLTIP_ScanProduct">
+							<span class="app-glyphicons app-icon-scan_30"></span>
+							<span class="sr-only" isc-i18n="globals.ACTION_ScanProduct"></span>
+						</button>
+						<button class="btn btn-secondary btn-pack-all packall" type="button" role="button" ng-click="uiPackAll()" isc-resource-id="WSC000065" >
+							<span class="btn-text" isc-i18n="containerPack.Action_packAll"></span>						
+						</button>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div  class="containers-holder" ng-form="containerPackPackagesForm">
+    	<div class="list">
+        <div class="add-package" role="region">
+            <div class="">
+                <a id="addContainer" ng-click="uiAddNewContainer()" isc-i18n="[title]containerPack.Action_AddPackage">
+				    <span>
+                        <span class="add-icon btn-icon-font app-glyphicons app-icon-add_30">
+				            <span class="path1"></span>
+                        </span>
+                        <!--  <label  isc-i18n="[i18n]containerPack.Action_AddPackage" class="add-label"> </label>-->
+                    </span>
+				</a>
+            </div>
+        </div>
+        <div class="draft-container" ng-if="model.shipmentContainerDetails.Containers.Container && model.shipmentContainerDetails.Containers.Container.length === 0">
+			<div class="">
+				<a id="addContainer">
+   					<span>
+                   		<span class="draft-icon btn-icon-font app-glyphicons app-icon-pack_portlet">
+           					<span class="path1"></span>
+                   		</span>
+                   		<label class="secondary-label-text package-number" isc-i18n="[i18n]containerPack.LABEL_Draft_Pachage_number"></label>
+               		</span>
+               </a>
+			</div>
+        </div>
+        <div class="container_left" ng-hide="uiHideNavigation()" ng-if="model.shipmentContainerDetails.Containers.Container && model.shipmentContainerDetails.Containers.Container.length != 0">
+        	<span class="btn-icon-font app-glyphicons app-icon-Chevron_Left-16px " ng-click="uiScrollLeft()"></span>
+        </div> 
+        <div class="containers" ng-if="model.shipmentContainerDetails.Containers.Container && model.shipmentContainerDetails.Containers.Container.length != 0">
+            <ul id="containers" class="repeating-panel-holder container-list">
+             
+                <li ng-repeat="container in model.shipmentContainerDetails.Containers.Container track by container.ShipmentContainerKey" 
+                class="repeating-panel each-container" ng-class="{'set-border':(container.ShipmentContainerKey == ui.currentContainerDetails.ShipmentContainerKey || container.ContainerScm == ui.currentContainerDetails.ContainerScm )}" >
+                    <div class="detail-information">
+                        <div class="form-view">
+<!--                              <label class="grp-hdr-text-highlight hash-number-align" isc-i18n="containerlist.LABEL_Container_No"></label>
+	                              <label class="grp-hdr-text-highlight" ng-bind="container.ContainerNo"></label>
+-->			<a id="addContainer" ng-click="uiDisplayContainerDetails(container)" >
+			<span>
+	                        <span ng-if="(container.ShipmentContainerKey != ui.currentContainerDetails.ShipmentContainerKey || container.ContainerScm != ui.currentContainerDetails.ContainerScm )" class="disabled-icon package-icon btn-icon-font app-glyphicons app-icon-package_empty">
+					            <span class="path1"></span><span class="path2"></span>
+	                        </span>
+	                        <span ng-if="(container.ShipmentContainerKey == ui.currentContainerDetails.ShipmentContainerKey || container.ContainerScm == ui.currentContainerDetails.ContainerScm )" class="package-icon btn-icon-font app-glyphicons app-icon-pack_portlet">
+					            <span class="path1"></span><span class="path2"></span>
+	                        </span>i
+	                        <!-- <label class="secondary-label-text package-number" isc-i18n="[i18n]({index:{{$index + 1}}}) containerPack.LABEL_Pachage_number"></label>-->
+	                        <label class="secondary-label-text package-number" ng-class="{'selected-package-number':(container.ShipmentContainerKey == ui.currentContainerDetails.ShipmentContainerKey || container.ContainerScm == ui.currentContainerDetails.ContainerScm )}"
+	                        isc-i18n="[i18n]({index:{{model.shipmentContainerDetails.Containers.Container.length - $index}}}) containerPack.LABEL_Pachage_number"></label>
+	                    </span>
+	                    </a>
+                        </div>
+                    </div>
+                 </li>
+            </ul>
+       		</div>
+	        <div class="container_right" ng-hide="uiHideNavigation()" ng-if="model.shipmentContainerDetails.Containers.Container && model.shipmentContainerDetails.Containers.Container.length != 0">
+	        	<span class="btn-icon-font app-glyphicons app-icon-Chevron_Right-16px " ng-click="uiScrollRight()"></span>
+	        </div>
+        </div>
+    </div>
+    
+    <div class="current-container-details">
+		<div class="package-details-header">
+			<div class="package-numbers">
+		        <div class="form-view">
+		            <label class="grp-hdr-text-highlight hash-number-align" isc-i18n="containerPack.LABEL_Container_No"></label>
+		            <label class="grp-hdr-text-highlight" ng-bind="ui.currentContainerDetails.ContainerNo"></label>
+		        </div>
+		        <div class="form-view" ng-show="uiShowTrackingNo() ">
+		            <label class="comapps-label zero-width-label hash-number-align" isc-i18n="containerPack.LABEL_Tracking_No"></label>
+		            <label class="comapps-label zero-width-label" ng-bind="ui.currentContainerDetails.TrackingNo"></label>
+		        </div>
+		        <div class="form-view inline-block" >
+		            <label class="secondary-label-text zero-width-label product-count" isc-i18n="[i18n]({count:'{{ui.currentContainerDetails.ContainerDetails.TotalNumberOfRecords || 0 }}'}) containerPack.LABEL_Product_count"></label>
+		        </div>
+	        </div>
+	        <div class="form-view package-weight" >
+				<div ng-form="weightForm">
+					<button ng-if="ui.currentContainerDetails.showWeightUpdate  == 'Y'" class="btn btn-default inline-block update-button btn-primary" type="button" role="button" isc-i18n="globals.Action_Update" ng-click="weightForm.weight.$valid ? uiValidateWeightAndUpdate(this,ui.currentContainerDetails) : null">
+                    </button>
+	                <input type="number" step="0.0001" isc-number-formatter ng-focus="uiOnWeightFieldFocus(this,ui.currentContainerDetails)" name="weight" ng-model="ui.currentContainerDetails.ActualWeight" isc-datatype="{
+	                'customValidator': uiValidateWeight, 'datatype':'ActualWeight',
+	                'useOnlyCustomValidator':false}" ng-change="weightForm.weight.$valid ? uiShowWeightUpdateButton(this,ui.currentContainerDetails) : uiHideWeightUpdateButton(ui.currentContainerDetails)"  
+                     isc-enter="weightForm.weight.$valid ? uiValidateWeightAndUpdate(this,ui.currentContainerDetails) : null" class="form-control weight-box" />
+		        <!-- 
+		            <span class="secondary-label-text zero-width-label weight" ng-bind="ui.currentContainerDetails.ActualWeight"></span>
+	             --><span ng-bind="ui.currentContainerDetails.UomDescription"></span>
+	            </div>
+                <div class="form-view">
+                    
+                </div>
+	        </div>
+	    </div>
+		
+	
+	    <div class="container-contents-holder">
+            <div class="empty-container" ng-if="ui.currentContainerDetails.ContainerDetails.TotalNumberOfRecords == 0" >
+				<span>
+					<span class="disabled-icon package-icon btn-icon-font app-glyphicons app-icon-package_empty_80x65">
+						<span class="path1"></span><span class="path2"></span>
+					</span>
+					<label class="secondary-label-text empty-text package-number" isc-i18n="[i18n]containerPack.MSG_Empty_Package"></label>
+				</span>
+            </div>
+	        <ul class="repeating-panel-holder one-column" isc-pagination="{
+							'type': 'continuousScrolling',
+							'nextPageHandler': uiGetNextShipmentLineRecords,
+							'requestedActionValidator':uiShipmentLineScrollActionValidator,
+							'elementWithScrollbar':'parent'
+						}">
+	            <li ng-repeat="shipmentLine in model.containerContents.ShipmentLines.ShipmentLine track by shipmentLine.ShipmentLineKey"
+		 class="repeating-panel custom-single-column single-product"  id="{{shipmentLine.ShipmentLineKey}}">
+	                
+	                <div >
+	                    <div class="product-details" >	
+	                        <div class="product-details-image item-image item-image-list" isc-rule="ShowItemImage" 
+	                            ng-class="{'item-image-blank':(shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageID === null || shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageID === '' || shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageID === undefined)}">
+	                            <img class="img-responsive show-cursor-pointer" isc-item-image-resize
+	                                 ng-src="{{shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageLocation+'/'+shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageID}}" alt="" isc-encode-attr="src">
+	                            <span class="app-glyphicons app-icon-image_notAvailable"></span>
+	
+	                        </div>
+	                        <div class="product-details-right form-group-view">
+	                            <label class="header-information grp-hdr-txt product-description" ng-bind="shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ExtendedDisplayDescription"></label>
+								<div class="form-view grp-hdr-text-h2 product-id">
+									<span class="comapps-label grp-hdr-text-h2 zero-width-label hash-number-align" isc-i18n="[sep]globals.LABEL_Sku_No"></span>
+									<span class="comapps-label grp-hdr-text-h2 zero-width-label" ng-bind="shipmentLine.OrderLine.ItemDetails.ItemID"></span>
+								</div>
+	                            <div class="detail-information">
+	                                <span class="block-component label-text" ng-if="shipmentLine.OrderLine.VariationAttrs != null && shipmentLine.OrderLine.VariationAttrs != '' && shipmentLine.OrderLine.VariationAttrs != undefined" ng-bind="shipmentLine.OrderLine.VariationAttrs"></span>
+	                            </div>
+	                        </div>
+
+							<div class="quantity-panel"	>
+								<div class="inline-block">	
+									<div class="input-group quantity-spinner label-quantity">
+										<span class="input-group-btn ">
+											<button id="decQtyBtn" type="button"
+													class="btn btn-icon btn-icon-no-border"
+													ng-click="uiDecreaseQty(shipmentLine)"
+													ng-disabled="shipmentLine.ContainerDetail.EditableQtyPlaced < 1 || !ui.isManualPackEnabled || quantityForm.$invalid"
+													aria-label=""
+													isc-i18n="[title]containerPack.ACTION_DecreaseQty">
+												<span class="btn-icon-font app-glyphicons app-icon-subtract_30">
+												</span>
+												<span class="sr-only" isc-i18n="backroomPick.aria_ACTION_DecreaseQty"></span>
+											</button>
+										</span>
+										<div class="form-group" ng-form="quantityForm" isc-resource-id="WSC000066">
+											<input type="number" isc-number-formatter ng-focus="uiOnQuantityFieldFocus(this,shipmentLine)" ng-readonly="shipmentLine.ShortageQty > 0 && shipmentLine.Quantity == 0" name="qty" ng-model="shipmentLine.ContainerDetail.QuantityPlaced" isc-datatype="{
+												'customValidator': uiValidateQuantity,
+												'datatype':'Quantity',
+												'useOnlyCustomValidator':false}" ng-change="quantityForm.qty.$valid ? uiShowUpdateButton(this,shipmentLine) : uiHideUpdateButton(shipmentLine)"  isc-enter="quantityForm.qty.$valid ? uiValidateQuantityAndUpdate(this,shipmentLine) : null" class="form-control quantity-box" aria-describedby="quantity_label_{{$index}} quantity_with_error_{{$index}}"/>
+										</div>
+										<span ng-if="!ui.isManualPackEnabled" ng-bind="shipmentLine.ContainerDetail.QuantityPlaced  | number:$root.ui.quantityFractionSize" class="quantity label-text"></span>
+										<span class="input-group-btn">
+											<button id="incQtyBtn" type="button"
+													class="btn btn-icon"
+													ng-click="uiIncreaseQty(shipmentLine)"
+													ng-disabled="shipmentLine.IsPackComplete == 'Y' || !ui.isManualPackEnabled || quantityForm.$invalid"
+													aria-label=""
+													isc-i18n="[title]containerPack.ACTION_IncreaseQty">
+												<span class="btn-icon-font app-glyphicons app-icon-add_30">
+												</span>
+												<span class="sr-only" isc-i18n="backroomPick.aria_ACTION_IncreaseQty"></span>
+											</button>
+										</span>
+									</div>
+								</div>
+								<span ng-bind="shipmentLine.OrderLine.ItemDetails | iscUOM" class="quantity-uom label-text inline-block"></span>
+								<div isc-resource-id="WSC000066" class="update-button">
+									<div ng-show="quantityForm.qty.$error.iscDatatypeValidator || quantityForm.qty.$error.iscCustomValidator" class="field-error error-text block-component">
+										<span class="app-glyphicons app-icon-delete_30"></span>
+										<span class="iwErrorMsg"  id="quantity_with_error_{{$index}}">{{quantityForm.qty.$error.iscValidation_msg}}</span>
+									</div>
+									 <button ng-if="shipmentLine.showQtyUpdate  == 'Y'" class="btn btn-default block-component update-button btn-primary" type="button" role="button" isc-i18n="globals.Action_Update" ng-click="quantityForm.qty.$valid ? uiValidateQuantityAndUpdate(this,shipmentLine) : null">
+								</button>
+								</div>
+							</div>	
+	                        
+	                   <!--       <div class="product-quantity-label">
+	                            <div class="form-view package-quantity">
+	                                 <span class="comapps-label zero-width-label" isc-i18n="[sep]containerPack.Label_QtyInContainer"></span>
+	                                <span class="comapps-label zero-width-label" 
+	                                  isc-i18n="[i18n]({quantity:{{shipmentLine.ContainerDetail.QuantityPlaced   | number:$root.ui.quantityFractionSize}},uom:'{{shipmentLine.OrderLine.ItemDetails | iscUOM}}' })containerPack.LABEL_QuantityUom"></span>
+	                            </div>
+	                        </div>
+	                -->    </div>
+					    <div class="inline-block">
+					        <a href="#" class="primary-link-text" ng-if="shipmentLine.Instructions.Instruction" ng-click="uiopenPackInstructions(shipmentLine)">
+				                <span class="app-glyphicons app-icon-information_30">
+				                </span>
+				                <label class="action-label" isc-i18n="[i18n]containerPack.LABEL_PackInstructions"></label>
+					        </a>
+					    </div>
+				<div class="serial">
+					<div class="instore-scanner" role="region" isc-i18n="[aria-label]returns.aria_salesOrderScanRegion">
+                        <div class="input-group input-icon common-theme">
+                                <div class="scan-input inline-block">
+                                        <input type="text" class="form-control" isc-i18n="[placeholder]Serial No;[aria-label]Serial No;[title]Serial No" ng-model="shipmentLine.SerialNo" isc-focus="true" 
+                                         isc-enter="uiScanProduct(shipmentLine.SerialNo)" isc-barcode-scanner="DEFAULT">
+                                        <span class="input-group-btn">
+                                                <button class="btn btn-icon" type="button" ng-click="uiScanProduct(shipmentLine.SerialNo)" isc-i18n="[title]globals.TOOLTIP_ScanProduct">
+                                                        <span class="app-glyphicons app-icon-scan_30"></span>
+                                                        <span class="sr-only" isc-i18n="globals.ACTION_ScanProduct"></span>
+                                                </button>
+                                        </span>
+                                </div>
+                        </div>
+                </div>
+
+				</div>
+	                </div>
+	            </li>
+	        </ul>
+	    </div>
+    </div>
+    <div class="container-actions-panel" ng-if="ui.currentContainerDetails.ShipmentContainerKey != '' ">
+    	<div class="action-panel" >
+			<div class="generate-tracking-number" ng-class="{'remove-border' : ( !ui.isUnpackAllowed && !ui.isPrintAllowed ), 'set-width-100' : ( !ui.isUnpackAllowed && !ui.isPrintAllowed ), 'set-width-50' : ( !ui.isPrintAllowed ),'set-width-50' : ( !ui.isUnpackAllowed )}" 
+				ng-if="model.shipmentDetails.Shipment.ScacIntegrationRequired === 'Y'">
+				<a ng-click="uiGenerateTrackingNo(ui.currentContainerDetails)" ng-hide="uiIsGenerateTrackingNoDisabled(ui.currentContainerDetails)">
+					<span>
+						<span class="action-icon app-glyphicons app-icon-generate_label_30">
+							<span class="path1"></span><span class="path2"></span>
+						</span>
+						<label class="empty-text action-label" isc-i18n="[i18n]containerPack.LABEL_Genereate_Label"></label>
+					</span>
+				</a>
+				<a ng-click="uiReprintContainerLabel(ui.currentContainerDetails)" ng-hide="uiIsReprintDisabled(ui.currentContainerDetails)">
+					<span>
+						<span class="action-icon app-glyphicons app-icon-generate_label_30">
+							<span class="path1"></span><span class="path2"></span>
+						</span>
+						<label class="empty-text action-label" isc-i18n="[i18n]containerPack.ACTION_Reprint_label"></label>
+					</span>
+				</a>
+			</div>
+	        <div class="print-pack-slip" isc-resource-id="WSC000064"
+	        	ng-class="{'set-width-50' : !uiIsScacIntegrationRequired(), 'remove-border' : !ui.isUnpackAllowed, 'set-width-100' : (!ui.isUnpackAllowed && !uiIsScacIntegrationRequired()),'set-width-49' : (uiIsScacIntegrationRequired() && !ui.isUnpackAllowed)}" >
+	        	<a ng-click="uiPrintPackSlip(ui.currentContainerDetails)">
+					<span>
+						<span class="action-icon app-glyphicons app-icon-Print-30px">
+							<span class="path1"></span><span class="path2"></span>
+						</span>
+						<label class="empty-text action-label" isc-i18n="[i18n]containerPack.LABEL_Print_Packing_Slip"></label>
+					</span>
+				</a>
+	        </div>
+	        <div class="unpack-container" isc-resource-id="WSC000063"
+	        ng-class="{'set-width-50' : !uiIsScacIntegrationRequired(),'set-width-49' : (uiIsScacIntegrationRequired() && !ui.isPrintAllowed ), 'set-width-100' : ( !ui.isPrintAllowed && !uiIsScacIntegrationRequired() )  }"  >
+	        	<a ng-click="uiUnpackContainerProducts(ui.currentContainerDetails)">
+					<span>
+						<span class="action-icon app-glyphicons app-icon-unpack_30">
+							<span class="path1"></span><span class="path2"></span>
+						</span>
+					</span>
+				</a>	
+			</div>
+		</div>
+    </div>
+</div>

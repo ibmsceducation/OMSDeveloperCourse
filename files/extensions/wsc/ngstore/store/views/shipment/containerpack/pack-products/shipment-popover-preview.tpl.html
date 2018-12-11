@@ -1,0 +1,24 @@
+<!--
+Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),  IBM Order Management (5737-D18), IBM Store Engagement (5737D58)
+ (C) Copyright IBM Corp. 2017 All Rights Reserved.
+ US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+ -->
+<!--  <div class="label-text">
+	<span isc-i18n="containerPack.LABEL_packOrder"></span>
+</div>-->
+
+<!--  <div class="secondary_pipe_label label-text">
+	<span class="due-in">
+		<span ng-if="(ui.slaImageFullURL  != null && ui.slaImageFullURL  != '' && ui.slaImageFullURL  != undefined)" isc-i18n="[title]{{model.shipmentDetails.Shipment.TimeRemaining}}">
+			<img ng-src="{{ui.slaImageFullURL}}" alt="{{model.shipmentDetails.Shipment.ImageAltText}}" isc-encode-attr="src"></img>
+		</span>
+		<span ng-bind="uiGetFormattedOrderNo(model.shipmentDetails.Shipment.DisplayOrderNo)"></span>
+-->		<!--  <span class="" ng-bind="model.shipmentDetails.Shipment.TimeRemaining"></span>-->
+<!-- </span>	
+</div>-->
+<div>
+	<span class="shipment-status" ng-bind="model.shipmentDetails.Shipment.HoldLocation"></span>
+</div>
+<div>
+	<span class="shipment-status" ng-bind="ui.displayStatus"></span>
+</div>

@@ -1,0 +1,116 @@
+<!--
+Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),  IBM Order Management (5737-D18), IBM Store Engagement (5737D58)
+ (C) Copyright IBM Corp. 2017 All Rights Reserved.
+ US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+ --><div class="list-container">
+	<label  isc-media="gt-800" isc-i18n="[i18n]({count:'{{ui.productsToPack || 0}}'})containerPack.LABEL_Producth_count" class="grp-hdr-text-highlight"> </label>
+	
+	<div isc-media="lte-800" class="instore-scanner" role="region" isc-i18n="[aria-label]returns.aria_salesOrderScanRegion">
+		<div class="input-group input-icon common-theme">
+			<div class="scan-input inline-block">
+				<input type="text" class="form-control" isc-i18n="[placeholder]containerPack.LABEL_Scan;[aria-label]batchpick.LABEL_Scan;[title]batchpick.LABEL_Scan" ng-model="model.scanItemInput.barcodeData" isc-focus="true" 
+				 isc-enter="uiScanProduct(model.scanItemInput.barcodeData)" isc-barcode-scanner="DEFAULT">
+				<span class="input-group-btn">
+					<button class="btn btn-icon" type="button" ng-click="uiScanProduct(model.scanItemInput.barcodeData)" isc-i18n="[title]globals.TOOLTIP_ScanProduct">
+						<span class="app-glyphicons app-icon-scan_30"></span>
+						<span class="sr-only" isc-i18n="globals.ACTION_ScanProduct"></span>
+					</button>
+					<button class="btn btn-secondary btn-pack-all packall" type="button" role="button" ng-click="uiPackAll()" isc-resource-id="WSC000065" >
+						<span class="btn-text" isc-i18n="containerPack.Action_packAll"></span>						
+					</button>
+				</span>
+			</div>
+		</div>
+	</div>
+	
+	<div class="complete-list one-column">
+        <div class="all-products-packed" ng-if="ui.allProductsPacked  == true" >
+			<span>
+				<span class="disabled-icon package-icon btn-icon-font app-glyphicons app-icon-package_packed">
+					<span class="path1"></span><span class="path2"></span>
+				</span>
+				<label class="secondary-label-text empty-text package-number" isc-i18n="[i18n]containerPack.MSG_Everything_Packed"></label>
+			</span>
+        </div>
+		<ul class="repeating-panel-holder one-column" >
+	
+		<li ng-repeat="shipmentLine in model.shipmentLineList.ShipmentLines.ShipmentLine track by shipmentLine.ShipmentLineKey" ng-hide="(shipmentLine.IsPackComplete == 'Y' && shipmentLine.ShortageQty == 0 )"
+		 class="repeating-panel custom-single-column has-action line-actions one-column" ng-init="uiStampContainerDetailQty(shipmentLine)" ng-class="{'selected highlight-repeating-panel' : (shipmentLine.ShipmentLineKey == ui.selectedShipmentLineKey || (ui.focusOnFirstLine && $index == 0) )}" id="{{shipmentLine.ShipmentLineKey}}" >
+			<div ng-click="uiSelectShipmentLine(shipmentLine)" class="display-action"></div>
+			<div>
+				<div class="product-details" >	
+					<div class="product-details-image item-image item-image-list" isc-rule="ShowItemImage"
+						ng-class="{'item-image-blank':(shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageID === null || shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageID === '' || shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageID === undefined)}">
+						<img class="img-responsive show-cursor-pointer" isc-item-image-resize
+							 ng-src="{{shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageLocation+'/'+shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageID}}" alt="" isc-encode-attr="src">
+						<span class="app-glyphicons app-icon-image_notAvailable"></span>
+						
+					</div>
+										
+					<div class="product-details-right form-group-view">
+                        <div class="form-group-view">
+                            <label class="header-information grp-hdr-txt product-description" ng-bind="shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ExtendedDisplayDescription"></label>
+                            <div class="detail-information">
+								<div class="form-view grp-hdr-text-h2 product-id">
+									<span class="comapps-label grp-hdr-text-h2 zero-width-label hash-number-align" isc-i18n="[sep]globals.LABEL_Sku_No"></span>
+									<span class="comapps-label grp-hdr-text-h2 zero-width-label" ng-bind="shipmentLine.OrderLine.ItemDetails.ItemID"></span>
+								</div>
+                                <span class="block-component label-text" ng-if="shipmentLine.OrderLine.VariationAttrs != null && shipmentLine.OrderLine.VariationAttrs != '' && shipmentLine.OrderLine.VariationAttrs != undefined" ng-bind="shipmentLine.OrderLine.VariationAttrs"></span>
+                            </div>
+                        </div>
+					<!--  
+						<a href="" class="primary-link-text header-information" ng-click="uiOpenItemDetails(shipmentLine)"
+							ng-bind="shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ExtendedDisplayDescription"></a>
+						-->
+						<div class="detail-information">
+						<!-- <span class="block-component label-text" ng-if="shipmentLine.OrderLine.VariationAttrs != null && shipmentLine.OrderLine.VariationAttrs != '' && shipmentLine.OrderLine.VariationAttrs != undefined" ng-bind="shipmentLine.OrderLine.VariationAttrs"></span>
+							<div class="form-view pack-complete" 
+							ng-if="(shipmentLine.IsPackComplete == 'Y' && shipmentLine.Quantity != '0')">
+								  <span class="app-glyphicons app-icon-success_ok_30"></span>
+								  <span class="comapps-label zero-width-label" 
+								  isc-i18n="containerPack.Label_Packed"></span>
+							</div>
+							<div class="form-view short-quantity" 
+								ng-if="shipmentLine.ShortageQty > 0 && shipmentLine.Quantity == 0">
+								  <span class="app-glyphicons app-icon-warning_30"></span>
+								  <span class="comapps-label zero-width-label" 
+								  isc-i18n="containerPack.LABEL_CompletelyShorted"></span>
+							</div>-->
+						</div>
+						<div class="product-quantity-label">
+							
+							<div class="form-view pick-quantity grp-hdr-text-h2">
+								  <span class="comapps-label grp-hdr-text-h2 zero-width-label" isc-i18n="[sep]containerPack.LABEL_Qty"></span>
+								  <span class="comapps-label grp-hdr-text-h2 zero-width-label" 
+								  isc-i18n="[i18n]({quantity:'{{shipmentLine.OriginalQuantity  | number:$root.ui.quantityFractionSize}}',uom:'{{shipmentLine.OrderLine.ItemDetails | iscUOM}}' })containerPack.LABEL_QuantityUom"></span>
+							</div>
+			
+							<div class="form-view short-quantity" ng-if="shipmentLine.ShortageQty > 0 ">
+								 <!--  <span class="comapps-label zero-width-label" isc-i18n="[sep]containerPack.LABEL_ShortedQty"></span>
+								  --><span class="comapps-label grp-hdr-text-h2 zero-width-label" 
+								  isc-i18n="[i18n]({quantity:'{{shipmentLine.ShortageQty   | number:$root.ui.quantityFractionSize}}',uom:'{{shipmentLine.OrderLine.ItemDetails | iscUOM}}' })containerPack.LABEL_ShortedQty"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div ng-show="shipmentLine.ShipmentLineKey == ui.selectedShipmentLineKey || (ui.focusOnFirstLine && $index == 0)" class="bottom-actions-cp three-column">
+			    <div class="inline-block" isc-resource-id="WSC000066">
+			    	<a href="#" class="secondary-link-text" ng-click="uiIsShipmentLinePackComplete(shipmentLine) || uiPackOneQty(shipmentLine)" ng-disabled="uiIsShipmentLinePackComplete(shipmentLine)" ng-class="{'disabled' : uiIsShipmentLinePackComplete(shipmentLine)}" ><span isc-i18n="containerPack.ACTION_Pack"></span></a>
+			    </div>
+			    <div class="record-shortage inline-block" ng-class="{'remove-border': uiNoInstructions(shipmentLine)}">
+			    	<a href="#" class="secondary-link-text" ng-click="uiIsShipmentLinePackComplete(shipmentLine) || uiOpenRecordShortagePopup(shipmentLine)" ng-disabled="uiIsShipmentLinePackComplete(shipmentLine)" ng-class="{'disabled' : uiIsShipmentLinePackComplete(shipmentLine)}" ><span isc-i18n="containerPack.ACTION_RecordShortage"></span></a>
+			    </div>
+			    <div class="inline-block" ng-class="{'zero-width': uiNoInstructions(shipmentLine)}">
+			        <a href="#" class="primary-link-text" ng-if="shipmentLine.Instructions.Instruction" ng-disabled="uiIsShipmentLinePackComplete(shipmentLine)" ng-class="{'disabled' : uiIsShipmentLinePackComplete(shipmentLine)}" ng-click="uiIsShipmentLinePackComplete(shipmentLine) || uiopenPackInstructions(shipmentLine)">
+		                <span class="app-glyphicons app-icon-information_30">
+		                </span>
+			        </a>
+			        <!-- isc-i18n="containerPack.Action_packInstructions" -->
+			    </div>
+			</div>							
+			</li>
+		</ul>
+	</div>	
+</div>
