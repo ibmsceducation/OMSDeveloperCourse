@@ -5,6 +5,7 @@ import java.util.Properties;
 import org.w3c.dom.Document;
 
 import com.yantra.yfc.dom.YFCDocument;
+import com.yantra.yfc.dom.YFCElement;
 import com.yantra.yfc.util.YFCCommon;
 import com.yantra.yfs.japi.YFSEnvironment;
 
@@ -27,5 +28,17 @@ public class Utilities {
 		return dInput;
 	}
 	
-	
+	public Document addTotalItems(YFSEnvironment env, Document dInput) {
+		YFCDocument input = YFCDocument.getDocumentFor(dInput);
+		YFCElement eInput = input.getDocumentElement();
+		
+		if(!YFCCommon.isVoid(eInput.getChildElement("Item"))) {
+			eInput.setAttribute("TotalItemList", eInput.getChildNodes().getLength());
+		} else {
+			eInput.setAttribute("TotalItemList", 0);
+		}
+
+		
+		return input.getDocument();
+	}
 }
