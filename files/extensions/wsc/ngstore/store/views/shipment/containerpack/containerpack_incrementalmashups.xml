@@ -5,7 +5,8 @@
             <ShipmentLines>
               <ShipmentLine>
                 <OrderLine>
-                  <ItemDetails SerializedFlag="">
+                  <ItemDetails>
+                  	<PrimaryInformation SerializedFlag="" />
                     <InventoryParameters IsSerialTracked="" />
                   </ItemDetails>
                 </OrderLine>
@@ -20,7 +21,8 @@
             <ShipmentLines>
               <ShipmentLine>
                 <OrderLine>
-                  <ItemDetails SerializedFlag="">
+                  <ItemDetails>
+                  	<PrimaryInformation SerializedFlag="" />
                     <InventoryParameters IsSerialTracked="" />
                   </ItemDetails>
                 </OrderLine>
@@ -35,7 +37,8 @@
             <ShipmentLines>
               <ShipmentLine>
                 <OrderLine>
-                  <ItemDetails SerializedFlag="">
+                  <ItemDetails>
+                  	<PrimaryInformation SerializedFlag="" />
                     <InventoryParameters IsSerialTracked="" />
                   </ItemDetails>
                 </OrderLine>
@@ -50,7 +53,8 @@
             <ShipmentLines>
               <ShipmentLine>
                 <OrderLine>
-                  <ItemDetails SerializedFlag="">
+                  <ItemDetails>
+                  	<PrimaryInformation SerializedFlag="" />
                     <InventoryParameters IsSerialTracked="" />
                   </ItemDetails>
                 </OrderLine>
@@ -66,7 +70,8 @@
             <Shipment>
               <ShipmentLine>
                 <OrderLine>
-                  <ItemDetails SerializedFlag="">
+                  <ItemDetails>
+                  	<PrimaryInformation SerializedFlag="" />
                     <InventoryParameters IsSerialTracked="" />
                   </ItemDetails>
                 </OrderLine>
