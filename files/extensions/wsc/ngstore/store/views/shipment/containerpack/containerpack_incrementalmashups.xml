@@ -81,4 +81,23 @@
          </Template>
       </API>
    </mashup>
+   <mashup id="store.views.shipment.containerpack.manualPackForExistingContainer">
+     <API>
+       <Input>
+         <Shipment>
+           <Containers>
+             <Container>
+               <ContainerDetails>
+                 <ContainerDetail>
+                   <ShipmentTagSerials>
+                     <ShipmentTagSerial Quantity="" SerialNo="" ShipmentLineKey="" />
+                   </ShipmentTagSerials>
+                 </ContainerDetail>
+               </ContainerDetails>
+             </Container>
+           </Containers>
+         </Shipment>
+       </Input>
+     </API>
+   </mashup>
 </mashups>

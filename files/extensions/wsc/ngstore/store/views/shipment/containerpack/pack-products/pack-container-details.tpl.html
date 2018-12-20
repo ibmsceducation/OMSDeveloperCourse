@@ -224,9 +224,9 @@ Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),
 										<div class="serial" ng-if="shipmentLine.OrderLine.ItemDetails.PrimaryInformation.SerializedFlag === 'Y'">
 											<div class="instore-scanner" role="region" isc-i18n="[aria-label]returns.aria_salesOrderScanRegion">
 			                  <div class="input-group input-icon common-theme">
-			                    <div class="scan-input inline-block">
-			                      <input type="text" class="form-control" isc-i18n="[placeholder]Serial No;[aria-label]Serial No;[title]Serial No" ng-model="shipmentLine.SerialNo" isc-focus="true"
-			                       isc-enter="uiScanProduct(shipmentLine.SerialNo)" isc-barcode-scanner="DEFAULT">
+			                    <div class="scan-input inline-block" ng-form="serialForm">
+			                      <input type="text" class="form-control" name="serial" isc-i18n="[placeholder]Serial No;[aria-label]Serial No;[title]Serial No" isc-enter="uiPackSerial(shipmentLine, serialForm.serial.value)" isc-focus="true"
+			                       isc-barcode-scanner="DEFAULT">
 			                      <span class="input-group-btn">
 			                        <button class="btn btn-icon" type="button" ng-click="uiScanProduct(shipmentLine.SerialNo)" isc-i18n="[title]globals.TOOLTIP_ScanProduct">
 			                          <span class="app-glyphicons app-icon-scan_30"></span>
