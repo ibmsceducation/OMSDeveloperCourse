@@ -1,0 +1,79 @@
+<mashups>
+   <mashup id="store.views.shipment.containerpack.unpack_getShipmentLineList">
+      <API>
+         <Template>
+            <ShipmentLines>
+              <ShipmentLine>
+                <OrderLine>
+                  <ItemDetails SerializedFlag="">
+                    <InventoryParameters IsSerialTracked="" />
+                  </ItemDetails>
+                </OrderLines>
+              </ShipmentLine>
+            </ShipmentLines>
+         </Template>
+      </API>
+   </mashup>
+   <mashup id="store.views.shipment.containerpack.pack_getShipmentLineList">
+      <API>
+         <Template>
+            <ShipmentLines>
+              <ShipmentLine>
+                <OrderLine>
+                  <ItemDetails SerializedFlag="">
+                    <InventoryParameters IsSerialTracked="" />
+                  </ItemDetails>
+                </OrderLines>
+              </ShipmentLine>
+            </ShipmentLines>
+         </Template>
+      </API>
+   </mashup>
+   <mashup id="store.views.shipment.containerpack.getShipmentLineList">
+      <API>
+         <Template>
+            <ShipmentLines>
+              <ShipmentLine>
+                <OrderLine>
+                  <ItemDetails SerializedFlag="">
+                    <InventoryParameters IsSerialTracked="" />
+                  </ItemDetails>
+                </OrderLines>
+              </ShipmentLine>
+            </ShipmentLines>
+         </Template>
+      </API>
+   </mashup>
+   <mashup id="store.views.shipment.containerpack.getContainerShipmentLineList">
+      <API>
+         <Template>
+            <ShipmentLines>
+              <ShipmentLine>
+                <OrderLine>
+                  <ItemDetails SerializedFlag="">
+                    <InventoryParameters IsSerialTracked="" />
+                  </ItemDetails>
+                </OrderLines>
+              </ShipmentLine>
+            </ShipmentLines>
+         </Template>
+      </API>
+   </mashup>
+   <mashup id="store.views.shipment.containerpack.registerBarCodeForPacking">
+      <API>
+         <Template>
+           <BarCode>
+            <Shipment>
+              <ShipmentLine>
+                <OrderLine>
+                  <ItemDetails SerializedFlag="">
+                    <InventoryParameters IsSerialTracked="" />
+                  </ItemDetails>
+                </OrderLines>
+              </ShipmentLine>
+            </Shipment>
+          </BarCode>
+         </Template>
+      </API>
+   </mashup>
+</mashups>

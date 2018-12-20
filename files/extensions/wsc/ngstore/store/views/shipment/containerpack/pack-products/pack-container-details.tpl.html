@@ -6,11 +6,11 @@ Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),
 <div class="container-screen">
 	<div class="scan-container">
 		<label  isc-media="gt-800" isc-i18n="[i18n]({count:'{{uiPackagesCount(ui.totalNoOfpackages)|| 0}}'})containerPack.TITLE_PackageCount" class="grp-hdr-text-highlight"> </label>
-		
+
 		<div class="instore-scanner" role="region" isc-i18n="[aria-label]returns.aria_salesOrderScanRegion">
 			<div class="input-group input-icon common-theme">
 				<div class="scan-input inline-block">
-					<input type="text" class="form-control" isc-i18n="[placeholder]containerPack.LABEL_Scan;[aria-label]batchpick.LABEL_Scan;[title]batchpick.LABEL_Scan" ng-model="model.scanItemInput.barcodeData" isc-focus="true" 
+					<input type="text" class="form-control" isc-i18n="[placeholder]containerPack.LABEL_Scan;[aria-label]batchpick.LABEL_Scan;[title]batchpick.LABEL_Scan" ng-model="model.scanItemInput.barcodeData" isc-focus="true"
 					 isc-enter="uiScanProduct(model.scanItemInput.barcodeData)" isc-barcode-scanner="DEFAULT">
 					<span class="input-group-btn">
 						<button class="btn btn-icon" type="button" ng-click="uiScanProduct(model.scanItemInput.barcodeData)" isc-i18n="[title]globals.TOOLTIP_ScanProduct">
@@ -18,7 +18,7 @@ Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),
 							<span class="sr-only" isc-i18n="globals.ACTION_ScanProduct"></span>
 						</button>
 						<button class="btn btn-secondary btn-pack-all packall" type="button" role="button" ng-click="uiPackAll()" isc-resource-id="WSC000065" >
-							<span class="btn-text" isc-i18n="containerPack.Action_packAll"></span>						
+							<span class="btn-text" isc-i18n="containerPack.Action_packAll"></span>
 						</button>
 					</span>
 				</div>
@@ -53,11 +53,11 @@ Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),
         </div>
         <div class="container_left" ng-hide="uiHideNavigation()" ng-if="model.shipmentContainerDetails.Containers.Container && model.shipmentContainerDetails.Containers.Container.length != 0">
         	<span class="btn-icon-font app-glyphicons app-icon-Chevron_Left-16px " ng-click="uiScrollLeft()"></span>
-        </div> 
+        </div>
         <div class="containers" ng-if="model.shipmentContainerDetails.Containers.Container && model.shipmentContainerDetails.Containers.Container.length != 0">
             <ul id="containers" class="repeating-panel-holder container-list">
-             
-                <li ng-repeat="container in model.shipmentContainerDetails.Containers.Container track by container.ShipmentContainerKey" 
+
+                <li ng-repeat="container in model.shipmentContainerDetails.Containers.Container track by container.ShipmentContainerKey"
                 class="repeating-panel each-container" ng-class="{'set-border':(container.ShipmentContainerKey == ui.currentContainerDetails.ShipmentContainerKey || container.ContainerScm == ui.currentContainerDetails.ContainerScm )}" >
                     <div class="detail-information">
                         <div class="form-view">
@@ -86,7 +86,7 @@ Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),
 	        </div>
         </div>
     </div>
-    
+
     <div class="current-container-details">
 		<div class="package-details-header">
 			<div class="package-numbers">
@@ -108,19 +108,19 @@ Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),
                     </button>
 	                <input type="number" step="0.0001" isc-number-formatter ng-focus="uiOnWeightFieldFocus(this,ui.currentContainerDetails)" name="weight" ng-model="ui.currentContainerDetails.ActualWeight" isc-datatype="{
 	                'customValidator': uiValidateWeight, 'datatype':'ActualWeight',
-	                'useOnlyCustomValidator':false}" ng-change="weightForm.weight.$valid ? uiShowWeightUpdateButton(this,ui.currentContainerDetails) : uiHideWeightUpdateButton(ui.currentContainerDetails)"  
+	                'useOnlyCustomValidator':false}" ng-change="weightForm.weight.$valid ? uiShowWeightUpdateButton(this,ui.currentContainerDetails) : uiHideWeightUpdateButton(ui.currentContainerDetails)"
                      isc-enter="weightForm.weight.$valid ? uiValidateWeightAndUpdate(this,ui.currentContainerDetails) : null" class="form-control weight-box" />
-		        <!-- 
+		        <!--
 		            <span class="secondary-label-text zero-width-label weight" ng-bind="ui.currentContainerDetails.ActualWeight"></span>
 	             --><span ng-bind="ui.currentContainerDetails.UomDescription"></span>
 	            </div>
                 <div class="form-view">
-                    
+
                 </div>
 	        </div>
 	    </div>
-		
-	
+
+
 	    <div class="container-contents-holder">
             <div class="empty-container" ng-if="ui.currentContainerDetails.ContainerDetails.TotalNumberOfRecords == 0" >
 				<span>
@@ -138,15 +138,15 @@ Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),
 						}">
 	            <li ng-repeat="shipmentLine in model.containerContents.ShipmentLines.ShipmentLine track by shipmentLine.ShipmentLineKey"
 		 class="repeating-panel custom-single-column single-product"  id="{{shipmentLine.ShipmentLineKey}}">
-	                
+
 	                <div >
-	                    <div class="product-details" >	
-	                        <div class="product-details-image item-image item-image-list" isc-rule="ShowItemImage" 
+	                    <div class="product-details" >
+	                        <div class="product-details-image item-image item-image-list" isc-rule="ShowItemImage"
 	                            ng-class="{'item-image-blank':(shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageID === null || shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageID === '' || shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageID === undefined)}">
 	                            <img class="img-responsive show-cursor-pointer" isc-item-image-resize
 	                                 ng-src="{{shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageLocation+'/'+shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageID}}" alt="" isc-encode-attr="src">
 	                            <span class="app-glyphicons app-icon-image_notAvailable"></span>
-	
+
 	                        </div>
 	                        <div class="product-details-right form-group-view">
 	                            <label class="header-information grp-hdr-txt product-description" ng-bind="shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ExtendedDisplayDescription"></label>
@@ -160,7 +160,7 @@ Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),
 	                        </div>
 
 							<div class="quantity-panel"	>
-								<div class="inline-block">	
+								<div class="inline-block">
 									<div class="input-group quantity-spinner label-quantity">
 										<span class="input-group-btn ">
 											<button id="decQtyBtn" type="button"
@@ -204,40 +204,39 @@ Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),
 									 <button ng-if="shipmentLine.showQtyUpdate  == 'Y'" class="btn btn-default block-component update-button btn-primary" type="button" role="button" isc-i18n="globals.Action_Update" ng-click="quantityForm.qty.$valid ? uiValidateQuantityAndUpdate(this,shipmentLine) : null">
 								</button>
 								</div>
-							</div>	
-	                        
+							</div>
+
 	                   <!--       <div class="product-quantity-label">
 	                            <div class="form-view package-quantity">
 	                                 <span class="comapps-label zero-width-label" isc-i18n="[sep]containerPack.Label_QtyInContainer"></span>
-	                                <span class="comapps-label zero-width-label" 
+	                                <span class="comapps-label zero-width-label"
 	                                  isc-i18n="[i18n]({quantity:{{shipmentLine.ContainerDetail.QuantityPlaced   | number:$root.ui.quantityFractionSize}},uom:'{{shipmentLine.OrderLine.ItemDetails | iscUOM}}' })containerPack.LABEL_QuantityUom"></span>
 	                            </div>
 	                        </div>
 	                -->    </div>
-					    <div class="inline-block">
-					        <a href="#" class="primary-link-text" ng-if="shipmentLine.Instructions.Instruction" ng-click="uiopenPackInstructions(shipmentLine)">
-				                <span class="app-glyphicons app-icon-information_30">
-				                </span>
-				                <label class="action-label" isc-i18n="[i18n]containerPack.LABEL_PackInstructions"></label>
-					        </a>
-					    </div>
-				<div class="serial">
-					<div class="instore-scanner" role="region" isc-i18n="[aria-label]returns.aria_salesOrderScanRegion">
-                        <div class="input-group input-icon common-theme">
-                                <div class="scan-input inline-block">
-                                        <input type="text" class="form-control" isc-i18n="[placeholder]Serial No;[aria-label]Serial No;[title]Serial No" ng-model="shipmentLine.SerialNo" isc-focus="true" 
-                                         isc-enter="uiScanProduct(shipmentLine.SerialNo)" isc-barcode-scanner="DEFAULT">
-                                        <span class="input-group-btn">
-                                                <button class="btn btn-icon" type="button" ng-click="uiScanProduct(shipmentLine.SerialNo)" isc-i18n="[title]globals.TOOLTIP_ScanProduct">
-                                                        <span class="app-glyphicons app-icon-scan_30"></span>
-                                                        <span class="sr-only" isc-i18n="globals.ACTION_ScanProduct"></span>
-                                                </button>
-                                        </span>
-                                </div>
-                        </div>
-                </div>
-
-				</div>
+								    <div class="inline-block">
+								        <a href="#" class="primary-link-text" ng-if="shipmentLine.Instructions.Instruction" ng-click="uiopenPackInstructions(shipmentLine)">
+							                <span class="app-glyphicons app-icon-information_30">
+							                </span>
+							                <label class="action-label" isc-i18n="[i18n]containerPack.LABEL_PackInstructions"></label>
+								        </a>
+								    </div>
+										<div class="serial" ng-if="shipmentLine.OrderLine.ItemDetails.SerializedFlag === 'Y'">
+											<div class="instore-scanner" role="region" isc-i18n="[aria-label]returns.aria_salesOrderScanRegion">
+			                  <div class="input-group input-icon common-theme">
+			                    <div class="scan-input inline-block">
+			                      <input type="text" class="form-control" isc-i18n="[placeholder]Serial No;[aria-label]Serial No;[title]Serial No" ng-model="shipmentLine.SerialNo" isc-focus="true"
+			                       isc-enter="uiScanProduct(shipmentLine.SerialNo)" isc-barcode-scanner="DEFAULT">
+			                      <span class="input-group-btn">
+			                        <button class="btn btn-icon" type="button" ng-click="uiScanProduct(shipmentLine.SerialNo)" isc-i18n="[title]globals.TOOLTIP_ScanProduct">
+			                          <span class="app-glyphicons app-icon-scan_30"></span>
+			                          <span class="sr-only" isc-i18n="globals.ACTION_ScanProduct"></span>
+			                        </button>
+			                      </span>
+			                    </div>
+			                  </div>
+			                </div>
+										</div>
 	                </div>
 	            </li>
 	        </ul>
@@ -245,7 +244,7 @@ Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),
     </div>
     <div class="container-actions-panel" ng-if="ui.currentContainerDetails.ShipmentContainerKey != '' ">
     	<div class="action-panel" >
-			<div class="generate-tracking-number" ng-class="{'remove-border' : ( !ui.isUnpackAllowed && !ui.isPrintAllowed ), 'set-width-100' : ( !ui.isUnpackAllowed && !ui.isPrintAllowed ), 'set-width-50' : ( !ui.isPrintAllowed ),'set-width-50' : ( !ui.isUnpackAllowed )}" 
+			<div class="generate-tracking-number" ng-class="{'remove-border' : ( !ui.isUnpackAllowed && !ui.isPrintAllowed ), 'set-width-100' : ( !ui.isUnpackAllowed && !ui.isPrintAllowed ), 'set-width-50' : ( !ui.isPrintAllowed ),'set-width-50' : ( !ui.isUnpackAllowed )}"
 				ng-if="model.shipmentDetails.Shipment.ScacIntegrationRequired === 'Y'">
 				<a ng-click="uiGenerateTrackingNo(ui.currentContainerDetails)" ng-hide="uiIsGenerateTrackingNoDisabled(ui.currentContainerDetails)">
 					<span>
@@ -283,7 +282,7 @@ Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),
 							<span class="path1"></span><span class="path2"></span>
 						</span>
 					</span>
-				</a>	
+				</a>
 			</div>
 		</div>
     </div>
