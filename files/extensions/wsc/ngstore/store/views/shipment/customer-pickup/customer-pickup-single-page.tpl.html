@@ -1,0 +1,191 @@
+<!--
+Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),  IBM Order Management (5737-D18), IBM Store Engagement (5737D58)
+ (C) Copyright IBM Corp. 2017 All Rights Reserved.
+ US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+ -->
+<div class="customer-pickup has-header-secondary screen-holder" ng-form="customerPickupForm" ng-hide="!ui.showCustomerPickupUI">
+    <div class="screen-header tile-layout">
+        <div>
+            <div class="back-chevron">
+                <a href="#" id="goBack"
+                    ng-if="$root.$showBackButtonForStates" ng-click="$emit('$backButtonClicked')" tabindex="0">
+                    <span class="glyphicon glyphicon-chevron-left " aria-hidden="true"></span>
+                    <span class="sr-only" isc-i18n="app.aria_backButton"></span>
+                </a>
+            </div>
+            <div class="screen-header-text two-actions">
+                <span role="heading" class="" isc-i18n="customerpickup.TITLE_Customer_pickup"></span>
+                <div class="header_secondary_label" role="heading">
+                    <div class="order-sla first-element" >
+                        <span class="" ng-if="(ui.slaImageFullURL  != null && ui.slaImageFullURL  != '' && ui.slaImageFullURL  != undefined)">
+                            <img ng-src="{{ui.slaImageFullURL}}" alt="{{model.shipmentDetails.Shipment.ImageAltText}}" isc-encode-attr="src" title="{{model.shipmentDetails.Shipment.ImageAltText}}"/>
+                        </span>
+                        <span class="order-no">
+                            <span class="ellipsis-text" ng-bind="model.shipmentDetails.Shipment.DisplayOrderNoDesc"></span>
+                        </span>
+                    </div>
+                    
+                 </div>
+            </div>
+        </div>
+        <div>
+            <div class="action-holder pull-right" role="region" isc-i18n="[aria-label]customerpickup.aria_CustomerPickupActionsRegion">
+                <div>
+                    <button class="btn btn-default btn-secondary" type="button" role="button" ng-click="uiCancel()" >
+                        <span class="app-glyphicons app-icon-cancel_action_30 btn-icon-font"></span>						
+                        <span class="btn-text" isc-i18n="globals.ACTION_Close"></span>						
+                    </button>
+                </div>
+                <div>
+                    <button class="btn btn-default btn-primary" type="button" role="button" ng-click="uiInvokeFinish()" >
+                        <span class="app-glyphicons app-icon-done_30 btn-icon-font"></span>						
+                        <span class="btn-text" isc-i18n="customerpickup.ACTION_Finish"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tile-layout shipment-details" id="shipmentDetials">
+        <div class="section customer-verification">
+            <div class="section-header">
+                <div class="section-header-content-1"><div class="circle-number">1</div></div>
+                <div class="section-header-content-2">
+                    <span class="grp-hdr-txt" isc-i18n="customerpickup.LABEL_Verify_customer"></span>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="form-group customer-selection">
+                    <div ng-if="model.shipmentDetails.Shipment.CustomerContacts.CustomerContact.length > 1" isc-i18n="[aria-label]customerpickup.aria_Customer_type_selection" role="group">
+                        <div class="radio-inline" role="presentation"  ng-repeat="customerContact in model.shipmentDetails.Shipment.CustomerContacts.CustomerContact track by customerContact.PersonInfoKey">
+                            <label>
+                                <input type="radio" role="radio" name="selectedContact" ng-model="ui.selectedCustomerContact" isc-ignore-dirty ng-value="customerContact">	
+                                <span class="select-icon"></span>
+                                <!--<span class="comapps-label zero-width-label" isc-i18n="[i18n]({firstname:'{{customerContact.FirstName}}',lastname:'{{customerContact.LastName}}'})address.LABEL_Display_name"></span>-->
+                                <span class="comapps-label zero-width-label" isc-i18n="[i18n]({context:'{{customerContact.Type}}',firstname:'{{customerContact.FirstName}}',lastname:'{{customerContact.LastName}}'})customerpickup.LABEL_Customer_display_name"></span>
+                            </label>
+                        </div>
+                       <div class="address-holder">
+                        	<div class="shipto-address" >
+                                <span class="address-lable" isc-i18n="customerpickup.LABEL_Ship_To"></span>
+                        		<span class="address-line">{{ui.selectedCustomerContact.AddressLine1}}</span>
+                        		<span class="address-line">{{ui.selectedCustomerContact.AddressLine2}}</span>
+                        		<span ng-if="ui.selectedCustomerContact.City">{{ ui.selectedCustomerContact.City}},</span>
+                        		<span ng-if="ui.selectedCustomerContact.Country">{{ui.selectedCustomerContact.Country}},</span>
+                        		<span ng-if="ui.selectedCustomerContact.ZipCode">{{ui.selectedCustomerContact.ZipCode}}</span>
+                        		
+                        	</div>
+                        	
+                        	<div class="billto-address" >
+                                <span class="address-lable" isc-i18n="customerpickup.LABEL_Bill_To"></span>
+                        		<span class="address-line">{{::model.shipmentDetails.Shipment.BillToAddress.AddressLine1}}</span>
+                                <span class="address-line">{{::model.shipmentDetails.Shipment.BillToAddress.AddressLine2}}</span>
+                                <span ng-if="model.shipmentDetails.Shipment.BillToAddress.City">{{ ::model.shipmentDetails.Shipment.BillToAddress.City}},</span>
+                        		<span ng-if="model.shipmentDetails.Shipment.BillToAddress.Country">{{ ::model.shipmentDetails.Shipment.BillToAddress.Country}},</span>
+                        		<span ng-if="model.shipmentDetails.Shipment.BillToAddress.ZipCode">{{ ::model.shipmentDetails.Shipment.BillToAddress.ZipCode}}</span>
+                        		
+                        		
+                        	</div>
+                        </div>  
+                        
+                        
+                    </div>
+                    <div ng-if="model.shipmentDetails.Shipment.CustomerContacts.CustomerContact.length == 1">
+                        <span class="comapps-label zero-width-label" isc-i18n="[i18n]({context:'{{model.shipmentDetails.Shipment.CustomerContacts.CustomerContact[0].Type}}',firstname:'{{model.shipmentDetails.Shipment.CustomerContacts.CustomerContact[0].FirstName}}',lastname:'{{model.shipmentDetails.Shipment.CustomerContacts.CustomerContact[0].LastName}}'})customerpickup.LABEL_Customer_display_name"></span>
+                                   <div class="address-holder">
+                        	<div class="shipto-address" >
+                                <span class="address-lable" isc-i18n="customerpickup.LABEL_Ship_To"></span>
+                        		<span class="address-line">{{::ui.selectedCustomerContact.AddressLine1}}</span>
+                        		<span class="address-line">{{::ui.selectedCustomerContact.AddressLine2}}</span>
+                        		<span ng-if="ui.selectedCustomerContact.City">{{ ::ui.selectedCustomerContact.City}},</span>
+                        		<span ng-if="ui.selectedCustomerContact.Country">{{::ui.selectedCustomerContact.Country}},</span>
+                        		<span ng-if="ui.selectedCustomerContact.ZipCode">{{::ui.selectedCustomerContact.ZipCode}}</span>
+                        		
+                        	</div>
+                        	
+                        	<div class="billto-address" >
+                                <span class="address-lable" isc-i18n="customerpickup.LABEL_Bill_To"></span>
+                        		<span class="address-line">{{::model.shipmentDetails.Shipment.BillToAddress.AddressLine1}}</span>
+                        		<span class="address-line">{{::model.shipmentDetails.Shipment.BillToAddress.AddressLine2}}</span>
+                        		<span ng-if="model.shipmentDetails.Shipment.BillToAddress.City">{{ ::model.shipmentDetails.Shipment.BillToAddress.City}},</span>
+                        		<span ng-if="model.shipmentDetails.Shipment.BillToAddress.Country">{{ ::model.shipmentDetails.Shipment.BillToAddress.Country}},</span>
+                        		<span ng-if="model.shipmentDetails.Shipment.BillToAddress.ZipCode">{{ ::model.shipmentDetails.Shipment.BillToAddress.ZipCode}}</span>
+                        		
+                        	</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group customer-verification-method">
+                    <isc-input 
+                        label-config-isc-i18n = "customerpickup.LABEL_Verification_Method"
+                        input-config-id = "customerpickup_customerVerificationMethod"
+                        input-config-name = "customerpickup_customerVerificationMethod"
+                        input-config-class = ""
+                        input-config-ng-change ="ui.showCustomerVerificationMethodError = false;"
+                        label-config-required
+                        input-config-isc-ignore-dirty
+                        input-config-ng-options = "commonCode.CodeShortDescription for commonCode in model.custVeriMethodList.CommonCodeList.CommonCode track by commonCode.CodeValue"
+                        input-config-ng-model = "ui.custVerificationMethod"
+                        errorspan-config-ng-if = "ui.showCustomerVerificationMethodError"
+                        errorspan-config-ng-bind = "ui.customerVerificationMethodErrorDesc">
+                    </isc-input>
+                </div>
+            </div>
+        </div>
+
+        <div class="section hold-location" ng-if="ui.isStagingLocationRuleEnabled && ui.hasStagingLocation">
+            <div class="section-header">
+                <div class="section-header-content-1"><div class="circle-number">2</div></div>
+                <div class="section-header-content-2">
+                    <span class="grp-hdr-txt" isc-i18n="[sep]customerpickup.LABEL_Retrieve_items"></span>
+                    <span class="grp-hdr-txt location" ng-bind="model.shipmentDetails.Shipment.HoldLocation"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section pick-products">
+            <div class="section-header">
+                <div class="section-header-content-1"><div class="circle-number" ng-if="!(ui.isStagingLocationRuleEnabled && ui.hasStagingLocation)">2</div><div class="circle-number" ng-if="ui.isStagingLocationRuleEnabled && ui.hasStagingLocation">3</div></div>
+                <div class="section-header-content-2">
+                    <span class="grp-hdr-txt" isc-i18n="customerpickup.LABEL_Scan_manual_pick"></span>
+                </div>
+            </div>
+            <div class="section-content sticky-container-panel" isc-sticky-scroll="{'elementWithScrollbar': 'parent.parent'}">
+                <div class="product-header">
+                    <div>
+                        <span class="grp-hdr-txt" isc-i18n="[i18n]({count:'{{model.shipmentLineList.ShipmentLines.TotalNumberOfRecords}}'})customerpickup.LABEL_Products_count"> </span>
+                    </div>
+                    <div class="scan-pickall">
+                        <div class="product-scanner">		
+                            <!-- scan product field -->
+                            <div class="input-group input-icon common-theme">
+                                <input type="text" class="form-control" isc-i18n="[placeholder]customerpickup.MESSAGE_Product_scan" 
+                                       ng-model="model.barCodeData" isc-enter="uiScanBarCodeData()" isc-ignore-dirty
+                                       isc-focus="true" isc-barcode-scanner="DEFAULT">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-icon" type="button" aria-label="customerpickup.ARIA_Scan_product" ng-click="uiScanBarCodeData()" isc-i18n="[title]customerpickup.TOOLTIP_Scan_product">
+                                        <span class="app-glyphicons app-icon-scan_30"></span>
+                                    </button>
+                                </span>
+                            </div>
+
+                        </div>
+                        <div class="pick-all" isc-resource-id="WSC000069">
+                            <button class="btn btn-default" type="button"  role="button" aria-label="" ng-click="uiPickupAll()" isc-i18n="customerpickup.ACTION_Pickup_all"/>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-content">
+                    <div ng-include="'./store/views/shipment/customer-pickup/customer-pickup-shipment-lines.tpl.html'" id="shipmentLinesHolder"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!-- shipment details ends -->
+    
+</div>
+
+

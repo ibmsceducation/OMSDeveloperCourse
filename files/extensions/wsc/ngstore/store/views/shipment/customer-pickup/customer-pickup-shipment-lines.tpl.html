@@ -1,0 +1,98 @@
+<!--
+Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),  IBM Order Management (5737-D18), IBM Store Engagement (5737D58)
+ (C) Copyright IBM Corp. 2017 All Rights Reserved.
+ US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+ -->
+<div class="search-result">
+		<ul class="product-list repeating-panel-holder" isc-pagination="{'type': 'continuousScrolling', 'nextPageHandler': uiGetNextShipmentLineRecords, 'elementWithScrollbar': 'parent.parent.parent.parent.parent.parent' }">
+
+			<li class="repeating-panel has-action line-actions" ng-repeat="shipmentLine in model.shipmentLineList.ShipmentLines.ShipmentLine | limitTo:ui.recordShownCount track by shipmentLine.ShipmentLineKey" 
+                 ng-init="uiStampCustomerPickupQuantityAttrs(shipmentLine)"
+                 ng-class="{'selected highlight-repeating-panel' : (shipmentLine.ShipmentLineKey == ui.selectedShipmentLineKey || (ui.focusOnFirstLine && $index == 0) )}"
+                 id="{{shipmentLine.ShipmentLineKey}}">
+                <div ng-click="uiSelectShipmentLine(shipmentLine)" class="display-action"></div>
+                <div>
+                    
+                    <div class="product-details" isc-rule="ShowItemImage">	
+                        <div class="product-details-image item-image item-image-small"  ng-click="uiOpenItemDetails(shipmentLine.OrderLine.ItemDetails)" 
+                            ng-class="{'item-image-blank':(shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageID === null || shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageID === '' || shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageID === undefined)}">
+                            <img class="img-responsive show-cursor-pointer" isc-item-image-resize
+                                 ng-src="{{shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageLocation+'/'+shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ImageID}}" alt="" isc-encode-attr="src">
+                            <span class="app-glyphicons app-icon-image_notAvailable"></span>
+                            <span class="app-glyphicons app-icon-gift_outlined icon-layer-right-bottom" ng-if="shipmentLine.OrderLine.GiftFlag == 'Y'">
+                                <span class="path1"></span>
+                                <span class="path2"></span>
+                                <span class="path3"></span>
+                                <span class="path4"></span>
+                                <span class="path5"></span>
+                            </span>
+                        </div>
+
+                        <div class="product-details-right form-group-view">
+                            <a href="" class="primary-link-text header-information" ng-click="uiOpenItemDetails(shipmentLine.OrderLine.ItemDetails)"
+                                ng-bind="shipmentLine.OrderLine.ItemDetails.PrimaryInformation.ExtendedDisplayDescription"></a>
+
+                            <div class="detail-information">
+                                <div class="form-view">
+                                    <span class="comapps-label zero-width-label hash-number-align" isc-i18n="[sep]globals.LABEL_Sku_No"></span>
+                                    <span class="comapps-label zero-width-label" ng-bind="shipmentLine.OrderLine.ItemDetails.ItemID"></span>
+                                </div>
+                                <span class="block-component label-text" ng-if="shipmentLine.Variation != null && shipmentLine.Variation != '' && shipmentLine.Variation != undefined" ng-bind="shipmentLine.Variation"></span>
+                            </div>					
+                        </div>
+                    </div>
+                    <div class="status-split-panel label-text product-quantity-label"> <!--   -->
+                        <div class="form-view" 
+                            ng-if="shipmentLine.IsCustomerPickComplete === 'Y' && shipmentLine.CustomerPickedQuantity > 0">
+                            <span class="app-glyphicons app-icon-success_ok_30 green-text"></span>
+                            <span class="comapps-label zero-width-label green-text" 
+                                isc-i18n="[i18n]({quantity:'{{shipmentLine.CustomerPickedQuantity  | number:$root.ui.quantityFractionSize}}',uom:'{{shipmentLine.OrderLine.ItemDetails.DisplayUnitOfMeasure}}'})customerpickup.LABEL_Picked_up"></span>
+                        </div>
+                        <div class="form-view pick-quantity" ng-if="(shipmentLine.CustomerPickedQuantity == undefined || shipmentLine.CustomerPickedQuantity == 0) && shipmentLine.ShortageResolutionReason == undefined">
+                            <span class="comapps-label zero-width-label purple-text" 
+                                isc-i18n="[i18n]({quantity:'{{shipmentLine.Quantity  | number:$root.ui.quantityFractionSize}}', uom:'{{shipmentLine.OrderLine.ItemDetails.DisplayUnitOfMeasure}}'})customerpickup.LABEL_Not_Picked_up"></span>
+                        </div>
+
+                        <div class="form-view picked-of-quantity" ng-if="(shipmentLine.CustomerPickedQuantity > 0 && shipmentLine.IsCustomerPickComplete !== 'Y') && shipmentLine.ShortageResolutionReason === undefined">
+                            <span class="comapps-label zero-width-label purple-text"
+                                isc-i18n="[i18n]({quantityPicked:'{{shipmentLine.CustomerPickedQuantity  | number:$root.ui.quantityFractionSize}}', quantity:'{{shipmentLine.Quantity  | number:$root.ui.quantityFractionSize}}', uom:'{{shipmentLine.OrderLine.ItemDetails.DisplayUnitOfMeasure}}'})customerpickup.LABEL_Partially_Picked_up"></span>
+                        </div>
+                        <!-- ng-class="{'green-text':shipmentLine.CustomerPickedQuantity > 0,'purple-text':shipmentLine.CustomerPickedQuantity == 0 }" -->
+                        <div class="form-view picked-of-quantity" ng-if="shipmentLine.ShortageResolutionReason !== undefined">
+                            <span class="comapps-label zero-width-label green-text" 
+                                isc-i18n="[i18n]({quantity:'{{shipmentLine.CustomerPickedQuantity  | number:$root.ui.quantityFractionSize}}',uom:'{{shipmentLine.OrderLine.ItemDetails.DisplayUnitOfMeasure}}'})customerpickup.LABEL_Picked_up"></span>
+                        </div>
+
+                        <div class="form-view" ng-if="shipmentLine.ShortageResolutionReason !== undefined">
+                            <span class="comapps-label zero-width-label red-text" isc-i18n="[i18n]({context:'{{shipmentLine.ShortageResolutionReason}}'})customerpickup.LABEL_Line_Shorted"></span>
+                            <span class="comapps-label zero-width-label red-text" isc-i18n="[i18n]({quantity:'{{shipmentLine.ComputedShortageQty  | number:$root.ui.quantityFractionSize}}', uom:'{{shipmentLine.OrderLine.ItemDetails.DisplayUnitOfMeasure}}'})customerpickup.LABEL_QuantityDisplay"></span>
+                        </div>
+                        
+                        <div class="form-view" ng-if="shipmentLine.ShortageQty !== undefined && shipmentLine.ShortageQty > 0">
+                            <span class="comapps-label zero-width-label red-text" isc-i18n="customerpickup.LABEL_Line_Backroom_Shorted"></span>
+                            <span class="comapps-label zero-width-label red-text" isc-i18n="[i18n]({quantity:'{{shipmentLine.ShortageQty  | number:$root.ui.quantityFractionSize}}', uom:'{{shipmentLine.OrderLine.ItemDetails.DisplayUnitOfMeasure}}'})customerpickup.LABEL_QuantityDisplay"></span>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="bottom-actions two-column" ng-if="(shipmentLine.ShipmentLineKey == ui.selectedShipmentLineKey || (ui.focusOnFirstLine && $index == 0)) && !shipmentLine.IsCompletelyShortedInBackroom">
+	
+                    <isc-quantity-edit original-quantity="shipmentLine.CustomerPickedQuantity" 
+                                       ng-model="shipmentLine.EditableCustomerPickedQuantity" 
+                                       min-quantity="0" max-quantity="shipmentLine.Quantity" 
+                                       display-uom="shipmentLine.OrderLine.ItemDetails | iscUOM" 
+                                       on-update="uiUpdateShipmentLineQuantity(shipmentLine,shipmentLine.EditableCustomerPickedQuantity)" 
+                                       isc-ignore-dirty></isc-quantity-edit>
+                    <div class="shrotageAction">
+                        <a href="#" class="primary-link-text" ng-click="!shipmentLine.canLineBeShorted || uiOpenRecordShortagePopup(shipmentLine)" ng-disabled="!shipmentLine.canLineBeShorted" ng-class="{'disabled' : !shipmentLine.canLineBeShorted}" >
+                            <span isc-i18n="customerpickup.ACTION_Record_Shortage"></span>
+                        </a>
+                    </div>
+
+                </div>
+				<!-- line actions for manual scan and shortage ends-->
+			</li>
+		</ul>
+
+</div>

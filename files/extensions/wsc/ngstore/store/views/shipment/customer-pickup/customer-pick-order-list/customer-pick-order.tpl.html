@@ -1,0 +1,101 @@
+<!--
+Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),  IBM Order Management (5737-D18), IBM Store Engagement (5737D58)
+ (C) Copyright IBM Corp. 2017 All Rights Reserved.
+ US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+ -->
+
+<div ng-if="ui.numOfOrders != -1 && ui.numOfOrders == 0" class="no-data-found">
+    <span isc-i18n="orderList.MSG_NoMatchingOrders" class="label-text"></span>
+</div>
+
+<div class="list-holder" ng-if="ui.numOfOrders != -1 && ui.numOfOrders != 0">
+    <ul isc-pagination="{
+	    'type': 'continuousScrolling',
+	    'nextPageHandler': uiGetNextPickingRecords,
+	    'requestedActionValidator': uiOrderListScrollActionValidator,
+	    'elementWithScrollbar':'parent'
+	    }" class="repeating-panel-holder">
+
+        <li class="repeating-panel one-column has-action" ng-class="{'selected highlight-repeating-panel' : (ui.selectedShipmentKey == shipment.ShipmentKey)}" ng-repeat="shipment in model.shipmentList.Page.Output.Shipments.Shipment  | limitTo:ui.orderShownCount track by shipment.ShipmentKey" ng-init="uiSetDisplayStatus(shipment)">
+            <div ng-click="uiSelectShipment(shipment)" class="display-action" aria-describedBy="list-item_{{$index}}">
+                <span class="sr-only" isc-i18n="[i18n]({orderNumber:'{{order.OrderNo}}'})orderList.aria_order_list_select"></span>
+            </div>
+
+            <div id="list-item_{{$index}}">
+                <div class="details-holder form-group-view">
+                    <div class="primary-information">
+
+                        <div id="list-item_{{$index}}" class="list-with-indicator inline-block">
+                            <div class="status-indicator-icon">
+                                <span class="duein app-glyphicons app-icon-{{shipment.SLACssClass}} {{shipment.SLACssClass}} sla_icon" title="{{shipment.ImageAltText}}"> </span>
+                            </div>
+                            <div class="detail-information">
+                                <div class="form-view">
+                                    <label class="zero-width-label grp-hdr-txt" ng-bind="shipment.OrderNoToDisplay"></label>
+
+                                </div>
+
+                                <div id="viewOrderButton_{{$index}}" class="view-action" ng-show="ui.selectedShipmentKey == shipment.ShipmentKey">
+                                    <button class="btn btn-default btn-primary" ng-if="!uiToggleViewProductsButton(order)" ng-click="uipickOrder(shipment.ShipmentKey)" isc-i18n="customerpickorderlist.LABEL_Start_Customerpick" aria-describedBy="lblName_{{$index}}"></button>
+                                </div>
+
+                                <div class="form-view">
+                                    <span class="block-component label-text" isc-i18n="[i18n]({count:{{shipment.TotalLines}}}) packorderlist.LABEL_Product_count"></span>
+                                </div>
+
+                                <span class="comapps-label zero-width-label hash-number-align" isc-i18n="packorderlist.LABEL_ShipmentNo"></span>
+                                <a href="#" ng-click="uiGoToShipmentSummary(shipment)" isc-i18n="[title]outboundShipments.ACTION_ViewShpimentSummary">
+                                    <span class="comapps-label zero-width-label" ng-bind="shipment.ShipmentNo"></span>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="secondary-info-pick">
+                        <div class="form-view">
+                            <label class="block-component comapps-label zero-width-label hash-number-align duein txt_{{shipment.SLACssClass}}" ng-bind="shipment.TimeRemaining"></label> <span class="comapps-label zero-width-label order-status inprogress" ng-if="shipment.SLACssClass !=''">-</span>
+                            <label class="comapps-label zero-width-label order-status inprogress" ng-bind="shipment.StatusDescriptionToDisplay"></label>
+
+                        </div>
+
+                        <div class="form-view" ng-if="shipment.HoldLocation != '' && shipment.HoldLocation != null">
+                            <label class="comapps-label zero-width-label hash-number-align" isc-i18n="packorderlist.LABEL_Hold_location"></label>
+                            <label class="comapps-label zero-width-label" ng-bind="shipment.HoldLocation"></label>
+                        </div>
+
+                        <div ng-if="shipment.ExpectedShipmentDate" class="form-view">
+                            <span class="comapps-label zero-width-label" isc-i18n="pickorderlist.LABEL_ExpectedPickUpdate"></span>
+                            <label class="secondary-label-text zero-width-label">{{shipment.ExpectedShipmentDate | date:'mediumDate'}}</label>
+                        </div>
+
+                    </div>
+
+                    <div ng-if="shipment.PersonInfoMarkFor" class="customer-info">
+                        <div>
+                            <span class="grp-hdr-txt-h2 display-block customer-info-header" isc-i18n="customerpickorderlist.LABEL_PickupRecipient"></span> <span class="label-text display-block" name="lblName"> <span
+								ng-bind="shipment.PersonInfoMarkFor.FirstName"></span> <span ng-bind="shipment.PersonInfoMarkFor.LastName"></span>
+                            </span> <span class="label-text display-block" ng-bind="shipment.PersonInfoMarkFor.DayPhone"></span> <span class="label-text display-block" ng-bind="shipment.PersonInfoMarkFor.EMailID"></span>
+
+                        </div>
+                    </div>
+                    <div ng-if="!shipment.PersonInfoMarkFor && shipment.BillToAddress" class="customer-info">
+                        <div>
+                            <span class="grp-hdr-txt-h2 display-block customer-info-header" isc-i18n="customerpickorderlist.LABEL_CustomerInfo"></span> <span class="label-text display-block" name="lblName"> <span
+								ng-bind="shipment.BillToAddress.FirstName"></span> <span ng-bind="shipment.BillToAddress.LastName"></span>
+                            </span> <span class="label-text display-block" ng-bind="shipment.BillToAddress.DayPhone"></span> <span class="label-text display-block" ng-bind="shipment.BillToAddress.EMailID"></span>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </li>
+    </ul>
+
+    <div ng-if="ui.refineResults == 'Y'" class="refine-search">
+        <span class="grp-hdr-txt" isc-i18n="orderList.MESSAGE_RefineResults"></span>
+    </div>
+</div>

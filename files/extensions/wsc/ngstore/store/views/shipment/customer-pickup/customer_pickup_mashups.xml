@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),  IBM Order Management (5737-D18), IBM Store Engagement (5737D58)
+ (C) Copyright IBM Corp. 2017 All Rights Reserved.
+ US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+ -->
+<mashups>
+
+    <mashup description="Get Shipment details for Validating the Shipment before opening the wizard" endpoint="EP_CONFIG" skipDataProvider="true"
+		id="store.views.shipment.customer-pickup.ValidateShipmentForCustomerPickup" mashuptype="XAPI" transactional="true">
+		<classInformation name="com.ibm.ise.outboundShipment.common.ISEValidateShipmentForAllowedTransaction" />
+		<API Name="getShipmentDetails">		
+			<Input>
+				 <Shipment
+                    DisplayLocalizedFieldInLocale="xml:CurrentUser:/User/@Localecode" ShipmentKey=""/>
+			</Input>
+			<Template>
+				  <Shipment DisplayOrderNo="" AssignedToUserId="" DeliveryMethod=""
+                    ShipNode="" ShipmentKey="" ShipmentNo="" Status="">
+                    <AllowedTransactions>
+                        <Transaction ProcessTypeKey="" TranType="" Tranid=""/>
+                    </AllowedTransactions>
+                </Shipment>
+			</Template>
+		</API>
+		<APINamespace inputNS="ValidateShipmentForCustomerPickup_input"
+			outputNS="ValidateShipmentForCustomerPickup_output" />
+		<AlternateResourceIds>
+			<AlternateResourceId altResourceId="WSC000068"/>
+		</AlternateResourceIds>
+	</mashup>
+    
+      <mashup description="Get list of shipments for the logged in user"
+        endpoint="EP_CONFIG" id="store.views.shipment.customer-pick-order-list.getPickupOrderList"
+        mashuptype="XAPI" skipDataProvider="false" transactional="true">
+        <classInformation name="com.ibm.ise.outboundShipment.common.ISEMassageGetShipmentListOutput"/>
+        <API Name="getShipmentList">
+            <Input>
+                <Shipment DeliveryMethod="" SCAC="" SCACQryType="EQ"
+                    DisplayLocalizedFieldInLocale="xml:CurrentUser:/User/@Localecode"
+                    MaximumRecords="" ShipNode="xml:CurrentStore:/Store/@ShipNode">
+                   <ShipmentLine ItemID="" ShipmentKey="">
+                     <OrderLine KitCode="BUNDLE" KitCodeQryType="NE"/>
+                   </ShipmentLine>
+                      <ComplexQuery>
+                         <And>
+                           <Or>
+								<Exp Name="Status" QryType="FLIKE" Value=""/>
+							</Or>
+                         </And>
+					</ComplexQuery>  
+                    <OrderBy>
+						<Attribute Desc="" Name="ExpectedShipmentDate"/>  
+					</OrderBy>
+                </Shipment>
+            </Input>
+            <Template>
+                <Shipments TotalNumberOfRecords="">
+                    <Shipment AssignedToUserId="" DeliveryMethod=""
+                        DisplayOrderNo="" ExpectedShipmentDate=""
+                        HoldLocation="" OrderNo="" SCAC=""
+                        ScacAndService="" ShipNode="" ShipmentKey=""
+                        ShipmentNo="" TotalNumOfSKUS="">
+                        <Status Description="" Status=""/>
+                        <BillToAddress AddressLine1="" AddressLine2=""
+                            City="" Country="" DayFaxNo="" DayPhone=""
+                            EMailID="" EveningFaxNo="" EveningPhone=""
+                            FirstName="" IsCommercialAddress=""
+                            LastName="" MiddleName="" MobilePhone=""
+                            PersonInfoKey="" PreferredShipAddress=""
+                            State="" ZipCode=""/>
+                        <ShipmentLines TotalNumberOfRecords="">
+                            <ShipmentLine OriginalQuantity="">
+                              <OrderLine OrderLineKey="" KitCode="">
+                                <PersonInfoMarkFor AddressLine1="" AddressLine2=""
+                            City="" Country="" DayFaxNo="" DayPhone=""
+                            EMailID="" EveningFaxNo="" EveningPhone=""
+                            FirstName="" IsCommercialAddress=""
+                            LastName="" MiddleName="" MobilePhone=""
+                            PersonInfoKey="" PreferredShipAddress=""
+                            State="" ZipCode=""/>
+                              </OrderLine>
+                            </ShipmentLine>
+                        </ShipmentLines>
+                    </Shipment>
+                </Shipments>
+            </Template>
+        </API>
+        <AdditionalDataProviders>
+            <AdditionalDataProvider class="com.ibm.ise.dataproviders.ISESLADataProvider">
+                <InterestedIn>
+                    <Element path="/Page/Output/Shipments/Shipment" />
+                    <Attribute path="Shipment" name="ExpectedShipmentDate" />
+                </InterestedIn>
+                <NewAttributes>
+                    <Attribute name="SLACssClass" />
+                </NewAttributes>
+            </AdditionalDataProvider>
+		</AdditionalDataProviders>
+        <APINamespace inputNS="getShipmentList_input" outputNS="getShipmentList_output"/>
+        <AlternateResourceIds>
+            
+            <AlternateResourceId altResourceId="WSC000068"/>
+        </AlternateResourceIds>
+    </mashup>
+    
+    <mashup description="Get Shipment details painting customer details header" endpoint="EP_CONFIG" skipDataProvider="true"
+		id="store.views.shipment.customer-pickup.getShipmentSummaryDetails" mashuptype="XAPI" transactional="true">
+		<classInformation name="com.ibm.ise.outboundShipment.summary.ISEShipmentSummaryGetShipmentDetails" />
+		<API Name="getShipmentDetails">		
+			<Input>
+				 <Shipment
+                    DisplayLocalizedFieldInLocale="xml:CurrentUser:/User/@Localecode" ShipmentKey=""/>
+			</Input>
+			<Template>
+				<Shipment AssignedToUserId="" Currency="" DeliveryCode="" DeliveryMethod="" DisplayStatus="" 
+					HoldLocation="" EnterpriseCode="" ExpectedShipmentDate="" OrderNo="" DisplayOrderNo="" OriginalShipmentKey="" ScacAndService="" 
+					ShipmentKey="" ShipmentNo="" ShipNode="" Status="">                  
+                    <BillToAddress AddressLine1="" AddressLine2=""
+                        City="" Country="" CountryDesc="" DayFaxNo=""
+                        DayPhone="" EMailID="" EveningFaxNo=""
+                        EveningPhone="" FirstName=""
+                        IsCommercialAddress="" LastName="" MiddleName=""
+                        MobilePhone="" PersonInfoKey=""
+                        PreferredShipAddress="" State="" TitleDesc="" ZipCode=""/>                   
+					<ShipmentLines>
+						<ShipmentLine ShipmentLineKey="">
+							<OrderLine OrderLineKey="">
+								<PersonInfoMarkFor
+									DayPhone="" EMailID="" FirstName=""
+									LastName="" MiddleName="" PersonInfoKey="" AddressLine1="" AddressLine2="" 
+									City="" Country="" ZipCode="" CountryDesc="" DayFaxNo="" EveningFaxNo="" 
+                        			EveningPhone="" MobilePhone=""  State="" TitleDesc="" IsCommercialAddress="" />
+							</OrderLine>
+							<Order OrderNo="">
+								<PaymentMethods>
+									<PaymentMethod CreditCardName=""
+									CreditCardNo=""
+									CreditCardType=""
+									DisplayCreditCardNo=""
+									PaymentKey="" PaymentType="" PaymentTypeGroup=""/>
+								</PaymentMethods>
+							</Order>
+						</ShipmentLine>
+					</ShipmentLines>                   
+                </Shipment>
+			</Template>
+		</API>
+		<APINamespace inputNS="customerpickup_getShipmentSummaryDetails_input"
+			outputNS="customerpickup_getShipmentSummaryDetails_output" />
+		<AlternateResourceIds>
+			<AlternateResourceId altResourceId="WSC000068"/>
+		</AlternateResourceIds>
+	</mashup>
+    
+    <mashup description="Retrieves the list of Customer Verification Types defined in the system to be used to populate customer verification method drop down." endpoint="EP_CONFIG"
+		id="store.views.shipment.customer-pickup.getCustomerVerficationMethodList" mashuptype="XAPI" transactional="true" skipDataProvider="true">
+		<classInformation name="com.ibm.wsc.common.mashups.WSCBaseMashup" />
+		<API Name="getCommonCodeList">		
+			<Input>
+				<CommonCode CodeType="YCD_CUST_VERFN_TYP"
+                    DisplayLocalizedFieldInLocale="xml:CurrentUser:/User/@Localecode"
+                    MaximumRecords="" CallingOrganizationCode="xml:CurrentStore:/Store/@EnterpriseCode" IgnoreOrdering="N">
+                    <OrderBy>
+                        <Attribute Desc="N" Name="CodeLongDescription"/>
+                    </OrderBy>
+                </CommonCode>
+			</Input>
+			<Template>
+				<CommonCodeList>
+					<CommonCode CodeLongDescription="" CodeName="" CodeShortDescription="" CodeValue=""/>
+                </CommonCodeList>
+			</Template>
+		</API>
+		<APINamespace inputNS="customerpickup_getCustomerVerficationMethodList_input"
+			outputNS="customerpickup_getCustomerVerficationMethodList_output" />
+		<AlternateResourceIds>
+			<AlternateResourceId altResourceId="WSC000068"/>
+		</AlternateResourceIds>
+	</mashup>
+    
+    
+    <mashup description="Get shipment line details to paint pickup tabs" endpoint="EP_CONFIG"
+            id="store.views.shipment.customer-pickup.getShipmentLineDetails" mashuptype="XAPI" transactional="true">
+		<classInformation name="com.ibm.ise.outboundShipment.common.ISEGetShipmentLineList" />
+		
+		<API Name="getShipmentLineList">		
+			<Input>
+				<ShipmentLine ShipmentKey="" IsPickable="Y" DisplayLocalizedFieldInLocale="xml:CurrentUser:/User/@Localecode"/>
+			</Input>
+
+			<Template>
+				<ShipmentLines TotalNumberOfRecords="">
+                    <ShipmentLine  ItemID=""
+                        OrderHeaderKey="" OrderLineKey="" OrderNo="" OriginalQuantity="" ShortageQty=""
+                        Quantity="" CustomerPickedQuantity="" ShortageResolutionReason="" CancelReason="" ShipmentKey=""
+                        ShipmentLineKey="" ShipmentLineNo="" IsCustomerPickComplete=""
+                        ShipmentSubLineNo="" UnitOfMeasure="">
+                        <OrderLine IsBundleParent="" ItemGroupCode="" GiftFlag="">
+                            <ItemDetails ItemGroupCode="" ItemID="" UnitOfMeasure="">
+                                <PrimaryInformation
+                                    ExtendedDisplayDescription=""
+                                    ImageID="" ImageLabel="" ImageLocation=""/>
+                                <ClassificationCodes Model=""/>
+                            </ItemDetails>
+                        </OrderLine>
+                    </ShipmentLine>
+                </ShipmentLines>
+			</Template>
+		</API>
+        <AdditionalDataProviders>
+			<AdditionalDataProvider class="com.ibm.wsc.core.dataproviders.WSCUnitOfMeasureDisplayProvider">
+				<InterestedIn>
+					<Element path="/ShipmentLines/ShipmentLine/OrderLine/ItemDetails" />
+				</InterestedIn>
+				<NewAttributes>
+					<Attribute name="DisplayUnitOfMeasure" />
+				</NewAttributes>
+			</AdditionalDataProvider>
+		</AdditionalDataProviders>
+		<APINamespace inputNS="customerpickup_getShipmentLineList_input"
+			outputNS="customerpickup_getShipmentLineList_output" />
+		<AlternateResourceIds>
+			<AlternateResourceId altResourceId="WSC000068"/>
+		</AlternateResourceIds>
+	</mashup>
+    
+    <mashup description="Pickup all shipment lines." endpoint="EP_CONFIG" skipDataProvider="true"
+		id="store.views.shipment.customer-pickup.pickupAllShipmentLines" mashuptype="XAPI" transactional="true">
+		<classInformation name="com.ibm.wsc.common.mashups.WSCBaseMashup" />
+		<API Name="changeShipment">		
+			<Input>
+				 <Shipment DisplayLocalizedFieldInLocale="xml:CurrentUser:/User/@Localecode" ShipmentKey="">
+				 	  <ShipmentLines>
+                        <ShipmentLine CustomerPickedQuantity="" ShortageResolutionReason="" CancelReason="" Quantity=""
+                            ShipmentLineKey="" />
+                    </ShipmentLines>
+				 </Shipment>
+			</Input>
+			<Template>
+				<Shipment ShipmentKey="" ShipmentNo="" Status="">
+                    <ShipmentLines TotalNumberOfRecords="">
+                        <ShipmentLine ItemID="" OriginalQuantity="" ShortageQty="" Quantity="" CustomerPickedQuantity="" ShortageResolutionReason="" CancelReason="" ShipmentKey="" ShipmentLineKey="" IsCustomerPickComplete="" ShipmentSubLineNo="" UnitOfMeasure="">
+                        </ShipmentLine>
+                    </ShipmentLines>
+                </Shipment>
+            </Template>
+		</API>
+		<APINamespace inputNS="pickupAllShipmentLines_input"
+			outputNS="pickupAllShipmentLines_output" />
+		<AlternateResourceIds>
+			<AlternateResourceId altResourceId="WSC000069"/>
+		</AlternateResourceIds>
+	</mashup>
+    
+    <mashup description="Marks remaining quantity to be picked up as shortage for a shipment line" endpoint="EP_CONFIG" skipDataProvider="true"
+		id="store.views.shipment.customer-pickup.recordShortageForShipmentLine" mashuptype="XAPI" transactional="true">
+		<classInformation name="com.ibm.wsc.common.mashups.WSCBaseMashup" />
+		<API Name="changeShipment">		
+			<Input>
+				 <Shipment DisplayLocalizedFieldInLocale="xml:CurrentUser:/User/@Localecode" ShipmentKey="">
+                    <ShipmentLines>
+                        <ShipmentLine CustomerPickedQuantity="" ShortageResolutionReason="" CancelReason="" Quantity=""
+                            ShipmentLineKey="" />
+                    </ShipmentLines>
+                </Shipment>
+			</Input>
+			<Template>
+				 <Shipment ShipmentKey="" ShipmentNo="" Status=""/>
+			</Template>
+		</API>
+		<APINamespace inputNS="recordShortageForShipmentLine_input"
+			outputNS="recordShortageForShipmentLine_output" />
+		<AlternateResourceIds>
+			<AlternateResourceId altResourceId="WSC000068"/>
+		</AlternateResourceIds>
+	</mashup>
+	
+    <mashup description="Get Shipment Line details" skipDataProvider="true"
+        endpoint="EP_CONFIG" id="store.views.shipment.customer-pickup.getShipmentLineDetailsPostChangeShipment"
+        mashuptype="XAPI" transactional="true">
+        <classInformation name="com.ibm.wsc.common.mashups.WSCBaseMashup"/>
+        <API Name="getShipmentLineList">
+            <Input>
+                <ShipmentLine
+                    DisplayLocalizedFieldInLocale="xml:CurrentUser:/User/@Localecode"
+                    IsPickable="Y" MaximumRecords=""
+                    ShipmentKey="xml:scControllerInput:/Shipment/@ShipmentKey" ShipmentLineKey=""/>
+            </Input>
+            <Template>
+                <ShipmentLines>
+                    <ShipmentLine CancelReason=""
+                        CustomerPickedQuantity=""
+                        IsCustomerPickComplete="" ItemID=""
+                        OrderHeaderKey="" OrderLineKey="" OrderNo=""
+                        OriginalQuantity="" Quantity="" ShipmentKey=""
+                        ShipmentLineKey="" ShipmentLineNo=""
+                        ShipmentSubLineNo="" ShortageQty=""
+                        ShortageResolutionReason="" UnitOfMeasure="">
+                    </ShipmentLine>
+                </ShipmentLines>
+            </Template>
+        </API>
+        <APINamespace inputNS="customerPickUpShipmentLineList_input" outputNS="customerPickUpShipmentLineList_output"/>
+        <AlternateResourceIds>
+            <AlternateResourceId altResourceId="WSC000068"/>
+        </AlternateResourceIds>
+    </mashup>
+    
+	<mashup description="Marks remaining quantity to be picked up as shortage for all remaining shipment lines to be picked up." endpoint="EP_CONFIG"
+		id="store.views.shipment.customer-pickup.recordShortageForAllShipmentLines" mashuptype="XAPI" transactional="true" skipDataProvider="true">
+		<classInformation name="com.ibm.wsc.common.mashups.WSCBaseMashup" />
+		<API Name="changeShipment">		
+			<Input>
+				 <Shipment DisplayLocalizedFieldInLocale="xml:CurrentUser:/User/@Localecode" ShipmentKey="">
+                    <ShipmentLines>
+                        <ShipmentLine CustomerPickedQuantity="" ShortageResolutionReason="" CancelReason="" Quantity=""
+                            ShipmentLineKey="" />
+                    </ShipmentLines>
+                </Shipment>
+			</Input>
+			<Template>
+				 <Shipment ShipmentKey="" ShipmentNo="" Status="">
+                     <ShipmentLines>
+                        <ShipmentLine CancelReason=""
+                            CustomerPickedQuantity=""
+                            IsCustomerPickComplete="" ItemID=""
+                            OriginalQuantity="" Quantity="" ShipmentKey=""
+                            ShipmentLineKey="" ShipmentLineNo=""
+                            ShipmentSubLineNo="" ShortageQty=""
+                            ShortageResolutionReason="" UnitOfMeasure="">
+                        </ShipmentLine>
+                    </ShipmentLines>
+                </Shipment>
+			</Template>
+		</API>
+        
+		<APINamespace inputNS="recordShortageForAllShipmentLines_input"
+			outputNS="recordShortageForAllShipmentLines_output" />
+		<AlternateResourceIds>
+			<AlternateResourceId altResourceId="WSC000068"/>
+		</AlternateResourceIds>
+	</mashup>
+	
+	
+	<mashup description="Update picked up quantity of shipment line" endpoint="EP_CONFIG" skipDataProvider="true"
+		id="store.views.shipment.customer-pickup.updatePickedupQuantityForShipmentLine" mashuptype="XAPI" transactional="true">
+		<classInformation name="com.ibm.wsc.common.mashups.WSCBaseMashup" />
+		<API Name="changeShipment">		
+			<Input>
+				 <Shipment DisplayLocalizedFieldInLocale="xml:CurrentUser:/User/@Localecode" ShipmentKey="">
+                    <ShipmentLines>
+                        <ShipmentLine CustomerPickedQuantity="" ShortageResolutionReason="" CancelReason="" Quantity=""
+                            ShipmentLineKey="" />
+                    </ShipmentLines>
+                </Shipment>
+			</Input>
+			<Template>
+				 <Shipment ShipmentKey="" ShipmentNo="" Status=""/>
+			</Template>
+		</API>
+		<APINamespace inputNS="updatePickedupQuantityForShipmentLine_input"
+			outputNS="updatePickedupQuantityForShipmentLine_output" />
+		<AlternateResourceIds>
+			<AlternateResourceId altResourceId="WSC000068"/>
+		</AlternateResourceIds>
+	</mashup>
+	
+	<mashup description="Translate Bar Code to identify and pickup product if its valid" endpoint="EP_CONFIG"
+		id="store.views.shipment.customer-pickup.registerBarCodeForCustomerPickup" mashuptype="XAPI" transactional="true">
+		<classInformation name="com.ibm.wsc.common.mashups.WSCBaseMashup" />
+		<API Name="registerBarcodeForCustomerPick">		
+			<Input>
+				 <BarCode BarCodeData="" BarCodeType="Item" DisplayLocalizedFieldInLocale="xml:CurrentUser:/User/@Localecode">
+                    <ContextualInfo
+                        EnterpriseCode="xml:CurrentStore:/Store/@EnterpriseCode" OrganizationCode="xml:CurrentStore:/Store/@EnterpriseCode"/>
+                    <ShipmentContextualInfo
+                        SellerOrganizationCode="xml:CurrentStore:/Store/@EnterpriseCode"
+                        ShipNode="xml:CurrentStore:/Store/@ShipNode"
+                        ShipmentKey="" ShipmentNo=""/>
+                </BarCode>
+			</Input>
+			<Template>
+				 <BarCode BarCodeData="" BarCodeType="">
+                    <Translations BarCodeTranslationSource="" TotalNumberOfRecords="">
+                        <Translation>
+                            <ContextualInfo BuyerOrganizationCode=""
+                                EnterpriseCode="" OrganizationCode="" SellerOrganizationCode=""/>
+                            <ItemContextualInfo AlternateUOM=""
+                                InventoryUOM="" ItemID="" KitCode=""
+                                ProductClass="" Quantity=""/>
+							<ShipmentContextualInfo SellerOrganizationCode="" ShipNode="" ShipmentKey="" 
+								ShipmentLineKey="" ShipmentNo=""/>
+                        </Translation>                        
+                    </Translations>
+					<Shipment ShipmentKey="" >						
+						<ShipmentLine  ItemID=""
+							OrderHeaderKey="" OrderLineKey="" OrderNo="" OriginalQuantity="" ShortageQty=""
+							Quantity="" CustomerPickedQuantity="" ShortageResolutionReason="" CancelReason="" ShipmentKey=""
+							ShipmentLineKey="" ShipmentLineNo="" IsCustomerPickComplete=""
+							ShipmentSubLineNo="" UnitOfMeasure="">
+						</ShipmentLine>
+					</Shipment>
+                </BarCode>
+			</Template>
+		</API>
+        <AdditionalDataProviders>
+			<AdditionalDataProvider class="com.ibm.wsc.core.dataproviders.WSCUnitOfMeasureDisplayProvider">
+				<InterestedIn>
+					<Element path="/BarCode/Shipment/ShipmentLine/OrderLine/ItemDetails" />
+				</InterestedIn>
+				<NewAttributes>
+					<Attribute name="DisplayUnitOfMeasure" />
+				</NewAttributes>
+			</AdditionalDataProvider>
+		</AdditionalDataProviders>
+		<APINamespace inputNS="registerBarCodeForCustomerPickup_input"
+			outputNS="registerBarCodeForCustomerPickup_output" />
+		<AlternateResourceIds>
+			<AlternateResourceId altResourceId="WSC000068"/>
+		</AlternateResourceIds>
+	</mashup>
+    
+    <mashup description="Get Shipment Line List details"
+        endpoint="EP_CONFIG" 
+        id="store.views.shipment.customer-pickup.getShipmentLineListForRecordCustomerPick"
+        mashuptype="XAPI" skipDataProvider="true" transactional="true">
+        <classInformation name="com.ibm.wsc.common.mashups.WSCBaseMashup"/>
+        <API Name="getShipmentLineList">
+            <Input>
+                <ShipmentLine
+                    DisplayLocalizedFieldInLocale="xml:CurrentUser:/User/@Localecode"
+                    MaximumRecords="" ShipmentKey=""/>
+            </Input>
+            <Template>
+                <ShipmentLines>
+                    <ShipmentLine CancelReason=""
+                        CustomerPickedQuantity="" IsBundleParent=""
+                        IsPickable="" Quantity="" ShipmentLineKey=""
+                        ShipmentLineNo="" ShipmentSubLineNo="" ShortageResolutionReason=""/>
+                </ShipmentLines>
+            </Template>
+        </API>
+        <APINamespace inputNS="customerPickUpShipmentLineList_input" outputNS="customerPickUpShipmentLineList_output"/>
+        <AlternateResourceIds>
+            <AlternateResourceId altResourceId="WSC000068"/>
+        </AlternateResourceIds>
+    </mashup>
+    
+    <mashup description="Record Customer pick" endpoint="EP_CONFIG"
+        id="store.views.shipment.customer-pickup.recordCustomerPickup" mashuptype="XAPI"
+        skipDataProvider="true" transactional="true">
+        <classInformation name="com.ibm.ise.outboundShipment.customerpickup.ISCRecordCustomerPikcup"/>
+        <API Name="recordCustomerPick">
+            <Input>
+                <Shipment AddVerificationMethod="Y"
+                    DisplayLocalizedFieldInLocale="xml:CurrentUser:/User/@Localecode"
+                    SellerOrganizationCode="" ShipNode="" ShipmentKey=""
+                    ShipmentNo="" TransactionId="CONFIRM_SHIPMENT">
+                    <ShipmentLines>
+                        <ShipmentLine PickedQty="" Quantity=""
+                            ReasonCode="" ShipmentLineKey=""
+                            ShipmentLineNo="" ShipmentSubLineNo=""
+                            ShortageQuantity="" ShortageReason=""/>
+                    </ShipmentLines>
+                    <Notes>
+                        <Note ContactReference="" ContactType=""
+                            ContactUser="" NoteText="" Priority="0"
+                            ReasonCode="YCD_CUSTOMER_VERIFICATION" VisibleToAll="Y" Createuserid="SYSTEM" Modifyuserid="SYSTEM"/>
+                    </Notes>
+                </Shipment>
+            </Input>
+            <Template>
+                <Shipment Currency="" ShipNode="" ShipmentKey="" Status=""/>
+            </Template>
+        </API>
+        <APINamespace inputNS="completeCustomerPick_Input" outputNS="completeCustomerPick_Output"/>
+        <AlternateResourceIds>
+            <AlternateResourceId altResourceId="WSC000068"/>
+        </AlternateResourceIds>
+    </mashup>
+    
+    <mashup description="Print Customer Pickup Acknowledgement" endpoint="EP_CONFIG"
+        id="store.views.shipment.customer-pickup.printAcknowledgement"
+        mashuptype="XAPI" skipDataProvider="true" transactional="true">
+        <classInformation name="com.ibm.wsc.common.mashups.WSCBaseMashup"/>
+        <API FlowName="YCD_Print_CustomerPickupAcknowledgement_94">
+            <Input>
+                <Shipment Currency="" ShipNode="" ShipmentKey=""/>
+            </Input>
+            <Template>
+                <Output out=""/>
+            </Template>
+        </API>
+        <APINamespace
+            inputNS="customerpickup_printAcknowledgement_input" outputNS="customerpickup_printAcknowledgement_output"/>
+        <AlternateResourceIds>
+            <AlternateResourceId altResourceId="WSC000070"/>
+        </AlternateResourceIds>
+    </mashup>
+    
+</mashups>
