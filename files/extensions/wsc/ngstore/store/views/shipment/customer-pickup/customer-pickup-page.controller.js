@@ -194,6 +194,7 @@ angular.module('store').controller('store.views.shipment.customer-pickup.custome
 				iscMashup.callMashups(this,mashupArray,{})
                     .then(this.handleInitMashupOutput.bind(this),angular.noop);
 			},
+			
 			/**
 			 *@description Callback handler for  init mashups call made from the 'initialize' method.
 			 *@param {Object} response - Output data of mashups call
@@ -238,8 +239,17 @@ angular.module('store').controller('store.views.shipment.customer-pickup.custome
                 var ruleDetails = iscMashup.getMashupOutput(controllerData,"getStagingLocationRequiredRuleDetails");
 				this.ui.isStagingLocationRuleEnabled = (ruleDetails && ruleDetails.Rules.RuleSetValue == "Y") ? true : false;
 				//this.ui.isStagingLocationRuleEnabled = false;	        	
+			}, uiOpenOrder: function() {
+			   	if(this.model.shipmentDetails) {
+			   		var shipment = this.model.shipmentDetails.Shipment;
+			   	 	if(shipment.ShipmentLines && shipment.ShipmentLines.ShipmentLine && shipment.ShipmentLines.ShipmentLine.length > 0) {
+				   	 	var orderModel =  {
+				   	 		"Order": shipment.ShipmentLines.ShipmentLine[0].Order
+				   	 	};
+	                    iscState.goToState('ordersummary',{orderInput:orderModel,showBackLink:true},{});
+                    }
+			   	}
 			},
-			
             
             /**
 			 *@description Gets the next count to show shipment lines. Used in client side pagination.

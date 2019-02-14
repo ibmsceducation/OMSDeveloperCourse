@@ -21,7 +21,10 @@ Licensed Materials - Property of IBM Sterling Order Management Store (5725-D10),
                             <img ng-src="{{ui.slaImageFullURL}}" alt="{{model.shipmentDetails.Shipment.ImageAltText}}" isc-encode-attr="src" title="{{model.shipmentDetails.Shipment.ImageAltText}}"/>
                         </span>
                         <span class="order-no">
-                            <span class="ellipsis-text" ng-bind="model.shipmentDetails.Shipment.DisplayOrderNoDesc"></span>
+                         <a href="#" ng-if="model.shipmentDetails.Shipment" ng-click="uiOpenOrder()">
+                  			 <span class="ellipsis-text" ng-bind="model.shipmentDetails.Shipment.DisplayOrderNoDesc"></span>
+                		 </a>
+                            
                         </span>
                     </div>
                     
