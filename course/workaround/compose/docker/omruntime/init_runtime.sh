@@ -18,7 +18,7 @@ echo "DATABASE_PROPERTY_MANAGEMENT==$DPM"
 
 if [[ "$DB_EXTERNAL" != "true" ]]; then
 	if [[ "$DB_BACKUP_RESTORE" = "true" ]] && [[ -f "$DB_BACKUP_ZIP" ]] && [[ $1 == "setup" ]]; then
-		echo "DB_BACKUP_RESTORE mode enabled. Unzipping $DB_BACKUP_ZIP to /var/oms ..." 
+		echo "DB_BACKUP_RESTORE mode enabled. Unzipping $DB_BACKUP_ZIP to /var/oms ..."
 		cd /var/oms
 		unzip $DB_BACKUP_ZIP
 		DB_BACKUP_NAME=$(basename "$DB_BACKUP_ZIP" ".zip")
@@ -81,24 +81,24 @@ if [[ $1 == setup* ]]; then
 		sed -i "s/DATABASE_PROPERTY_MANAGEMENT=false/DATABASE_PROPERTY_MANAGEMENT=true/g" $RT/properties/sandbox.cfg
 	fi
 	if [[ "$DPM" = "true" ]]; then
-		echo "Loading properties to DB..." 
+		echo "Loading properties to DB..."
 		./loadProperties.sh
 	fi
 fi
 if [[ -f "${RT}/properties/system_overrides.properties" ]] && [[ "$DPM" = "true" ]]; then
-	echo "Loading system_overrides.properties to DB..." 
+	echo "Loading system_overrides.properties to DB..."
 	./manageProperties.sh -mode import -file "${RT}/properties/system_overrides.properties"
 fi
 
 if [[ "$DB_BACKUP_RESTORE" = "true" ]] && [[ $1 == "setup" ]]; then
 	echo "DB components already created from db backup restore.."
 else
-	if [[ $1 == setup* ]]; then		
+	if [[ $1 == setup* ]]; then
 		echo "Loading FC..."
 		cd ${RT}/repository/factorysetup && find . -name "*.restart" -exec rm -rf {} \; && cd ${RT}/bin
 		./loadFactoryDefaults.sh $UPGRADE
 		cd ${RT}/repository/factorysetup && find . -name "*.restart" -exec rm -rf {} \; && cd ${RT}/bin
-		
+
 		echo "Loading Views..."
 		./loadCustomDB.sh $UPGRADE
 	fi
@@ -120,7 +120,7 @@ if [[ ${OM_INSTALL_LOCALIZATION} = "true" ]] && [[ ! -z "$OM_LOCALES" ]]; then
 fi
 
 CUST_JAR=`echo "$(ls /tmp/oms/custjar/* 2>/dev/null)" |head -n1`
-if [ ! -z "$CUST_JAR" ]; then 
+if [ ! -z "$CUST_JAR" ]; then
 	echo "Installing customization jar $CUST_JAR ..."
 	./InstallService.sh $CUST_JAR
 	./deployer.sh -t resourcejar
@@ -129,30 +129,37 @@ if [ ! -z "$CUST_JAR" ]; then
 	echo "Building EAR..."
 	./buildear.sh -Dappserver=websphere -Dwarfiles=${AP_WAR_FILES} -Dearfile=smcfs.ear -Ddevmode=${AP_DEV_MODE} -Dnowebservice=true -Dnoejb=true -Dnodocear=true -Dwebsphere-profile=liberty
 	echo "Exploding smcfs.ear"
-	cd ${RT}/external_deployments
-	mv smcfs.ear smcfs.ear1
-	mkdir smcfs.ear
-	cd smcfs.ear
-	$RT/jdk/bin/jar xf ../smcfs.ear1
-	rm -rf ../smcfs.ear1
-	rm -rf META_INF
-	if [[ ! -d lib ]]; then
-		mkdir lib
-		mv *.jar lib
-	fi
-	var = $( echo "$AP_WAR_FILES" | tr ',' ' ')
-	cd ${RT}/external_deployments/smcfs.ear
-	for i in $var; do
-		echo "Exploding $i ..."
-		if [ -f $i ]; then
-			mv $i ${i}1 && mkdir $i && cd $i && $RT/jdk/bin/jar xf ../${i}1 && cd ../ && rm -rf ${i}1
-		else
-			echo "$i not found."
-		fi
-	done
-	
+  cd ${RT}/external_deployments
+  mv smcfs.ear smcfs.ear1
+  mkdir smcfs.ear
+  cd smcfs.ear
+  $RT/jdk/bin/jar xf ../smcfs.ear1
+  rm -rf ../smcfs.ear1
+  rm -rf META-INF
+  if [[ ! -d lib ]]; then
+          mkdir lib
+          mv *.jar lib
+  fi
+  cd ${RT}/external_deployments/smcfs.ear
+  for i in $(echo $AP_WAR_FILES | sed "s/,/ /g"); do
+          war="${i}.war"
+          echo "Exploding $war ..."
+          if [ -f $war ]; then
+                  mv $war ${war}1 && mkdir $war && cd $war && $RT/jdk/bin/jar xf ../${war}1 && cd ../ && rm -rf ${war}1
+          else
+                  echo "$war not found."
+          fi
+  done
+  cd ${RT}/external_deployments/smcfs.ear/lib
+  if [ -f 'properties.jar' ]; then
+          mv properties.jar properties.jar1 && mkdir properties.jar && cd properties.jar && $RT/jdk/bin/jar xf ../properties.jar1 && cd ../ && rm -rf properties.jar1
+  fi
+  if [ -f 'resources.jar' ]; then
+          mv resources.jar resources.jar1 && mkdir resources.jar && cd resources.jar && $RT/jdk/bin/jar xf ../resources.jar1 && cd ../ && rm -rf resources.jar1
+  fi
+
 	#if [[ -f "${RT}/properties/customer_overrides.properties" ]]; then
-	#	echo "Loading customer_overrides.properties to DB..." 
+	#	echo "Loading customer_overrides.properties to DB..."
 	#	./manageProperties.sh -mode import -file "${RT}/properties/customer_overrides.properties"
 	#fi
 fi
