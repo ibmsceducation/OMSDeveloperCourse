@@ -1,0 +1,10 @@
+<Order OrderHeaderKey="" OrderNo="" EnterpriseCode="" CustomerEMailID="" BillToID="">
+	<OrderLines>
+		<OrderLine PrimeLineNo="" OrderLineKey="" OrderedQty="">
+			<Item ItemID="" UnitOfMeasure="" />
+			<ItemDetails ItemID="">
+				<PrimaryInformation ShortDescription="" ImageLocation="" ImageID="" />
+			</ItemDetails>
+		</OrderLine>
+	</OrderLines>
+</Order> 
