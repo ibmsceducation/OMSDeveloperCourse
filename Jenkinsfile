@@ -2,7 +2,7 @@ pipeline {
   agent {
     docker {
       image 'mycluster.icp:8500/default/om-build:latest'
-      args '-v /var/run/docker.sock:/var/run/docker.sock -v ${WORKSPACE}:/opt/ssfs/shared -u root -it --entrypoint=/bin/bash'
+      args '-v /var/run/docker.sock:/var/run/docker.sock -v ${WORKSPACE}:/opt/ssfs/shared -u root -it'
     }
   }
 
