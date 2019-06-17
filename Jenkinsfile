@@ -9,8 +9,10 @@ pipeline {
   stages {
     stage('Get current folder') {
       steps {
-        sh 'pwd'
+        sh 'cd /opt && pwd'
         sh 'ls'
+        sh 'cd /opt/ssfs && ls'
+        sh 'cd /opt/ssfs/shared && ls'
         sh 'docker ps -a'
       }
     }
