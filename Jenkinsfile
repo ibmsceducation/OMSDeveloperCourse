@@ -9,7 +9,8 @@ pipeline {
   stages {
     stage('Docker Version') {
       steps {
-        sh 'docker ps'
+        sh '''cd /opt/ssfs/scripts && \\
+ls'''
       }
     }
   }
