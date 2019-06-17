@@ -7,13 +7,16 @@ pipeline {
   }
 
   stages {
-    stage('Get current folder') {
+    stage('Install Extensions') {
       steps {
-        sh 'cd /opt && pwd'
-        sh 'ls'
-        sh 'cd /opt/ssfs && ls'
-        sh 'cd /opt/ssfs/shared && ls'
-        sh 'docker ps -a'
+        sh '/opt/ssfs/runtime/bin/sci_ant.sh -f /opt/ssfs/runtime/devtoolkit/devtoolkit_extensions.xml importfromproject -Dprojectdir=/opt/ssfs/shared'
+        sh 'cp /opt/ssfs/shared/course/workaround/resources/system_overrides.properties /opt/ssfs/runtime/properties/system_overrides.properties'
+      }
+    }
+    stage('Build Environment') {
+      steps {
+        sh '/opt/ssfs/runtime/docker-samples/imagebuild/generateImages.sh --OM_TAG=extn_${BUILD_NUMBER}'
+        sh 'cp /opt/ssfs/*.tar /opt/ssfs/shared/.'
       }
     }
   }
