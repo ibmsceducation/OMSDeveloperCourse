@@ -1,5 +1,10 @@
 pipeline {
-  agent none
+  agent {
+    node {
+      label 'Build Environment'
+    }
+
+  }
   stages {
     stage('Build om-build machine') {
       steps {
