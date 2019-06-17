@@ -1,7 +1,7 @@
 pipeline {
   agent {
-    node {
-      label 'Build Environment'
+    dockerfile {
+      filename '/home/demo/customize/Dockerfile'
     }
 
   }
