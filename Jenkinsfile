@@ -9,6 +9,7 @@ pipeline {
   stages {
     stage('Install Extensions') {
       steps {
+        sh 'mkdir -p /opt/ssfs/shared/lib'
         sh '/opt/ssfs/runtime/bin/sci_ant.sh -f /opt/ssfs/runtime/devtoolkit/devtoolkit_extensions.xml importfromproject -Dprojectdir=/opt/ssfs/shared'
         sh 'cp /opt/ssfs/shared/course/workaround/resources/system_overrides.properties /opt/ssfs/runtime/properties/system_overrides.properties'
       }
