@@ -7,11 +7,6 @@ pipeline {
 
   }
   stages {
-    stage('Build') {
-      steps {
-        git 'https://github.com/pfaiola/OMSDeveloperCourse.git'
-      }
-    }
     stage('Docker exec') {
       steps {
         sh 'docker exec -it om-base "docker ps"'
