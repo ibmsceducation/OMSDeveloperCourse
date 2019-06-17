@@ -7,10 +7,12 @@ pipeline {
 
   }
   stages {
-    stage('Docker Version') {
+    stage('') {
       steps {
-        sh '''cd /opt/ssfs/scripts && \\
-ls'''
+        dir(path: '/opt/ssfs/shared') {
+          sh 'ls'
+        }
+
       }
     }
   }
