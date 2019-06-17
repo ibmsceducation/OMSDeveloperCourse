@@ -7,12 +7,11 @@ pipeline {
 
   }
   stages {
-    stage('') {
+    stage('Get current folder') {
       steps {
-        dir(path: '/opt/ssfs/shared') {
-          sh 'ls'
-        }
-
+        sh 'pwd'
+        sh 'ls'
+        sh 'docker ps -A'
       }
     }
   }
