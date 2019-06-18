@@ -17,7 +17,14 @@ pipeline {
     stage('Build Environment') {
       steps {
         sh '/opt/ssfs/runtime/docker-samples/imagebuild/generateImages.sh --OM_TAG=extn_${BUILD_NUMBER}'
-        sh 'cp /opt/ssfs/*.tar /opt/ssfs/shared/.'
+      }
+    }
+    stage('Tag and Push') {
+      steps {
+        sh 'docker tag om-app:extn_${BUILD_NUMBER} mycluster.icp:8500/default/om-app:extn_${BUILD_NUMBER}'
+        sh 'docker tag om-agent:extn_${BUILD_NUMBER} mycluster.icp:8500/default/om-agent:extn_${BUILD_NUMBER}'
+        sh 'docker push mycluster.icp:8500/default/om-app:extn_${BUILD_NUMBER}'
+        sh 'docker push mycluster.icp:8500/default/om-agent:extn_${BUILD_NUMBER}'
       }
     }
   }
