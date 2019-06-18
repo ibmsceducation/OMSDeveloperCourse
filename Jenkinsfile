@@ -4,7 +4,6 @@ pipeline {
       image 'mycluster.icp:8500/default/om-build:latest'
       args '-v /var/run/docker.sock:/var/run/docker.sock -v ${WORKSPACE}:/opt/ssfs/shared -u root -it'
     }
-
   }
   stages {
     stage('Install Extensions') {
@@ -25,6 +24,11 @@ pipeline {
         sh 'docker tag om-agent:extn_${BUILD_NUMBER} mycluster.icp:8500/default/om-agent:extn_${BUILD_NUMBER}'
         sh 'docker push mycluster.icp:8500/default/om-app:extn_${BUILD_NUMBER}'
         sh 'docker push mycluster.icp:8500/default/om-agent:extn_${BUILD_NUMBER}'
+      }
+    }
+    stage('Data migration') {
+      steps {
+        sh '/opt/ssfs/runtime/bin/cdtshell.sh -Source DEFAULTXMLDB -Target SYSTEMDB -DefaultXMLDir /opt/ssfs/shared/cdt'
       }
     }
   }

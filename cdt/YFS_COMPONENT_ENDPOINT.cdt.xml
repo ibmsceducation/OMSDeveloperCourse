@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_COMPONENT_ENDPOINTList TableName="YFS_COMPONENT_ENDPOINT" TotalNumberOfRecords="2">
+<ComponentEndpoint
+    ClassName="com.yantra.inv.endpoints.entity.rdbms.DemandRDBMSEntityWriteEndpoint"
+    ComponentEndpointKey="DemandWriteRDBMS"
+    ComponentName="YFS_INVENTORY_DEMAND" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    Enabled="Y" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" Purpose="WRITE"/>
+<ComponentEndpoint
+    ClassName="com.yantra.inv.endpoints.entity.rdbms.SupplyRDBMSEntityWriteEndpoint"
+    ComponentEndpointKey="SupplyWriteRDBMS"
+    ComponentName="YFS_INVENTORY_SUPPLY" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    Enabled="Y" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" Purpose="WRITE"/>
+</YFS_COMPONENT_ENDPOINTList>

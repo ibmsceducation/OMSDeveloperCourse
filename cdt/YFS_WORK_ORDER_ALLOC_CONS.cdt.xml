@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_WORK_ORDER_ALLOC_CONSList TableName="YFS_WORK_ORDER_ALLOC_CONS" TotalNumberOfRecords="4">
+<WorkOrderAllocCons ActualSupplyTypeConsumed="ONHAND"
+    ActualSupplyTypeCreated="ONHAND"
+    AllocationDemandTypeForConsumed="ALLOCATED"
+    AllocationSupplyTypeForCreated="WIP" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:04-04:00" Createuserid="SYSTEM"
+    DemandTypeForConsumed="OPEN_ORDER" DocumentType="7001" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:04-04:00"
+    Modifyuserid="SYSTEM" ServiceItemGroupCode="COMPL"
+    SupplyTypeForCreated="WO_PLACED" WorkOrderAllocConsKey="COMPL"/>
+<WorkOrderAllocCons ActualSupplyTypeConsumed="ONHAND"
+    ActualSupplyTypeCreated="ONHAND"
+    AllocationDemandTypeForConsumed="ALLOCATED"
+    AllocationSupplyTypeForCreated="WIP" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:04-04:00" Createuserid="SYSTEM"
+    DemandTypeForConsumed="OPEN_ORDER" DocumentType="7001" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:04-04:00"
+    Modifyuserid="SYSTEM" ServiceItemGroupCode="DKIT"
+    SupplyTypeForCreated="WO_PLACED" WorkOrderAllocConsKey="DKIT"/>
+<WorkOrderAllocCons ActualSupplyTypeConsumed="ONHAND"
+    ActualSupplyTypeCreated="ONHAND"
+    AllocationDemandTypeForConsumed="ALLOCATED"
+    AllocationSupplyTypeForCreated="WIP" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:04-04:00" Createuserid="SYSTEM"
+    DemandTypeForConsumed="OPEN_ORDER" DocumentType="7001" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:04-04:00"
+    Modifyuserid="SYSTEM" ServiceItemGroupCode="INVC"
+    SupplyTypeForCreated="WO_PLACED" WorkOrderAllocConsKey="INVC"/>
+<WorkOrderAllocCons ActualSupplyTypeConsumed="ONHAND"
+    ActualSupplyTypeCreated="ONHAND"
+    AllocationDemandTypeForConsumed="ALLOCATED"
+    AllocationSupplyTypeForCreated="WIP" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:04-04:00" Createuserid="SYSTEM"
+    DemandTypeForConsumed="OPEN_ORDER" DocumentType="7001" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:04-04:00"
+    Modifyuserid="SYSTEM" ServiceItemGroupCode="KIT"
+    SupplyTypeForCreated="WO_PLACED" WorkOrderAllocConsKey="KIT"/>
+</YFS_WORK_ORDER_ALLOC_CONSList>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_REGION_USAGEList TableName="YFS_REGION_USAGE" TotalNumberOfRecords="1">
+<RegionUsage Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:29-04:00" Createuserid="SYSTEM"
+    ItemGroupCode="PROD" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:29-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora" Purpose="ROUTING" RegionSchemaKey="ALL_US" RegionUsageKey="2011090705182953029"/>
+</YFS_REGION_USAGEList>

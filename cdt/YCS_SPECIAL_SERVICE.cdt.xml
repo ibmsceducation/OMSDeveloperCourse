@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YCS_SPECIAL_SERVICEList TableName="YCS_SPECIAL_SERVICE" TotalNumberOfRecords="15">
+<SpecialService Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Description="Contract Print Return Label" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:06-04:00"
+    Modifyuserid="SYSTEM" SpecialService="CONPRLBL" SpecialServiceKey="000000000000000000000001"/>
+<SpecialService Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Description="Declared Value Insurance" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:06-04:00"
+    Modifyuserid="SYSTEM" SpecialService="DECLVAL" SpecialServiceKey="000000000000000000000002"/>
+<SpecialService Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Description="Verbal Confirmation" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:06-04:00"
+    Modifyuserid="SYSTEM" SpecialService="VRBLCONF" SpecialServiceKey="000000000000000000000003"/>
+<SpecialService Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Description="Online Call Tag" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ONLCALLTAG" SpecialServiceKey="000000000000000000000004"/>
+<SpecialService Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Description="Ship Notification" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:06-04:00"
+    Modifyuserid="SYSTEM" SpecialService="SHPNTFY" SpecialServiceKey="000000000000000000000005"/>
+<SpecialService Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Description="Hold For PickUp" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="HLDFRPCKUP" SpecialServiceKey="000000000000000000000006"/>
+<SpecialService Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Description="Air Service Document" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:06-04:00"
+    Modifyuserid="SYSTEM" SpecialService="1ZASD" SpecialServiceKey="000000000000000000000007"/>
+<SpecialService Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Description="Collect on Delivery" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:06-04:00"
+    Modifyuserid="SYSTEM" SpecialService="1ZCOD" SpecialServiceKey="000000000000000000000008"/>
+<SpecialService Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Description="Adult Signature Required" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:06-04:00"
+    Modifyuserid="SYSTEM" SpecialService="ADULTSIGN" SpecialServiceKey="000000000000000000000009"/>
+<SpecialService Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Description="Air Service Document" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:06-04:00"
+    Modifyuserid="SYSTEM" SpecialService="ASD" SpecialServiceKey="000000000000000000000010"/>
+<SpecialService Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Description="Delivery Confirmation" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:06-04:00"
+    Modifyuserid="SYSTEM" SpecialService="DELCONF" SpecialServiceKey="000000000000000000000011"/>
+<SpecialService Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Description="Saturday Delivery" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:06-04:00"
+    Modifyuserid="SYSTEM" SpecialService="SATDELI" SpecialServiceKey="000000000000000000000012"/>
+<SpecialService Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Description="Signature Required" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:06-04:00"
+    Modifyuserid="SYSTEM" SpecialService="SIGNREQD" SpecialServiceKey="000000000000000000000013"/>
+<SpecialService Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Description="Standard Call Tag" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:06-04:00"
+    Modifyuserid="SYSTEM" SpecialService="STDCALLTAG" SpecialServiceKey="000000000000000000000014"/>
+<SpecialService Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Description="Tagless COD" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="TAGLESSCOD" SpecialServiceKey="000000000000000000000015"/>
+</YCS_SPECIAL_SERVICEList>

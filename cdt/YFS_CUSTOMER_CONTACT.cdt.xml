@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_CUSTOMER_CONTACTList TableName="YFS_CUSTOMER_CONTACT" TotalNumberOfRecords="2">
+<CustomerContact Company="" Createprogid="ISCCSSYS001"
+    Createts="2019-05-31T21:00:10-04:00" Createuserid="rwilliams"
+    CustomerContactID="100000000"
+    CustomerContactKey="2019053121001027681"
+    CustomerKey="2019053121001027680" DayFaxNo="" DayPhone=""
+    EmailID="mkofman@us.ibm.com" EveningFaxNo="" EveningPhone=""
+    FirstName="Miryam" LastName="Kofman" Lockid="0" MiddleName=""
+    MobilePhone="" Modifyprogid="ISCCSSYS001"
+    Modifyts="2019-05-31T21:00:10-04:00" Modifyuserid="rwilliams"
+    Status="10" Title="" UserID=""/>
+<CustomerContact Company="" Createprogid="ISCCSSYS001"
+    Createts="2019-05-31T21:20:56-04:00" Createuserid="admin"
+    CustomerContactID="100000001"
+    CustomerContactKey="2019053121205628149"
+    CustomerKey="2019053121205628148" DayFaxNo="" DayPhone=""
+    EmailID="miryam_kop@yahoo.com" EveningFaxNo="" EveningPhone=""
+    FirstName="Mir" LastName="Kap" Lockid="0" MiddleName=""
+    MobilePhone="" Modifyprogid="ISCCSSYS001"
+    Modifyts="2019-05-31T21:20:56-04:00" Modifyuserid="admin"
+    Status="10" Title="" UserID=""/>
+</YFS_CUSTOMER_CONTACTList>

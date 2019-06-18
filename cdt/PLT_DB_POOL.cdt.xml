@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PLT_DB_POOLList TableName="PLT_DB_POOL" TotalNumberOfRecords="5">
+<DBPool Createprogid="YSCPreInstallMetadataCreator"
+    Createts="2019-05-28T20:42:20-04:00" Createuserid="SYSTEM"
+    DbPoolKey="20190528204220503" Lockid="0"
+    Modifyprogid="YSCPreInstallMetadataCreator"
+    Modifyts="2019-05-28T20:42:20-04:00" Modifyuserid="SYSTEM"
+    PoolConfig="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;jdbc>&#xa;    &lt;param name=&quot;url&quot; value=&quot;jdbc:db2://db2server:50000/OMDB&quot;/>&#xa;    &lt;param name=&quot;user&quot; value=&quot;db2inst1&quot;/>&#xa;    &lt;param name=&quot;password&quot; value=&quot;diet4coke&quot;/>&#xa;    &lt;param name=&quot;driver&quot; value=&quot;com.ibm.db2.jcc.DB2Driver&quot;/>&#xa;    &lt;param name=&quot;schema&quot; value=&quot;OMDB&quot;/>&#xa;&lt;/jdbc>&#xa;" PoolId="DEFAULT_MASTER_100"/>
+<DBPool Createprogid="YSCPreInstallMetadataCreator"
+    Createts="2019-05-28T20:42:20-04:00" Createuserid="SYSTEM"
+    DbPoolKey="20190528204220505" Lockid="0"
+    Modifyprogid="YSCPreInstallMetadataCreator"
+    Modifyts="2019-05-28T20:42:20-04:00" Modifyuserid="SYSTEM"
+    PoolConfig="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;jdbc>&#xa;    &lt;param name=&quot;url&quot; value=&quot;jdbc:db2://db2server:50000/OMDB&quot;/>&#xa;    &lt;param name=&quot;user&quot; value=&quot;db2inst1&quot;/>&#xa;    &lt;param name=&quot;password&quot; value=&quot;diet4coke&quot;/>&#xa;    &lt;param name=&quot;driver&quot; value=&quot;com.ibm.db2.jcc.DB2Driver&quot;/>&#xa;    &lt;param name=&quot;schema&quot; value=&quot;OMDB&quot;/>&#xa;&lt;/jdbc>&#xa;" PoolId="DEFAULT_CONFIGURATION_100"/>
+<DBPool Createprogid="YSCPreInstallMetadataCreator"
+    Createts="2019-05-28T20:42:20-04:00" Createuserid="SYSTEM"
+    DbPoolKey="20190528204220507" Lockid="0"
+    Modifyprogid="YSCPreInstallMetadataCreator"
+    Modifyts="2019-05-28T20:42:20-04:00" Modifyuserid="SYSTEM"
+    PoolConfig="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;jdbc>&#xa;    &lt;param name=&quot;url&quot; value=&quot;jdbc:db2://db2server:50000/OMDB&quot;/>&#xa;    &lt;param name=&quot;user&quot; value=&quot;db2inst1&quot;/>&#xa;    &lt;param name=&quot;password&quot; value=&quot;diet4coke&quot;/>&#xa;    &lt;param name=&quot;driver&quot; value=&quot;com.ibm.db2.jcc.DB2Driver&quot;/>&#xa;    &lt;param name=&quot;schema&quot; value=&quot;OMDB&quot;/>&#xa;&lt;/jdbc>&#xa;" PoolId="DEFAULT_TRANSACTION_100"/>
+<DBPool Createprogid="YSCPreInstallMetadataCreator"
+    Createts="2019-05-28T20:42:20-04:00" Createuserid="SYSTEM"
+    DbPoolKey="20190528204220509" Lockid="0"
+    Modifyprogid="YSCPreInstallMetadataCreator"
+    Modifyts="2019-05-28T20:42:20-04:00" Modifyuserid="SYSTEM"
+    PoolConfig="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;jdbc>&#xa;    &lt;param name=&quot;url&quot; value=&quot;jdbc:db2://db2server:50000/OMDB&quot;/>&#xa;    &lt;param name=&quot;user&quot; value=&quot;db2inst1&quot;/>&#xa;    &lt;param name=&quot;password&quot; value=&quot;diet4coke&quot;/>&#xa;    &lt;param name=&quot;driver&quot; value=&quot;com.ibm.db2.jcc.DB2Driver&quot;/>&#xa;    &lt;param name=&quot;schema&quot; value=&quot;OMDB&quot;/>&#xa;&lt;/jdbc>&#xa;" PoolId="DEFAULT_STATISTICS_100"/>
+<DBPool Createprogid="YSCPreInstallMetadataCreator"
+    Createts="2019-05-28T20:42:20-04:00" Createuserid="SYSTEM"
+    DbPoolKey="20190528204220511" Lockid="0"
+    Modifyprogid="YSCPreInstallMetadataCreator"
+    Modifyts="2019-05-28T20:42:20-04:00" Modifyuserid="SYSTEM"
+    PoolConfig="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;jdbc>&#xa;    &lt;param name=&quot;url&quot; value=&quot;jdbc:db2://db2server:50000/OMDB&quot;/>&#xa;    &lt;param name=&quot;user&quot; value=&quot;db2inst1&quot;/>&#xa;    &lt;param name=&quot;password&quot; value=&quot;diet4coke&quot;/>&#xa;    &lt;param name=&quot;driver&quot; value=&quot;com.ibm.db2.jcc.DB2Driver&quot;/>&#xa;    &lt;param name=&quot;schema&quot; value=&quot;OMDB&quot;/>&#xa;&lt;/jdbc>&#xa;" PoolId="DEFAULT_METADATA"/>
+</PLT_DB_POOLList>

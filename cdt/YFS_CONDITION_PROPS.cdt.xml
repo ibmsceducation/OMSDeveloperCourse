@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_CONDITION_PROPSList TableName="YFS_CONDITION_PROPS" TotalNumberOfRecords="16">
+<ConditionProps ConditionKey="20070802084301341068"
+    ConditionPropsKey="2001863063861" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:28-04:00" Modifyuserid="SYSTEM"
+    Name="conditionType" Value="FIRST_CONDITION"/>
+<ConditionProps ConditionKey="20070802084847341073"
+    ConditionPropsKey="2001897189535" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:28-04:00" Modifyuserid="SYSTEM"
+    Name="conditionType" Value="NEXT_CONDITION"/>
+<ConditionProps ConditionKey="2007090717240881050"
+    ConditionPropsKey="200448884286" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:28-04:00" Modifyuserid="SYSTEM"
+    Name="conditionType" Value="INDEFINITE_CONDITION"/>
+<ConditionProps ConditionKey="20050512130818150649"
+    ConditionPropsKey="2005052315545041784" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:28-04:00" Modifyuserid="SYSTEM"
+    Name="AttributeToValidate" Value="/Order/@CustomerEMailID"/>
+<ConditionProps ConditionKey="2005052516031857001"
+    ConditionPropsKey="2005052516041257002" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:28-04:00" Modifyuserid="SYSTEM"
+    Name="AttributeToValidate" Value="/MonitorConsolidation/Order/@CustomerEMailID"/>
+<ConditionProps ConditionKey="2005061408080521543"
+    ConditionPropsKey="2005061408082321544" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:28-04:00" Modifyuserid="SYSTEM"
+    Name="AttributeToValidate" Value="//ModificationType/@Name[.='SHIPTO' or .='BILLTO']"/>
+<ConditionProps ConditionKey="200506231000364514"
+    ConditionPropsKey="200506231002244563" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:28-04:00" Modifyuserid="SYSTEM"
+    Name="AttributeToValidate" Value="//Order/@TransactionId[.='YCD_DUPLICATE_ORDER.0001']"/>
+<ConditionProps ConditionKey="200506231016004577"
+    ConditionPropsKey="200506231017344578" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:28-04:00" Modifyuserid="SYSTEM"
+    Name="AttributeToValidate" Value="//Order/@TransactionId[.='YCD_FRAUD_CHECK.0001']"/>
+<ConditionProps ConditionKey="2005070517550618890"
+    ConditionPropsKey="2005070517551318891" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:28-04:00" Modifyuserid="SYSTEM"
+    Name="AttributeToValidate" Value="//OrderAuditDetail/Attributes/Attribute/@ModificationType[.='SHIPTO']"/>
+<ConditionProps ConditionKey="2009010515582020955"
+    ConditionPropsKey="2009010709583929011" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:28-04:00" Modifyuserid="SYSTEM"
+    Name="AttributeToValidate" Value="/Order/CustomerContact/@EmailID"/>
+<ConditionProps ConditionKey="2009011515230874065"
+    ConditionPropsKey="2009011515251774068" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:28-04:00" Modifyuserid="SYSTEM"
+    Name="AttributeToValidate" Value="/Order/@To"/>
+<ConditionProps ConditionKey="2009031714444930988"
+    ConditionPropsKey="2009031714452030991" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:28-04:00" Modifyuserid="SYSTEM"
+    Name="AttributeToValidate" Value="/User/ContactPersonInfo/@EMailID"/>
+<ConditionProps ConditionKey="2013122012094555590"
+    ConditionPropsKey="2013122012145155597" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:28-04:00" Modifyuserid="SYSTEM"
+    Name="AttributeToValidate" Value="/Order/Notes/Note/@NoteType"/>
+<ConditionProps ConditionKey="2015112413175532780"
+    ConditionPropsKey="2015113015343545103" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:11-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:11-04:00" Modifyuserid="SYSTEM"
+    Name="AttributeToValidate" Value="//Order/@Status[.='Receipt Closed']"/>
+<ConditionProps ConditionKey="2015112413114432772"
+    ConditionPropsKey="2015113015582646086" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:11-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:11-04:00" Modifyuserid="SYSTEM"
+    Name="AttributeToValidate" Value="//Order/@Status[.='Shipped' or .='Order Delivered']"/>
+<ConditionProps ConditionKey="2015112413202232792"
+    ConditionPropsKey="2015113016004746125" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:11-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:11-04:00" Modifyuserid="SYSTEM"
+    Name="AttributeToValidate" Value="//Order/@Status[.='Received']"/>
+</YFS_CONDITION_PROPSList>

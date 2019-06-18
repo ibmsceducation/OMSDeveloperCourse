@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_CATEGORY_DOMAINList TableName="YFS_CATEGORY_DOMAIN" TotalNumberOfRecords="6">
+<CategoryDomain AttributeName=""
+    CategoryDomain="Aurora-CorpMasterCatalog"
+    CategoryDomainKey="201905282211171771" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:17-04:00" Createuserid="SYSTEM"
+    Description="Master Catalog for Aurora-Corp" IsClassification="N"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:17-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora-Corp" ShortDescription="Master Catalog"/>
+<CategoryDomain AttributeName=""
+    CategoryDomain="Aurora-CorpRefMasterCatalog"
+    CategoryDomainKey="Aurora-Corp_CD0" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:16:14-04:00" Createuserid="SYSTEM"
+    Description="Master Catalog for Aurora-Corp" IsClassification="N"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:16:14-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora-Corp" ShortDescription="Aurora-Corp Master Catalog"/>
+<CategoryDomain AttributeName="ProductLine" CategoryDomain="Display"
+    CategoryDomainKey="Aurora-Corp_CD1" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:12-04:00" Createuserid="SYSTEM"
+    Description="Display" IsClassification="Y" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:15:12-04:00"
+    Modifyuserid="SYSTEM" OrganizationCode="Aurora-Corp" ShortDescription="Display"/>
+<CategoryDomain AttributeName="ItemType"
+    CategoryDomain="Aurora-Corp-StyleItem"
+    CategoryDomainKey="Aurora-Corp_CD2" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:12-04:00" Createuserid="SYSTEM"
+    Description="Style Item Classification for - Aurora-Corp"
+    IsClassification="Y" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:12-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora-Corp" ShortDescription="Style Items"/>
+<CategoryDomain AttributeName="StorageType"
+    CategoryDomain="InventoryMonitor"
+    CategoryDomainKey="Aurora-Corp_CD3" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:12-04:00" Createuserid="SYSTEM"
+    Description="Inventory Monitor" IsClassification="Y" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:15:12-04:00"
+    Modifyuserid="SYSTEM" OrganizationCode="Aurora-Corp" ShortDescription="Inventory Monitor"/>
+<CategoryDomain AttributeName="" CategoryDomain="DEFAULTMasterCatalog"
+    CategoryDomainKey="DefaultMasterCatalog" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    Description="Master Catalog for DEFAULT" IsClassification="N"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" ShortDescription="Master Catalog"/>
+</YFS_CATEGORY_DOMAINList>

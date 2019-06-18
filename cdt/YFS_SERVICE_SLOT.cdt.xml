@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_SERVICE_SLOTList TableName="YFS_SERVICE_SLOT" TotalNumberOfRecords="4">
+<ServiceSlot CanUseForAppointment="Y" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:09-04:00" Createuserid="SYSTEM"
+    EndTime="12:00:00" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:12:09-04:00" Modifyuserid="SYSTEM"
+    ServiceSlotDesc="Morning" ServiceSlotGroupKey="Aurora_SSG1"
+    ServiceSlotKey="2001631415929" StartTime="08:00:00"/>
+<ServiceSlot CanUseForAppointment="Y" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:09-04:00" Createuserid="SYSTEM"
+    EndTime="17:00:00" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:12:09-04:00" Modifyuserid="SYSTEM"
+    ServiceSlotDesc="Afternoon" ServiceSlotGroupKey="Aurora_SSG1"
+    ServiceSlotKey="2001877851534" StartTime="13:00:00"/>
+<ServiceSlot CanUseForAppointment="Y" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:44-04:00" Createuserid="SYSTEM"
+    EndTime="17:00:00" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:44-04:00" Modifyuserid="SYSTEM"
+    ServiceSlotDesc="Afternoon" ServiceSlotGroupKey="Aurora-Corp_SSG1"
+    ServiceSlotKey="201341865585" StartTime="13:00:00"/>
+<ServiceSlot CanUseForAppointment="Y" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:44-04:00" Createuserid="SYSTEM"
+    EndTime="12:00:00" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:44-04:00" Modifyuserid="SYSTEM"
+    ServiceSlotDesc="Morning" ServiceSlotGroupKey="Aurora-Corp_SSG1"
+    ServiceSlotKey="201588301190" StartTime="08:00:00"/>
+</YFS_SERVICE_SLOTList>

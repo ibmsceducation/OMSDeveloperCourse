@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_INVENTORY_MONITOR_RULESList TableName="YFS_INVENTORY_MONITOR_RULES" TotalNumberOfRecords="1">
+<InventoryMonitorRules BeyondLeadTimeLevel1Action=""
+    BeyondLeadTimeLevel1Qty="0.00" BeyondLeadTimeLevel2Action=""
+    BeyondLeadTimeLevel2Qty="0.00" BeyondLeadTimeLevel3Action=""
+    BeyondLeadTimeLevel3Qty="0.00" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:29-04:00" Createuserid="SYSTEM"
+    DisableFlag="N" InventoryMonitorRule="Aurora_ATPM1"
+    InventoryMonitorRuleName="Aurora Default ATP Monitor"
+    InventoryMonitorRuleType="EVENT"
+    InventoryMonitorRulesKey="200737535500" LeadTimeLevel1Action=""
+    LeadTimeLevel1Qty="100.00" LeadTimeLevel2Action=""
+    LeadTimeLevel2Qty="10.00" LeadTimeLevel3Action=""
+    LeadTimeLevel3Qty="1.00" Lockid="0" MaxMonitorDays="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:15:29-04:00"
+    Modifyuserid="SYSTEM" OrganizationCode="Aurora"/>
+</YFS_INVENTORY_MONITOR_RULESList>

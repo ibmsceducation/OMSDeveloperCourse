@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_INVENTORY_CONSIDERATIONSList TableName="YFS_INVENTORY_CONSIDERATIONS" TotalNumberOfRecords="46">
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="OPEN_ORDER" InventoryConsiderationsKey="I1"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="ONHAND"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="OPEN_ORDER" InventoryConsiderationsKey="I10"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="FIRM_PLAN"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="RESERVED" InventoryConsiderationsKey="I11"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="FIRM_PLAN"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="OPEN_ORDER" InventoryConsiderationsKey="I12"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO_PLACED"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="RESERVED" InventoryConsiderationsKey="I13"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO_PLACED"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="RSRV_ORDER" InventoryConsiderationsKey="I14"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO_PLACED"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="BACKORDER" InventoryConsiderationsKey="I15"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO_PLACED"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="OPEN_ORDER" InventoryConsiderationsKey="I16"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO_RELEASED"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="RESERVED" InventoryConsiderationsKey="I17"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO_RELEASED"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="RSRV_ORDER" InventoryConsiderationsKey="I18"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO_RELEASED"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="BACKORDER" InventoryConsiderationsKey="I19"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO_RELEASED"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="OPEN_ORDER" InventoryConsiderationsKey="I2"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="OPEN_ORDER" InventoryConsiderationsKey="I20"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="INTRANSIT"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="RESERVED" InventoryConsiderationsKey="I21"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="INTRANSIT"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="RSRV_ORDER" InventoryConsiderationsKey="I22"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="INTRANSIT"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="BACKORDER" InventoryConsiderationsKey="I23"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="INTRANSIT"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="SCHEDULED" InventoryConsiderationsKey="I24"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="ONHAND"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="SCHEDULED" InventoryConsiderationsKey="I25"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="SCHEDULED" InventoryConsiderationsKey="I26"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO_RELEASED"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="SCHEDULED" InventoryConsiderationsKey="I27"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="INTRANSIT"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="SCHEDULED" InventoryConsiderationsKey="I28"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO_PLACED"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="ALLOCATED" InventoryConsiderationsKey="I29"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="ALLOCATED" InventoryConsiderationsKey="I3"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="ONHAND"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="ALLOCATED" InventoryConsiderationsKey="I30"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO_RELEASED"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="ALLOCATED" InventoryConsiderationsKey="I31"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="INTRANSIT"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="ALLOCATED" InventoryConsiderationsKey="I32"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO_PLACED"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="DEMAND_FOR_RELEASE" InventoryConsiderationsKey="I33"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="ONHAND"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="DEMAND_FOR_RELEASE" InventoryConsiderationsKey="I34"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="WIP"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="RSRV_ORDER" InventoryConsiderationsKey="I34_1"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PLANNED_TRANSFER"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="OPEN_ORDER" InventoryConsiderationsKey="I35"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO_SCHEDULED"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="RESERVED" InventoryConsiderationsKey="I36"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO_SCHEDULED"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="RSRV_ORDER" InventoryConsiderationsKey="I37"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO_SCHEDULED"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="BACKORDER" InventoryConsiderationsKey="I38"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO_SCHEDULED"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="ALLOCATED" InventoryConsiderationsKey="I39"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO_SCHEDULED"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="RESERVED" InventoryConsiderationsKey="I4"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="ONHAND"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="SCHEDULED" InventoryConsiderationsKey="I40"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO_SCHEDULED"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="SCHEDULED" InventoryConsiderationsKey="I41"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="WIP"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="SCHEDULED" InventoryConsiderationsKey="I42"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PLANNED_TRANSFER"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="RESERVED" InventoryConsiderationsKey="I5"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="RSRV_ORDER" InventoryConsiderationsKey="I6"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="ONHAND"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="RSRV_ORDER" InventoryConsiderationsKey="I7"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="BACKORDER" InventoryConsiderationsKey="I8"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="ONHAND"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="BACKORDER" InventoryConsiderationsKey="I9"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="PO"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="RESERVED" InventoryConsiderationsKey="IBA_RESERVED"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="IBA_SUPPLY"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="RSRV_ORDER" InventoryConsiderationsKey="IBA_RSRV_ORDER"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="IBA_SUPPLY"/>
+<InventoryConsiderations Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    DemandType="SCHEDULED" InventoryConsiderationsKey="IBA_SCHEDULED"
+    InventoryOperation="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM" SupplyType="IBA_SUPPLY"/>
+</YFS_INVENTORY_CONSIDERATIONSList>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_RECEIVING_PREFERENCEList TableName="YFS_RECEIVING_PREFERENCE" TotalNumberOfRecords="1">
+<ReceivingPreference CaseContentEntryRequired=""
+    Createprogid="XMLMigrator" Createts="2019-05-28T22:15:11-04:00"
+    Createuserid="SYSTEM" CustomerClassification="" DocumentType="0003"
+    EnterpriseOrgCode="Aurora-Corp" ItemClassification="" ItemID=""
+    LineType="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:11-04:00" Modifyuserid="SYSTEM"
+    OverReceiptPercentage="50.00" QCPercentage="0.00" QCRequired="N"
+    ReceivingPreferenceKey="20288594034" SellerOrganizationCode="" VendorClassification=""/>
+</YFS_RECEIVING_PREFERENCEList>

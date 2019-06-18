@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_NODE_NOTIFICATION_PERDList TableName="YFS_NODE_NOTIFICATION_PERD" TotalNumberOfRecords="14">
+<NodeNotificationPeriod CreateProgId="XMLMigrator" CreateUserId="SYSTEM"
+    Createts="2019-05-28T22:11:17-04:00" Lockid="0"
+    ModifyProgId="XMLMigrator" ModifyUserId="SYSTEM"
+    Modifyts="2019-05-28T22:11:17-04:00"
+    NodeNotificationPeriodKey="201905282211171783" OrganizationCode="Aurora_WH1"/>
+<NodeNotificationPeriod CreateProgId="XMLMigrator" CreateUserId="SYSTEM"
+    Createts="2019-05-28T22:11:17-04:00" Lockid="0"
+    ModifyProgId="XMLMigrator" ModifyUserId="SYSTEM"
+    Modifyts="2019-05-28T22:11:17-04:00"
+    NodeNotificationPeriodKey="201905282211171792" OrganizationCode="Aurora_WH2"/>
+<NodeNotificationPeriod CreateProgId="XMLMigrator" CreateUserId="SYSTEM"
+    Createts="2019-05-28T22:11:17-04:00" Lockid="0"
+    ModifyProgId="XMLMigrator" ModifyUserId="SYSTEM"
+    Modifyts="2019-05-28T22:11:17-04:00"
+    NodeNotificationPeriodKey="201905282211171801" OrganizationCode="Aurora_WH4"/>
+<NodeNotificationPeriod CreateProgId="XMLMigrator" CreateUserId="SYSTEM"
+    Createts="2019-05-28T22:11:18-04:00" Lockid="0"
+    ModifyProgId="XMLMigrator" ModifyUserId="SYSTEM"
+    Modifyts="2019-05-28T22:11:18-04:00"
+    NodeNotificationPeriodKey="201905282211181810" OrganizationCode="Aurora_WH3"/>
+<NodeNotificationPeriod CreateProgId="XMLMigrator" CreateUserId="SYSTEM"
+    Createts="2019-05-28T22:11:18-04:00" Lockid="0"
+    ModifyProgId="XMLMigrator" ModifyUserId="SYSTEM"
+    Modifyts="2019-05-28T22:11:18-04:00"
+    NodeNotificationPeriodKey="201905282211181819" OrganizationCode="Auro_Store_1"/>
+<NodeNotificationPeriod CreateProgId="XMLMigrator" CreateUserId="SYSTEM"
+    Createts="2019-05-28T22:11:18-04:00" Lockid="0"
+    ModifyProgId="XMLMigrator" ModifyUserId="SYSTEM"
+    Modifyts="2019-05-28T22:11:18-04:00"
+    NodeNotificationPeriodKey="201905282211181828" OrganizationCode="Auro_Store_2"/>
+<NodeNotificationPeriod CreateProgId="XMLMigrator" CreateUserId="SYSTEM"
+    Createts="2019-05-28T22:11:18-04:00" Lockid="0"
+    ModifyProgId="XMLMigrator" ModifyUserId="SYSTEM"
+    Modifyts="2019-05-28T22:11:18-04:00"
+    NodeNotificationPeriodKey="201905282211181837" OrganizationCode="Auro_Store_3"/>
+<NodeNotificationPeriod CreateProgId="XMLMigrator" CreateUserId="SYSTEM"
+    Createts="2019-05-28T22:11:18-04:00" Lockid="0"
+    ModifyProgId="XMLMigrator" ModifyUserId="SYSTEM"
+    Modifyts="2019-05-28T22:11:18-04:00"
+    NodeNotificationPeriodKey="201905282211181846" OrganizationCode="Auro_Store_4"/>
+<NodeNotificationPeriod CreateProgId="XMLMigrator" CreateUserId="SYSTEM"
+    Createts="2019-05-28T22:11:18-04:00" Lockid="0"
+    ModifyProgId="XMLMigrator" ModifyUserId="SYSTEM"
+    Modifyts="2019-05-28T22:11:18-04:00"
+    NodeNotificationPeriodKey="201905282211181855" OrganizationCode="Auro_Store_5"/>
+<NodeNotificationPeriod CreateProgId="XMLMigrator" CreateUserId="SYSTEM"
+    Createts="2019-05-28T22:11:18-04:00" Lockid="0"
+    ModifyProgId="XMLMigrator" ModifyUserId="SYSTEM"
+    Modifyts="2019-05-28T22:11:18-04:00"
+    NodeNotificationPeriodKey="201905282211181864" OrganizationCode="Auro_Store_6"/>
+<NodeNotificationPeriod CreateProgId="XMLMigrator" CreateUserId="SYSTEM"
+    Createts="2019-05-28T22:11:18-04:00" Lockid="0"
+    ModifyProgId="XMLMigrator" ModifyUserId="SYSTEM"
+    Modifyts="2019-05-28T22:11:18-04:00"
+    NodeNotificationPeriodKey="201905282211181873" OrganizationCode="Auro_Store_7"/>
+<NodeNotificationPeriod CreateProgId="XMLMigrator" CreateUserId="SYSTEM"
+    Createts="2019-05-28T22:11:18-04:00" Lockid="0"
+    ModifyProgId="XMLMigrator" ModifyUserId="SYSTEM"
+    Modifyts="2019-05-28T22:11:18-04:00"
+    NodeNotificationPeriodKey="201905282211181882" OrganizationCode="Auro_Store_8"/>
+<NodeNotificationPeriod CreateProgId="XMLMigrator" CreateUserId="SYSTEM"
+    Createts="2019-05-28T22:11:18-04:00" Lockid="0"
+    ModifyProgId="XMLMigrator" ModifyUserId="SYSTEM"
+    Modifyts="2019-05-28T22:11:18-04:00"
+    NodeNotificationPeriodKey="201905282211181891" OrganizationCode="Auro_Store_9"/>
+<NodeNotificationPeriod CreateProgId="XMLMigrator" CreateUserId="SYSTEM"
+    Createts="2019-05-28T22:11:18-04:00" Lockid="0"
+    ModifyProgId="XMLMigrator" ModifyUserId="SYSTEM"
+    Modifyts="2019-05-28T22:11:18-04:00"
+    NodeNotificationPeriodKey="201905282211181900" OrganizationCode="Auro_Store_10"/>
+</YFS_NODE_NOTIFICATION_PERDList>

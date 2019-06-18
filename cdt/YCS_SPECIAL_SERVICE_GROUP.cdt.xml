@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YCS_SPECIAL_SERVICE_GROUPList TableName="YCS_SPECIAL_SERVICE_GROUP" TotalNumberOfRecords="112">
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="A2" SpecialServiceGroupKey="000000000000000000000001"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="A3" SpecialServiceGroupKey="000000000000000000000002"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="AC" SpecialServiceGroupKey="000000000000000000000003"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="AD" SpecialServiceGroupKey="000000000000000000000004"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="24" SpecialServiceGroupKey="000000000000000000000005"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="25" SpecialServiceGroupKey="000000000000000000000006"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="47" SpecialServiceGroupKey="000000000000000000000007"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="58" SpecialServiceGroupKey="000000000000000000000008"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="A6" SpecialServiceGroupKey="000000000000000000000009"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="AG" SpecialServiceGroupKey="000000000000000000000010"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="35" SpecialServiceGroupKey="000000000000000000000011"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="36" SpecialServiceGroupKey="000000000000000000000012"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="A8" SpecialServiceGroupKey="000000000000000000000013"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="AJ" SpecialServiceGroupKey="000000000000000000000014"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="42" SpecialServiceGroupKey="000000000000000000000015"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="43" SpecialServiceGroupKey="000000000000000000000016"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="A7" SpecialServiceGroupKey="000000000000000000000017"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="AH" SpecialServiceGroupKey="000000000000000000000018"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="39" SpecialServiceGroupKey="000000000000000000000019"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="40" SpecialServiceGroupKey="000000000000000000000020"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="A4" SpecialServiceGroupKey="000000000000000000000021"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="AE" SpecialServiceGroupKey="000000000000000000000022"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="29" SpecialServiceGroupKey="000000000000000000000023"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="30" SpecialServiceGroupKey="000000000000000000000024"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="A0" SpecialServiceGroupKey="000000000000000000000025"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="A1" SpecialServiceGroupKey="000000000000000000000026"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="A9" SpecialServiceGroupKey="000000000000000000000027"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="AA" SpecialServiceGroupKey="000000000000000000000028"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="A5" SpecialServiceGroupKey="000000000000000000000029"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="AF" SpecialServiceGroupKey="000000000000000000000030"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="18" SpecialServiceGroupKey="000000000000000000000031"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="DELCONF" SpecialServiceGroup="19" SpecialServiceGroupKey="000000000000000000000032"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ADULTSIGN" SpecialServiceGroup="A2" SpecialServiceGroupKey="000000000000000000000033"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ADULTSIGN" SpecialServiceGroup="A3" SpecialServiceGroupKey="000000000000000000000034"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ADULTSIGN" SpecialServiceGroup="AC" SpecialServiceGroupKey="000000000000000000000035"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ADULTSIGN" SpecialServiceGroup="AD" SpecialServiceGroupKey="000000000000000000000036"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ADULTSIGN" SpecialServiceGroup="A6" SpecialServiceGroupKey="000000000000000000000037"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ADULTSIGN" SpecialServiceGroup="AG" SpecialServiceGroupKey="000000000000000000000038"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ADULTSIGN" SpecialServiceGroup="A8" SpecialServiceGroupKey="000000000000000000000039"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ADULTSIGN" SpecialServiceGroup="AJ" SpecialServiceGroupKey="000000000000000000000040"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ADULTSIGN" SpecialServiceGroup="A7" SpecialServiceGroupKey="000000000000000000000041"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ADULTSIGN" SpecialServiceGroup="AH" SpecialServiceGroupKey="000000000000000000000042"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ADULTSIGN" SpecialServiceGroup="A4" SpecialServiceGroupKey="000000000000000000000043"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ADULTSIGN" SpecialServiceGroup="AE" SpecialServiceGroupKey="000000000000000000000044"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ADULTSIGN" SpecialServiceGroup="A0" SpecialServiceGroupKey="000000000000000000000045"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ADULTSIGN" SpecialServiceGroup="A1" SpecialServiceGroupKey="000000000000000000000046"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ADULTSIGN" SpecialServiceGroup="A9" SpecialServiceGroupKey="000000000000000000000047"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ADULTSIGN" SpecialServiceGroup="AA" SpecialServiceGroupKey="000000000000000000000048"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ADULTSIGN" SpecialServiceGroup="A5" SpecialServiceGroupKey="000000000000000000000049"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ADULTSIGN" SpecialServiceGroup="AF" SpecialServiceGroupKey="000000000000000000000050"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SATDELI" SpecialServiceGroup="A3" SpecialServiceGroupKey="000000000000000000000051"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SATDELI" SpecialServiceGroup="AD" SpecialServiceGroupKey="000000000000000000000052"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SATDELI" SpecialServiceGroup="44" SpecialServiceGroupKey="000000000000000000000053"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SATDELI" SpecialServiceGroup="47" SpecialServiceGroupKey="000000000000000000000054"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SATDELI" SpecialServiceGroup="58" SpecialServiceGroupKey="000000000000000000000055"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SATDELI" SpecialServiceGroup="60" SpecialServiceGroupKey="000000000000000000000056"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SATDELI" SpecialServiceGroup="69" SpecialServiceGroupKey="000000000000000000000057"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SATDELI" SpecialServiceGroup="76" SpecialServiceGroupKey="000000000000000000000058"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SATDELI" SpecialServiceGroup="A1" SpecialServiceGroupKey="000000000000000000000059"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SATDELI" SpecialServiceGroup="AA" SpecialServiceGroupKey="000000000000000000000060"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SATDELI" SpecialServiceGroup="33" SpecialServiceGroupKey="000000000000000000000061"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SATDELI" SpecialServiceGroup="41" SpecialServiceGroupKey="000000000000000000000062"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SATDELI" SpecialServiceGroup="34" SpecialServiceGroupKey="000000000000000000000063"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="1ZCOD" SpecialServiceGroup="AC" SpecialServiceGroupKey="000000000000000000000064"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="1ZCOD" SpecialServiceGroup="AD" SpecialServiceGroupKey="000000000000000000000065"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="1ZCOD" SpecialServiceGroup="AG" SpecialServiceGroupKey="000000000000000000000066"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="1ZCOD" SpecialServiceGroup="AJ" SpecialServiceGroupKey="000000000000000000000067"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="1ZCOD" SpecialServiceGroup="75" SpecialServiceGroupKey="000000000000000000000068"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="1ZCOD" SpecialServiceGroup="76" SpecialServiceGroupKey="000000000000000000000069"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="1ZCOD" SpecialServiceGroup="79" SpecialServiceGroupKey="000000000000000000000070"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="1ZCOD" SpecialServiceGroup="AH" SpecialServiceGroupKey="000000000000000000000071"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="1ZCOD" SpecialServiceGroup="AE" SpecialServiceGroupKey="000000000000000000000072"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="1ZCOD" SpecialServiceGroup="A9" SpecialServiceGroupKey="000000000000000000000073"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="1ZCOD" SpecialServiceGroup="AA" SpecialServiceGroupKey="000000000000000000000074"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="1ZCOD" SpecialServiceGroup="73" SpecialServiceGroupKey="000000000000000000000075"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="1ZCOD" SpecialServiceGroup="AF" SpecialServiceGroupKey="000000000000000000000076"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="1ZCOD" SpecialServiceGroup="77" SpecialServiceGroupKey="000000000000000000000077"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="1ZASD" SpecialServiceGroup="22" SpecialServiceGroupKey="000000000000000000000078"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="1ZASD" SpecialServiceGroup="23" SpecialServiceGroupKey="000000000000000000000079"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="1ZASD" SpecialServiceGroup="21" SpecialServiceGroupKey="000000000000000000000080"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="1ZASD" SpecialServiceGroup="31" SpecialServiceGroupKey="000000000000000000000081"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SIGNREQD" SpecialServiceGroup="24" SpecialServiceGroupKey="000000000000000000000082"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SIGNREQD" SpecialServiceGroup="58" SpecialServiceGroupKey="000000000000000000000083"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SIGNREQD" SpecialServiceGroup="35" SpecialServiceGroupKey="000000000000000000000084"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SIGNREQD" SpecialServiceGroup="42" SpecialServiceGroupKey="000000000000000000000085"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SIGNREQD" SpecialServiceGroup="39" SpecialServiceGroupKey="000000000000000000000086"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SIGNREQD" SpecialServiceGroup="29" SpecialServiceGroupKey="000000000000000000000087"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="SIGNREQD" SpecialServiceGroup="19" SpecialServiceGroupKey="000000000000000000000088"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ONLCALLTAG" SpecialServiceGroup="28" SpecialServiceGroupKey="000000000000000000000089"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ONLCALLTAG" SpecialServiceGroup="52" SpecialServiceGroupKey="000000000000000000000090"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ONLCALLTAG" SpecialServiceGroup="26" SpecialServiceGroupKey="000000000000000000000091"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ONLCALLTAG" SpecialServiceGroup="92" SpecialServiceGroupKey="000000000000000000000092"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ONLCALLTAG" SpecialServiceGroup="94" SpecialServiceGroupKey="000000000000000000000093"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ONLCALLTAG" SpecialServiceGroup="95" SpecialServiceGroupKey="000000000000000000000094"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ONLCALLTAG" SpecialServiceGroup="50" SpecialServiceGroupKey="000000000000000000000095"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ONLCALLTAG" SpecialServiceGroup="93" SpecialServiceGroupKey="000000000000000000000096"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="TAGLESSCOD" SpecialServiceGroup="59" SpecialServiceGroupKey="000000000000000000000097"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="TAGLESSCOD" SpecialServiceGroup="60" SpecialServiceGroupKey="000000000000000000000098"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="TAGLESSCOD" SpecialServiceGroup="70" SpecialServiceGroupKey="000000000000000000000099"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="TAGLESSCOD" SpecialServiceGroup="72" SpecialServiceGroupKey="000000000000000000000100"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="TAGLESSCOD" SpecialServiceGroup="71" SpecialServiceGroupKey="000000000000000000000101"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="TAGLESSCOD" SpecialServiceGroup="62" SpecialServiceGroupKey="000000000000000000000102"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="TAGLESSCOD" SpecialServiceGroup="32" SpecialServiceGroupKey="000000000000000000000103"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="TAGLESSCOD" SpecialServiceGroup="33" SpecialServiceGroupKey="000000000000000000000104"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="TAGLESSCOD" SpecialServiceGroup="65" SpecialServiceGroupKey="000000000000000000000105"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="ASD" SpecialServiceGroup="37" SpecialServiceGroupKey="000000000000000000000106"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="STDCALLTAG" SpecialServiceGroup="51" SpecialServiceGroupKey="000000000000000000000107"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="TAGLESSCOD" SpecialServiceGroup="00" SpecialServiceGroupKey="000000000000000000000108"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="CONPRLBL" SpecialServiceGroup="27" SpecialServiceGroupKey="000000000000000000000109"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="CONPRLBL" SpecialServiceGroup="38" SpecialServiceGroupKey="000000000000000000000110"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="CONPRLBL" SpecialServiceGroup="06" SpecialServiceGroupKey="000000000000000000000111"/>
+<SpecialServiceGroup Carrier="UPSN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:06-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:06-04:00" Modifyuserid="SYSTEM"
+    SpecialService="CONPRLBL" SpecialServiceGroup="57" SpecialServiceGroupKey="000000000000000000000112"/>
+</YCS_SPECIAL_SERVICE_GROUPList>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_ASSC_RELATIONSHIPList TableName="YFS_ASSC_RELATIONSHIP" TotalNumberOfRecords="2">
+<AsscRelationship AsscRelationshipKey="Aurora-Corp_AR-1"
+    AssociationType="CrossSell" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:43-04:00" Createuserid="SYSTEM"
+    EnterpriseCode="Aurora-Corp" Function="RELATE"
+    InventoryChkRequired="N" Lockid="0" MaxNumberToShow="5"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:43-04:00"
+    Modifyuserid="SYSTEM" RelationshipType="LineAccessory" ShowInUI="Y" ShowInWCUI="N"/>
+<AsscRelationship AsscRelationshipKey="Aurora_AR-1"
+    AssociationType="CrossSell" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:09-04:00" Createuserid="SYSTEM"
+    EnterpriseCode="Aurora" Function="RELATE" InventoryChkRequired="N"
+    Lockid="0" MaxNumberToShow="5" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:12:09-04:00" Modifyuserid="SYSTEM"
+    RelationshipType="LineAccessory" ShowInUI="Y" ShowInWCUI="N"/>
+</YFS_ASSC_RELATIONSHIPList>

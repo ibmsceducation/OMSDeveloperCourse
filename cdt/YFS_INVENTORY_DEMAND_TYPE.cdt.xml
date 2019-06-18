@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_INVENTORY_DEMAND_TYPEList TableName="YFS_INVENTORY_DEMAND_TYPE" TotalNumberOfRecords="10">
+<InventoryDemandType AllocatedDemand="Y" CommunicatedDemand="N"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:48-04:00"
+    Createuserid="SYSTEM" DemandType="ALLOCATED" Description="Allocated"
+    InventoryDemandTypeKey="ALLOCATED" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:48-04:00"
+    Modifyuserid="SYSTEM" Priority="1.00" PromisedDemand="Y" SystemDefined="Y"/>
+<InventoryDemandType AllocatedDemand="N" CommunicatedDemand="N"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:48-04:00"
+    Createuserid="SYSTEM" DemandType="BACKORDER" Description="Backorder"
+    InventoryDemandTypeKey="BACKORDER" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:48-04:00"
+    Modifyuserid="SYSTEM" Priority="3.00" PromisedDemand="N" SystemDefined="Y"/>
+<InventoryDemandType AllocatedDemand="Y" CommunicatedDemand="N"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:48-04:00"
+    Createuserid="SYSTEM" DemandType="DEMAND_FOR_RELEASE"
+    Description="Demand to look for during release"
+    InventoryDemandTypeKey="DEMAND_FOR_RELEASE" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:48-04:00"
+    Modifyuserid="SYSTEM" Priority="1.00" PromisedDemand="Y" SystemDefined="Y"/>
+<InventoryDemandType AllocatedDemand="N" CommunicatedDemand="N"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:48-04:00"
+    Createuserid="SYSTEM" DemandType="FIRM_FORECAST"
+    Description="Firm Forecast" InventoryDemandTypeKey="FIRM_FORECAST"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM"
+    Priority="3.00" PromisedDemand="N" SystemDefined="Y"/>
+<InventoryDemandType AllocatedDemand="N" CommunicatedDemand="N"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:48-04:00"
+    Createuserid="SYSTEM" DemandType="FORECAST" Description="Forecast"
+    InventoryDemandTypeKey="FORECAST" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:48-04:00"
+    Modifyuserid="SYSTEM" Priority="3.00" PromisedDemand="N" SystemDefined="Y"/>
+<InventoryDemandType AllocatedDemand="N" CommunicatedDemand="N"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:48-04:00"
+    Createuserid="SYSTEM" DemandType="FORECAST_NEGOTIATED"
+    Description="Forecast Negotiated"
+    InventoryDemandTypeKey="FORECAST_NEGOTIATED" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:48-04:00"
+    Modifyuserid="SYSTEM" Priority="3.00" PromisedDemand="N" SystemDefined="Y"/>
+<InventoryDemandType AllocatedDemand="N" CommunicatedDemand="N"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:48-04:00"
+    Createuserid="SYSTEM" DemandType="OPEN_ORDER"
+    Description="Open Order" InventoryDemandTypeKey="OPEN_ORDER"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM"
+    Priority="3.00" PromisedDemand="N" SystemDefined="Y"/>
+<InventoryDemandType AllocatedDemand="N" CommunicatedDemand="N"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:48-04:00"
+    Createuserid="SYSTEM" DemandType="RESERVED" Description="Reserved"
+    InventoryDemandTypeKey="RESERVED" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:48-04:00"
+    Modifyuserid="SYSTEM" Priority="2.00" PromisedDemand="Y" SystemDefined="Y"/>
+<InventoryDemandType AllocatedDemand="N" CommunicatedDemand="N"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:48-04:00"
+    Createuserid="SYSTEM" DemandType="RSRV_ORDER"
+    Description="Reserved Order" InventoryDemandTypeKey="RSRV_ORDER"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM"
+    Priority="2.00" PromisedDemand="Y" SystemDefined="Y"/>
+<InventoryDemandType AllocatedDemand="N" CommunicatedDemand="N"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:48-04:00"
+    Createuserid="SYSTEM" DemandType="SCHEDULED" Description="Scheduled"
+    InventoryDemandTypeKey="SCHEDULED" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:48-04:00"
+    Modifyuserid="SYSTEM" Priority="2.00" PromisedDemand="Y" SystemDefined="Y"/>
+</YFS_INVENTORY_DEMAND_TYPEList>

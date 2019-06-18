@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_SPECIAL_SERVICESList TableName="YFS_SPECIAL_SERVICES" TotalNumberOfRecords="12">
+<SpecialServices Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:43-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:43-04:00" Modifyuserid="SYSTEM"
+    SpecialServicesCode="SIGNREQD"
+    SpecialServicesDescription="Signature Required" SpecialServicesKey="2001095618974"/>
+<SpecialServices Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:43-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:43-04:00" Modifyuserid="SYSTEM"
+    SpecialServicesCode="TAGLESSCOD"
+    SpecialServicesDescription="Tagless COD" SpecialServicesKey="2001378822076"/>
+<SpecialServices Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:43-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:43-04:00" Modifyuserid="SYSTEM"
+    SpecialServicesCode="SATPICKUP"
+    SpecialServicesDescription="Saturday Pickup" SpecialServicesKey="2001960502781"/>
+<SpecialServices Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:43-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:43-04:00" Modifyuserid="SYSTEM"
+    SpecialServicesCode="ADULTSIGN"
+    SpecialServicesDescription="Adult Signature Required" SpecialServicesKey="2002068977000"/>
+<SpecialServices Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:43-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:43-04:00" Modifyuserid="SYSTEM"
+    SpecialServicesCode="SHPNTFY"
+    SpecialServicesDescription="Ship Notification" SpecialServicesKey="200332752715"/>
+<SpecialServices Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:43-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:43-04:00" Modifyuserid="SYSTEM"
+    SpecialServicesCode="INDSIGN"
+    SpecialServicesDescription="Indirect Signature Required" SpecialServicesKey="200457023875"/>
+<SpecialServices Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:43-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:43-04:00" Modifyuserid="SYSTEM"
+    SpecialServicesCode="SATDELI"
+    SpecialServicesDescription="Saturday Delivery" SpecialServicesKey="200529774843"/>
+<SpecialServices Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:43-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:43-04:00" Modifyuserid="SYSTEM"
+    SpecialServicesCode="COD"
+    SpecialServicesDescription="Collect On Delivery" SpecialServicesKey="20079834535"/>
+<SpecialServices Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:43-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:43-04:00" Modifyuserid="SYSTEM"
+    SpecialServicesCode="DELCONF"
+    SpecialServicesDescription="Delivery Confirmation" SpecialServicesKey="200850319856"/>
+<SpecialServices Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:43-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:43-04:00" Modifyuserid="SYSTEM"
+    SpecialServicesCode="DECLVAL"
+    SpecialServicesDescription="Declared Value Insurance" SpecialServicesKey="200858357096"/>
+<SpecialServices Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:43-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:43-04:00" Modifyuserid="SYSTEM"
+    SpecialServicesCode="RETSHIPLABEL"
+    SpecialServicesDescription="Return Shipping Label Required" SpecialServicesKey="201489257174"/>
+<SpecialServices Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:43-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:43-04:00" Modifyuserid="SYSTEM"
+    SpecialServicesCode="SHIPALERT"
+    SpecialServicesDescription="Ship Alert Notification for Shipper" SpecialServicesKey="20469503169"/>
+</YFS_SPECIAL_SERVICESList>

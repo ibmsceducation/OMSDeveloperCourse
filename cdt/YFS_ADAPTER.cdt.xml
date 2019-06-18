@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_ADAPTERList TableName="YFS_ADAPTER" TotalNumberOfRecords="1">
+<Adapter AdapterDescription="Sterling Integrator"
+    AdapterKey="SterlingGIS" AdapterName="SterlingGIS"
+    AdapterResourceId="YCPAF003"
+    ClassName="com.yantra.interop.services.adapter.SterlingGISAdapter"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:41-04:00"
+    Createuserid="SYSTEM" Icon="/com/yantra/ycp/ui/icons/adapter.gif"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:41-04:00" Modifyuserid="SYSTEM"/>
+</YFS_ADAPTERList>

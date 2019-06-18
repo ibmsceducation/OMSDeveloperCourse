@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_BUSINESS_DOCUMENTList TableName="YFS_BUSINESS_DOCUMENT" TotalNumberOfRecords="9">
+<BusinessDocument BusinessDocumentKey="2001101211154612043"
+    Createprogid="SYSTEM" Createts="2019-05-28T20:42:39-04:00"
+    Createuserid="SYSTEM" DocumentDescription="Advance Ship Notice"
+    DocumentId="AdvanceShipNotice" DocumentName="Advance Ship Notice"
+    Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:39-04:00" Modifyuserid="SYSTEM"/>
+<BusinessDocument BusinessDocumentKey="2001101211174812045"
+    Createprogid="SYSTEM" Createts="2019-05-28T20:42:39-04:00"
+    Createuserid="SYSTEM" DocumentDescription="Inventory Advice"
+    DocumentId="InventoryAdvice" DocumentName="Inventory Advice"
+    Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:39-04:00" Modifyuserid="SYSTEM"/>
+<BusinessDocument BusinessDocumentKey="2001101211181112046"
+    Createprogid="SYSTEM" Createts="2019-05-28T20:42:39-04:00"
+    Createuserid="SYSTEM" DocumentDescription="Purchase Order"
+    DocumentId="PurchaseOrder" DocumentName="Purchase Order" Lockid="0"
+    Modifyprogid=".YEntityServlet" Modifyts="2019-05-28T20:42:39-04:00" Modifyuserid="admin"/>
+<BusinessDocument BusinessDocumentKey="2001101211211412047"
+    Createprogid="SYSTEM" Createts="2019-05-28T20:42:39-04:00"
+    Createuserid="SYSTEM"
+    DocumentDescription="Purchase Order Acknowledgment"
+    DocumentId="POAcknowledgment"
+    DocumentName="Purchase Order Acknowledgment" Lockid="0"
+    Modifyprogid="SYSTEM" Modifyts="2019-05-28T20:42:39-04:00" Modifyuserid="SYSTEM"/>
+<BusinessDocument BusinessDocumentKey="2001101211223212048"
+    Createprogid="SYSTEM" Createts="2019-05-28T20:42:39-04:00"
+    Createuserid="SYSTEM" DocumentDescription="PO Change Request"
+    DocumentId="POChangeRequest" DocumentName="PO Change Request"
+    Lockid="0" Modifyprogid=".YEntityServlet"
+    Modifyts="2019-05-28T20:42:39-04:00" Modifyuserid="admin"/>
+<BusinessDocument BusinessDocumentKey="2001101211245612049"
+    Createprogid="SYSTEM" Createts="2019-05-28T20:42:39-04:00"
+    Createuserid="SYSTEM" DocumentDescription="PO Change Acknowledgment"
+    DocumentId="POChangeAcknowledge"
+    DocumentName="PO Change Acknowledgment" Lockid="0"
+    Modifyprogid=".YEntityServlet" Modifyts="2019-05-28T20:42:39-04:00" Modifyuserid="admin"/>
+<BusinessDocument BusinessDocumentKey="2001101211252512050"
+    Createprogid="SYSTEM" Createts="2019-05-28T20:42:39-04:00"
+    Createuserid="SYSTEM" DocumentDescription="Order Status Report"
+    DocumentId="OrderStatusReport" DocumentName="Order Status Report"
+    Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:39-04:00" Modifyuserid="SYSTEM"/>
+<BusinessDocument BusinessDocumentKey="2001101511552212536"
+    Createprogid=".YEntityServlet" Createts="2019-05-28T20:42:39-04:00"
+    Createuserid="admin" DocumentDescription="Invoice"
+    DocumentId="Invoice" DocumentName="Invoice" Lockid="0"
+    Modifyprogid=".YEntityServlet" Modifyts="2019-05-28T20:42:39-04:00" Modifyuserid="admin"/>
+<BusinessDocument BusinessDocumentKey="2001101611003512951"
+    Createprogid=".YEntityServlet" Createts="2019-05-28T20:42:39-04:00"
+    Createuserid="admin" DocumentDescription="Carrier Bill of Lading"
+    DocumentId="BillOfLading" DocumentName="Carrier Bill of Lading"
+    Lockid="0" Modifyprogid=".YEntityServlet"
+    Modifyts="2019-05-28T20:42:39-04:00" Modifyuserid="admin"/>
+</YFS_BUSINESS_DOCUMENTList>

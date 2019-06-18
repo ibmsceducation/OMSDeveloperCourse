@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_BASE_DOCUMENT_PARAMSList TableName="YFS_BASE_DOCUMENT_PARAMS" TotalNumberOfRecords="8">
+<BaseDocumentParams BaseDocumentTypeKey="0001"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:26-04:00"
+    Createuserid="SYSTEM" Description="Order" DocumentParams=" "
+    DocumentType="0001" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:26-04:00" Modifyuserid="SYSTEM"/>
+<BaseDocumentParams BaseDocumentTypeKey="0020"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:26-04:00"
+    Createuserid="SYSTEM" Description="Opportunity" DocumentParams=" "
+    DocumentType="0020" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:26-04:00" Modifyuserid="SYSTEM"/>
+<BaseDocumentParams BaseDocumentTypeKey="1001"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:26-04:00"
+    Createuserid="SYSTEM" Description="Load" DocumentParams=" "
+    DocumentType="1001" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:26-04:00" Modifyuserid="SYSTEM"/>
+<BaseDocumentParams BaseDocumentTypeKey="2001"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:26-04:00"
+    Createuserid="SYSTEM" Description="General" DocumentParams=" "
+    DocumentType="2001" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:26-04:00" Modifyuserid="SYSTEM"/>
+<BaseDocumentParams BaseDocumentTypeKey="3001"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" Description="Count" DocumentParams=" "
+    DocumentType="3001" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:47-04:00" Modifyuserid="SYSTEM"/>
+<BaseDocumentParams BaseDocumentTypeKey="4001"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" Description="Outbound Picking"
+    DocumentParams=" " DocumentType="4001" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00" Modifyuserid="SYSTEM"/>
+<BaseDocumentParams BaseDocumentTypeKey="5001"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:26-04:00"
+    Createuserid="SYSTEM" Description="Container" DocumentParams=" "
+    DocumentType="5001" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:26-04:00" Modifyuserid="SYSTEM"/>
+<BaseDocumentParams BaseDocumentTypeKey="7001"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:26-04:00"
+    Createuserid="SYSTEM" Description="Work Order" DocumentParams=" "
+    DocumentType="7001" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:26-04:00" Modifyuserid="SYSTEM"/>
+</YFS_BASE_DOCUMENT_PARAMSList>

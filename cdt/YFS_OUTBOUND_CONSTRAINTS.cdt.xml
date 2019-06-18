@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_OUTBOUND_CONSTRAINTSList TableName="YFS_OUTBOUND_CONSTRAINTS" TotalNumberOfRecords="1">
+<OutboundConstraints Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:29-04:00" Createuserid="SYSTEM"
+    IsEspMaintained="N" IsRoutingGuideMaintained="01" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:15:29-04:00"
+    Modifyuserid="SYSTEM" OrganizationCode="Aurora" OutboundConstraintsKey="2011090705182953024"/>
+</YFS_OUTBOUND_CONSTRAINTSList>

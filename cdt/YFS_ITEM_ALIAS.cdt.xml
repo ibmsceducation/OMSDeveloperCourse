@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_ITEM_ALIASList TableName="YFS_ITEM_ALIAS" TotalNumberOfRecords="1">
+<ItemAlias AliasName="YCD_ALT_ITEM_ID" AliasValue="678901234567"
+    Createprogid="XMLMigrator" Createts="2019-05-28T22:16:15-04:00"
+    Createuserid="SYSTEM" ItemAliasKey="2001016394698"
+    ItemKey="Aurora-Corp_IK30" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:16:15-04:00" Modifyuserid="SYSTEM"/>
+</YFS_ITEM_ALIASList>

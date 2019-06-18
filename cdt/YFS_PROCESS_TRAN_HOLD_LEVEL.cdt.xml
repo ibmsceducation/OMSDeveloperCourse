@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_PROCESS_TRAN_HOLD_LEVELList TableName="YFS_PROCESS_TRAN_HOLD_LEVEL" TotalNumberOfRecords="2">
+<ProcessTranHoldLevel BaseProcessTypeKey="ORDER_FULFILLMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:44-04:00"
+    Createuserid="SYSTEM" Description="Order"
+    HoldPreventionLevel="ORDER" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:44-04:00" Modifyuserid="SYSTEM" ProcessTranHoldLevelKey="ORDER"/>
+<ProcessTranHoldLevel BaseProcessTypeKey="ORDER_FULFILLMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:44-04:00"
+    Createuserid="SYSTEM" Description="Order and Order Line both"
+    HoldPreventionLevel="ORDER_LINE" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:44-04:00"
+    Modifyuserid="SYSTEM" ProcessTranHoldLevelKey="ORDER_LINE"/>
+</YFS_PROCESS_TRAN_HOLD_LEVELList>

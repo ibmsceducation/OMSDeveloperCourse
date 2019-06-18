@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_INSTALL_DEFAULTSList TableName="YFS_INSTALL_DEFAULTS" TotalNumberOfRecords="1">
+<InstallDefaults Country="US" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:21-04:00" Createuserid="SYSTEM"
+    InstallDefaultsKey="DEFAULT" Instance="" Language="en" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:21-04:00"
+    Modifyuserid="SYSTEM" Variant="" Version=""/>
+</YFS_INSTALL_DEFAULTSList>

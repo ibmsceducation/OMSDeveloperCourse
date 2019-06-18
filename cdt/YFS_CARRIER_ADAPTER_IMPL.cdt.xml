@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_CARRIER_ADAPTER_IMPLList TableName="YFS_CARRIER_ADAPTER_IMPL" TotalNumberOfRecords="4">
+<CarrierAdapterImpl CarrierAdapterImplKey="AirBorneAdaptor"
+    CarrierAdapterName="Sterling Airborne Adaptor"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM"
+    ImplClassName="com.yantra.ycs.business.adaptor.AirBorneAdaptor"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"/>
+<CarrierAdapterImpl CarrierAdapterImplKey="ConnectShipAdaptor"
+    CarrierAdapterName="Sterling ConnectShip Adaptor"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM"
+    ImplClassName="com.yantra.ycs.business.adaptor.ConnectShipAdaptor"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"/>
+<CarrierAdapterImpl CarrierAdapterImplKey="FedexAdaptor"
+    CarrierAdapterName="Sterling FedEx Adaptor"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM"
+    ImplClassName="com.yantra.ycs.business.adaptor.FedexAdaptor"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"/>
+<CarrierAdapterImpl CarrierAdapterImplKey="PierbridgeAdaptor"
+    CarrierAdapterName="Sterling Pierbridge Adaptor"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM"
+    ImplClassName="com.yantra.ycs.business.adaptor.PierbridgeAdaptor"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"/>
+</YFS_CARRIER_ADAPTER_IMPLList>

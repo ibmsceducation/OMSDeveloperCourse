@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_DOCUMENT_FORMATList TableName="YFS_DOCUMENT_FORMAT" TotalNumberOfRecords="8">
+<DocumentFormat Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:39-04:00" Createuserid="SYSTEM"
+    DocumentFormatKey="200110021014105407"
+    FormatDescription="Purchase Order Acknowledgment" FormatId="EDI855"
+    Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:39-04:00" Modifyuserid="SYSTEM"/>
+<DocumentFormat Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:39-04:00" Createuserid="SYSTEM"
+    DocumentFormatKey="200110030925195924"
+    FormatDescription="Purchase Order" FormatId="EDI850" Lockid="0"
+    Modifyprogid="SYSTEM" Modifyts="2019-05-28T20:42:39-04:00" Modifyuserid="SYSTEM"/>
+<DocumentFormat Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:39-04:00" Createuserid="SYSTEM"
+    DocumentFormatKey="200110051616268533"
+    FormatDescription="Inventory Advice" FormatId="EDI846" Lockid="0"
+    Modifyprogid="SYSTEM" Modifyts="2019-05-28T20:42:39-04:00" Modifyuserid="SYSTEM"/>
+<DocumentFormat Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:39-04:00" Createuserid="SYSTEM"
+    DocumentFormatKey="200110081605339077"
+    FormatDescription="Advance Ship Notice" FormatId="EDI856" Lockid="0"
+    Modifyprogid="SYSTEM" Modifyts="2019-05-28T20:42:39-04:00" Modifyuserid="SYSTEM"/>
+<DocumentFormat Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:39-04:00" Createuserid="SYSTEM"
+    DocumentFormatKey="2001100915290211680" FormatDescription="Invoice"
+    FormatId="EDI810" Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:39-04:00" Modifyuserid="SYSTEM"/>
+<DocumentFormat Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:39-04:00" Createuserid="SYSTEM"
+    DocumentFormatKey="2001101010312711819"
+    FormatDescription="Purchase Order Change Request - Buyer Initiated"
+    FormatId="EDI860" Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:39-04:00" Modifyuserid="SYSTEM"/>
+<DocumentFormat Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:39-04:00" Createuserid="SYSTEM"
+    DocumentFormatKey="2001101014381111861"
+    FormatDescription="Order Status Report" FormatId="EDI870" Lockid="0"
+    Modifyprogid="SYSTEM" Modifyts="2019-05-28T20:42:39-04:00" Modifyuserid="SYSTEM"/>
+<DocumentFormat Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:39-04:00" Createuserid="SYSTEM"
+    DocumentFormatKey="2001101118334912037"
+    FormatDescription="Purchase Order Change Acknowledgment"
+    FormatId="EDI865" Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:39-04:00" Modifyuserid="SYSTEM"/>
+</YFS_DOCUMENT_FORMATList>

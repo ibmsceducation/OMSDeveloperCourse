@@ -1,0 +1,1843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_BASE_CONFIG_TABLESList TableName="YFS_BASE_CONFIG_TABLES" TotalNumberOfRecords="368">
+<BaseConfigTables BaseConfigTablesKey="200202261546201551"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_Node_Receiving_Pref" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_NODE_DISPOSITION"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201552"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_Node_Receiving_Pref" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_NODE_RECEIVING_PREF"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201559"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_Inventory" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_INVENTORY_STATUS_TRAN"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201560"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_Inventory" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_INVENTORY_STATUS"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201561"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_WarehouseLayout" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ADJUSTMENT_REASON"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201562"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_Putaway" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ACTIVITY_CONSTRAINT"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201563"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_Putaway" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_LOCATION_PREFERENCE"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201564"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_Activity" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:08-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ACTIVITY"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201565"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_Putaway" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ACTIVITY_DEMAND"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201566"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_WarehouseLayout" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ZONE"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201567"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_WarehouseLayout" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_LOCATION"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201569"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_WarehouseLayout" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:08-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_EQUIPMENT_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201571"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_WarehouseLayout" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:08-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_EQUIPMENT"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201572"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_WarehouseLayout" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SKU_DEDICATION"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201573"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_WarehouseLayout" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:08-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_NODE_ENTERPRISE"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201574"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_WarehouseLayout" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_LOCATION_STORAGE_CODE"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201575"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_WarehouseLayout" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_LOCATION_CAPACITY"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201576"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_WarehouseLayout" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_LOCATION_SIZE"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201577"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_WarehouseLayout" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ZONE_ENTERPRISE"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201578"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_WarehouseLayout" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_STORAGE_CONSTRAINT"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201580"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" GroupName="Device" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:08-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_DEVICE"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201581"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" GroupName="Device" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:08-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_DEVICE_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201582"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_WarehouseLayout" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:08-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_EQUIPMENT_DETAIL"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201583"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_WarehouseLayout" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:08-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_EQUIPMENT_TYPE_DETAIL"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201584"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_WarehouseLayout" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:08-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_EQUIPMENT_DEVICE"/>
+<BaseConfigTables BaseConfigTablesKey="200202261546201585"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_WarehouseLayout" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:08-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_EQUIP_TYPE_TASK_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200202262546201561"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_InventoryRule" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ADJUSTMENT_REASON_DTL"/>
+<BaseConfigTables BaseConfigTablesKey="200208271600201601"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" GroupName="BaseSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:08-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_BASE_TASK_TYPE_GROUP"/>
+<BaseConfigTables BaseConfigTablesKey="200208271600201602"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" GroupName="NodeSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:08-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_TASK_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200208271600201603"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" GroupName="NodeEnterprise" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:08-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_TASK_TYPE_DETERMINATION"/>
+<BaseConfigTables BaseConfigTablesKey="200208271600201604"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" GroupName="BaseSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:08-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_TASK_REFERENCE"/>
+<BaseConfigTables BaseConfigTablesKey="200208271600201605"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" GroupName="NodeSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:08-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_USER_TASK_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200208271600201606"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="NodeSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_USER_ZONE"/>
+<BaseConfigTables BaseConfigTablesKey="200208271600201607"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_InventoryRule" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_COUNT_STRATEGY"/>
+<BaseConfigTables BaseConfigTablesKey="200208771600201671"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_InventoryRule" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_COUNT_PROGRAM"/>
+<BaseConfigTables BaseConfigTablesKey="200208771600201672"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_InventoryRule" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_COUNT_PROGRAM_COND"/>
+<BaseConfigTables BaseConfigTablesKey="200208771600201673"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_InventoryRule" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CNT_PROG_COND_ATTR"/>
+<BaseConfigTables BaseConfigTablesKey="200209241546202001"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_Picking" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SHIPMENT_GROUP"/>
+<BaseConfigTables BaseConfigTablesKey="200209241546202002"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_Picking" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SHIPMENT_SELECTOR"/>
+<BaseConfigTables BaseConfigTablesKey="200209241546202003"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_Picking" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_WAVE_SIZE_CONSTRAINT"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201000"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="COUNT" TableName="YFS_PURGE_CRITERIA"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201410"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Sourcing" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ALLOCATION_RULE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201411"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CHARGE_CATEGORY"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201412"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CHARGE_NAME"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201413"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedDateType" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_DATE_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201414"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Sourcing" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_DISTRIBUTION_RULE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201415"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubDocDefn" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_DOCUMENT_TEMPLATE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201416"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Sourcing" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ITEM_SHIP_NODE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201417"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubDocDefn" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_MODIFICATION_ATTRIBUTE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201418"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ORDER_LINE_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201419"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="PriceAndPayment" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PAYMENT_RULE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201420"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="PriceAndPayment" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PAYMENT_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201421"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="Document" TableName="YFS_PURGE_CRITERIA"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201422"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_RETURN_DISPOSITION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201423"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_STATUS_MODIFICATION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201424"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ASSOCIATION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201425"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ITEM"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201426"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ITEM_ALIAS"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201427"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ITEM_EXCLUSION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201428"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_KIT_ITEM"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201429"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_MASTER_CATALOG"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201430"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="SyncQueries" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_QUERY"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201431"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CATEGORY"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201432"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CATEGORY_DOMAIN"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201433"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CATEGORY_ITEM"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201434"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Inventory" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ATP_RULES"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201435"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_INVENTORY_CONSIDERATIONS"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201436"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_INVENTORY_DEMAND_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201437"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Inventory" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_INVENTORY_MONITOR_RULES"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201438"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_INVENTORY_SUPPLY_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201439"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Inventory" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ITEM_STATUS_RULES"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201440"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubDocDefn" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_STATUS_INVENTORY_TYPES"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201441"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedMenu" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_APPLICATION_MENU"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201442"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_LOCALE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201443"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedMenu" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_MENU"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201444"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_RESOURCE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201445"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ERROR_CAUSE_ACTION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201446"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ERROR_CODE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201447"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_DOCUMENT_FORMAT"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201448"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ADAPTER"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201449"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_AGENT_CRITERIA"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201450"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_AGENT_CRITERIA_TEMPLATE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201451"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_NEGOTIABLE_HDR_ATTR"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201452"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_NEGOTIABLE_LINE_ATTR"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201453"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_NEGOTIATION_RULE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201454"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PROTOCOL"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201455"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SERVER"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201456"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_TRANSPORT_TYPES"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201457"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="BaseSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_BASE_DOCUMENT_PARAMS"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201458"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="BaseSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_BASE_DOCUMENT_TEMPLATE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201459"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="BaseSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_BASE_EVENT"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201460"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="BaseSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_BASE_PICKUP_DROP_STS"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201461"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="BaseSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_BASE_PROCESS_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201462"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="BaseSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_BASE_TRANSACTION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201463"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="System" TableName="YFS_PURGE_CRITERIA"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201466"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Security" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_USER_GROUP_LIST"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201467"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ACTION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201468"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CONDITION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201469"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CONDITION_VARIABLES"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201470"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubDocDefn" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_DOCUMENT_PARAMS"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201471"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_EVENT"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201472"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_EVENT_CONDITION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201473"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedFlow" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_FLOW"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201474"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_GRAPH_UI"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201476"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_MONITOR_RULE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201477"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_MONITOR_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201478"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PIPELINE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201479"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PIPELINE_CONDITION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201480"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PIPELINE_DEFINITION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201481"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PIPELINE_DROP_STS_COND"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201482"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PIPELINE_LISTENER"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201483"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PIPELINE_PICKUP_TRAN"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201484"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PROCESS_TASK_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201485"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubDocDefn" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PROCESS_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201486"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Queue" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_QUEUE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201487"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_STATUS"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201488"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_STATUS_CONDITION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201489"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedDateType" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_STATUS_MILESTONE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201490"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedFlow" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SUB_FLOW"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201491"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_TRANSACTION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201492"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_TRANSACTION_DROP_STATUS"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201493"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_TRANSACTION_PICKUP_STS"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201494"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_TRAN_USER_EXIT"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201495"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_USER_EXIT"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201496"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedProcessModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_USER_EXIT_IMPL"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201497"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedFlow" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_INVOKED_FLOWS"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201498"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedFlow" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_TRAN_FLOW"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201499"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubDocDefn" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_STATUS_MODIFICATION_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201500"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CARRIER"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201502"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ENTERPRISE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201503"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ITEM_INSTRUCTION_CODE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201504"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ORGANIZATION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201505"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ORG_DOCUMENT"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201506"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ORG_ENTERPRISE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201507"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ORG_PROTOCOL"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201508"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ORG_PROTOCOL_REFERENCE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201509"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ORG_ROLE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201510"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ORG_SERVICE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201511"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ROLE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201512"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ROLE_DOCUMENT"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201513"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedScac" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SCAC"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201514"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedScacAndService" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SCAC_AND_SERVICE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201515"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="NodeCarrierRelation" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="Node" TableName="YFS_SCAC_EX"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201516"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedFlow" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SERVICE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201517"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SHIP_NODE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201518"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SPECIAL_SERVICES"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201519"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SPECIAL_SERVICE_REF"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201521"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="PriceAndPayment" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ITEM_PRICE_SET"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201522"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="PriceAndPayment" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ITEM_PRICE_SET_DTL"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201523"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="PriceAndPayment" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PRICE_PROGRAM"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201524"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="PriceAndPayment" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PRICE_PROGRAM_DEFN"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201525"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="PriceAndPayment" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PRICE_SET"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201526"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CURRENCY"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201527"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="CurrencyConversion" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CURRENCY_CONVERSION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201529"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_UOM"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201530"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_UOM_CONVERSION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201532"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Security" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_RESOURCE_PERMISSION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201533"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Queue" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_QUEUE_SUBSCRIPTION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201534"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Security" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_USER"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201535"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="UserGroup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_USER_GROUP"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201536"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Xref" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_XREF_CODE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201537"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Xref" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_XREF_CONFIG_DTL"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201538"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Xref" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_XREF_CONFIG_HDR"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201539"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Xref" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_XREF_MAPPING"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201540"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Xref" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_XREF_VALUE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201541"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ZIP_CODE_LOCATION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201542"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_MONITORING_CONSOLIDATION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201543"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="CarrierRelation" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="Organizational" TableName="YFS_SCAC_EX"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201545"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Region" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_REGION_SCHEMA"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201546"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Sourcing" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="SOURCING" TableName="YFS_REGION_USAGE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201547"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_REGION_LEVEL"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201549"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Capacity" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SERVICE_SLOT_GROUP"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201550"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ITEM_INSTRUCTION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201551"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_RES_POOL"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201553"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ITEM_UOM_MASTER"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201556"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Sourcing" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SOURCING_RULE_HDR"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201559"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ORDER_VALIDATION"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201560"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ITEM_NODE_DEFN"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201562"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_Inventory" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_RETRIEVAL_STRATEGY"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201580"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CLASSIFICATION_PURPOSE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201591"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="PriceAndPayment" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="PRICING" TableName="YFS_REGION_USAGE"/>
+<BaseConfigTables BaseConfigTablesKey="200302261546201592"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="RESOURCE_POOL" TableName="YFS_REGION_USAGE"/>
+<BaseConfigTables BaseConfigTablesKey="200307031546201500"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Customer" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CUSTOMER"/>
+<BaseConfigTables BaseConfigTablesKey="200307071546201505"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ITEM_OPTION"/>
+<BaseConfigTables BaseConfigTablesKey="200307081828201532"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Security" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_DATA_SECURITY_GROUP"/>
+<BaseConfigTables BaseConfigTablesKey="200307081828201533"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Security" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_DATA_SECURITY_ENTERPRISE"/>
+<BaseConfigTables BaseConfigTablesKey="200307081828201534"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Security" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_DATA_SECURITY_DOC_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200307081828201535"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SHIPPING_PREFERENCE"/>
+<BaseConfigTables BaseConfigTablesKey="200307081828201536"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_RECEIVING_PREFERENCE"/>
+<BaseConfigTables BaseConfigTablesKey="200307091828201500"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_BUSINESS_DOCUMENT"/>
+<BaseConfigTables BaseConfigTablesKey="200307161828201501"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_BASE_COMMON_CODE"/>
+<BaseConfigTables BaseConfigTablesKey="200307161828201503"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Calendar" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CALENDAR"/>
+<BaseConfigTables BaseConfigTablesKey="200307311205201500"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ProductivityType" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PRODUCTIVITY_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="2003073112052015BC"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="BarCode" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_BARCODE_TRANSLATION"/>
+<BaseConfigTables BaseConfigTablesKey="200308271600201676"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="Inventory" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="COUNT" TableName="YFS_COUNT_STRATEGY"/>
+<BaseConfigTables BaseConfigTablesKey="200308281310201500"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Printer" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PRINTER"/>
+<BaseConfigTables BaseConfigTablesKey="200308281310201501"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Printer" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_LABEL_FORMAT"/>
+<BaseConfigTables BaseConfigTablesKey="200308281310201502"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Printer" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PRINT_DOCUMENT"/>
+<BaseConfigTables BaseConfigTablesKey="200308281310201503"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Printer" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_LPS_SERVER"/>
+<BaseConfigTables BaseConfigTablesKey="200309011448201503"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Printer" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_LABEL_PREFERENCE"/>
+<BaseConfigTables BaseConfigTablesKey="200309021802201500"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Printer" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_USER_PRINTER_PREFERENCE"/>
+<BaseConfigTables BaseConfigTablesKey="200309021802201506"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Device" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_DEVICE_SUB_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200309101429201500"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Printer" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PRINTER_TYPE_PRNT_DOCS"/>
+<BaseConfigTables BaseConfigTablesKey="200309131429201701"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Logistics" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ROUTING_GUIDE"/>
+<BaseConfigTables BaseConfigTablesKey="200309131429201702"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Logistics" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ROUTING_GUIDE_DETAIL"/>
+<BaseConfigTables BaseConfigTablesKey="200309131429201703"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Logistics" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ROUTING_GUIDE_ATTR"/>
+<BaseConfigTables BaseConfigTablesKey="200309131429201704"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_DISPOSITION_TRANSITION"/>
+<BaseConfigTables BaseConfigTablesKey="200309131429201705"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_INBOUND_VAS_COMPLIANCE"/>
+<BaseConfigTables BaseConfigTablesKey="200309242122201001"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:04-04:00"
+    Createuserid="SYSTEM" GroupName="VAS_WorkOrder_Alloc" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:04-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_WORK_ORDER_ALLOC_CONS"/>
+<BaseConfigTables BaseConfigTablesKey="200310100932234800"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="BaseSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="WMS_System" TableName="YFS_PURGE_CRITERIA"/>
+<BaseConfigTables BaseConfigTablesKey="200310100932234801"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="BaseSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="WMS_Move_Request" TableName="YFS_PURGE_CRITERIA"/>
+<BaseConfigTables BaseConfigTablesKey="200310100932234802"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="BaseSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="WMS_Task" TableName="YFS_PURGE_CRITERIA"/>
+<BaseConfigTables BaseConfigTablesKey="200310100932234803"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="BaseSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="WMS_Wave" TableName="YFS_PURGE_CRITERIA"/>
+<BaseConfigTables BaseConfigTablesKey="200310100932234804"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="BaseSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="WMS_Inventory" TableName="YFS_PURGE_CRITERIA"/>
+<BaseConfigTables BaseConfigTablesKey="200310100932234805"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="BaseSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="WMS_Productivity" TableName="YFS_PURGE_CRITERIA"/>
+<BaseConfigTables BaseConfigTablesKey="200311031010002000"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Logistics" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_FREIGHT_TERMS"/>
+<BaseConfigTables BaseConfigTablesKey="200311201010002001"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Logistics" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_OUTBOUND_CONSTRAINTS"/>
+<BaseConfigTables BaseConfigTablesKey="200311201010002002"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Logistics" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ESP_TERMS"/>
+<BaseConfigTables BaseConfigTablesKey="200311201010002003"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Logistics" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SHIP_CONSTRAINTS"/>
+<BaseConfigTables BaseConfigTablesKey="200312121911201556"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_Inventory" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_LOCN_MONITOR_RULE"/>
+<BaseConfigTables BaseConfigTablesKey="200312121914305555"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_Inventory" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_LOCN_MONITOR_FILTER"/>
+<BaseConfigTables BaseConfigTablesKey="200312171546201425"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SERVICE_ACTIVITY"/>
+<BaseConfigTables BaseConfigTablesKey="200312181546201425"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SERVICE_ACTIVITY_INSTR"/>
+<BaseConfigTables BaseConfigTablesKey="200312181546202003"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_Packing" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PACK_STRATEGY"/>
+<BaseConfigTables BaseConfigTablesKey="200312182209202002"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Printer" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PRINT_DOCUMENT_TRAN_ATTR"/>
+<BaseConfigTables BaseConfigTablesKey="200405222112201001"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SERVICE_SKILL"/>
+<BaseConfigTables BaseConfigTablesKey="200405222112201002"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ITEM_SERVICE_SKILL"/>
+<BaseConfigTables BaseConfigTablesKey="200405222112201003"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ITEM_SERVICE_ASSC_SKILL"/>
+<BaseConfigTables BaseConfigTablesKey="200405222112201004"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_RES_POOL_SERVICE_SKILL"/>
+<BaseConfigTables BaseConfigTablesKey="200407161545401219"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Costing" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_COST_FACTOR_GROUP"/>
+<BaseConfigTables BaseConfigTablesKey="200407161545401220"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Costing" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_COST_FACTOR_GROUP_DTL"/>
+<BaseConfigTables BaseConfigTablesKey="200407161545401221"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_HOLD_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200408771600201677"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="Inventory" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="COUNT" TableName="YFS_COUNT_PROGRAM_COND"/>
+<BaseConfigTables BaseConfigTablesKey="200410081545401221"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="NodeCarrierRelation" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PRO_NO_DATA"/>
+<BaseConfigTables BaseConfigTablesKey="200411081545401221"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SERVICE_RESOURCE"/>
+<BaseConfigTables BaseConfigTablesKey="200411081545401222"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubDocDefn" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_STATUS_INV_SELECTION"/>
+<BaseConfigTables BaseConfigTablesKey="200501011600201673"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="Inventory" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="COUNT" TableName="YFS_REGION_USAGE"/>
+<BaseConfigTables BaseConfigTablesKey="200501021600201675"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="Inventory" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="COUNT" TableName="YFS_COUNT_PROGRAM"/>
+<BaseConfigTables BaseConfigTablesKey="200501171700001561"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_InventoryRule" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ADJUSTMENT_LOCN_SEQ"/>
+<BaseConfigTables BaseConfigTablesKey="200501181546201593"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="ADDNL_CAPACITY" TableName="YFS_REGION_USAGE"/>
+<BaseConfigTables BaseConfigTablesKey="200501181546201594"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_REGION_ADDNL_CAPACITY"/>
+<BaseConfigTables BaseConfigTablesKey="200501191427201001"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SERVICE_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200502101026111111"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Question" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_QUESTION"/>
+<BaseConfigTables BaseConfigTablesKey="200502101026222222"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Question" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ANSWER_OPTION"/>
+<BaseConfigTables BaseConfigTablesKey="200502101026333333"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Question" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ANSWER_CAPACITY_IMPACT"/>
+<BaseConfigTables BaseConfigTablesKey="200502141222333333"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_RES_POOL_REGION"/>
+<BaseConfigTables BaseConfigTablesKey="200502151222333334"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Customer" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CUSTOMER_SLOT_PREFERENCE"/>
+<BaseConfigTables BaseConfigTablesKey="200502261546201425"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CLASS_ITEM_ATTR"/>
+<BaseConfigTables BaseConfigTablesKey="200502261546201546"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Region" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_REGION"/>
+<BaseConfigTables BaseConfigTablesKey="200505191546201546"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_NODE_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200505191546201547"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ORG_RELATIONSHIP_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200505191546201548"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ORG_RELATIONSHIP"/>
+<BaseConfigTables BaseConfigTablesKey="200505191546201549"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_NODE_CAN_SHIP_TO_NT"/>
+<BaseConfigTables BaseConfigTablesKey="200505191546201550"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Customer" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CUSTOMER_SCH_PREFERENCE"/>
+<BaseConfigTables BaseConfigTablesKey="200505311545401221"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Inventory" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_INV_AVAIL_SAFETY_FACTOR"/>
+<BaseConfigTables BaseConfigTablesKey="200506211546201599"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_REGION_MATCH_PREF"/>
+<BaseConfigTables BaseConfigTablesKey="200506231532234804"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="BaseSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="WMS_Activity_Demand" TableName="YFS_PURGE_CRITERIA"/>
+<BaseConfigTables BaseConfigTablesKey="200506291046201550"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Sourcing" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ENT_NODE_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200507181546201550"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Sourcing" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SOURCING_CONFIG"/>
+<BaseConfigTables BaseConfigTablesKey="200507291546201547"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Inventory" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_INV_NODE_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200508771600201678"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="Inventory" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="COUNT" TableName="YFS_CNT_PROG_COND_ATTR"/>
+<BaseConfigTables BaseConfigTablesKey="200510101429201704"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_TRANSACTION_DEPENDENCY_GRP"/>
+<BaseConfigTables BaseConfigTablesKey="200602161546201517"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SERVICE_SLOT"/>
+<BaseConfigTables BaseConfigTablesKey="200602161546201518"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_ResourcePlanning" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="RESOURCE_PLANNING" TableName="YFS_SERVICE_SLOT"/>
+<BaseConfigTables BaseConfigTablesKey="200602261546201416"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_ResourcePlanning" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PLANNED_TASK_COND_SET"/>
+<BaseConfigTables BaseConfigTablesKey="200602261546201421"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="BaseSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="WMS_ResourcePlanning" TableName="YFS_PURGE_CRITERIA"/>
+<BaseConfigTables BaseConfigTablesKey="200602261546201517"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_ResourcePlanning" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="RESOURCE_PLANNING" TableName="YFS_SHIP_NODE"/>
+<BaseConfigTables BaseConfigTablesKey="200602261546201551"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_ResourcePlanning" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="RESOURCE_PLANNING" TableName="YFS_RES_POOL"/>
+<BaseConfigTables BaseConfigTablesKey="200605191546201548"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_ResourcePlanning" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SRVC_RESOURCE_EFFICIENCY"/>
+<BaseConfigTables BaseConfigTablesKey="200605301600002000"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_ResourcePlanning" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:08-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PLANNED_TASK_COND"/>
+<BaseConfigTables BaseConfigTablesKey="200605301600002001"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_ResourcePlanning" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:08-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PLANNED_TASK_COND_RSLT"/>
+<BaseConfigTables BaseConfigTablesKey="200605301600002002"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_ResourcePlanning" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:08-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_TASK_TYPE_RES_POOL"/>
+<BaseConfigTables BaseConfigTablesKey="200607161828201503"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_DEPARTMENT"/>
+<BaseConfigTables BaseConfigTablesKey="200607161828201504"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_BUYER_INSTRUCTION"/>
+<BaseConfigTables BaseConfigTablesKey="200607161828201505"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_EXCEPTION_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200607161828201506"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_EXCEPTION_TYPE_ROLE"/>
+<BaseConfigTables BaseConfigTablesKey="200607161828201507"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Queue" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ORG_EXCEPTION_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200607161828201508"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Queue" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_EXCEPTION_ROUTING_RULE"/>
+<BaseConfigTables BaseConfigTablesKey="200607161828201509"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="PLT_QUALIFIED_TAG_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200607161828201510"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="PLT_QUALIFIED_TAG"/>
+<BaseConfigTables BaseConfigTablesKey="200607161828201511"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="PLT_APPLICATION_VERSION"/>
+<BaseConfigTables BaseConfigTablesKey="200607161828201512"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="PLT_QUALIFIED_TAG_VER_COMPTBLT"/>
+<BaseConfigTables BaseConfigTablesKey="200607161828201513"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="PasswordPolicy" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="PLT_PWD_POLICY"/>
+<BaseConfigTables BaseConfigTablesKey="200607161828201514"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="PasswordRuleDefn" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="PLT_PWD_RULE_DEFN"/>
+<BaseConfigTables BaseConfigTablesKey="200607161828201515"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="PasswordPolicy" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="PLT_PWD_RULE_CFG"/>
+<BaseConfigTables BaseConfigTablesKey="200607161828201516"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="AuthQuestion" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="PLT_AUTH_QUESTION"/>
+<BaseConfigTables BaseConfigTablesKey="200609181546201501"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ExtendedCarrierService" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CARRIER_SERVICE"/>
+<BaseConfigTables BaseConfigTablesKey="200609181546201502"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Vendor" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_VENDOR"/>
+<BaseConfigTables BaseConfigTablesKey="200611081545401221"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_ResourcePlanning" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="RESOURCE_PLANNING" TableName="YFS_SERVICE_RESOURCE"/>
+<BaseConfigTables BaseConfigTablesKey="200612061546201410"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:44:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ASSC_RELATIONSHIP"/>
+<BaseConfigTables BaseConfigTablesKey="200701111100000011"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_InventoryRule" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ITEM_CNSPTN_PTTN_HDR"/>
+<BaseConfigTables BaseConfigTablesKey="200701111100000012"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_InventoryRule" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ITEM_CNSPTN_PTTN_DTL"/>
+<BaseConfigTables BaseConfigTablesKey="200701111100000013"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_InventoryRule" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CLSSFTN_CNSPTN_PTTN_HDR"/>
+<BaseConfigTables BaseConfigTablesKey="200701111100000014"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_InventoryRule" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CLSSFTN_CNSPTN_PTTN_DTL"/>
+<BaseConfigTables BaseConfigTablesKey="200702261546201417"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrgMonitorRule" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="ORDER_MONITOR" TableName="YFS_MONITOR_RULE"/>
+<BaseConfigTables BaseConfigTablesKey="200702261546201418"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrgMonitorRule" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="SHIPMENT_MONITOR" TableName="YFS_MONITOR_RULE"/>
+<BaseConfigTables BaseConfigTablesKey="200702261546201419"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrgMonitorRule" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="WORK_ORDER_MONITOR" TableName="YFS_MONITOR_RULE"/>
+<BaseConfigTables BaseConfigTablesKey="200708221446201420"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Customer" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CUSTOMER_CONTACT"/>
+<BaseConfigTables BaseConfigTablesKey="200708221446201421"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Customer" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CUSTOMER_ADDNL_ADDRESS"/>
+<BaseConfigTables BaseConfigTablesKey="200708221446201422"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Customer" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CUSTOMER_PAYMENT_METHOD"/>
+<BaseConfigTables BaseConfigTablesKey="200708221446201429"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CONFIG_VERSION_LABEL"/>
+<BaseConfigTables BaseConfigTablesKey="200801011546201411"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:44:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_EVENT_AUDITOR"/>
+<BaseConfigTables BaseConfigTablesKey="200803051446201430"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Inventory" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_IBA_SEQUENCE_HDR"/>
+<BaseConfigTables BaseConfigTablesKey="200805021446201431"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Inventory" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_IBA_SEQUENCE_DTL"/>
+<BaseConfigTables BaseConfigTablesKey="200807111546201593"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="PricingEnterprise" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="SELLING" TableName="YFS_REGION_USAGE"/>
+<BaseConfigTables BaseConfigTablesKey="200811071546201000"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemEntitlement" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="BUYING" TableName="YFS_ENTITLEMENT_RULE_HDR"/>
+<BaseConfigTables BaseConfigTablesKey="200811071546201001"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemEntitlementAssign" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="BUYING" TableName="YFS_ENTITLE_RULE_ASSIGNMENT"/>
+<BaseConfigTables BaseConfigTablesKey="200811071546201002"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="SELLING" TableName="YFS_ENTITLEMENT_RULE_HDR"/>
+<BaseConfigTables BaseConfigTablesKey="200811071546201003"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="SELLING" TableName="YFS_ENTITLE_RULE_ASSIGNMENT"/>
+<BaseConfigTables BaseConfigTablesKey="200811071546201004"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SUB_CAT_ORG_ASSIGN"/>
+<BaseConfigTables BaseConfigTablesKey="200901151546201001"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_DATA_ACCESS_POL_RULES"/>
+<BaseConfigTables BaseConfigTablesKey="200901151546201002"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_DATA_ACCESS_POL_OVERRIDE"/>
+<BaseConfigTables BaseConfigTablesKey="200902181546201002"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubDocDefn" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ORDER_TAG_DETMN"/>
+<BaseConfigTables BaseConfigTablesKey="200902181546201003"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubDocDefn" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ORDER_TAG_MOD_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="200904201723000000"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="ANALYTICS" TableName="YFS_REGION_USAGE"/>
+<BaseConfigTables BaseConfigTablesKey="201002161446201431"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="SearchIndexTrigger" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SEARCH_INDEX_TRIGGER"/>
+<BaseConfigTables BaseConfigTablesKey="201005171546201432"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_STATUS_MOD_GROUP"/>
+<BaseConfigTables BaseConfigTablesKey="201102231200000000"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="PriceAndPayment" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PAYMENT_CARD_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="ATTRIBUTE_DOMAIN"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="ITEM" TableName="YFS_ATTRIBUTE_DOMAIN"/>
+<BaseConfigTables BaseConfigTablesKey="ATTRIBUTE_DOMAIN_EXTN"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="AttributeDomain" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="ENTITY_EXTN" TableName="YFS_ATTRIBUTE_DOMAIN"/>
+<BaseConfigTables BaseConfigTablesKey="ATTRIBUTE_GROUP"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ItemMaster" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="ITEM" TableName="YFS_ATTRIBUTE_GROUP"/>
+<BaseConfigTables BaseConfigTablesKey="Aisle_User_Constraint"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="NodeSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_AISLE_USER_CONSTRAINT"/>
+<BaseConfigTables BaseConfigTablesKey="CUSTOM_ATTRIBUTE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="AttributeDomain" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ENTITY_CUSTOM_ATTRIBUTE"/>
+<BaseConfigTables BaseConfigTablesKey="Common_Code"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_WarehouseLayout" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_COMMON_CODE"/>
+<BaseConfigTables BaseConfigTablesKey="DOCK_APPOINTMENT_PRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="BaseSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="WMS_Dock_Appointment" TableName="YFS_PURGE_CRITERIA"/>
+<BaseConfigTables BaseConfigTablesKey="ENTITY_ATTRIBUTE_DOMAIN"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="AttributeDomain" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ENTITY_ATTRIBUTE_DOMAIN"/>
+<BaseConfigTables BaseConfigTablesKey="Execution_Exception"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="NodeSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_EXECUTION_EXCEPTION"/>
+<BaseConfigTables BaseConfigTablesKey="PRICING_01"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Pricing" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YPM_PRICELIST_HDR"/>
+<BaseConfigTables BaseConfigTablesKey="PRICING_02"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="PricingEnterprise" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YPM_PRICELIST_ASSIGNMENT"/>
+<BaseConfigTables BaseConfigTablesKey="PRICING_03"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Pricing" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YPM_PRICING_RULE"/>
+<BaseConfigTables BaseConfigTablesKey="PRICING_04"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Pricing" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YPM_COUPON"/>
+<BaseConfigTables BaseConfigTablesKey="PRICING_05"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="PricingEnterprise" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YPM_PRICING_RULE_ASSIGNMENT"/>
+<BaseConfigTables BaseConfigTablesKey="PRICING_06"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="PricingInherit" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YPM_COUPON_CHAR_SET"/>
+<BaseConfigTables BaseConfigTablesKey="Putaway_Strategy"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_Putaway" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PUTAWAY_STRATEGY"/>
+<BaseConfigTables BaseConfigTablesKey="Putaway_Strategy_Dtl"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="WMS_Putaway" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PUTAWAY_STRATEGY_DTL"/>
+<BaseConfigTables BaseConfigTablesKey="RECEIVING_DISCR_REASON"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_RECEIVING_DISCR_REASON"/>
+<BaseConfigTables BaseConfigTablesKey="SYNC_PROFILE_APPR"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="SyncEnterprise" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="Approval" TableName="YFS_SYNC_PROFILE"/>
+<BaseConfigTables BaseConfigTablesKey="SYNC_PROFILE_CON"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="SyncEnterprise" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="Configuration" TableName="YFS_SYNC_PROFILE"/>
+<BaseConfigTables BaseConfigTablesKey="SYNC_PROFILE_CTGY"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="SyncCatalog" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="Category" TableName="YFS_SYNC_PROFILE"/>
+<BaseConfigTables BaseConfigTablesKey="SYNC_PROFILE_CTLG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="SyncCatalog" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="Catalog" TableName="YFS_SYNC_PROFILE"/>
+<BaseConfigTables BaseConfigTablesKey="SYNC_PROFILE_ENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="SyncCatalog" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="Entitlement" TableName="YFS_SYNC_PROFILE"/>
+<BaseConfigTables BaseConfigTablesKey="SYNC_PROFILE_HUB"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="SyncHubConfig" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="HubConfiguration" TableName="YFS_SYNC_PROFILE"/>
+<BaseConfigTables BaseConfigTablesKey="SYNC_PROFILE_PCR"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="SyncPricing" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="PriceRule" TableName="YFS_SYNC_PROFILE"/>
+<BaseConfigTables BaseConfigTablesKey="SYNC_PROFILE_PLST"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="SyncPricing" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="PriceList" TableName="YFS_SYNC_PROFILE"/>
+<BaseConfigTables BaseConfigTablesKey="SYNC_PROFILE_RB"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="SyncCatalog" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="CatalogSetup" TableName="YFS_SYNC_PROFILE"/>
+<BaseConfigTables BaseConfigTablesKey="SYNC_PROFILE_USR"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="SyncEnterprise" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="User" TableName="YFS_SYNC_PROFILE"/>
+<BaseConfigTables BaseConfigTablesKey="SYNC_PROFILE_VAL"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="SyncEnterprise" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="ValidationRule" TableName="YFS_SYNC_PROFILE"/>
+<BaseConfigTables BaseConfigTablesKey="Voice_App_Instance"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="NodeSetup" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="NODEASSOC" TableName="YFS_VOICE_APPLICATION_INSTANCE"/>
+<BaseConfigTables BaseConfigTablesKey="Voice_Application"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:47-04:00"
+    Createuserid="SYSTEM" GroupName="HubData" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:47-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_VOICE_APPLICATION"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_APPROVAL_GROUP"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ApprovalPlan" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_APPROVAL_GROUP"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_APPROVAL_PLAN"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ApprovalPlan" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_APPROVAL_PLAN"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_CHANGE_PROJECT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ChangeProjectMgmnt" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CHANGE_PROJECT"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_CHANGE_REQUEST"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ChangeProjectMgmnt" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CHANGE_REQUEST"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_CUSTOMER_GRADE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Customer" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_CUSTOMER_GRADE"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_LINE_REL_TYPE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DocSpecific" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_LINE_RELATIONSHIP_TYPE"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_ORDER_APPROVAL_RULE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="ApprovalRule" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_ORDER_APPROVAL_RULE"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_PRINT_ADAPTER"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Printer" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_PRINT_ADAPTER"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_SYNC_DB_EXPORT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DataSync" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SYNC_DB_EXPORT"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_SYNC_DB_IMPORT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DataSync" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SYNC_DB_IMPORT"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_SYNC_PROFILE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DataSync" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SYNC_PROFILE"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_SYNC_SUBSCRIPTION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DataSync" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SYNC_SUBSCRIPTION"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_SYNC_TARGET"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="DataSync" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_SYNC_TARGET"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_TRANSFORMATION_HDR"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="TransformationConfig" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_TRANSFORMATION_HEADER"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_TRANSFORM_CONFIG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="TransformationConfig" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_TRANSFORMATION_CONFIG"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_USER_DELEGATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Security" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_USER_DELEGATE"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_VALIDATION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Validation" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_VALIDATION"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_VALIDATION_DOMAIN"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="Validation" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_VALIDATION_DOMAIN"/>
+<BaseConfigTables BaseConfigTablesKey="YFS_WO_SS_DETMN"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:23-04:00"
+    Createuserid="SYSTEM" GroupName="OrganizationModel" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:23-04:00"
+    Modifyuserid="SYSTEM" SectionName="" TableName="YFS_WO_SS_DETMN"/>
+</YFS_BASE_CONFIG_TABLESList>

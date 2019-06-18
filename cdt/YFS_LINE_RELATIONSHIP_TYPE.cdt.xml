@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_LINE_RELATIONSHIP_TYPEList TableName="YFS_LINE_RELATIONSHIP_TYPE" TotalNumberOfRecords="4">
+<LineRelationshipType ConsiderForSorting="Y" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:43-04:00" Createuserid="SYSTEM"
+    DocumentType="0001" LineRelationshipTypeKey="Aurora-Corp_LRT-1"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:43-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora-Corp"
+    RelationshipLongDescription="Line Accessory"
+    RelationshipShortDescription="Line Accessory" RelationshipType="LineAccessory"/>
+<LineRelationshipType ConsiderForSorting="Y" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:43-04:00" Createuserid="SYSTEM"
+    DocumentType="0001" LineRelationshipTypeKey="Aurora-Corp_LRT-2"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:43-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora-Corp"
+    RelationshipLongDescription="Service Line"
+    RelationshipShortDescription="Service Line" RelationshipType="ServiceLine"/>
+<LineRelationshipType ConsiderForSorting="Y" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:09-04:00" Createuserid="SYSTEM"
+    DocumentType="0001" LineRelationshipTypeKey="Aurora_LRT-1"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:12:09-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora"
+    RelationshipLongDescription="Line Accessory"
+    RelationshipShortDescription="Line Accessory" RelationshipType="LineAccessory"/>
+<LineRelationshipType ConsiderForSorting="Y" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:09-04:00" Createuserid="SYSTEM"
+    DocumentType="0001" LineRelationshipTypeKey="Aurora_LRT-2"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:12:09-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora" RelationshipLongDescription="Service Line"
+    RelationshipShortDescription="Service Line" RelationshipType="ServiceLine"/>
+</YFS_LINE_RELATIONSHIP_TYPEList>

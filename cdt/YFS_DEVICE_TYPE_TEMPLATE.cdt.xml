@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_DEVICE_TYPE_TEMPLATEList TableName="YFS_DEVICE_TYPE_TEMPLATE" TotalNumberOfRecords="2">
+<DeviceTypeTemplate Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    DeviceType="Printer"
+    DeviceTypeParamsXML="&lt;Attributes>  &lt;Attribute Name=&quot;DropDirectory&quot; DisplayName=&quot;DropDirectory&quot; Value=&quot;&quot; DataType=&quot;Text-255&quot; Modifiable=&quot;Y&quot; IsNotDeletable=&quot;Y&quot; /> &lt;Attribute Name=&quot;PrinterAlias&quot; DisplayName=&quot;PrinterAlias&quot; Value=&quot;&quot; DataType=&quot;Text-40&quot; Modifiable=&quot;Y&quot; IsNotDeletable=&quot;Y&quot; /> &lt;Attribute Name=&quot;PrintServerHostName&quot; DisplayName=&quot;PrintServerHostName&quot; Value=&quot;&quot; DataType=&quot;Text-40&quot; Modifiable=&quot;Y&quot; IsNotDeletable=&quot;Y&quot; /> &lt;Attribute Name=&quot;PrintServerPort&quot; DisplayName=&quot;PrintServerPort&quot; Value=&quot;2723&quot; DataType=&quot;Count&quot; Modifiable=&quot;Y&quot; IsNotDeletable=&quot;Y&quot; /> &lt;/Attributes>"
+    DeviceTypeTemplateKey="2001674286483" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"/>
+<DeviceTypeTemplate Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    DeviceType="WeighingScale"
+    DeviceTypeParamsXML="&lt;Attributes> &lt;Attribute Name=&quot;ClassName&quot; DisplayName=&quot;ClassName&quot; Value=&quot;&quot; DataType=&quot;Text-255&quot; Modifiable=&quot;Y&quot; IsNotDeletable=&quot;Y&quot; /> &lt;Attribute Name=&quot;PortId&quot; DisplayName=&quot;PortId&quot; Value=&quot;COM1&quot; DataType=&quot;Text-40&quot; Modifiable=&quot;Y&quot; IsNotDeletable=&quot;Y&quot; /> &lt;Attribute Name=&quot;BaudRate&quot; DisplayName=&quot;BaudRate&quot; Value=&quot;9600&quot; DataType=&quot;Integer&quot; Modifiable=&quot;Y&quot; IsNotDeletable=&quot;Y&quot; />  &lt;Attribute Name=&quot;DataBits&quot; DisplayName=&quot;DataBits&quot; Value=&quot;8&quot; DataType=&quot;Integer&quot; Modifiable=&quot;Y&quot; IsNotDeletable=&quot;Y&quot; />    &lt;Attribute Name=&quot;StopBits&quot; DisplayName=&quot;StopBits&quot; Value=&quot;1&quot; DataType=&quot;Integer&quot; Modifiable=&quot;Y&quot; IsNotDeletable=&quot;Y&quot; />   &lt;Attribute Name=&quot;Parity&quot; DisplayName=&quot;Parity&quot; Value=&quot;&quot; DataType=&quot;Text-40&quot; Modifiable=&quot;Y&quot; IsNotDeletable=&quot;Y&quot; />   &lt;Attribute Name=&quot;FlowIn&quot; DisplayName=&quot;FlowIn&quot; Value=&quot;&quot; DataType=&quot;Text-40&quot; Modifiable=&quot;Y&quot; IsNotDeletable=&quot;Y&quot; />   &lt;Attribute Name=&quot;FlowOut&quot; DisplayName=&quot;FlowOut&quot; Value=&quot;&quot; DataType=&quot;Text-40&quot; Modifiable=&quot;Y&quot; IsNotDeletable=&quot;Y&quot; />&lt;/Attributes>"
+    DeviceTypeTemplateKey="2002138331113" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"/>
+</YFS_DEVICE_TYPE_TEMPLATEList>

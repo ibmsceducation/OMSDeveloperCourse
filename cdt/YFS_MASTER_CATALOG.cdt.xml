@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_MASTER_CATALOGList TableName="YFS_MASTER_CATALOG" TotalNumberOfRecords="1">
+<MasterCatalog Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:57-04:00" Createuserid="SYSTEM"
+    Description="Aurora-Corp master catalog" Lockid="0"
+    MasterCatalogID="Aurora-CorpMasterCat"
+    MasterCatalogKey="20432322633" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:57-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora-Corp" ShortDescription="Aurora-Corp master catalog"/>
+</YFS_MASTER_CATALOGList>

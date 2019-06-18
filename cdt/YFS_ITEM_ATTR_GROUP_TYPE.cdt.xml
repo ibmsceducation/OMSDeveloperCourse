@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_ITEM_ATTR_GROUP_TYPEList TableName="YFS_ITEM_ATTR_GROUP_TYPE" TotalNumberOfRecords="7">
+<ItemAttributeGroupType ClassificationPurposeCode="ASSIGNMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:48-04:00"
+    Createuserid="SYSTEM" Description="Assignment" IsForMaintenance="Y"
+    IsForSelling="Y" IsSingleGroup="N" IsValidForCategory="Y"
+    IsValidForClassification="N" ItemAttributeGroupType="ASSIGNMENT"
+    ItemAttributeGroupTypeKey="GRP_KEY_ASSIGN" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM"/>
+<ItemAttributeGroupType ClassificationPurposeCode="DISTINCT_ATTRIBUTES"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:48-04:00"
+    Createuserid="SYSTEM" Description="Item Variation Attributes"
+    IsForMaintenance="Y" IsForSelling="N" IsSingleGroup="Y"
+    IsValidForCategory="N" IsValidForClassification="Y"
+    ItemAttributeGroupType="DISTINCT_ATTRIBUTES"
+    ItemAttributeGroupTypeKey="GRP_KEY_DISTINCT" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM"/>
+<ItemAttributeGroupType ClassificationPurposeCode="FOR_FILTER"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:48-04:00"
+    Createuserid="SYSTEM" Description="For Filter" IsForMaintenance="N"
+    IsForSelling="Y" IsSingleGroup="N" IsValidForCategory="Y"
+    IsValidForClassification="N" ItemAttributeGroupType="FOR_FILTER"
+    ItemAttributeGroupTypeKey="GRP_KEY_FILTER" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM"/>
+<ItemAttributeGroupType ClassificationPurposeCode="FOR_PRINT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:45:31-04:00"
+    Createuserid="SYSTEM" Description="For Print" IsForMaintenance="Y"
+    IsForSelling="N" IsSingleGroup="N" IsValidForCategory="Y"
+    IsValidForClassification="N" ItemAttributeGroupType="FOR_PRINT"
+    ItemAttributeGroupTypeKey="GRP_KEY_PRINT" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:45:31-04:00" Modifyuserid="SYSTEM"/>
+<ItemAttributeGroupType
+    ClassificationPurposeCode="SEARCHABLE_ATTRIBUTES"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:48-04:00"
+    Createuserid="SYSTEM" Description="Searchable Attributes"
+    IsForMaintenance="N" IsForSelling="N" IsSingleGroup="Y"
+    IsValidForCategory="N" IsValidForClassification="Y"
+    ItemAttributeGroupType="SEARCH"
+    ItemAttributeGroupTypeKey="GRP_KEY_SEARCH" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM"/>
+<ItemAttributeGroupType ClassificationPurposeCode="SPECIFICATION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:48-04:00"
+    Createuserid="SYSTEM" Description="Specifications"
+    IsForMaintenance="Y" IsForSelling="N" IsSingleGroup="N"
+    IsValidForCategory="Y" IsValidForClassification="Y"
+    ItemAttributeGroupType="SPEC"
+    ItemAttributeGroupTypeKey="GRP_KEY_SPEC" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM"/>
+<ItemAttributeGroupType ClassificationPurposeCode="DISPLAY_ATTRIBUTES"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:30-04:00"
+    Createuserid="SYSTEM" Description="Displayable Attributes"
+    IsForMaintenance="Y" IsForSelling="Y" IsSingleGroup="Y"
+    IsValidForCategory="N" IsValidForClassification="Y"
+    ItemAttributeGroupType="DISPLAY"
+    ItemAttributeGroupTypeKey="YCD_GRP_KEY_DISP" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:44:30-04:00" Modifyuserid="SYSTEM"/>
+</YFS_ITEM_ATTR_GROUP_TYPEList>

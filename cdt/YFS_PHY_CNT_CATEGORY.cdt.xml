@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_PHY_CNT_CATEGORYList TableName="YFS_PHY_CNT_CATEGORY" TotalNumberOfRecords="12">
+<PhysicalCountCategory Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryKey="1000001"
+    PhysicalCountCategoryName="PUTAWAY" isHistory="N"/>
+<PhysicalCountCategory Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryKey="1000002"
+    PhysicalCountCategoryName="REPLENISHMENT" isHistory="N"/>
+<PhysicalCountCategory Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryKey="1000003"
+    PhysicalCountCategoryName="RETRIEVAL" isHistory="N"/>
+<PhysicalCountCategory Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryKey="1000004"
+    PhysicalCountCategoryName="OUTBOUND_PICKING" isHistory="N"/>
+<PhysicalCountCategory Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryKey="1000005"
+    PhysicalCountCategoryName="RECEIPT" isHistory="N"/>
+<PhysicalCountCategory Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryKey="1000006" PhysicalCountCategoryName="COUNT" isHistory="N"/>
+<PhysicalCountCategory Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryKey="1000007" PhysicalCountCategoryName="VAS" isHistory="N"/>
+<PhysicalCountCategory Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryKey="1000008"
+    PhysicalCountCategoryName="PACKING" isHistory="N"/>
+<PhysicalCountCategory Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryKey="1000009"
+    PhysicalCountCategoryName="OUTBOUND_INVENTORY_CONTAINER_BUILD" isHistory="N"/>
+<PhysicalCountCategory Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryKey="1000010"
+    PhysicalCountCategoryName="SHIPPING_CONTAINER_BUILD" isHistory="N"/>
+<PhysicalCountCategory Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryKey="1000011"
+    PhysicalCountCategoryName="SHIPPING" isHistory="N"/>
+<PhysicalCountCategory Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryKey="1000012"
+    PhysicalCountCategoryName="INSPECTION" isHistory="N"/>
+</YFS_PHY_CNT_CATEGORYList>

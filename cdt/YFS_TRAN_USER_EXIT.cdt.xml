@@ -1,0 +1,1473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_TRAN_USER_EXITList TableName="YFS_TRAN_USER_EXIT" TotalNumberOfRecords="294">
+<TranUserExit BaseTransactionKey="DRAFT_ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111212960" UserExitKey="YFSUE00002"/>
+<TranUserExit BaseTransactionKey="ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111212961" UserExitKey="YFSUE00002"/>
+<TranUserExit BaseTransactionKey="PAYMENT_EXECUTION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111222964" UserExitKey="YFSUE00004"/>
+<TranUserExit BaseTransactionKey="PAYMENT_EXECUTION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111232965" UserExitKey="YFSUE00005"/>
+<TranUserExit BaseTransactionKey="PAYMENT_EXECUTION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111232966" UserExitKey="YFSUE00006"/>
+<TranUserExit BaseTransactionKey="PAYMENT_EXECUTION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111232967" UserExitKey="YFSUE00059"/>
+<TranUserExit BaseTransactionKey="SCHEDULE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111242967" UserExitKey="YFSUE00007"/>
+<TranUserExit BaseTransactionKey="RELEASE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111242968" UserExitKey="YFSUE00007"/>
+<TranUserExit BaseTransactionKey="DRAFT_ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111242969" UserExitKey="YFSUE00008"/>
+<TranUserExit BaseTransactionKey="ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111252970" UserExitKey="YFSUE00008"/>
+<TranUserExit BaseTransactionKey="CREATE_SHIPMENT_INVOICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111252971" UserExitKey="YFSUE00008"/>
+<TranUserExit BaseTransactionKey="CHAINED_ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111252972" UserExitKey="YFSUE00009"/>
+<TranUserExit BaseTransactionKey="ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111262973" UserExitKey="YFSUE00010"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111262974" UserExitKey="YFSUE00010"/>
+<TranUserExit BaseTransactionKey="ORDER_RELEASE_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111262975" UserExitKey="YFSUE00010"/>
+<TranUserExit BaseTransactionKey="CREATE_ORDER_INVOICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111262976" UserExitKey="YFSUE00010"/>
+<TranUserExit BaseTransactionKey="CREATE_SHIPMENT_INVOICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111272977" UserExitKey="YFSUE00010"/>
+<TranUserExit BaseTransactionKey="DRAFT_ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111282978" UserExitKey="YFSUE00010"/>
+<TranUserExit BaseTransactionKey="DRAFT_ORDER_CONFIRM"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111282979" UserExitKey="YFSUE00010"/>
+<TranUserExit BaseTransactionKey="DERIVED_ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111282980" UserExitKey="YFSUE00011"/>
+<TranUserExit BaseTransactionKey="DRAFT_ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111322989" UserExitKey="YFSUE00018"/>
+<TranUserExit BaseTransactionKey="ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111322990" UserExitKey="YFSUE00018"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111322991" UserExitKey="YFSUE00018"/>
+<TranUserExit BaseTransactionKey="SCHEDULE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111332992" UserExitKey="YFSUE00018"/>
+<TranUserExit BaseTransactionKey="RELEASE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111332993" UserExitKey="YFSUE00018"/>
+<TranUserExit BaseTransactionKey="SCHEDULE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111332994" UserExitKey="YFSUE00019"/>
+<TranUserExit BaseTransactionKey="RELEASE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111342995" UserExitKey="YFSUE00019"/>
+<TranUserExit BaseTransactionKey="SHIP_ADVICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111342996" UserExitKey="YFSUE00020"/>
+<TranUserExit BaseTransactionKey="CREATE_ORDER_INVOICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111342997" UserExitKey="YFSUE00021"/>
+<TranUserExit BaseTransactionKey="CREATE_SHIPMENT_INVOICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111342998" UserExitKey="YFSUE00021"/>
+<TranUserExit BaseTransactionKey="CREATE_SHIPMENT_INVOICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111352999" UserExitKey="YFSUE00022"/>
+<TranUserExit BaseTransactionKey="CREATE_ORDER_INVOICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111353000" UserExitKey="YFSUE00022"/>
+<TranUserExit BaseTransactionKey="SHIP_ADVICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111353001" UserExitKey="YFSUE00023"/>
+<TranUserExit BaseTransactionKey="CREATE_ORDER_INVOICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111363002" UserExitKey="YFSUE00024"/>
+<TranUserExit BaseTransactionKey="CREATE_SHIPMENT_INVOICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111363003" UserExitKey="YFSUE00024"/>
+<TranUserExit BaseTransactionKey="DRAFT_ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111363004" UserExitKey="YFSUE00026"/>
+<TranUserExit BaseTransactionKey="ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111373005" UserExitKey="YFSUE00026"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111383008" UserExitKey="YFSUE00029"/>
+<TranUserExit BaseTransactionKey="ORDER_RELEASE_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111383009" UserExitKey="YFSUE00029"/>
+<TranUserExit BaseTransactionKey="CREATE_ORDER_INVOICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111383010" UserExitKey="YFSUE00029"/>
+<TranUserExit BaseTransactionKey="CREATE_SHIPMENT_INVOICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111393011" UserExitKey="YFSUE00029"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111393012" UserExitKey="YFSUE00030"/>
+<TranUserExit BaseTransactionKey="ORDER_RELEASE_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111393013" UserExitKey="YFSUE00030"/>
+<TranUserExit BaseTransactionKey="CREATE_ORDER_INVOICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111403014" UserExitKey="YFSUE00030"/>
+<TranUserExit BaseTransactionKey="CREATE_SHIPMENT_INVOICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111403015" UserExitKey="YFSUE00030"/>
+<TranUserExit BaseTransactionKey="DRAFT_ORDER_CONFIRM"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111413019" UserExitKey="YFSUE00034"/>
+<TranUserExit BaseTransactionKey="DRAFT_ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111413020" UserExitKey="YFSUE00035"/>
+<TranUserExit BaseTransactionKey="ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423021" UserExitKey="YFSUE00035"/>
+<TranUserExit BaseTransactionKey="SCHEDULE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423022" UserExitKey="YFSUE00036"/>
+<TranUserExit BaseTransactionKey="RELEASE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423023" UserExitKey="YFSUE00036"/>
+<TranUserExit BaseTransactionKey="CREATE_ORD_NEGOTIATION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423024" UserExitKey="YCPUE00001"/>
+<TranUserExit BaseTransactionKey="CREATE_ORD_NEGOTIATION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423025" UserExitKey="YCPUE00003"/>
+<TranUserExit BaseTransactionKey="CONSOLIDATE_TO_SHIPMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423026" UserExitKey="YDMUE00001"/>
+<TranUserExit BaseTransactionKey="CREATE_LOAD"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423027" UserExitKey="YDMUE00002"/>
+<TranUserExit BaseTransactionKey="CREATE_SHIPMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423028" UserExitKey="YDMUE00003"/>
+<TranUserExit BaseTransactionKey="PACK_SHIPMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423029" UserExitKey="YDMUE00004"/>
+<TranUserExit BaseTransactionKey="CONSOLIDATE_TO_SHIPMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423030" UserExitKey="YDMUE00005"/>
+<TranUserExit BaseTransactionKey="CONFIRM_SHIPMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423031" UserExitKey="YDMUE00003"/>
+<TranUserExit BaseTransactionKey="CREATE_CONFIRM_SHIPMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423032" UserExitKey="YDMUE00003"/>
+<TranUserExit BaseTransactionKey="CONSOLIDATE_TO_SHIPMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423033" UserExitKey="YDMUE00003"/>
+<TranUserExit BaseTransactionKey="SCHEDULE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423035" UserExitKey="YFSUE00048"/>
+<TranUserExit BaseTransactionKey="RELEASE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423036" UserExitKey="YFSUE00048"/>
+<TranUserExit BaseTransactionKey="DERIVED_ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423037" UserExitKey="YFSUE00048"/>
+<TranUserExit BaseTransactionKey="CHAINED_ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423038" UserExitKey="YFSUE00048"/>
+<TranUserExit BaseTransactionKey="ORDER_MONITOR_EX"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423039" UserExitKey="YFSUE00037"/>
+<TranUserExit BaseTransactionKey="SHIPMENT_MONITOR"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423040" UserExitKey="YDMUE00009"/>
+<TranUserExit BaseTransactionKey="DELIVERYPLANPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423041" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="EXPORTTBLPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423042" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="IMPORTTBLPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423043" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="INBOXPRG" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423044" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="INVENTORYPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423045" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="LOADPRG" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423046" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="MANIFESTPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423047" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="NEGOTIATIONHISTPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423048" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="ORDERHISTPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423049" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="ORD_NEGOTIATION_PURGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423050" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="PICKLISTPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423051" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="PURGE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423052" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="REPROCESSPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423053" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="SHIPMENTHISTPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423054" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="SHIPMENTPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423055" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="STATUSAUDITPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200208091111423057" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="SHIPMENT_MONITOR"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20021218000000" UserExitKey="YDMUE00009"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20030121000000" UserExitKey="YFSUE00049"/>
+<TranUserExit BaseTransactionKey="WMS_PO_DOWNLOAD"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20030121000011" UserExitKey="YFSUE00055"/>
+<TranUserExit BaseTransactionKey="SHIP_ADVICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20030121000022" UserExitKey="YFSUE00056"/>
+<TranUserExit BaseTransactionKey="INVENTORYAUDITPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200304091111423045" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="RECEIVE_ORDER"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200308091111212961" UserExitKey="YFSUE00052"/>
+<TranUserExit BaseTransactionKey="RECEIPTHISTPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200308091111423054" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="RECEIPTPRG" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200308091111423055" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="PRICELISTPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200308091111423056" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="MOVEREQUESTPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200308091111423057" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="COUNTPRG" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200308091111423059" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="SCHEDULE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20030901000000" UserExitKey="INVUE00001"/>
+<TranUserExit BaseTransactionKey="CONFIRM_SHIPMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20030901000001" UserExitKey="YFSUE000049"/>
+<TranUserExit BaseTransactionKey="CREATE_CONFIRM_SHIPMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20030901000002" UserExitKey="YFSUE000049"/>
+<TranUserExit BaseTransactionKey="CREATE_SHIPMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20030901000003" UserExitKey="YFSUE000049"/>
+<TranUserExit BaseTransactionKey="DRAFT_ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20030901000004" UserExitKey="YFSUE000049"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20030901000005" UserExitKey="YFSUE000049"/>
+<TranUserExit BaseTransactionKey="ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20030901000006" UserExitKey="YFSUE000049"/>
+<TranUserExit BaseTransactionKey="PACK_SHIPMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20030901000008" UserExitKey="YFSUE000049"/>
+<TranUserExit BaseTransactionKey="CONFIRM_SHIPMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20030901000009" UserExitKey="YFSUE000049"/>
+<TranUserExit BaseTransactionKey="DRAFT_ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20030901000010" UserExitKey="YCMUE00002"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20030901000011" UserExitKey="YCMUE00002"/>
+<TranUserExit BaseTransactionKey="ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20030901000012" UserExitKey="YCMUE00002"/>
+<TranUserExit BaseTransactionKey="SCHEDULE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20030929192813" UserExitKey="YFSUE00051"/>
+<TranUserExit BaseTransactionKey="RELEASE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20030929192814" UserExitKey="YFSUE00051"/>
+<TranUserExit BaseTransactionKey="ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20030929192815" UserExitKey="YFSUE00051"/>
+<TranUserExit BaseTransactionKey="ROUTING" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200312021111423010" UserExitKey="YDMUE00011"/>
+<TranUserExit BaseTransactionKey="ROUTING" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200312021111423059" UserExitKey="YDMUE00010"/>
+<TranUserExit BaseTransactionKey="ASSIGN_LANE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200312041111423010" UserExitKey="WMSUE00017"/>
+<TranUserExit BaseTransactionKey="CONTAINERIZE_WAVE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200312081111423012" UserExitKey="WMSUE00018"/>
+<TranUserExit BaseTransactionKey="POST_PICK_CNTR"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200312081111423013" UserExitKey="WMSUE00018"/>
+<TranUserExit BaseTransactionKey="LOCNINVAUDITPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200312081111423014" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="CONTAINERIZE_WAVE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200312111111423014" UserExitKey="WMSUE00019"/>
+<TranUserExit BaseTransactionKey="POST_PICK_CNTR"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200312111111423015" UserExitKey="WMSUE00019"/>
+<TranUserExit BaseTransactionKey="SCHEDULE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20040318192813" UserExitKey="YFSUE00058"/>
+<TranUserExit BaseTransactionKey="RELEASE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20040318192814" UserExitKey="YFSUE00058"/>
+<TranUserExit BaseTransactionKey="ORDER_RELEASE_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20040318192815" UserExitKey="YFSUE00058"/>
+<TranUserExit BaseTransactionKey="UNSCHEDULE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20040318192816" UserExitKey="YFSUE00058"/>
+<TranUserExit BaseTransactionKey="WORK_ORDER_MONITOR"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20040318192817" UserExitKey="VASUE00002"/>
+<TranUserExit BaseTransactionKey="PROCESS_ORDER_HOLD_TYPE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20040318192818" UserExitKey="YFSUE00064"/>
+<TranUserExit BaseTransactionKey="PAYMENT_EXECUTION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200408091111222964" UserExitKey="YFSUE00063"/>
+<TranUserExit BaseTransactionKey="PAYMENT_COLLECTION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200408091111232966" UserExitKey="YFSUE00061"/>
+<TranUserExit BaseTransactionKey="TASKPURGE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20040915192814" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="TASKHISTPURGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20040915192815" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="WORK_ORDER_PURGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20040915192816" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="WORK_ORDER_HISTORY_PURGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20040915192817" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="PRODUCTIVITYPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20040915192818" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="USERACTIVITYPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20040915192819" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="USERACTAUDITPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20040915192820" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="ORGANIZATION_AUDIT_PURGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20040915192821" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="YFS_AUDIT_PURGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20040915192822" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="ORDER_MONITOR_EX"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20041209192820" UserExitKey="YFSUE00057"/>
+<TranUserExit BaseTransactionKey="CREATE_ORDER_INVOICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20050317140810" UserExitKey="YFSUE00065"/>
+<TranUserExit BaseTransactionKey="CREATE_SHIPMENT_INVOICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20050317140820" UserExitKey="YFSUE00065"/>
+<TranUserExit BaseTransactionKey="PROCESS_WO_HOLD_TYPE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20050331100111" UserExitKey="VASUE00004"/>
+<TranUserExit BaseTransactionKey="SCHEDULE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200506171111332994" UserExitKey="INVUE75_001"/>
+<TranUserExit BaseTransactionKey="RELEASE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200506171111332995" UserExitKey="INVUE75_001"/>
+<TranUserExit BaseTransactionKey="ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200506171111332996" UserExitKey="INVUE75_001"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200506171111332997" UserExitKey="INVUE75_001"/>
+<TranUserExit BaseTransactionKey="SCHEDULE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200506171111333567" UserExitKey="INVUE80_001"/>
+<TranUserExit BaseTransactionKey="RELEASE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200506171111333568" UserExitKey="INVUE80_001"/>
+<TranUserExit BaseTransactionKey="ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200506171111333569" UserExitKey="INVUE80_001"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200506171111333570" UserExitKey="INVUE80_001"/>
+<TranUserExit BaseTransactionKey="PASSWORD_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20050705154860" UserExitKey="YCPUE00018"/>
+<TranUserExit BaseTransactionKey="PASSWORD_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20050705154870" UserExitKey="YCPUE00019"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200510091111262974" UserExitKey="YFSUE00068"/>
+<TranUserExit BaseTransactionKey="ORDER_RELEASE_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200510091111262975" UserExitKey="YFSUE00068"/>
+<TranUserExit BaseTransactionKey="ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200510091111262999" UserExitKey="YFSUE00068"/>
+<TranUserExit BaseTransactionKey="ROUTING" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200521071111423010" UserExitKey="YDMUE00022"/>
+<TranUserExit BaseTransactionKey="ROUTING" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200521071111423011" UserExitKey="YDMUE00023"/>
+<TranUserExit BaseTransactionKey="UNCONFIRM_SHIPMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200603111111262976" UserExitKey="YDMUE00015"/>
+<TranUserExit BaseTransactionKey="CUSTOMER_DEFINITION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200603231111262977" UserExitKey="YCPUE00020"/>
+<TranUserExit BaseTransactionKey="CUSTOMER_DEFINITION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200603271111262978" UserExitKey="YCPUE00021"/>
+<TranUserExit BaseTransactionKey="CUSTOMER_DEFINITION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200603271111262979" UserExitKey="YCPUE77_01"/>
+<TranUserExit BaseTransactionKey="LOADHISTPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200610171111423046" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="CREATE_EXCEPTION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200808091111212961" UserExitKey="YCPUE77_02"/>
+<TranUserExit BaseTransactionKey="CUSTOMER_DEFINITION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200811111519262978" UserExitKey="YCPUE00022"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE_PENDING"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20090121000000" UserExitKey="YFSUE00049"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE_PENDING"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200906171111332997" UserExitKey="INVUE75_001"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE_PENDING"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200906171111333570" UserExitKey="INVUE80_001"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE_PENDING"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200906171111333579" UserExitKey="INVUE00001"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE_PENDING"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200908091111262974" UserExitKey="YFSUE00010"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE_PENDING"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200908091111322991" UserExitKey="YFSUE00018"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE_PENDING"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200908091111383008" UserExitKey="YFSUE00029"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE_PENDING"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200908091111393012" UserExitKey="YFSUE00030"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE_PENDING"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20090901000005" UserExitKey="YFSUE000049"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE_PENDING"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="20090901000011" UserExitKey="YCMUE00002"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE_PENDING"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="200910091111262974" UserExitKey="YFSUE00068"/>
+<TranUserExit BaseTransactionKey="PAYMENT_EXECUTION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="201206011010202964" UserExitKey="YFSUE921_002"/>
+<TranUserExit BaseTransactionKey="CATALOG_MASS_AUDIT_PURGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="CATALOG_MASS_AUDIT_PURGE" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="SCHEDULE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="INVTRAN000021" UserExitKey="INVUE00002"/>
+<TranUserExit BaseTransactionKey="RELEASE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="INVTRAN000022" UserExitKey="INVUE00002"/>
+<TranUserExit BaseTransactionKey="ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="INVTRAN000023" UserExitKey="INVUE00002"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="INVTRAN000024" UserExitKey="INVUE00002"/>
+<TranUserExit BaseTransactionKey="ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="INVTRAN000025" UserExitKey="YFSUE00019"/>
+<TranUserExit BaseTransactionKey="ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="INVTRAN000026" UserExitKey="OMPUE80_002"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="INVTRAN000027" UserExitKey="YFSUE00019"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="INVTRAN000028" UserExitKey="OMPUE80_002"/>
+<TranUserExit BaseTransactionKey="ADD_TO_CONTAINER"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="INVUE81_001" UserExitKey="INVUE81_001"/>
+<TranUserExit BaseTransactionKey="PACK_SHIPMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="INVUE81_001_1" UserExitKey="INVUE81_001"/>
+<TranUserExit BaseTransactionKey="ADJ_LOCN_INVENTORY"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="INVUE81_001_2" UserExitKey="INVUE81_001"/>
+<TranUserExit BaseTransactionKey="CREATE_LPN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="INVUE81_001_3" UserExitKey="INVUE81_001"/>
+<TranUserExit BaseTransactionKey="IN_PROGRESS_TASK"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="INVUE81_001_4" UserExitKey="INVUE81_001"/>
+<TranUserExit BaseTransactionKey="SCHEDULE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="OMPTRAN0007" UserExitKey="YFSUE80_007"/>
+<TranUserExit BaseTransactionKey="RELEASE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="OMPTRAN0008" UserExitKey="YFSUE80_007"/>
+<TranUserExit BaseTransactionKey="CREATE_SHIPMENT_INVOICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="OMPTRAN79_001" UserExitKey="OMPUE79_001"/>
+<TranUserExit BaseTransactionKey="CREATE_ORDER_INVOICE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="OMPTRAN79_002" UserExitKey="OMPUE79_001"/>
+<TranUserExit BaseTransactionKey="SCHEDULE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="OMPTRAN79_003" UserExitKey="YCPUE80_001"/>
+<TranUserExit BaseTransactionKey="ORDER_CREATE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="OMPTRAN79_004" UserExitKey="INVUE00001"/>
+<TranUserExit BaseTransactionKey="ORDER_CHANGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="OMPTRAN79_005" UserExitKey="INVUE00001"/>
+<TranUserExit BaseTransactionKey="CREATE_WORK_ORDER"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="OMPTRAN79_006" UserExitKey="INVUE00001"/>
+<TranUserExit BaseTransactionKey="MODIFY_WORK_ORDER"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="OMPTRAN79_007" UserExitKey="INVUE00001"/>
+<TranUserExit BaseTransactionKey="UNSCHEDULE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="OMPTRAN79_008" UserExitKey="INVUE00001"/>
+<TranUserExit BaseTransactionKey="SCHEDULE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="OMPTRAN79_009" UserExitKey="YFSUE80_101"/>
+<TranUserExit BaseTransactionKey="ITEM_AUDIT_PURGE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="OMPTRAN79_010" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="ESP_EVALUATOR"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="OMPTRAN80_001" UserExitKey="YCPUE80_001"/>
+<TranUserExit BaseTransactionKey="CREATE_OPPORTUNITY"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="OMPTRANUE90_01" UserExitKey="YFSUE90_01"/>
+<TranUserExit BaseTransactionKey="REALTIME_ATP_MONITOR"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="OMPTRANUE91_02" UserExitKey="OMPUE91_02"/>
+<TranUserExit BaseTransactionKey="PAYMENT_COLLECTION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="OMPTUE80_003" UserExitKey="OMPUE80_003"/>
+<TranUserExit BaseTransactionKey="MANAGE_DOCK_APPNTMNT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:08-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:08-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="SCWMSUE00023" UserExitKey="SCWMSUE00023"/>
+<TranUserExit BaseTransactionKey="STATTBLPRG" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="STATTBLPRG" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="CREATE_WORK_ORDER"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:04-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:04-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="VASUE00001" UserExitKey="VASUE00001"/>
+<TranUserExit BaseTransactionKey="LOCATION_DEFINITION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00001" UserExitKey="WMSUE00001"/>
+<TranUserExit BaseTransactionKey="ZONE_DEFINITION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00002" UserExitKey="WMSUE00002"/>
+<TranUserExit BaseTransactionKey="CREATE_LPN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00003" UserExitKey="WMSUE00003"/>
+<TranUserExit BaseTransactionKey="CREATE_LPN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00004" UserExitKey="WMSUE00004"/>
+<TranUserExit BaseTransactionKey="ADJ_LOCN_INVENTORY"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00005" UserExitKey="WMSUE00005"/>
+<TranUserExit BaseTransactionKey="CHANGE_INV_ATTRS"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00006" UserExitKey="WMSUE00006"/>
+<TranUserExit BaseTransactionKey="RELEASE_MOVE_REQUEST"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00007" UserExitKey="WMSUE00007"/>
+<TranUserExit BaseTransactionKey="RELEASE_WAVE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00007_1" UserExitKey="WMSUE00007"/>
+<TranUserExit BaseTransactionKey="RELEASE_MOVE_REQUEST"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00008" UserExitKey="WMSUE00008"/>
+<TranUserExit BaseTransactionKey="RELEASE_WAVE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00008_1" UserExitKey="WMSUE00008"/>
+<TranUserExit BaseTransactionKey="CREATE_WAVE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00011" UserExitKey="WMSUE00011"/>
+<TranUserExit BaseTransactionKey="CREATE_WAVE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00012" UserExitKey="WMSUE00012"/>
+<TranUserExit BaseTransactionKey="CONTAINERIZE_WAVE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00013" UserExitKey="WMSUE00013"/>
+<TranUserExit BaseTransactionKey="CREATE_WAVE_TASK_Q"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00014" UserExitKey="WMSUE00012"/>
+<TranUserExit BaseTransactionKey="CONTAINERIZE_WAVE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00015" UserExitKey="WMSUE00015"/>
+<TranUserExit BaseTransactionKey="CREATE_MOVE_REQUEST"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00016" UserExitKey="WMSUE00016"/>
+<TranUserExit BaseTransactionKey="CREATE_COUNT_REQUEST"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE0001o" UserExitKey="WMSUE00010"/>
+<TranUserExit BaseTransactionKey="RELEASE_WAVE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00020" UserExitKey="WMSUE00020"/>
+<TranUserExit BaseTransactionKey="RELEASE_MOVE_REQUEST"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00021" UserExitKey="WMSUE00021"/>
+<TranUserExit BaseTransactionKey="RELEASE_MOVE_REQUEST"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00024" UserExitKey="WMSUE00009"/>
+<TranUserExit BaseTransactionKey="RELEASE_WAVE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00024_1" UserExitKey="WMSUE00009"/>
+<TranUserExit BaseTransactionKey="DELETE_LPN" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00025" UserExitKey="WMSUE00025"/>
+<TranUserExit BaseTransactionKey="MOVE_LOCN_INVENTORY"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00026" UserExitKey="WMSUE00026"/>
+<TranUserExit BaseTransactionKey="ADJ_LOCN_INVENTORY"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00027" UserExitKey="WMSUE00027"/>
+<TranUserExit BaseTransactionKey="ADJ_LOCN_INVENTORY"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00030" UserExitKey="WMSUE00003"/>
+<TranUserExit BaseTransactionKey="MOVE_LOCN_INVENTORY"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00031" UserExitKey="WMSUE00003"/>
+<TranUserExit BaseTransactionKey="CHANGE_INV_ATTRS"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00032" UserExitKey="WMSUE00003"/>
+<TranUserExit BaseTransactionKey="CHANGE_INV_ATTRS"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00998" UserExitKey="WMSUE00998"/>
+<TranUserExit BaseTransactionKey="CONTAINERIZE_WAVE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:56-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="WMSUE00999" UserExitKey="WMSUE00999"/>
+<TranUserExit BaseTransactionKey="COM_PCA_USER_EXIT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:25-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:25-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCDUE00008" UserExitKey="YCDUE00008"/>
+<TranUserExit BaseTransactionKey="COM_PCA_USER_EXIT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:25-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:25-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCDUE00015" UserExitKey="YCDUE00015"/>
+<TranUserExit BaseTransactionKey="COM_PCA_USER_EXIT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:25-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:25-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCDUE00016" UserExitKey="YCDUE00016"/>
+<TranUserExit BaseTransactionKey="COM_PCA_USER_EXIT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:25-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:25-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCDUE00019" UserExitKey="YCDUE00019"/>
+<TranUserExit BaseTransactionKey="COM_PCA_USER_EXIT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:25-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:25-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCDUE00020" UserExitKey="YCDUE00020"/>
+<TranUserExit BaseTransactionKey="COM_PCA_USER_EXIT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:25-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:25-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCDUE00021" UserExitKey="YCDUE00021"/>
+<TranUserExit BaseTransactionKey="COM_PCA_USER_EXIT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:25-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:25-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCDUE00022" UserExitKey="YCDUE00022"/>
+<TranUserExit BaseTransactionKey="COM_PCA_USER_EXIT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:25-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:25-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCDUE00023" UserExitKey="YCDUE00023"/>
+<TranUserExit BaseTransactionKey="COM_PCA_USER_EXIT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:25-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:25-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCDUE00024" UserExitKey="YCDUE00024"/>
+<TranUserExit BaseTransactionKey="COM_PCA_USER_EXIT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:25-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:25-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCDUE00025" UserExitKey="YCDUE00025"/>
+<TranUserExit BaseTransactionKey="COM_PCA_USER_EXIT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:25-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:25-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCDUE00026" UserExitKey="YCDUE00026"/>
+<TranUserExit BaseTransactionKey="COM_PCA_USER_EXIT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:25-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:25-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCDUE00027" UserExitKey="YCDUE00027"/>
+<TranUserExit BaseTransactionKey="COM_PCA_USER_EXIT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:25-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:25-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCDUE00028" UserExitKey="YCDUE00028"/>
+<TranUserExit BaseTransactionKey="COM_PCA_USER_EXIT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:25-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:25-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCDUE00099" UserExitKey="YCDUE00099"/>
+<TranUserExit BaseTransactionKey="COM_PCA_USER_EXIT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:25-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:25-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCDUE00100" UserExitKey="YCDUE000100"/>
+<TranUserExit BaseTransactionKey="COM_PCA_USER_EXIT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:25-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:25-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCDYFSUE00061" UserExitKey="YFSUE00061"/>
+<TranUserExit BaseTransactionKey="ITEM_DEFINITION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCMTRAN711_001" UserExitKey="YCMUE00005"/>
+<TranUserExit BaseTransactionKey="ITEM_DEFINITION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCMTRAN711_002" UserExitKey="YCMUE00004"/>
+<TranUserExit BaseTransactionKey="CATALOG_INDEX_BUILD"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCMTRAN85_001" UserExitKey="YCMUE00007"/>
+<TranUserExit BaseTransactionKey="CATALOG_INDEX_BUILD"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:48-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCMTRANUE90_001" UserExitKey="YCMUE00010"/>
+<TranUserExit BaseTransactionKey="BUSINESS_CENTER_USEREXIT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCMUE00008" UserExitKey="YCMUE00008"/>
+<TranUserExit BaseTransactionKey="WAVE_PURGE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:56-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCPUE00004" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="CREATE_TASK"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCPUE00005" UserExitKey="YCPUE00005"/>
+<TranUserExit BaseTransactionKey="CHANGE_TASK"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCPUE00006" UserExitKey="YCPUE00006"/>
+<TranUserExit BaseTransactionKey="CANCEL_TASK"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCPUE00007" UserExitKey="YCPUE00007"/>
+<TranUserExit BaseTransactionKey="IN_PROGRESS_TASK"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCPUE00008" UserExitKey="YCPUE00008"/>
+<TranUserExit BaseTransactionKey="CREATE_TASK"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCPUE00010" UserExitKey="YCPUE00010"/>
+<TranUserExit BaseTransactionKey="RELEASE_WAVE"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCPUE00010_1" UserExitKey="YCPUE00010"/>
+<TranUserExit BaseTransactionKey="COMPLETE_TASK"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCPUE00011" UserExitKey="YCPUE00011"/>
+<TranUserExit BaseTransactionKey="CREATE_BATCH"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCPUE00012" UserExitKey="YCPUE00012"/>
+<TranUserExit BaseTransactionKey="MINE_PRODUCTIVITY"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCPUE00014" UserExitKey="YCPUE00014"/>
+<TranUserExit BaseTransactionKey="MODIFY_PRODUCTIVITY"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCPUE00014_1" UserExitKey="YCPUE00014"/>
+<TranUserExit BaseTransactionKey="CREATE_PRODUCTIVITY"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCPUE00014_2" UserExitKey="YCPUE00014"/>
+<TranUserExit BaseTransactionKey="ADD_TO_MANIFEST"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:07-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:07-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCSUE00001" UserExitKey="YCSUE00017"/>
+<TranUserExit BaseTransactionKey="CLOSE_MANIFEST"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:07-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:07-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCSUE00002" UserExitKey="YCSUE00004"/>
+<TranUserExit BaseTransactionKey="OPEN_MANIFEST"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:07-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:07-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCSUE00003" UserExitKey="YCSUE00001"/>
+<TranUserExit BaseTransactionKey="GET_TRACKING_NO"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:07-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:07-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCSUE00004" UserExitKey="YCSUE00017"/>
+<TranUserExit BaseTransactionKey="REMOVE_FROM_MANIFEST"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:07-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:07-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCSUE00005" UserExitKey="YCSUE00006"/>
+<TranUserExit BaseTransactionKey="VOID_TRACKING_NO"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:07-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:07-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCSUE00006" UserExitKey="YCSUE00006"/>
+<TranUserExit BaseTransactionKey="ADD_TO_MANIFEST"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:07-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:07-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YCSUE00007" UserExitKey="YCSUE00023"/>
+<TranUserExit BaseTransactionKey="ADD_TO_MANIFEST"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YDMUE00001" UserExitKey="YDMUE00015"/>
+<TranUserExit BaseTransactionKey="CLOSE_MANIFEST"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YDMUE00002" UserExitKey="YDMUE00008"/>
+<TranUserExit BaseTransactionKey="REMOVE_FROM_MANIFEST"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YDMUE00003" UserExitKey="YDMUE00007"/>
+<TranUserExit BaseTransactionKey="VOID_TRACKING_NO"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YDMUE00004" UserExitKey="YDMUE00007"/>
+<TranUserExit BaseTransactionKey="ADD_TO_MANIFEST"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YDMUE00006" UserExitKey="YDMUE00006"/>
+<TranUserExit BaseTransactionKey="ADD_TO_CONTAINER"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YDMUE00012" UserExitKey="YDMUE00012"/>
+<TranUserExit BaseTransactionKey="SHIPMENT_MONITOR"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YDMUE00013" UserExitKey="YDMUE00013"/>
+<TranUserExit BaseTransactionKey="CHANGE_CONTAINER"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YDMUE00017" UserExitKey="YDMUE00017"/>
+<TranUserExit BaseTransactionKey="CREATE_CONTAINER"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YDMUE00018" UserExitKey="YDMUE00018"/>
+<TranUserExit BaseTransactionKey="CHANGE_CONTAINER"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YDMUE00018_1" UserExitKey="YDMUE00018"/>
+<TranUserExit BaseTransactionKey="ADD_TO_CONTAINER"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YDMUE00018_2" UserExitKey="YDMUE00018"/>
+<TranUserExit BaseTransactionKey="CREATE_LOAD"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YDMUE00019" UserExitKey="YDMUE00019"/>
+<TranUserExit BaseTransactionKey="MODIFY_LOAD"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YDMUE00019_1" UserExitKey="YDMUE00019"/>
+<TranUserExit BaseTransactionKey="CREATE_LOAD"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YDMUE00020" UserExitKey="YDMUE00020"/>
+<TranUserExit BaseTransactionKey="MODIFY_LOAD"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YDMUE00020_1" UserExitKey="YDMUE00020"/>
+<TranUserExit BaseTransactionKey="ADD_TO_CONTAINER"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YDMUE00099" UserExitKey="YDMUE00099"/>
+<TranUserExit BaseTransactionKey="CHANGE_SHIPMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YDMUE00100" UserExitKey="YDMUE00100"/>
+<TranUserExit BaseTransactionKey="ADD_TO_MANIFEST"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:03-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:03-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YDMUE00101" UserExitKey="YDMUE00101"/>
+<TranUserExit BaseTransactionKey="CUSTOMER_DEFINITION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YSCTRANUE91_01" UserExitKey="YSCUE91_01"/>
+<TranUserExit BaseTransactionKey="PERSONINFOPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YSCTUE80_001" UserExitKey="YCPUE00004"/>
+<TranUserExit BaseTransactionKey="PERSONINFOHISTPRG"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    TranUserExitKey="YSCTUE80_002" UserExitKey="YCPUE00004"/>
+</YFS_TRAN_USER_EXITList>

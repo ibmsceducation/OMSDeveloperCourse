@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_COMPONENT_STATUSList TableName="YFS_COMPONENT_STATUS" TotalNumberOfRecords="9">
+<ComponentStatus ComponentStatusKey="2001482156740"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:47-04:00"
+    Createuserid="SYSTEM" Domain="Migrate" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:47-04:00"
+    Modifyuserid="SYSTEM" Name="YFS_INVENTORY_NODE_CONTROL"
+    StartSync="N" SyncModifications="N" SyncStatus="NOT_STARTED"/>
+<ComponentStatus ComponentStatusKey="2002001325269"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:47-04:00"
+    Createuserid="SYSTEM" Domain="Migrate" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:47-04:00"
+    Modifyuserid="SYSTEM" Name="YFS_INVENTORY_SUPPLY" StartSync="N"
+    SyncModifications="N" SyncStatus="NOT_STARTED"/>
+<ComponentStatus ComponentStatusKey="20052392473"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:47-04:00"
+    Createuserid="SYSTEM" Domain="Migrate" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:47-04:00"
+    Modifyuserid="SYSTEM" Name="YFS_ITEM_NODE_VELOCITY" StartSync="N"
+    SyncModifications="N" SyncStatus="NOT_STARTED"/>
+<ComponentStatus ComponentStatusKey="200551959929"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:47-04:00"
+    Createuserid="SYSTEM" Domain="Migrate" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:47-04:00"
+    Modifyuserid="SYSTEM" Name="YFS_CAPACITY_AVAILABILITY" StartSync="N"
+    SyncModifications="N" SyncStatus="NOT_STARTED"/>
+<ComponentStatus ComponentStatusKey="201073010160"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:47-04:00"
+    Createuserid="SYSTEM" Domain="Migrate" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:47-04:00"
+    Modifyuserid="SYSTEM" Name="YFS_INVENTORY_ALERT_DETAIL"
+    StartSync="N" SyncModifications="N" SyncStatus="NOT_STARTED"/>
+<ComponentStatus ComponentStatusKey="201755615705"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:47-04:00"
+    Createuserid="SYSTEM" Domain="Migrate" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:47-04:00"
+    Modifyuserid="SYSTEM" Name="YFS_INVENTORY_ITEM_NOD_COST"
+    StartSync="N" SyncModifications="N" SyncStatus="NOT_STARTED"/>
+<ComponentStatus ComponentStatusKey="201769680083"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:47-04:00"
+    Createuserid="SYSTEM" Domain="Migrate" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:47-04:00"
+    Modifyuserid="SYSTEM" Name="YFS_INVENTORY_ALERTS" StartSync="N"
+    SyncModifications="N" SyncStatus="NOT_STARTED"/>
+<ComponentStatus ComponentStatusKey="201849324679"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:47-04:00"
+    Createuserid="SYSTEM" Domain="Migrate" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:47-04:00"
+    Modifyuserid="SYSTEM" Name="YFS_INVENTORY_DEMAND" StartSync="N"
+    SyncModifications="N" SyncStatus="NOT_STARTED"/>
+<ComponentStatus ComponentStatusKey="20472995327"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:47-04:00"
+    Createuserid="SYSTEM" Domain="Migrate" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:47-04:00"
+    Modifyuserid="SYSTEM" Name="YFS_INVENTORY_AUDIT" StartSync="N"
+    SyncModifications="N" SyncStatus="NOT_STARTED"/>
+</YFS_COMPONENT_STATUSList>

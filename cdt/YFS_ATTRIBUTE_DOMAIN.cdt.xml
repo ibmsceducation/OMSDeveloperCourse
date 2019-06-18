@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_ATTRIBUTE_DOMAINList TableName="YFS_ATTRIBUTE_DOMAIN" TotalNumberOfRecords="2">
+<AttributeDomain AttributeDomainID="ItemAttribute"
+    AttributeDomainKey="201905282211171774" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:17-04:00" Createuserid="SYSTEM"
+    Lockid="0" LongDescription="Domain For Item Attribute"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:17-04:00"
+    Modifyuserid="SYSTEM" OrganizationCode="Aurora-Corp" Purpose="ITEM" ShortDescription="Item Attribute"/>
+<AttributeDomain AttributeDomainID="ItemAttribute"
+    AttributeDomainKey="20876065522" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:46-04:00" Createuserid="SYSTEM"
+    Lockid="0" LongDescription="Domain For Item Attribute"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:46-04:00"
+    Modifyuserid="SYSTEM" OrganizationCode="DEFAULT" Purpose="ITEM" ShortDescription="Item Attribute"/>
+</YFS_ATTRIBUTE_DOMAINList>

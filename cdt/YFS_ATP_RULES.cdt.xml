@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_ATP_RULESList TableName="YFS_ATP_RULES" TotalNumberOfRecords="3">
+<AtpRules AccumulationDays="730" AdvanceNotificationTime="0"
+    AtpRule="DEFAULT" AtpRuleKey="200787464389"
+    AtpRuleName="Aurora-DEFAULT" BackwardConsumptionDays="730"
+    ConsiderPoForAlloc="N" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:09-04:00" Createuserid="SYSTEM"
+    ForwardConsumptionDays="730" Lockid="0" MaxInventoryHoldDays="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:12:09-04:00"
+    Modifyuserid="SYSTEM" OrganizationCode="Aurora"
+    PastDueDemandDays="730" PastDueSupplyDays="730" ProcessingTime="0"/>
+<AtpRules AccumulationDays="730" AdvanceNotificationTime="0"
+    AtpRule="DEFAULT" AtpRuleKey="201099387676"
+    AtpRuleName="Aurora-Corp-DEFAULT" BackwardConsumptionDays="730"
+    ConsiderPoForAlloc="N" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:44-04:00" Createuserid="SYSTEM"
+    ForwardConsumptionDays="730" Lockid="0" MaxInventoryHoldDays="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:44-04:00"
+    Modifyuserid="SYSTEM" OrganizationCode="Aurora-Corp"
+    PastDueDemandDays="730" PastDueSupplyDays="730" ProcessingTime="0"/>
+<AtpRules AccumulationDays="730" AdvanceNotificationTime="0"
+    AtpRule="DEFAULT" AtpRuleKey="DEFAULT" AtpRuleName="DEFAULT"
+    BackwardConsumptionDays="730" ConsiderPoForAlloc="N"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:48-04:00"
+    Createuserid="SYSTEM" ForwardConsumptionDays="730" Lockid="0"
+    MaxInventoryHoldDays="730" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" PastDueDemandDays="730"
+    PastDueSupplyDays="730" ProcessingTime="0"/>
+</YFS_ATP_RULESList>

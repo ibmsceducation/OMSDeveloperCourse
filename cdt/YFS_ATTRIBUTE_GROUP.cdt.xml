@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_ATTRIBUTE_GROUPList TableName="YFS_ATTRIBUTE_GROUP" TotalNumberOfRecords="3">
+<AttributeGroup AttributeDomainID="ItemAttribute"
+    AttributeGroupID="Aurora" AttributeGroupKey="AURO-Aurora"
+    AttributeGroupPath="/ItemAttribute/Aurora"
+    Createprogid="XMLMigrator" Createts="2019-05-28T22:15:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" LongDescription=""
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:15:57-04:00"
+    Modifyuserid="SYSTEM" OrganizationCode="Aurora-Corp"
+    SequenceNo="100" ShortDescription="Aurora"/>
+<AttributeGroup AttributeDomainID="ItemAttribute"
+    AttributeGroupID="DISPLAY" AttributeGroupKey="Aurora-Corp_DISPLAY"
+    AttributeGroupPath="/ItemAttribute/DISPLAY"
+    Createprogid="XMLMigrator" Createts="2019-05-28T22:15:12-04:00"
+    Createuserid="SYSTEM" Lockid="0"
+    LongDescription="Attributes for display" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:12-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora-Corp" SequenceNo="776" ShortDescription="Display Attributes"/>
+<AttributeGroup AttributeDomainID="ItemAttribute"
+    AttributeGroupID="VARIATIONS"
+    AttributeGroupKey="Aurora-Corp_VARIATIONS"
+    AttributeGroupPath="/ItemAttribute/VARIATIONS"
+    Createprogid="XMLMigrator" Createts="2019-05-28T22:15:12-04:00"
+    Createuserid="SYSTEM" Lockid="0"
+    LongDescription="Attributes for Variations"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:15:12-04:00"
+    Modifyuserid="SYSTEM" OrganizationCode="Aurora-Corp"
+    SequenceNo="777" ShortDescription="Variation Attributes"/>
+</YFS_ATTRIBUTE_GROUPList>

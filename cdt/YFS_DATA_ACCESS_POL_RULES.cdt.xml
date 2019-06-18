@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_DATA_ACCESS_POL_RULESList TableName="YFS_DATA_ACCESS_POL_RULES" TotalNumberOfRecords="1">
+<DataAccessPolicyRules AssignedBuyerAccessMode="01" BuyerAccessMode="01"
+    ChildCustomerAccess="N" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:46-04:00" Createuserid="SYSTEM"
+    CustomerAccessMode="01" DataAccessPolicyRulesKey="DEFAULT"
+    EnterpriseAccessMode="02" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    NodeAccessMode="01" OrganizationCode="DEFAULT" SellerAccessMode="01"/>
+</YFS_DATA_ACCESS_POL_RULESList>

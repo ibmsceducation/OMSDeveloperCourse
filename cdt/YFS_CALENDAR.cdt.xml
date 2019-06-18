@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_CALENDARList TableName="YFS_CALENDAR" TotalNumberOfRecords="3">
+<Calendar CalendarDescription="Calendar_Auro_Store_1"
+    CalendarId="Calendar_Auro_Store_1" CalendarKey="Cal_Auro_Store_1"
+    Createprogid="XMLMigrator" Createts="2019-05-28T22:15:28-04:00"
+    Createuserid="SYSTEM" Lockid="0" MeantForInternal="N"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:15:28-04:00"
+    Modifyuserid="SYSTEM" MonthFilter="" OrganizationCode="Auro_Store_1" YearFilter="">
+    <InheritFromCalendar InheritCalendarKey=""/>
+</Calendar>
+<Calendar CalendarDescription="Calendar_Auro_Store_2"
+    CalendarId="Calendar_Auro_Store_2" CalendarKey="Cal_Auro_Store_2"
+    Createprogid="XMLMigrator" Createts="2019-05-28T22:15:28-04:00"
+    Createuserid="SYSTEM" Lockid="0" MeantForInternal="N"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:15:28-04:00"
+    Modifyuserid="SYSTEM" MonthFilter="" OrganizationCode="Auro_Store_2" YearFilter="">
+    <InheritFromCalendar InheritCalendarKey=""/>
+</Calendar>
+<Calendar CalendarDescription="Calendar_Auro_Store_3"
+    CalendarId="Calendar_Auro_Store_3" CalendarKey="Cal_Auro_Store_3"
+    Createprogid="XMLMigrator" Createts="2019-05-28T22:15:28-04:00"
+    Createuserid="SYSTEM" Lockid="0" MeantForInternal="N"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:15:28-04:00"
+    Modifyuserid="SYSTEM" MonthFilter="" OrganizationCode="Auro_Store_3" YearFilter="">
+    <InheritFromCalendar InheritCalendarKey=""/>
+</Calendar>
+</YFS_CALENDARList>

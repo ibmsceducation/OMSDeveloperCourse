@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_DOC_TYPE_DETERList TableName="YFS_DOC_TYPE_DETER" TotalNumberOfRecords="22">
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="SAA_GENERAL" DocumentType="2001"
+    DocumentTypeName="GENERAL" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:23-04:00" Modifyuserid="SYSTEM" PCAModuleCode="SAA"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="SAA_INBOUND_ORDER" DocumentType="0005"
+    DocumentTypeName="INBOUND_ORDER" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:44:23-04:00"
+    Modifyuserid="SYSTEM" PCAModuleCode="SAA"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="SAA_OPPORTUNITY" DocumentType="0020"
+    DocumentTypeName="OPPORTUNITY" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:23-04:00" Modifyuserid="SYSTEM" PCAModuleCode="SAA"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="SAA_PLANNED_ORDER" DocumentType="0002"
+    DocumentTypeName="PLANNED_ORDER" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:44:23-04:00"
+    Modifyuserid="SYSTEM" PCAModuleCode="SAA"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="SAA_QUOTE" DocumentType="0015"
+    DocumentTypeName="QUOTE" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:23-04:00" Modifyuserid="SYSTEM" PCAModuleCode="SAA"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="SAA_RETURN_ORDER" DocumentType="0003"
+    DocumentTypeName="RETURN_ORDER" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:44:23-04:00"
+    Modifyuserid="SYSTEM" PCAModuleCode="SAA"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="SAA_SALES_ORDER" DocumentType="0001"
+    DocumentTypeName="SALES_ORDER" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:23-04:00" Modifyuserid="SYSTEM" PCAModuleCode="SAA"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="SAA_TEMPLATE_ORDER" DocumentType="0004"
+    DocumentTypeName="TEMPLATE_ORDER" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:44:23-04:00"
+    Modifyuserid="SYSTEM" PCAModuleCode="SAA"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="SAA_TRANSFER_ORDER" DocumentType="0006"
+    DocumentTypeName="TRANSFER_ORDER" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:44:23-04:00"
+    Modifyuserid="SYSTEM" PCAModuleCode="SAA"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="SAA_WORK_ORDER" DocumentType="7001"
+    DocumentTypeName="WORK_ORDER" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:23-04:00" Modifyuserid="SYSTEM" PCAModuleCode="SAA"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:46:19-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="SFS_OPPORTUNITY" DocumentType="0020"
+    DocumentTypeName="OPPORTUNITY" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:46:19-04:00" Modifyuserid="SYSTEM" PCAModuleCode="SFS"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:46:19-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="SFS_QUOTE" DocumentType="0015"
+    DocumentTypeName="QUOTE" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:46:19-04:00" Modifyuserid="SYSTEM" PCAModuleCode="SFS"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="YCD_GENERAL" DocumentType="2001"
+    DocumentTypeName="GENERAL" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:23-04:00" Modifyuserid="SYSTEM" PCAModuleCode="YCD"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="YCD_INBOUND_ORDER" DocumentType="0005"
+    DocumentTypeName="INBOUND_ORDER" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:44:23-04:00"
+    Modifyuserid="SYSTEM" PCAModuleCode="YCD"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="YCD_OPPORTUNITY" DocumentType="0020"
+    DocumentTypeName="OPPORTUNITY" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:23-04:00" Modifyuserid="SYSTEM" PCAModuleCode="YCD"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="YCD_PLANNED_ORDER" DocumentType="0002"
+    DocumentTypeName="PLANNED_ORDER" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:44:23-04:00"
+    Modifyuserid="SYSTEM" PCAModuleCode="YCD"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="YCD_QUOTE" DocumentType="0015"
+    DocumentTypeName="QUOTE" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:23-04:00" Modifyuserid="SYSTEM" PCAModuleCode="YCD"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="YCD_RETURN_ORDER" DocumentType="0003"
+    DocumentTypeName="RETURN_ORDER" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:44:23-04:00"
+    Modifyuserid="SYSTEM" PCAModuleCode="YCD"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="YCD_SALES_ORDER" DocumentType="0001"
+    DocumentTypeName="SALES_ORDER" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:23-04:00" Modifyuserid="SYSTEM" PCAModuleCode="YCD"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="YCD_TEMPLATE_ORDER" DocumentType="0004"
+    DocumentTypeName="TEMPLATE_ORDER" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:44:23-04:00"
+    Modifyuserid="SYSTEM" PCAModuleCode="YCD"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="YCD_TRANSFER_ORDER" DocumentType="0006"
+    DocumentTypeName="TRANSFER_ORDER" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:44:23-04:00"
+    Modifyuserid="SYSTEM" PCAModuleCode="YCD"/>
+<DocTypeDeter Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:44:23-04:00" Createuserid="SYSTEM"
+    DocTypeDeterKey="YCD_WORK_ORDER" DocumentType="7001"
+    DocumentTypeName="WORK_ORDER" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:23-04:00" Modifyuserid="SYSTEM" PCAModuleCode="YCD"/>
+</YFS_DOC_TYPE_DETERList>

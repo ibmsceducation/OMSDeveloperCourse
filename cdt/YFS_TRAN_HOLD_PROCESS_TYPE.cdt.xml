@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_TRAN_HOLD_PROCESS_TYPEList TableName="YFS_TRAN_HOLD_PROCESS_TYPE" TotalNumberOfRecords="2">
+<TransactionHoldTypeProcessType BaseProcessTypeKey="VAS"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:43-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:43-04:00" Modifyuserid="SYSTEM"
+    TransactionHoldTypeProcessTypeKey="SCHEDULE.0001_VAS" TransactionKey="SCHEDULE.0001"/>
+<TransactionHoldTypeProcessType BaseProcessTypeKey="VAS"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:43-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:43-04:00" Modifyuserid="SYSTEM"
+    TransactionHoldTypeProcessTypeKey="SCHEDULE.0003_VAS" TransactionKey="SCHEDULE.0003"/>
+</YFS_TRAN_HOLD_PROCESS_TYPEList>
