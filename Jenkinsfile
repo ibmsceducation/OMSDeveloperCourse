@@ -22,8 +22,6 @@ pipeline {
       steps {
         sh 'docker tag om-app:extn_${BUILD_NUMBER} mycluster.icp:8500/default/om-app:extn_${BUILD_NUMBER}'
         sh 'docker tag om-agent:extn_${BUILD_NUMBER} mycluster.icp:8500/default/om-agent:extn_${BUILD_NUMBER}'
-        sh 'docker push mycluster.icp:8500/default/om-app:extn_${BUILD_NUMBER}'
-        sh 'docker push mycluster.icp:8500/default/om-agent:extn_${BUILD_NUMBER}'
       }
     }
     stage('Data migration') {
