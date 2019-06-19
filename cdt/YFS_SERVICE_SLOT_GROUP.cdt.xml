@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_SERVICE_SLOT_GROUPList TableName="YFS_SERVICE_SLOT_GROUP" TotalNumberOfRecords="2">
+<ServiceSlotGroup Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:44-04:00" Createuserid="SYSTEM"
+    ItemGroupCode="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:44-04:00" Modifyuserid="SYSTEM"
+    OrganizationKey="Aurora-Corp" ServiceSlotGroupDesc="Slot Group A"
+    ServiceSlotGroupId="SlotGroupA" ServiceSlotGroupKey="Aurora-Corp_SSG1"/>
+<ServiceSlotGroup Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:09-04:00" Createuserid="SYSTEM"
+    ItemGroupCode="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:12:09-04:00" Modifyuserid="SYSTEM"
+    OrganizationKey="Aurora" ServiceSlotGroupDesc="Slot Group A"
+    ServiceSlotGroupId="SlotGroupA" ServiceSlotGroupKey="Aurora_SSG1"/>
+</YFS_SERVICE_SLOT_GROUPList>

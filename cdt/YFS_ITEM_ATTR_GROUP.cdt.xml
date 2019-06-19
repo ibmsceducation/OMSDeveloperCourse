@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_ITEM_ATTR_GROUPList TableName="YFS_ITEM_ATTR_GROUP" TotalNumberOfRecords="2">
+<ItemAttributeGroup Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:12-04:00" Createuserid="SYSTEM"
+    ItemAttributeGroupDescription="Display"
+    ItemAttributeGroupID="DISPLAY"
+    ItemAttributeGroupKey="Aurora-Corp_IAG-1"
+    ItemAttributeGroupPath="ItemAttribute/DISPLAY"
+    ItemAttributeGroupType="DISPLAY" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:15:12-04:00"
+    Modifyuserid="SYSTEM" SequenceNo="0"/>
+<ItemAttributeGroup Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:12-04:00" Createuserid="SYSTEM"
+    ItemAttributeGroupDescription="Variations"
+    ItemAttributeGroupID="VARIATIONS"
+    ItemAttributeGroupKey="Aurora-Corp_IAG-2"
+    ItemAttributeGroupPath="ItemAttribute/VARIATIONS"
+    ItemAttributeGroupType="DISTINCT_ATTRIBUTES" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:15:12-04:00"
+    Modifyuserid="SYSTEM" SequenceNo="0"/>
+</YFS_ITEM_ATTR_GROUPList>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_PRINT_ADAPTERList TableName="YFS_PRINT_ADAPTER" TotalNumberOfRecords="1">
+<PrintAdapter AdapterPropertyXML=" " Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:46-04:00" Createuserid="SYSTEM"
+    ImplClassName="" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    PrintAdapterKey="2001531188570" PrintAdapterName="LOFTWARE" SystemDefined="Y"/>
+</YFS_PRINT_ADAPTERList>

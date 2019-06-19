@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_APPLICATION_MENUList TableName="YFS_APPLICATION_MENU" TotalNumberOfRecords="12">
+<ApplicationMenu ApplicationMenuKey="2008082714312031728"
+    ApplicationName="SMASYS00001" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:21-04:00" Createuserid="SYSTEM"
+    Lockid="0" MenuId="DEFAULT_MENU" MenuKey="2008082714312031720"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:21-04:00"
+    Modifyuserid="SYSTEM" SystemDefined="Y"/>
+<ApplicationMenu ApplicationMenuKey="Bus_Center_Menu"
+    ApplicationName="SBCSYS00001" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:45:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" MenuId="DEFAULT_MENU" MenuKey="Default_Bus_Center_Menu"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:45:28-04:00"
+    Modifyuserid="SYSTEM" SystemDefined="Y"/>
+<ApplicationMenu ApplicationMenuKey="Field_Sales_Menu"
+    ApplicationName="SFSSYS00001" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:46:19-04:00" Createuserid="SYSTEM"
+    Lockid="0" MenuId="DEFAULT_MENU" MenuKey="Default_Field_Sales_Menu"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:46:19-04:00"
+    Modifyuserid="SYSTEM" SystemDefined="Y"/>
+<ApplicationMenu ApplicationMenuKey="ISCCS_MENU"
+    ApplicationName="ISCCSSYS001" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:45:45-04:00" Createuserid="SYSTEM"
+    Lockid="0" MenuId="DEFAULT_MENU" MenuKey="ISCCS_MENU_KEY"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:45:45-04:00"
+    Modifyuserid="SYSTEM" SystemDefined="Y"/>
+<ApplicationMenu ApplicationMenuKey="SIC_APP_MENU_KEY"
+    ApplicationName="/sic" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:09-04:00" Createuserid="SYSTEM"
+    Lockid="0" MenuId="DEFAULT_MENU" MenuKey="DEFAULT_SIC_MENU"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:43:09-04:00"
+    Modifyuserid="SYSTEM" SystemDefined="Y"/>
+<ApplicationMenu ApplicationMenuKey="SUPPLIER_CONFIG_MENU"
+    ApplicationName="YFSSYS00002" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:58-04:00" Createuserid="SYSTEM"
+    Lockid="0" MenuId="SUPPLIER_PORTAL_MENU"
+    MenuKey="YFSCONFIG_MENU_KEY" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:58-04:00" Modifyuserid="SYSTEM" SystemDefined="N"/>
+<ApplicationMenu ApplicationMenuKey="SUPPLIER_CONSOLE_MENU"
+    ApplicationName="YFSSYS00004" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:58-04:00" Createuserid="SYSTEM"
+    Lockid="0" MenuId="SUPPLIER_PORTAL_MENU"
+    MenuKey="200401201012104605" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:58-04:00" Modifyuserid="SYSTEM" SystemDefined="N"/>
+<ApplicationMenu ApplicationMenuKey="WSC_APP_MENU"
+    ApplicationName="WSCSYS00001" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:46:01-04:00" Createuserid="SYSTEM"
+    Lockid="0" MenuId="SOP_MENU" MenuKey="WSC_MENU_KEY"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:46:01-04:00"
+    Modifyuserid="SYSTEM" SystemDefined="Y"/>
+<ApplicationMenu ApplicationMenuKey="WSC_CONSOLE_MENU"
+    ApplicationName="YFSSYS00004" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:46:01-04:00" Createuserid="SYSTEM"
+    Lockid="0" MenuId="SOP_MENU" MenuKey="YANTRA_MENU_KEY"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:46:01-04:00"
+    Modifyuserid="SYSTEM" SystemDefined="Y"/>
+<ApplicationMenu ApplicationMenuKey="WSC_MENU"
+    ApplicationName="WSCSYS00001" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:46:01-04:00" Createuserid="SYSTEM"
+    Lockid="0" MenuId="DEFAULT_MENU" MenuKey="WSC_DEFAULT_MENU_KEY"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:46:01-04:00"
+    Modifyuserid="SYSTEM" SystemDefined="Y"/>
+<ApplicationMenu ApplicationMenuKey="YANTRA_MENU"
+    ApplicationName="YFSSYS00004" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:25-04:00" Createuserid="SYSTEM"
+    Lockid="0" MenuId="DEFAULT_MENU" MenuKey="YANTRA_MENU_KEY"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:25-04:00"
+    Modifyuserid="SYSTEM" SystemDefined="Y"/>
+<ApplicationMenu ApplicationMenuKey="YFSCONFIG_MENU"
+    ApplicationName="YFSSYS00002" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:25-04:00" Createuserid="SYSTEM"
+    Lockid="0" MenuId="DEFAULT_MENU" MenuKey="YFSCONFIG_MENU_KEY"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:25-04:00"
+    Modifyuserid="SYSTEM" SystemDefined="Y"/>
+</YFS_APPLICATION_MENUList>

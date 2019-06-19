@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_QUEUE_SUBSCRIPTIONList TableName="YFS_QUEUE_SUBSCRIPTION" TotalNumberOfRecords="132">
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="2001006919344" UserKey="rwilliams"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora-Corp_Q4" QueueSubscriptionKey="2001113895208" UserKey="awilliams"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:53-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:53-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="2001256561964" UserKey="jwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:38-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="2001271934344" UserKey="ithomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:38-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="2001285191115" UserKey="iwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:24-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:24-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="2001313820266" UserKey="hwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:09-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:09-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="2001342449417" UserKey="gwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:53-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:53-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="2001361903299" UserKey="jthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:54-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:54-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="2001371078568" UserKey="fwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:40-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:40-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="2001399707719" UserKey="ewhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:25-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:25-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="2001414485453" UserKey="dthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:25-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:25-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="2001428336870" UserKey="dwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora-Corp_Q9" QueueSubscriptionKey="2001442657798" UserKey="ajohnson"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:10-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:10-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="2001456966021" UserKey="cwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:24-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:24-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="2001479379655" UserKey="hthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:56-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="2001485595172" UserKey="bwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:40-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:40-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="2001504454408" UserKey="ethomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:53-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:53-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="2001511826756" UserKey="jthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:41-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:41-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="2001514224323" UserKey="awhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:11-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:11-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="2001621930764" UserKey="cthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:40-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:40-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="2001654377865" UserKey="ethomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:09-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:09-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="2001686824966" UserKey="gthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora-Corp_Q1" QueueSubscriptionKey="20018008427" UserKey="awilliams"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:56-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="2001829376075" UserKey="bthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:53-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:53-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="2001980830000" UserKey="jwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:53-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:53-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q9" QueueSubscriptionKey="200198981172" UserKey="jwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:39-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:39-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="2002009459151" UserKey="iwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:24-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:24-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="2002038088302" UserKey="hwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:53-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:53-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="2002065908590" UserKey="jwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:09-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:09-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="2002066717453" UserKey="gwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:38-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="2002094537741" UserKey="iwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:54-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:54-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="2002095346604" UserKey="fwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:24-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:24-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="2002123166892" UserKey="hwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:40-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:40-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="2002123975755" UserKey="ewhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:56-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="20021921612" UserKey="bthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:38-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q9" QueueSubscriptionKey="200227610323" UserKey="iwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:24-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:24-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q9" QueueSubscriptionKey="200256239474" UserKey="hwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora-Corp_Q3" QueueSubscriptionKey="200263576768" UserKey="ajohnson"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:09-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:09-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q9" QueueSubscriptionKey="200284868625" UserKey="gwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:54-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:54-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q9" QueueSubscriptionKey="200313497776" UserKey="fwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:53-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:53-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="200323098255" UserKey="jwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:40-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:40-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q9" QueueSubscriptionKey="200342126927" UserKey="ewhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:38-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="200351727406" UserKey="iwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora-Corp_Q12" QueueSubscriptionKey="200364457209" UserKey="awilliams"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:25-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:25-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q9" QueueSubscriptionKey="200370756078" UserKey="dwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:24-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:24-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="200380356557" UserKey="hwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:53-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:53-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="200384430663" UserKey="jthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:11-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:11-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q9" QueueSubscriptionKey="200399385229" UserKey="cwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:09-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:09-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="200408985708" UserKey="gwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:56-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q9" QueueSubscriptionKey="200428014380" UserKey="bwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:54-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:54-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="200437614859" UserKey="fwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:42-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q9" QueueSubscriptionKey="200456643531" UserKey="awhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora-Corp_Q4" QueueSubscriptionKey="200460090273" UserKey="ajohnson"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:40-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:40-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="200466244010" UserKey="ewhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:25-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:25-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="200494873161" UserKey="dwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:11-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:11-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="200523502312" UserKey="cwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:40-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:40-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="200526981772" UserKey="ethomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:25-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:25-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="20054368713" UserKey="dthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:56-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="200552131463" UserKey="bwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:42-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="200580760614" UserKey="awhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:38-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="200591875974" UserKey="ithomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:54-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:54-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="200616950727" UserKey="fthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora-Corp_Q5" QueueSubscriptionKey="200656603778" UserKey="ajohnson"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:25-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:25-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="200734427083" UserKey="dthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:42-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="200759501836" UserKey="athomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:54-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:54-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="200766874184" UserKey="fthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:24-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:24-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="200799321285" UserKey="hthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:42-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="200909425293" UserKey="athomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:11-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:11-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="200941872394" UserKey="cthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:24-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:24-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="201008133178" UserKey="hthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:11-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:11-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="201015505526" UserKey="cthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:54-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:54-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="201040580279" UserKey="fthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:56-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="201105474481" UserKey="bthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="201147962374" UserKey="rjohnson"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:24-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:24-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="201158056635" UserKey="hthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:42-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="201162049721" UserKey="awhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:56-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="201190678872" UserKey="bwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:09-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:09-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="20120629497" UserKey="gthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:11-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:11-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="201219308023" UserKey="cwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:25-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:25-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="201247937174" UserKey="dwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:09-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:09-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="201248025590" UserKey="gthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:40-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:40-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="201276566325" UserKey="ewhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:56-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="20128001845" UserKey="bthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora-Corp_Q1" QueueSubscriptionKey="20129450242" UserKey="ajohnson"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:54-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:54-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="201305195476" UserKey="fwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:09-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:09-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="201333824627" UserKey="gwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="201335602065" UserKey="rwilliams"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="201344475879" UserKey="rjohnson"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:24-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:24-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="201362453778" UserKey="hwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora-Corp_Q12" QueueSubscriptionKey="201365200464" UserKey="ajohnson"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora-Corp_Q5" QueueSubscriptionKey="201384120729" UserKey="awilliams"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:38-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="201391082929" UserKey="iwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:53-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:53-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="201419712080" UserKey="jwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="201491096593" UserKey="rwilliams"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:40-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:40-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="20153076598" UserKey="ethomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="201540989384" UserKey="rjohnson"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:42-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="201578087540" UserKey="athomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="201697135750" UserKey="rjohnson"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:54-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:54-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="201720638649" UserKey="fthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:25-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:25-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="201753085750" UserKey="dthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:56-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="201785532851" UserKey="bthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:38-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="201895636859" UserKey="ithomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:25-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:25-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="201903009207" UserKey="dthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:09-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:09-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="201928083960" UserKey="gthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="201934016394" UserKey="rjohnson"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:42-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="201971396347" UserKey="awhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:11-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:11-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="201992978162" UserKey="cthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:56-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="202000025498" UserKey="bwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:11-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:11-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="202028654649" UserKey="cwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:38-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="202045560316" UserKey="ithomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:42-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="202056474937" UserKey="awhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:25-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:25-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="202057283800" UserKey="dwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:56-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="202085104088" UserKey="bwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:40-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:40-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="202085912951" UserKey="ewhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:11-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:11-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="202113733239" UserKey="cwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:54-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:54-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="202114542102" UserKey="fwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:24-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:24-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="202135529271" UserKey="hthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:25-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:25-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="202142362390" UserKey="dwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:09-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:09-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="202143171253" UserKey="gwhite"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:41-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:41-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="20217970800" UserKey="athomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:09-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:09-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q12" QueueSubscriptionKey="20270552954" UserKey="gthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:53-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:53-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="20295627707" UserKey="jthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:54-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:54-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="20360521909" UserKey="fthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q9" QueueSubscriptionKey="20361908354" UserKey="rjohnson"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora-Corp_Q3" QueueSubscriptionKey="20683056151" UserKey="awilliams"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="20790032015" UserKey="rwilliams"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:40-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:40-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="20833134968" UserKey="ethomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:11-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:11-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q4" QueueSubscriptionKey="20865582069" UserKey="cthomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:38-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="2088182396" UserKey="ithomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q1" QueueSubscriptionKey="2088967437" UserKey="rwilliams"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:42-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q3" QueueSubscriptionKey="20898029170" UserKey="athomas"/>
+<QueueSubscription Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:53-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:53-04:00" Modifyuserid="SYSTEM"
+    QueueKey="Aurora_Q5" QueueSubscriptionKey="20975686077" UserKey="jthomas"/>
+</YFS_QUEUE_SUBSCRIPTIONList>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_UOMList TableName="YFS_UOM" TotalNumberOfRecords="30">
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="CASE" UomDescription="Case"
+    UomKey="CASE" UomType="QUANTITY" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="CM" UomDescription="Centimeter"
+    UomKey="CM" UomType="DIMENSION" VolumeUom="CUCENTIMETER"/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="CUCENTIMETER"
+    UomDescription="Cubic Centimeter" UomKey="CUCENTIMETER"
+    UomType="VOLUME" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="CUFEET" UomDescription="Cubic Feet"
+    UomKey="CUFEET" UomType="VOLUME" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="CUKM"
+    UomDescription="Cubic Kilometer" UomKey="CUKM" UomType="VOLUME" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="CUMETER"
+    UomDescription="Cubic Meter" UomKey="CUMETER" UomType="VOLUME" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="CUMILE" UomDescription="Cubic Mile"
+    UomKey="CUMILE" UomType="VOLUME" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="DAY" UomDescription="Day"
+    UomKey="DAY" UomType="TIME" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="IN" UomDescription="Inch"
+    UomKey="DIMENSION_UOM" UomType="DIMENSION" VolumeUom="CIN"/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="EACH" UomDescription="Each"
+    UomKey="EACH" UomType="QUANTITY" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="FEET" UomDescription="Feet"
+    UomKey="FEET" UomType="DIMENSION" VolumeUom="CUFEET"/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="GALLON" UomDescription="Gallon"
+    UomKey="GALLON" UomType="VOLUME" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="GRAM" UomDescription="Gram"
+    UomKey="GRAM" UomType="WEIGHT" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="HALF-PALLET"
+    UomDescription="Half Pallet" UomKey="HALF-PALLET" UomType="QUANTITY" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="HR" UomDescription="Hour"
+    UomKey="HOUR" UomType="TIME" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="INNER-PACK"
+    UomDescription="Inner Pack" UomKey="INNERPACK" UomType="QUANTITY" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="KG" UomDescription="Kilogram"
+    UomKey="KG" UomType="WEIGHT" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="KM" UomDescription="Kilometer"
+    UomKey="KM" UomType="DIMENSION" VolumeUom="CUKM"/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="LITER" UomDescription="Liter"
+    UomKey="LITER" UomType="VOLUME" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="METER" UomDescription="Meter"
+    UomKey="METER" UomType="DIMENSION" VolumeUom="CUMETER"/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="MILE" UomDescription="Mile"
+    UomKey="MILE" UomType="DIMENSION" VolumeUom="CUMILE"/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="MIN" UomDescription="Minute"
+    UomKey="MINUTE" UomType="TIME" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="ML" UomDescription="Milli Liter"
+    UomKey="ML" UomType="VOLUME" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="PALLET" UomDescription="Pallet"
+    UomKey="PALLET" UomType="QUANTITY" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="QUART" UomDescription="Quart"
+    UomKey="QUART" UomType="VOLUME" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="SEC" UomDescription="Second"
+    UomKey="SECOND" UomType="TIME" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="TON" UomDescription="Ton"
+    UomKey="TON" UomType="WEIGHT" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="UNIT" UomDescription="Unit"
+    UomKey="UNIT" UomType="SERVICE_QUANTITY" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="CIN" UomDescription="Cubic Inches"
+    UomKey="VOLUME_UOM" UomType="VOLUME" VolumeUom=""/>
+<Uom Createprogid="XMLMigrator" Createts="2019-05-28T20:42:38-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" Uom="LBS" UomDescription="Pounds"
+    UomKey="WEIGHT_UOM" UomType="WEIGHT" VolumeUom=""/>
+</YFS_UOMList>

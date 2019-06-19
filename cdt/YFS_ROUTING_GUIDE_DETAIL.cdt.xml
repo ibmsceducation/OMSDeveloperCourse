@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_ROUTING_GUIDE_DETAILList TableName="YFS_ROUTING_GUIDE_DETAIL" TotalNumberOfRecords="1">
+<RoutingGuideDetail Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:29-04:00" Createuserid="SYSTEM"
+    DynamicRouting="" FreightTermsOverride="" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:15:29-04:00"
+    Modifyuserid="SYSTEM" RevisedShipToConsolNode=""
+    RevisedShipToNode="" RevisedShipToStore=""
+    RoutingGuideDetailKey="2011090705155653011"
+    RoutingGuideKey="2011090705134253008" ShipToHasBeenRevised="">
+    <ShipFrom ShipFromCity="" ShipFromCountry=""
+        ShipFromNode="Auro_Store_1" ShipFromState="" ShipFromZip=""/>
+    <ShipTo ShipToCity="" ShipToConsolNode="" ShipToCountry="US"
+        ShipToNode="" ShipToRegion="" ShipToState="" ShipToStore="" ShipToZip=""/>
+    <ShippingParameters HandlingUnits="0.00" InputCarrierServiceCode=""
+        MaxHandlingUnits="9999999999.00" MaxVolume="9999999999.00"
+        MaxWeight="9999999999.00" MinHandlingUnits="0.00"
+        MinVolume="0.00" MinWeight="0.00" ShipmentType="" Volume="0.00"
+        VolumeUOM="" Weight="0.00" WeightUOM=""/>
+</RoutingGuideDetail>
+</YFS_ROUTING_GUIDE_DETAILList>

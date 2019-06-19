@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_DISTRIBUTION_RULEList TableName="YFS_DISTRIBUTION_RULE" TotalNumberOfRecords="8">
+<DistributionRule Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:38-04:00" Createuserid="SYSTEM"
+    DefaultFlag="N" Description="Aurora-Corp Delivery DG1"
+    DistributionRuleId="Aurora-Corp_DEL_DG1"
+    DistributionRuleKey="Aurora-Corp_DEL_DG1" ItemGroupCode="DS"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:38-04:00" Modifyuserid="SYSTEM"
+    OwnerKey="Aurora-Corp" Purpose="SOURCING"/>
+<DistributionRule Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:38-04:00" Createuserid="SYSTEM"
+    DefaultFlag="N" Description="Aurora-Corp DS"
+    DistributionRuleId="Aurora-Corp_DG1"
+    DistributionRuleKey="Aurora-Corp_DG1" ItemGroupCode="PROD"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:38-04:00" Modifyuserid="SYSTEM"
+    OwnerKey="Aurora-Corp" Purpose="SOURCING"/>
+<DistributionRule Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:38-04:00" Createuserid="SYSTEM"
+    DefaultFlag="N" Description="Aurora-Corp Stores"
+    DistributionRuleId="Aurora-Corp_DG2"
+    DistributionRuleKey="Aurora-Corp_DG2" ItemGroupCode="PROD"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:38-04:00" Modifyuserid="SYSTEM"
+    OwnerKey="Aurora-Corp" Purpose="SOURCING"/>
+<DistributionRule Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:38-04:00" Createuserid="SYSTEM"
+    DefaultFlag="N" Description="Aurora-Corp Service DG"
+    DistributionRuleId="Aurora-Corp_PS_DG1"
+    DistributionRuleKey="Aurora-Corp_PS_DG1" ItemGroupCode="PS"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:38-04:00" Modifyuserid="SYSTEM"
+    OwnerKey="Aurora-Corp" Purpose="SOURCING"/>
+<DistributionRule Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:02-04:00" Createuserid="SYSTEM"
+    DefaultFlag="N" Description="Aurora Delivery DG1"
+    DistributionRuleId="Aurora_DEL_DG1"
+    DistributionRuleKey="Aurora_DEL_DG1" ItemGroupCode="DS" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:12:02-04:00"
+    Modifyuserid="SYSTEM" OwnerKey="Aurora" Purpose="SOURCING"/>
+<DistributionRule Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:02-04:00" Createuserid="SYSTEM"
+    DefaultFlag="N" Description="Aurora DS"
+    DistributionRuleId="Aurora_DG1" DistributionRuleKey="Aurora_DG1"
+    ItemGroupCode="PROD" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:12:02-04:00" Modifyuserid="SYSTEM"
+    OwnerKey="Aurora" Purpose="SOURCING"/>
+<DistributionRule Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:02-04:00" Createuserid="SYSTEM"
+    DefaultFlag="N" Description="Aurora Stores"
+    DistributionRuleId="Aurora_DG2" DistributionRuleKey="Aurora_DG2"
+    ItemGroupCode="PROD" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:12:02-04:00" Modifyuserid="SYSTEM"
+    OwnerKey="Aurora" Purpose="SOURCING"/>
+<DistributionRule Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:02-04:00" Createuserid="SYSTEM"
+    DefaultFlag="N" Description="Aurora Service DG"
+    DistributionRuleId="Aurora_PS_DG1"
+    DistributionRuleKey="Aurora_PS_DG1" ItemGroupCode="PS" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:12:02-04:00"
+    Modifyuserid="SYSTEM" OwnerKey="Aurora" Purpose="SOURCING"/>
+</YFS_DISTRIBUTION_RULEList>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_CUSTOMER_ADDNL_ADDRESSList TableName="YFS_CUSTOMER_ADDNL_ADDRESS" TotalNumberOfRecords="4">
+<CustomerAdditionalAddress AddressType="" Createprogid="ISCCSSYS001"
+    Createts="2019-05-31T21:02:35-04:00" Createuserid="rwilliams"
+    CustomerAdditionalAddressID="100000000"
+    CustomerAdditionalAddressKey="2019053121023527832"
+    CustomerContactKey="2019053121001027681"
+    CustomerKey="2019053121001027680" IsBillTo="Y" IsShipTo="Y"
+    Lockid="0" Modifyprogid="ISCCSSYS001"
+    Modifyts="2019-05-31T21:02:35-04:00" Modifyuserid="rwilliams" PersonInfoKey="2019053121023527831"/>
+<CustomerAdditionalAddress AddressType="" Createprogid="ISCCSSYS001"
+    Createts="2019-05-31T21:02:35-04:00" Createuserid="rwilliams"
+    CustomerAdditionalAddressID="100000001"
+    CustomerAdditionalAddressKey="2019053121023527833"
+    CustomerContactKey="2019053121001027681"
+    CustomerKey="2019053121001027680" IsBillTo="Y" IsShipTo="Y"
+    Lockid="0" Modifyprogid="ISCCSSYS001"
+    Modifyts="2019-05-31T21:02:35-04:00" Modifyuserid="rwilliams" PersonInfoKey="2019053121023427828"/>
+<CustomerAdditionalAddress AddressType="" Createprogid="ISCCSSYS001"
+    Createts="2019-05-31T21:18:01-04:00" Createuserid="admin"
+    CustomerAdditionalAddressID="100000002"
+    CustomerAdditionalAddressKey="2019053121180127972"
+    CustomerContactKey="2019053121001027681"
+    CustomerKey="2019053121001027680" IsBillTo="Y" IsShipTo="Y"
+    Lockid="0" Modifyprogid="ISCCSSYS001"
+    Modifyts="2019-05-31T21:18:01-04:00" Modifyuserid="admin" PersonInfoKey="2019053121023427828"/>
+<CustomerAdditionalAddress AddressType="" Createprogid="ISCCSSYS001"
+    Createts="2019-05-31T21:24:13-04:00" Createuserid="rwilliams"
+    CustomerAdditionalAddressID="100000003"
+    CustomerAdditionalAddressKey="2019053121241328165"
+    CustomerContactKey="2019053121001027681"
+    CustomerKey="2019053121001027680" IsBillTo="Y" IsShipTo="Y"
+    Lockid="0" Modifyprogid="ISCCSSYS001"
+    Modifyts="2019-05-31T21:24:13-04:00" Modifyuserid="rwilliams" PersonInfoKey="2019053121023427828"/>
+</YFS_CUSTOMER_ADDNL_ADDRESSList>

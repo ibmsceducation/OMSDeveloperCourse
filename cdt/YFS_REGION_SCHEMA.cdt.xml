@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_REGION_SCHEMAList TableName="YFS_REGION_SCHEMA" TotalNumberOfRecords="1">
+<RegionSchema Country="US" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:43-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:43-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT"
+    RegionSchemaDescription="Demo Region Schema"
+    RegionSchemaKey="DEFAULT_RS1" RegionSchemaName="DemoRegion"/>
+</YFS_REGION_SCHEMAList>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PLT_PWD_RULE_CFGList TableName="PLT_PWD_RULE_CFG" TotalNumberOfRecords="2">
+<PasswordRuleCfg Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:09-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:12:09-04:00" Modifyuserid="SYSTEM"
+    Params="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;ParamList>&#xa;    &lt;Param Name=&quot;ResetType&quot; Value=&quot;Email&quot;/>&#xa;    &lt;Param Name=&quot;CheckIntervalMinutes&quot; Value=&quot;5&quot;/>&#xa;&lt;/ParamList>&#xa;"
+    PasswordPolicyKey="Aurora_PP1" PasswordRuleCfgKey="200448545735" PasswordRuleDefnKey="20090207134125272606"/>
+<PasswordRuleCfg Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:43-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:43-04:00" Modifyuserid="SYSTEM"
+    Params="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;ParamList>&#xa;    &lt;Param Name=&quot;ResetType&quot; Value=&quot;Email&quot;/>&#xa;    &lt;Param Name=&quot;CheckIntervalMinutes&quot; Value=&quot;5&quot;/>&#xa;&lt;/ParamList>&#xa;"
+    PasswordPolicyKey="Aurora-Corp_PP1" PasswordRuleCfgKey="20215640454" PasswordRuleDefnKey="20090207134125272606"/>
+</PLT_PWD_RULE_CFGList>

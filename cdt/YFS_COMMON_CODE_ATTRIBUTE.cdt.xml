@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_COMMON_CODE_ATTRIBUTEList TableName="YFS_COMMON_CODE_ATTRIBUTE" TotalNumberOfRecords="18">
+<CommonCodeAttribute CommonCodeAttributeKey="2002127528288"
+    CommonCodeKey="20729324836" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:28-04:00" Modifyuserid="SYSTEM"
+    Name="AllowOrdersWithoutAddress" Value="Y"/>
+<CommonCodeAttribute CommonCodeAttributeKey="20059237511"
+    CommonCodeKey="20729324836" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:28-04:00" Modifyuserid="SYSTEM"
+    Name="AllowCashAndCarryLines" Value="Y"/>
+<CommonCodeAttribute CommonCodeAttributeKey="200638125260"
+    CommonCodeKey="HomeKFurnishing" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:28-04:00" Modifyuserid="SYSTEM"
+    Name="Apparels" Value="Y"/>
+<CommonCodeAttribute CommonCodeAttributeKey="200963050010"
+    CommonCodeKey="HomeKFurnishing" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:28-04:00" Modifyuserid="SYSTEM"
+    Name="HomeApplicances" Value="Y"/>
+<CommonCodeAttribute CommonCodeAttributeKey="201071542621"
+    CommonCodeKey="Electronics" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:28-04:00" Modifyuserid="SYSTEM"
+    Name="Electronics" Value="Y"/>
+<CommonCodeAttribute CommonCodeAttributeKey="20116882393"
+    CommonCodeKey="Sporting" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:28-04:00" Modifyuserid="SYSTEM"
+    Name="Sports" Value="Y"/>
+<CommonCodeAttribute CommonCodeAttributeKey="20165405081"
+    CommonCodeKey="20729324836" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:28-04:00" Modifyuserid="SYSTEM"
+    Name="ValidateAddressOnCrossChannelDraftLines" Value="N"/>
+<CommonCodeAttribute CommonCodeAttributeKey="201659786598"
+    CommonCodeKey="ClothingKey" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:28-04:00" Modifyuserid="SYSTEM"
+    Name="KidsWear" Value="Y"/>
+<CommonCodeAttribute CommonCodeAttributeKey="201881684054"
+    CommonCodeKey="ClothingKey" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:28-04:00" Modifyuserid="SYSTEM"
+    Name="MensWear" Value="Y"/>
+<CommonCodeAttribute CommonCodeAttributeKey="20479821006"
+    CommonCodeKey="Sporting" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:28-04:00" Modifyuserid="SYSTEM"
+    Name="Fitness" Value="Y"/>
+<CommonCodeAttribute CommonCodeAttributeKey="20940433582"
+    CommonCodeKey="ClothingKey" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:28-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:28-04:00" Modifyuserid="SYSTEM"
+    Name="WomensWear" Value="Y"/>
+<CommonCodeAttribute CommonCodeAttributeKey="CODE_ATTR_80_01"
+    CommonCodeKey="INSTRUCTION_TYPE_80_01" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:26-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:26-04:00" Modifyuserid="SYSTEM"
+    Name="CopyMatchingItemInstruction" Value="Y"/>
+<CommonCodeAttribute CommonCodeAttributeKey="CODE_ATTR_85_01"
+    CommonCodeKey="COUNTRY1" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:26-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:26-04:00" Modifyuserid="SYSTEM"
+    Name="ZIPCODEREGEX" Value="^(\d{5})-?\s?(?:\d{4})?$"/>
+<CommonCodeAttribute CommonCodeAttributeKey="CODE_ATTR_85_02"
+    CommonCodeKey="COUNTRY_CA" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:26-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:26-04:00" Modifyuserid="SYSTEM"
+    Name="ZIPCODEREGEX" Value="^([a-zA-Z&amp;&amp;[^dfioquDFIOQU]]\d[a-zA-Z&amp;&amp;[^dfioquDFIOQU]])\s?\d[\w&amp;&amp;\D]\d$"/>
+<CommonCodeAttribute CommonCodeAttributeKey="CODE_ATTR_85_03"
+    CommonCodeKey="COUNTRY_GB" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:26-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:26-04:00" Modifyuserid="SYSTEM"
+    Name="ZIPCODEREGEX" Value="^([a-zA-Z]{1,2}[0-9Rr]\w?) \d[a-zA-Z&amp;&amp;[^cikmovCIKMOV]]{2}$"/>
+<CommonCodeAttribute CommonCodeAttributeKey="CODE_ATTR_85_04"
+    CommonCodeKey="COUNTRY_JP" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:26-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:26-04:00" Modifyuserid="SYSTEM"
+    Name="ZIPCODEREGEX" Value="^(\d{3})(?:\s|-)?(?:\d{4})?$"/>
+<CommonCodeAttribute CommonCodeAttributeKey="CODE_ATTR_85_05"
+    CommonCodeKey="COUNTRY_FR" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:26-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:26-04:00" Modifyuserid="SYSTEM"
+    Name="ZIPCODEREGEX" Value="^\d{5}$"/>
+<CommonCodeAttribute CommonCodeAttributeKey="CODE_ATTR_85_06"
+    CommonCodeKey="COUNTRY_DE" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:26-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:26-04:00" Modifyuserid="SYSTEM"
+    Name="ZIPCODEREGEX" Value="^\d{5}$"/>
+</YFS_COMMON_CODE_ATTRIBUTEList>

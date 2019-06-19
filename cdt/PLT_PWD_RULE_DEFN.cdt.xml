@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PLT_PWD_RULE_DEFNList TableName="PLT_PWD_RULE_DEFN" TotalNumberOfRecords="10">
+<PasswordRuleDefn
+    ClassName="com.yantra.ycp.passwordpolicy.defaultimpl.passwordchange.YCPPasswordLengthValidator"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM" Description="Password length validations"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    Name="PWD_LENGTH" OrganizationCode="DEFAULT"
+    ParamDefn="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;ParamList>&#xa;    &lt;Param DataType=&quot;Number&quot; Description=&quot;Minimum length of password&quot; Name=&quot;MinLength&quot;/>&#xa;    &lt;Param DataType=&quot;Number&quot; Description=&quot;Maximum length of password&quot; Name=&quot;MaxLength&quot;/>&#xa;&lt;/ParamList>&#xa;"
+    PasswordRuleDefnKey="20090207124015272556" Type="PasswordChange"/>
+<PasswordRuleDefn
+    ClassName="com.yantra.ycp.passwordpolicy.defaultimpl.passwordchange.YCPPasswordHistValidator"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM"
+    Description="To validate old passwords are not used" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:46-04:00"
+    Modifyuserid="SYSTEM" Name="PWD_HIST_CHECK"
+    OrganizationCode="DEFAULT"
+    ParamDefn="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;ParamList>&#xa;    &lt;Param DataType=&quot;Number&quot;&#xa;        Description=&quot;Number of old passwords to store and validate against&quot; Name=&quot;EntriesToStore&quot;/>&#xa;&lt;/ParamList>&#xa;"
+    PasswordRuleDefnKey="20090207124603272557" Type="PasswordChange"/>
+<PasswordRuleDefn
+    ClassName="com.yantra.ycp.passwordpolicy.defaultimpl.passwordchange.YCPPasswordSpclCharValidator"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM"
+    Description="To validate that password contains special characters"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    Name="PWD_REQUIRE_SPL_CHAR" OrganizationCode="DEFAULT"
+    PasswordRuleDefnKey="20090207125303272562" Type="PasswordChange"/>
+<PasswordRuleDefn
+    ClassName="com.yantra.ycp.passwordpolicy.defaultimpl.policyassign.YCPPolicyAssignValidator"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM"
+    Description="To change the password on next login attempt"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    Name="PWD_FIRST_ATTEMPT" OrganizationCode="DEFAULT"
+    PasswordRuleDefnKey="20090207125654272563" Type="Assignment"/>
+<PasswordRuleDefn
+    ClassName="com.yantra.ycp.passwordpolicy.defaultimpl.login.YCPLoginValidator"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM"
+    Description="Expire password after certain number of days"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    Name="PWD_EXPIRATION_CHECK" OrganizationCode="DEFAULT"
+    ParamDefn="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;ParamList>&#xa;    &lt;Param DataType=&quot;Number&quot;&#xa;        Description=&quot;Number of days a password is valid for&quot; Name=&quot;NumDaysValid&quot;/>&#xa;&lt;/ParamList>&#xa;"
+    PasswordRuleDefnKey="20090207130629272568" Type="Login"/>
+<PasswordRuleDefn
+    ClassName="com.yantra.ycp.passwordpolicy.defaultimpl.login.YCPFailedLoginValidator"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM"
+    Description="Temporarily disable a user account after a certain number of failed login attempts"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    Name="FAILED_LOGIN_CHECK" OrganizationCode="DEFAULT"
+    ParamDefn="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;ParamList>&#xa;    &lt;Param DataType=&quot;Number&quot;&#xa;        Description=&quot;Number of times password can be entered incorrectly within the given check minutes&quot; Name=&quot;MaxFailedLogins&quot;/>&#xa;    &lt;Param DataType=&quot;Number&quot;&#xa;        Description=&quot;Ignore failed attempts before this threshold&quot; Name=&quot;CheckIntervalMinutes&quot;/>&#xa;&lt;/ParamList>&#xa;"
+    PasswordRuleDefnKey="20090207131130272573" Type="Login"/>
+<PasswordRuleDefn
+    ClassName="com.yantra.ycp.passwordpolicy.defaultimpl.login.YCPFailedLoginIPValidator"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM"
+    Description="Temporarily disable a given IP address after a certain number of failed login attempts"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    Name="FAILED_LOGIN_IP_CHECK" OrganizationCode="DEFAULT"
+    ParamDefn="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;ParamList>&#xa;    &lt;Param DataType=&quot;Number&quot;&#xa;        Description=&quot;Number of times the password can be entered incorrectly within the given CheckInterval&quot; Name=&quot;MaxFailedLogins&quot;/>&#xa;    &lt;Param DataType=&quot;Number&quot;&#xa;        Description=&quot;Ignore failed attempts before this threshold&quot; Name=&quot;CheckIntervalMinutes&quot;/>&#xa;&lt;/ParamList>&#xa;"
+    PasswordRuleDefnKey="20090207132405272578" Type="Login"/>
+<PasswordRuleDefn
+    ClassName="com.yantra.ycp.passwordpolicy.defaultimpl.secretanswer.YCPSecretAnswerValidator"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM"
+    Description="Temporarily disable a user account after a certain number of failed answer attempts"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    Name="FAILED_ANSWER_CHECK" OrganizationCode="DEFAULT"
+    ParamDefn="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;ParamList>&#xa;    &lt;Param DataType=&quot;Number&quot;&#xa;        Description=&quot;Number of times the answer can be entered incorrectly within the given CheckInterval&quot; Name=&quot;MaxFailedAnswers&quot;/>&#xa;    &lt;Param DataType=&quot;Number&quot;&#xa;        Description=&quot;Ignore failed attempts before this threshold&quot; Name=&quot;CheckIntervalMinutes&quot;/>&#xa;&lt;/ParamList>&#xa;"
+    PasswordRuleDefnKey="20090207132747272579" Type="SecretAnswer"/>
+<PasswordRuleDefn
+    ClassName="com.yantra.ycp.passwordpolicy.defaultimpl.secretanswer.YCPSecretAnswerIPValidator"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM"
+    Description="Temporarily disable a user account after a certain number of failed answer attempts"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    Name="FAILED_ANSWER_IP_CHECK" OrganizationCode="DEFAULT"
+    ParamDefn="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;ParamList>&#xa;    &lt;Param DataType=&quot;Number&quot;&#xa;        Description=&quot;Number of times the answer can be entered incorrectly within the given CheckInterval&quot; Name=&quot;MaxFailedAnswers&quot;/>&#xa;    &lt;Param DataType=&quot;Number&quot;&#xa;        Description=&quot;Ignore failed attempts before this threshold&quot; Name=&quot;CheckIntervalMinutes&quot;/>&#xa;&lt;/ParamList>&#xa;"
+    PasswordRuleDefnKey="20090207132747272580" Type="SecretAnswer"/>
+<PasswordRuleDefn
+    ClassName="com.yantra.ycp.passwordpolicy.defaultimpl.passwordreset.YCPPasswordResetValidator"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM" Description="Allow password reset" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:46-04:00"
+    Modifyuserid="SYSTEM" Name="ALLOW_PASSWORD_RESET_EMAIL"
+    OrganizationCode="DEFAULT"
+    ParamDefn="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;ParamList>&#xa;    &lt;Param DataType=&quot;String&quot;&#xa;        Description=&quot;Allowed modes of password reset&quot; Name=&quot;ResetType&quot;/>&#xa;    &lt;Param DataType=&quot;Number&quot;&#xa;        Description=&quot;Ignore failed attempts before this threshold.  &quot; Name=&quot;CheckIntervalMinutes&quot;/>&#xa;&lt;/ParamList>&#xa;"
+    PasswordRuleDefnKey="20090207134125272606" Type="PasswordReset"/>
+</PLT_PWD_RULE_DEFNList>

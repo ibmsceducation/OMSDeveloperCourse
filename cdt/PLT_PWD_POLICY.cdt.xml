@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PLT_PWD_POLICYList TableName="PLT_PWD_POLICY" TotalNumberOfRecords="2">
+<PasswordPolicy Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:43-04:00" Createuserid="SYSTEM"
+    Description="Password Reset Policy" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:43-04:00"
+    Modifyuserid="SYSTEM" Name="Aurora-Corp Reset"
+    OrganizationCode="Aurora-Corp" PasswordPolicyKey="Aurora-Corp_PP1" Status="1"/>
+<PasswordPolicy Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:09-04:00" Createuserid="SYSTEM"
+    Description="Password Reset Policy" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:12:09-04:00"
+    Modifyuserid="SYSTEM" Name="Aurora Reset" OrganizationCode="Aurora"
+    PasswordPolicyKey="Aurora_PP1" Status="1"/>
+</PLT_PWD_POLICYList>

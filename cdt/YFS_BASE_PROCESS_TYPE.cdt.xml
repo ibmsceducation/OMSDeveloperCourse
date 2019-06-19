@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_BASE_PROCESS_TYPEList TableName="YFS_BASE_PROCESS_TYPE" TotalNumberOfRecords="12">
+<BaseProcessType BaseDocumentType="3001" BaseDocumentTypeKey="3001"
+    BaseProcessTypeKey="COUNT_EXECUTION" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:50-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:50-04:00" Modifyuserid="SYSTEM"
+    PreDefined="Y" ProcessType="COUNT_EXECUTION"
+    ProcessTypeName="Count Execution" UseAdvancedMonitor="N"/>
+<BaseProcessType BaseDocumentType="2001" BaseDocumentTypeKey="2001"
+    BaseProcessTypeKey="GENERAL" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    PreDefined="Y" ProcessType="GENERAL" ProcessTypeName="General" UseAdvancedMonitor="N"/>
+<BaseProcessType BaseDocumentType="2001" BaseDocumentTypeKey="2001"
+    BaseProcessTypeKey="INVENTORY_SORTING" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:50-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:50-04:00" Modifyuserid="SYSTEM"
+    PreDefined="Y" ProcessType="INVENTORY_SORTING"
+    ProcessTypeName="Inventory Sorting" UseAdvancedMonitor="N"/>
+<BaseProcessType BaseDocumentType="1001" BaseDocumentTypeKey="1001"
+    BaseProcessTypeKey="LOAD_DELIVERY" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    PreDefined="Y" ProcessType="LOAD_DELIVERY"
+    ProcessTypeName="Load Delivery" UseAdvancedMonitor="N"/>
+<BaseProcessType BaseDocumentType="0020" BaseDocumentTypeKey="0020"
+    BaseProcessTypeKey="OPPORTUNITY_FULFILLMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    PreDefined="Y" ProcessType="OPPORTUNITY_FULFILLMENT"
+    ProcessTypeName="Opportunity Fulfillment" UseAdvancedMonitor="N"/>
+<BaseProcessType BaseDocumentType="0001" BaseDocumentTypeKey="0001"
+    BaseProcessTypeKey="ORDER_DELIVERY" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    PreDefined="Y" ProcessType="ORDER_DELIVERY"
+    ProcessTypeName="Order Delivery" UseAdvancedMonitor="Y"/>
+<BaseProcessType BaseDocumentType="0001" BaseDocumentTypeKey="0001"
+    BaseProcessTypeKey="ORDER_FULFILLMENT" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    PreDefined="Y" ProcessType="ORDER_FULFILLMENT"
+    ProcessTypeName="Order FulFillment" UseAdvancedMonitor="N"/>
+<BaseProcessType BaseDocumentType="0001" BaseDocumentTypeKey="0001"
+    BaseProcessTypeKey="ORDER_NEGOTIATION" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    PreDefined="Y" ProcessType="ORDER_NEGOTIATION"
+    ProcessTypeName="Order Negotiation" UseAdvancedMonitor="N"/>
+<BaseProcessType BaseDocumentType="4001" BaseDocumentTypeKey="4001"
+    BaseProcessTypeKey="OUTBOUND_PICKING" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:50-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:50-04:00" Modifyuserid="SYSTEM"
+    PreDefined="Y" ProcessType="OUTBOUND_PICKING"
+    ProcessTypeName="Outbound Picking" UseAdvancedMonitor="N"/>
+<BaseProcessType BaseDocumentType="5001" BaseDocumentTypeKey="5001"
+    BaseProcessTypeKey="PACK" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    PreDefined="Y" ProcessType="PACK" ProcessTypeName="Pack Process" UseAdvancedMonitor="N"/>
+<BaseProcessType BaseDocumentType="0001" BaseDocumentTypeKey="0001"
+    BaseProcessTypeKey="RECEIPT" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    PreDefined="Y" ProcessType="RECEIPT" ProcessTypeName="Receipt" UseAdvancedMonitor="Y"/>
+<BaseProcessType BaseDocumentType="7001" BaseDocumentTypeKey="7001"
+    BaseProcessTypeKey="VAS" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    PreDefined="Y" ProcessType="VAS" ProcessTypeName="VAS" UseAdvancedMonitor="Y"/>
+</YFS_BASE_PROCESS_TYPEList>

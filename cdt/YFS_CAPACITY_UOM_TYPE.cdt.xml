@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_CAPACITY_UOM_TYPEList TableName="YFS_CAPACITY_UOM_TYPE" TotalNumberOfRecords="2">
+<CapacityUomType AdditionalCapacityUOMType1="WEIGHT"
+    AdditionalCapacityUOMType2="VOLUME"
+    CapacityUomTypeKey="201816062201" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    ItemGroupCode="DS" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM"/>
+<CapacityUomType AdditionalCapacityUOMType1="WEIGHT"
+    AdditionalCapacityUOMType2="VOLUME"
+    CapacityUomTypeKey="201816062573" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:48-04:00" Createuserid="SYSTEM"
+    ItemGroupCode="PS" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:48-04:00" Modifyuserid="SYSTEM"/>
+</YFS_CAPACITY_UOM_TYPEList>

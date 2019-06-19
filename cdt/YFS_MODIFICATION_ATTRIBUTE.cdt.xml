@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_MODIFICATION_ATTRIBUTEList TableName="YFS_MODIFICATION_ATTRIBUTE" TotalNumberOfRecords="2">
+<ModificationAttribute AttributeName="BuyerUserId"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:24-04:00"
+    Createuserid="SYSTEM" Lockid="0"
+    ModificationAttributeKey="2001144503067" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:24-04:00" Modifyuserid="SYSTEM" StatusModificationTypeKey="RF_O_BUYER_USER"/>
+<ModificationAttribute AttributeName="BuyerUserId"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:44:24-04:00"
+    Createuserid="SYSTEM" Lockid="0"
+    ModificationAttributeKey="2001372191198" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:44:24-04:00" Modifyuserid="SYSTEM" StatusModificationTypeKey="OF_O_BUYER_USER"/>
+</YFS_MODIFICATION_ATTRIBUTEList>

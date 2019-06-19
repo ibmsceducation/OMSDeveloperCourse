@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_ROUTING_GUIDEList TableName="YFS_ROUTING_GUIDE" TotalNumberOfRecords="1">
+<RoutingGuide BuyerOrganizationCode="" Comments="" ContactKey=""
+    Createprogid="XMLMigrator" Createts="2019-05-28T22:15:29-04:00"
+    Createuserid="SYSTEM" EffectiveDate="2011-09-06" EnterpriseCode=""
+    ExpectedShipDate="" ExpirationDate="2020-09-07" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:15:29-04:00"
+    Modifyuserid="SYSTEM" OrganizationCode="Aurora"
+    PublishDate="2011-09-06" RoutingGuideKey="2011090705134253008"
+    RoutingGuideName="General" RoutingGuideNo="1"
+    SellerOrganizationCode="" SupercedesRoutingGuideNo="" Type="OUTBOUND">
+    <SelectionCriteria DepartmentCode="" FreightTerms="PREPAID" ItemClassification=""/>
+</RoutingGuide>
+</YFS_ROUTING_GUIDEList>

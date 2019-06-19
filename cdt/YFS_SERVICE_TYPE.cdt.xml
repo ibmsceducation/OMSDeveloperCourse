@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_SERVICE_TYPEList TableName="YFS_SERVICE_TYPE" TotalNumberOfRecords="4">
+<ServiceType CapacityUOM="HR" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:12-04:00" Createuserid="SYSTEM"
+    Description="Repair Service for Electronic Items" ItemGroupCode="PS"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:12-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora-Corp" ReferenceItemID=""
+    ReferenceItemUOM="" ServiceComplexityLevel="10"
+    ServiceTypeID="Elec_Repair" ServiceTypeKey="200653771933"/>
+<ServiceType CapacityUOM="HR" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:12-04:00" Createuserid="SYSTEM"
+    Description="Dining Set Assembly" ItemGroupCode="PS" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:15:12-04:00"
+    Modifyuserid="SYSTEM" OrganizationCode="Aurora-Corp"
+    ReferenceItemID="" ReferenceItemUOM="" ServiceComplexityLevel="10"
+    ServiceTypeID="Furniture_Assembly" ServiceTypeKey="200687780915"/>
+<ServiceType CapacityUOM="UNIT" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:12-04:00" Createuserid="SYSTEM"
+    Description="Delivery" ItemGroupCode="DS" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:15:12-04:00"
+    Modifyuserid="SYSTEM" OrganizationCode="Aurora-Corp"
+    ReferenceItemID="" ReferenceItemUOM="" ServiceComplexityLevel="10"
+    ServiceTypeID="Delivery" ServiceTypeKey="201855335758"/>
+<ServiceType CapacityUOM="HR" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:12-04:00" Createuserid="SYSTEM"
+    Description="TV Installation Provided Service Type"
+    ItemGroupCode="PS" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:12-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora-Corp" ReferenceItemID=""
+    ReferenceItemUOM="" ServiceComplexityLevel="10"
+    ServiceTypeID="TV_Install" ServiceTypeKey="201908012856"/>
+</YFS_SERVICE_TYPEList>

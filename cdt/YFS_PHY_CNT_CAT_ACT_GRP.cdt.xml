@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_PHY_CNT_CAT_ACT_GRPList TableName="YFS_PHY_CNT_CAT_ACT_GRP" TotalNumberOfRecords="12">
+<PhysicalCountCategoryActivityGroup ActivityGroup="PUTAWAY"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryActivityGroupKey="1002001"
+    PhysicalCountCategoryKey="1000001" isHistory="N"/>
+<PhysicalCountCategoryActivityGroup ActivityGroup="REPLENISHMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryActivityGroupKey="1002002"
+    PhysicalCountCategoryKey="1000002" isHistory="N"/>
+<PhysicalCountCategoryActivityGroup ActivityGroup="RETRIEVAL"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryActivityGroupKey="1002003"
+    PhysicalCountCategoryKey="1000003" isHistory="N"/>
+<PhysicalCountCategoryActivityGroup ActivityGroup="OUTBOUND_PICKING"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryActivityGroupKey="1002004"
+    PhysicalCountCategoryKey="1000004" isHistory="N"/>
+<PhysicalCountCategoryActivityGroup ActivityGroup="RECEIPT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryActivityGroupKey="1002005"
+    PhysicalCountCategoryKey="1000005" isHistory="N"/>
+<PhysicalCountCategoryActivityGroup ActivityGroup="COUNT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryActivityGroupKey="1002006"
+    PhysicalCountCategoryKey="1000006" isHistory="N"/>
+<PhysicalCountCategoryActivityGroup ActivityGroup="VAS"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryActivityGroupKey="1002007"
+    PhysicalCountCategoryKey="1000007" isHistory="N"/>
+<PhysicalCountCategoryActivityGroup ActivityGroup="PACK"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryActivityGroupKey="1002008"
+    PhysicalCountCategoryKey="1000008" isHistory="N"/>
+<PhysicalCountCategoryActivityGroup
+    ActivityGroup="OUTBOUND_INVENTORY_CONTAINER_BUILD"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryActivityGroupKey="1002009"
+    PhysicalCountCategoryKey="1000009" isHistory="N"/>
+<PhysicalCountCategoryActivityGroup
+    ActivityGroup="SHIPPING_CONTAINER_BUILD" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryActivityGroupKey="1002010"
+    PhysicalCountCategoryKey="1000010" isHistory="N"/>
+<PhysicalCountCategoryActivityGroup ActivityGroup="SHIP"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryActivityGroupKey="1002011"
+    PhysicalCountCategoryKey="1000011" isHistory="N"/>
+<PhysicalCountCategoryActivityGroup ActivityGroup="INSPECTION"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    PhysicalCountCategoryActivityGroupKey="1002012"
+    PhysicalCountCategoryKey="1000012" isHistory="N"/>
+</YFS_PHY_CNT_CAT_ACT_GRPList>

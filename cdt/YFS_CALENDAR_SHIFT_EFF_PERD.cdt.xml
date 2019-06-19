@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_CALENDAR_SHIFT_EFF_PERDList TableName="YFS_CALENDAR_SHIFT_EFF_PERD" TotalNumberOfRecords="3">
+<EffectivePeriod Action="" CalendarKey="Cal_Auro_Store_1"
+    Createprogid="XMLMigrator" Createts="2019-05-28T22:15:28-04:00"
+    Createuserid="SYSTEM" EffectiveFromDate="2006-08-06"
+    EffectiveToDate="2020-08-08" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:28-04:00" Modifyuserid="SYSTEM" ShiftEffectivePeriodKey="EFF_Auro_Store_1"/>
+<EffectivePeriod Action="" CalendarKey="Cal_Auro_Store_2"
+    Createprogid="XMLMigrator" Createts="2019-05-28T22:15:28-04:00"
+    Createuserid="SYSTEM" EffectiveFromDate="2006-08-06"
+    EffectiveToDate="2020-08-08" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:28-04:00" Modifyuserid="SYSTEM" ShiftEffectivePeriodKey="EFF_Auro_Store_2"/>
+<EffectivePeriod Action="" CalendarKey="Cal_Auro_Store_3"
+    Createprogid="XMLMigrator" Createts="2019-05-28T22:15:28-04:00"
+    Createuserid="SYSTEM" EffectiveFromDate="2006-08-06"
+    EffectiveToDate="2020-08-08" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:28-04:00" Modifyuserid="SYSTEM" ShiftEffectivePeriodKey="EFF_Auro_Store_3"/>
+</YFS_CALENDAR_SHIFT_EFF_PERDList>

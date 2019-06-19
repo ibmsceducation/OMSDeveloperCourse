@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_ROUTING_GUIDE_DTL_CARRIERList TableName="YFS_ROUTING_GUIDE_DTL_CARRIER" TotalNumberOfRecords="2">
+<RoutingGuideDetailCarrier BBNMinVolume="0.00" BBNMinWeight="0.00"
+    BreakBulkNode="" ContactKey="" Cost="0.00"
+    Createprogid="XMLMigrator" Createts="2019-05-28T22:15:29-04:00"
+    Createuserid="SYSTEM" Currency="" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:15:29-04:00"
+    Modifyuserid="SYSTEM" Priority="1"
+    RoutingGuideDetailCarrierKey="2011090705163353014"
+    RoutingGuideDetailKey="2011090705155653011"
+    ScacAndServiceCode="FedEx Ground" ShipAttrsMatch="">
+    <ShippingParameters VolumeUOM="" WeightUOM=""/>
+</RoutingGuideDetailCarrier>
+<RoutingGuideDetailCarrier BBNMinVolume="0.00" BBNMinWeight="0.00"
+    BreakBulkNode="" ContactKey="" Cost="0.00"
+    Createprogid="XMLMigrator" Createts="2019-05-28T22:15:29-04:00"
+    Createuserid="SYSTEM" Currency="" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:15:29-04:00"
+    Modifyuserid="SYSTEM" Priority="2"
+    RoutingGuideDetailCarrierKey="2011090705171653017"
+    RoutingGuideDetailKey="2011090705155653011"
+    ScacAndServiceCode="Standard Overnight" ShipAttrsMatch="">
+    <ShippingParameters VolumeUOM="" WeightUOM=""/>
+</RoutingGuideDetailCarrier>
+</YFS_ROUTING_GUIDE_DTL_CARRIERList>

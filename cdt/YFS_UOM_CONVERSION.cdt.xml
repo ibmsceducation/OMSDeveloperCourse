@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_UOM_CONVERSIONList TableName="YFS_UOM_CONVERSION" TotalNumberOfRecords="21">
+<UomConversion ConversionRate="1728.00" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="CUFEET_CIN"
+    UomFrom="CUFEET" UomTo="CIN"/>
+<UomConversion ConversionRate="28316.8466" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="CUFEET_CUCENTIMETER"
+    UomFrom="CUFEET" UomTo="CUCENTIMETER"/>
+<UomConversion ConversionRate="28.3169088" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="CUFEET_LITER"
+    UomFrom="CUFEET" UomTo="LITER"/>
+<UomConversion ConversionRate="16.387064" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="CUIN_CUCENTIMETER"
+    UomFrom="CIN" UomTo="CUCENTIMETER"/>
+<UomConversion ConversionRate="1000000.00" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="CUMETER_CUCENTIMETER"
+    UomFrom="CUMETER" UomTo="CUCENTIMETER"/>
+<UomConversion ConversionRate="35.31459" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="CUMETER_CUFEET"
+    UomFrom="CUMETER" UomTo="CUFEET"/>
+<UomConversion ConversionRate="24.00" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="DAY_HR" UomFrom="DAY" UomTo="HR"/>
+<UomConversion ConversionRate="12.00" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="FEET_IN" UomFrom="FEET" UomTo="IN"/>
+<UomConversion ConversionRate="4.5461" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="GALLON_LITER"
+    UomFrom="GALLON" UomTo="LITER"/>
+<UomConversion ConversionRate="4.00" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="GALLON_QUART"
+    UomFrom="GALLON" UomTo="QUART"/>
+<UomConversion ConversionRate="60.00" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="HR_MIN" UomFrom="HR" UomTo="MIN"/>
+<UomConversion ConversionRate="2.54" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="IN_CM" UomFrom="IN" UomTo="CM"/>
+<UomConversion ConversionRate="1000.00" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="KG_GRAM" UomFrom="KG" UomTo="GRAM"/>
+<UomConversion ConversionRate="2.20462" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="KG_LBS" UomFrom="KG" UomTo="LBS"/>
+<UomConversion ConversionRate="1000.00" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="KM_METER" UomFrom="KM" UomTo="METER"/>
+<UomConversion ConversionRate="453.592" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="LBS_GRAM" UomFrom="LBS" UomTo="GRAM"/>
+<UomConversion ConversionRate="1000.00" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="LITER_ML"
+    UomFrom="LITER" UomTo="ML"/>
+<UomConversion ConversionRate="100.00" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="METER_CM"
+    UomFrom="METER" UomTo="CM"/>
+<UomConversion ConversionRate="5280.00" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="MILE_FEET"
+    UomFrom="MILE" UomTo="FEET"/>
+<UomConversion ConversionRate="60.00" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="MIN_SEC" UomFrom="MIN" UomTo="SEC"/>
+<UomConversion ConversionRate="1000.00" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" UomConversionKey="TON_KG" UomFrom="TON" UomTo="KG"/>
+</YFS_UOM_CONVERSIONList>

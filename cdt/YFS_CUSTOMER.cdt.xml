@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_CUSTOMERList TableName="YFS_CUSTOMER" TotalNumberOfRecords="2">
+<Customer AssignedReps="0" BuyerOrganizationCode=""
+    CanConsumeSupplementalCapacity="N" Createprogid="ISCCSSYS001"
+    Createts="2019-05-31T21:00:10-04:00" Createuserid="rwilliams"
+    CustomerID="100000000" CustomerKey="2019053121001027680"
+    CustomerType="02" ExternalCustomerID="" Lockid="3"
+    MaxAssignRepsOrTeams="0" MaxModifyTS="2019-05-31T21:24:13-04:00"
+    Modifyprogid="ISCCSSYS001" Modifyts="2019-05-31T21:24:13-04:00"
+    Modifyuserid="rwilliams" OrganizationCode="Aurora"
+    RegisteredDate="2019-05-31T21:00:10-04:00"
+    RootCustomerKey="2019053121001027680" SendsAsn="N"
+    SendsCommitment="N" SendsFuncAck="N" SlotPreferenceType="NONE" Status="10"/>
+<Customer AssignedReps="0" BuyerOrganizationCode=""
+    CanConsumeSupplementalCapacity="N" Createprogid="ISCCSSYS001"
+    Createts="2019-05-31T21:20:56-04:00" Createuserid="admin"
+    CustomerID="100000001" CustomerKey="2019053121205628148"
+    CustomerType="02" ExternalCustomerID="" Lockid="0"
+    MaxAssignRepsOrTeams="0" MaxModifyTS="2019-05-31T21:20:56-04:00"
+    Modifyprogid="ISCCSSYS001" Modifyts="2019-05-31T21:20:56-04:00"
+    Modifyuserid="admin" OrganizationCode="DEFAULT"
+    RegisteredDate="2019-05-31T21:20:56-04:00"
+    RootCustomerKey="2019053121205628148" SendsAsn="N"
+    SendsCommitment="N" SendsFuncAck="N" SlotPreferenceType="NONE" Status="10"/>
+</YFS_CUSTOMERList>

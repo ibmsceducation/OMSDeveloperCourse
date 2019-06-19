@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_NEGOTIATION_RULEList TableName="YFS_NEGOTIATION_RULE" TotalNumberOfRecords="2">
+<NegotiationRule AllowMultipleLineOptions="" AllowOverage=""
+    Createprogid="system" Createts="2019-05-28T20:42:50-04:00"
+    Createuserid="system" Lockid="0" Modifyprogid="system"
+    Modifyts="2019-05-28T20:42:50-04:00" Modifyuserid="system"
+    NegotiationRuleId="DEFAULT" NegotiationRuleKey="DEFAULT"/>
+<NegotiationRule AllowMultipleLineOptions="" AllowOverage=""
+    Createprogid="system" Createts="2019-05-28T20:42:50-04:00"
+    Createuserid="system" Lockid="0" Modifyprogid="system"
+    Modifyts="2019-05-28T20:42:50-04:00" Modifyuserid="system"
+    NegotiationRuleId="DEFAULT_QUANTITY" NegotiationRuleKey="DEFAULT_QUANTITY"/>
+</YFS_NEGOTIATION_RULEList>

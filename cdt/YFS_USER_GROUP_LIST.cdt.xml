@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_USER_GROUP_LISTList TableName="YFS_USER_GROUP_LIST" TotalNumberOfRecords="59">
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:45:30-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:45:30-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001001539206" UserKey="SYSTEM_USER" UsergroupKey="SYSTEM_SETUP_USERS"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:46:19-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:46:19-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001022575967" UserKey="SYSTEM_USER" UsergroupKey="FIELD_SALES_REP_GROUP"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:40-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:40-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001064596411" UserKey="ethomas" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:45:30-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:45:30-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001153461858" UserKey="SYSTEM_USER" UsergroupKey="CATALOG_USERS"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:10-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:10-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001157645805" UserKey="cwhite" UsergroupKey="SOP-MANAGER-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:45:30-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:45:30-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001195140213" UserKey="SYSTEM_USER" UsergroupKey="PRICING_USERS"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:56-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001236715063" UserKey="bwhite" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001353250723" UserKey="awilliams" UsergroupKey="XYZ-CORP-CSRL-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:41-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:41-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001376500523" UserKey="awhite" UsergroupKey="SOP-MANAGER-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:45:30-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:45:30-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001397251679" UserKey="SYSTEM_USER" UsergroupKey="INVENTORY_USERS"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001455563408" UserKey="amiller" UsergroupKey="FIELD_SALES_REP_GROUP"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:38-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="200147516599" UserKey="ithomas" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001649632290" UserKey="abrown" UsergroupKey="CATALOG_USERS"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001691310645" UserKey="abrown" UsergroupKey="PRICING_USERS"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:45:30-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:45:30-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001706447285" UserKey="SYSTEM_USER" UsergroupKey="CUSTOMER_USERS"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001789570348" UserKey="ajohnson" UsergroupKey="IS_CALL_CENTER_GROUP"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001894443477" UserKey="amoore" UsergroupKey="FIELD_SALES_REP_GROUP"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:54-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:54-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001909068282" UserKey="fthomas" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:09-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:09-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001927109532" UserKey="gwhite" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001929997446" UserKey="rmoore" UsergroupKey="FIELD_SALES_REP_GROUP"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:41-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:41-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2001981676223" UserKey="athomas" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:25-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:25-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="200220124540" UserKey="dthomas" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="200238309282" UserKey="rwilliams" UsergroupKey="IS_CALL_CENTER_GROUP"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:41-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:41-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="200239642710" UserKey="awhite" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="200430683441" UserKey="awilliams" UsergroupKey="IS_CALL_CENTER_GROUP"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="20044548109" UserKey="awilliams" UsergroupKey="XYZ-CORP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:38-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="200501081651" UserKey="iwhite" UsergroupKey="SOP-MANAGER-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="20051387878" UserKey="rbrown" UsergroupKey="PRICING_USERS"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:53-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:53-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="200623359295" UserKey="jwhite" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:09-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:09-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="200719936369" UserKey="gwhite" UsergroupKey="SOP-MANAGER-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:54-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:54-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="200930037179" UserKey="fwhite" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:40-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:40-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="200938791087" UserKey="ewhite" UsergroupKey="SOP-MANAGER-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2009709523" UserKey="rbrown" UsergroupKey="CATALOG_USERS"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:53-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:53-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="200991988470" UserKey="jthomas" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="201060431805" UserKey="rdavis" UsergroupKey="FIELD_SALES_REP_GROUP"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:25-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:25-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="201064107527" UserKey="dwhite" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="201095985774" UserKey="adavis" UsergroupKey="FIELD_SALES_REP_GROUP"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:25-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:25-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="201099265202" UserKey="dwhite" UsergroupKey="SOP-MANAGER-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:54-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:54-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="201318119920" UserKey="fwhite" UsergroupKey="SOP-MANAGER-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:23-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:23-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="201370785411" UserKey="hwhite" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="201403223909" UserKey="rjohnson" UsergroupKey="IS_CALL_CENTER_GROUP"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:56-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="201468819202" UserKey="bthomas" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:23-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:23-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="201536974638" UserKey="hwhite" UsergroupKey="SOP-MANAGER-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:09-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:09-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="201541427143" UserKey="gthomas" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:12-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="201631588984" UserKey="ajohnson" UsergroupKey="XYZ-CORP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="201737230849" UserKey="rmiller" UsergroupKey="FIELD_SALES_REP_GROUP"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:53-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:53-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="201755829356" UserKey="jwhite" UsergroupKey="SOP-MANAGER-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:10-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:10-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="202061179880" UserKey="cwhite" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="202109285678" UserKey="rwilliams" UsergroupKey="XYZ-CORP-CSRL-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:38-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="20373713058" UserKey="iwhite" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="20482788610" UserKey="rwilliams" UsergroupKey="XYZ-CORP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:10-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:10-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="20624347331" UserKey="cthomas" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:19:40-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:19:40-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2067035174" UserKey="ewhite" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:27-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:27-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="20678768521" UserKey="rjohnson" UsergroupKey="XYZ-CORP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:20:23-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:20:23-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="20696955272" UserKey="hthomas" UsergroupKey="SOP-CSR-KEY"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:18:56-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:18:56-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="20880410484" UserKey="bwhite" UsergroupKey="SOP-MANAGER-KEY"/>
+<UserGroupList Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:42-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="GROUP_LIST" UserKey="SYSTEM_USER" UsergroupKey="SYSTEM"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:09-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:09-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="GUEST_GROUP_LIST" UserKey="SYS_GUEST_USER" UsergroupKey="GUEST"/>
+<UserGroupList Createprogid="SYSTEM"
+    Createts="2019-05-28T20:43:11-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:43:11-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="SYSCONNVER_LIST" UserKey="SYSCONNVERUSER" UsergroupKey="SYSCONNVER"/>
+</YFS_USER_GROUP_LISTList>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_CURRENCYList TableName="YFS_CURRENCY" TotalNumberOfRecords="2">
+<Currency Createprogid="Migrator" Createts="2019-05-28T20:42:26-04:00"
+    Createuserid="admin" Currency="EUR" CurrencyDescription="Euro"
+    CurrencyKey="EUR" EuroMemberFlag="N" ExpirationDate="2500-01-01"
+    Lockid="0" Modifyprogid="Migrator"
+    Modifyts="2019-05-28T20:42:26-04:00" Modifyuserid="admin"
+    PostfixSymbol="" PrefixSymbol="€" RoundingRule="0"/>
+<Currency Createprogid="Migrator" Createts="2019-05-28T20:42:26-04:00"
+    Createuserid="admin" Currency="USD" CurrencyDescription="US Dollar"
+    CurrencyKey="USD" EuroMemberFlag="N" ExpirationDate="2500-01-01"
+    Lockid="0" Modifyprogid="Migrator"
+    Modifyts="2019-05-28T20:42:26-04:00" Modifyuserid="admin"
+    PostfixSymbol="" PrefixSymbol="$" RoundingRule="0"/>
+</YFS_CURRENCYList>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_ATTRIBUTE_REFERENCEList TableName="YFS_ATTRIBUTE_REFERENCE" TotalNumberOfRecords="6">
+<AttributeReference AttributeKey="Aurora-Corp_ATTR1"
+    AttributeReferenceKey="Aurora-Corp_ATTR1" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:12-04:00" Modifyuserid="SYSTEM"
+    ReferenceName="ItemID" TableName="YFS_ITEM"/>
+<AttributeReference AttributeKey="Aurora-Corp_ATTR2"
+    AttributeReferenceKey="Aurora-Corp_ATTR2" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:12-04:00" Modifyuserid="SYSTEM"
+    ReferenceName="ShortDescription" TableName="YFS_ITEM"/>
+<AttributeReference AttributeKey="Aurora-Corp_ATTR3"
+    AttributeReferenceKey="Aurora-Corp_ATTR3" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:12-04:00" Modifyuserid="SYSTEM"
+    ReferenceName="ManufacturerName" TableName="YFS_ITEM"/>
+<AttributeReference AttributeKey="Aurora-Corp_ATTR4"
+    AttributeReferenceKey="Aurora-Corp_ATTR4" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:12-04:00" Modifyuserid="SYSTEM"
+    ReferenceName="Class" TableName="YFS_ITEM"/>
+<AttributeReference AttributeKey="Aurora-Corp_ATTR5"
+    AttributeReferenceKey="Aurora-Corp_ATTR5" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:12-04:00" Modifyuserid="SYSTEM"
+    ReferenceName="ColorCode" TableName="YFS_ITEM"/>
+<AttributeReference AttributeKey="Aurora-Corp_ATTR6"
+    AttributeReferenceKey="Aurora-Corp_ATTR6" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:12-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:12-04:00" Modifyuserid="SYSTEM"
+    ReferenceName="SizeCode" TableName="YFS_ITEM"/>
+</YFS_ATTRIBUTE_REFERENCEList>

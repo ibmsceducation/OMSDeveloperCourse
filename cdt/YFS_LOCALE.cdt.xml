@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_LOCALEList TableName="YFS_LOCALE" TotalNumberOfRecords="2">
+<Locale ClientTimeFormat="HH:mm:ss"
+    ClientTimestampFormat="MM/dd/yyyy HH:mm:ss" Country="US"
+    Createprogid="Migrator" Createts="2019-05-28T20:42:24-04:00"
+    Createuserid="admin" Currency="USD" DateFormat="MM/dd/yyyy"
+    DateHourMinuteFormat="MM/dd/yyyy HH:mm" DayDisplayDateFormat="E d"
+    DimensionUom="IN" HourMinuteTimeFormat="HH:mm" Language="en"
+    LocaleDescription="English (Greenwich Mean Time)"
+    LocaleKey="OMOCINS201704170835" Localecode="en_US_UTC" Lockid="0"
+    Modifyprogid="Migrator" Modifyts="2019-05-28T20:42:24-04:00"
+    Modifyuserid="admin" MonthDisplayDateFormat="MMMMM yyyy"
+    TimeFormat="HH:mm:ss" TimestampFormat="MM/dd/yyyy HH:mm:ss"
+    Timezone="GMT" Variant="" VolumeUom="CIN" WeightUom="LBS"/>
+<Locale ClientTimeFormat="HH:mm:ss"
+    ClientTimestampFormat="MM/dd/yyyy HH:mm:ss" Country="US"
+    Createprogid="Migrator" Createts="2019-05-28T20:42:24-04:00"
+    Createuserid="admin" Currency="USD" DateFormat="MM/dd/yyyy"
+    DateHourMinuteFormat="MM/dd/yyyy HH:mm" DayDisplayDateFormat="E d"
+    DimensionUom="IN" HourMinuteTimeFormat="HH:mm" Language="en"
+    LocaleDescription="English (United States Eastern time)"
+    LocaleKey="SYSTEMINS" Localecode="en_US_EST" Lockid="0"
+    Modifyprogid="Migrator" Modifyts="2019-05-28T20:42:24-04:00"
+    Modifyuserid="admin" MonthDisplayDateFormat="MMMMM yyyy"
+    TimeFormat="HH:mm:ss" TimestampFormat="MM/dd/yyyy HH:mm:ss"
+    Timezone="America/New_York" Variant="" VolumeUom="CIN" WeightUom="LBS"/>
+</YFS_LOCALEList>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_FREIGHT_TERMSList TableName="YFS_FREIGHT_TERMS" TotalNumberOfRecords="8">
+<FreightTerms ChargesPaidBy="SHIPPER" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:30-04:00" Createuserid="SYSTEM"
+    Description="Prepaid" EnterpriseCode="DEFAULT"
+    FreightTerms="PREPAID" FreightTermsKey="200404280928064502"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:30-04:00" Modifyuserid="SYSTEM"
+    ShortDescription="Prepaid" TransportationPreference="02"/>
+<FreightTerms ChargesPaidBy="BUYER" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:30-04:00" Createuserid="SYSTEM"
+    Description="Collect" EnterpriseCode="DEFAULT"
+    FreightTerms="COLLECT" FreightTermsKey="200404280929124503"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:30-04:00" Modifyuserid="SYSTEM"
+    ShortDescription="Collect" TransportationPreference="01"/>
+<FreightTerms ChargesPaidBy="BUYER" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:30-04:00" Createuserid="SYSTEM"
+    Description="Third party collect" EnterpriseCode="DEFAULT"
+    FreightTerms="TP-COLLECT" FreightTermsKey="200404281117003312"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:30-04:00" Modifyuserid="SYSTEM"
+    ShortDescription="Third party collect" TransportationPreference="01"/>
+<FreightTerms ChargesPaidBy="SHIPPER" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:30-04:00" Createuserid="SYSTEM"
+    Description="Third party prepaid" EnterpriseCode="DEFAULT"
+    FreightTerms="TP-PREPAID" FreightTermsKey="200404281117243313"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:30-04:00" Modifyuserid="SYSTEM"
+    ShortDescription="Third party prepaid" TransportationPreference="02"/>
+<FreightTerms ChargesPaidBy="SHIPPER" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:30-04:00" Createuserid="SYSTEM"
+    Description="Prepaid (Returns)" EnterpriseCode="DEFAULT"
+    FreightTerms="PRE" FreightTermsKey="200904290928064502" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:30-04:00"
+    Modifyuserid="SYSTEM" ShortDescription="Prepaid (Returns)" TransportationPreference="02"/>
+<FreightTerms ChargesPaidBy="BUYER" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:30-04:00" Createuserid="SYSTEM"
+    Description="Collect (Returns)" EnterpriseCode="DEFAULT"
+    FreightTerms="COL" FreightTermsKey="200904290929124503" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:30-04:00"
+    Modifyuserid="SYSTEM" ShortDescription="Collect (Returns)" TransportationPreference="01"/>
+<FreightTerms ChargesPaidBy="SHIPPER" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:30-04:00" Createuserid="SYSTEM"
+    Description="Third party (Returns)" EnterpriseCode="DEFAULT"
+    FreightTerms="TPB" FreightTermsKey="200904291117243313" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T20:42:30-04:00"
+    Modifyuserid="SYSTEM" ShortDescription="Third party (Returns)" TransportationPreference="02"/>
+<FreightTerms ChargesPaidBy="SHIPPER" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:29-04:00" Createuserid="SYSTEM"
+    Description="Prepaid" EnterpriseCode="Aurora" FreightTerms="PREPAID"
+    FreightTermsKey="2011090705125353005" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:15:29-04:00"
+    Modifyuserid="SYSTEM" ShortDescription="Prepaid" TransportationPreference="02"/>
+</YFS_FREIGHT_TERMSList>

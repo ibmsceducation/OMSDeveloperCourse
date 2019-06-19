@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_PAYMENT_CARD_TYPEList TableName="YFS_PAYMENT_CARD_TYPE" TotalNumberOfRecords="12">
+<PaymentCardType Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:10-04:00" Createuserid="SYSTEM"
+    Lockid="0" LongDescription="JCB" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:12:10-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora" PaymentCardType="JCB"
+    PaymentCardTypeKey="2001076613858" PaymentType="CREDIT_CARD" ShortDescription="JCB">
+    <PaymentConfiguration/>
+</PaymentCardType>
+<PaymentCardType Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:45-04:00" Createuserid="SYSTEM"
+    Lockid="0" LongDescription="Diner's Club" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:45-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora-Corp" PaymentCardType="DINERS_CLUB"
+    PaymentCardTypeKey="2001367742360" PaymentType="CREDIT_CARD" ShortDescription="Diner's Club">
+    <PaymentConfiguration/>
+</PaymentCardType>
+<PaymentCardType Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:44-04:00" Createuserid="SYSTEM"
+    Lockid="0" LongDescription="MasterCard" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:44-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora-Corp" PaymentCardType="MASTERCARD"
+    PaymentCardTypeKey="2001921397428" PaymentType="CREDIT_CARD" ShortDescription="MasterCard">
+    <PaymentConfiguration/>
+</PaymentCardType>
+<PaymentCardType Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:10-04:00" Createuserid="SYSTEM"
+    Lockid="0" LongDescription="Visa" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:12:10-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora" PaymentCardType="VISA"
+    PaymentCardTypeKey="200562492644" PaymentType="CREDIT_CARD" ShortDescription="Visa">
+    <PaymentConfiguration/>
+</PaymentCardType>
+<PaymentCardType Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:10-04:00" Createuserid="SYSTEM"
+    Lockid="0" LongDescription="Discover" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:12:10-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora" PaymentCardType="DISCOVER"
+    PaymentCardTypeKey="200882491148" PaymentType="CREDIT_CARD" ShortDescription="Discover">
+    <PaymentConfiguration/>
+</PaymentCardType>
+<PaymentCardType Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:45-04:00" Createuserid="SYSTEM"
+    Lockid="0" LongDescription="Visa" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:45-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora-Corp" PaymentCardType="VISA"
+    PaymentCardTypeKey="201020775387" PaymentType="CREDIT_CARD" ShortDescription="Visa">
+    <PaymentConfiguration/>
+</PaymentCardType>
+<PaymentCardType Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:45-04:00" Createuserid="SYSTEM"
+    Lockid="0" LongDescription="Discover" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:45-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora-Corp" PaymentCardType="DISCOVER"
+    PaymentCardTypeKey="201031437571" PaymentType="CREDIT_CARD" ShortDescription="Discover">
+    <PaymentConfiguration/>
+</PaymentCardType>
+<PaymentCardType Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:10-04:00" Createuserid="SYSTEM"
+    Lockid="0" LongDescription="Diner's Club" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:12:10-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora" PaymentCardType="DINERS_CLUB"
+    PaymentCardTypeKey="201079020143" PaymentType="CREDIT_CARD" ShortDescription="Diner's Club">
+    <PaymentConfiguration/>
+</PaymentCardType>
+<PaymentCardType Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:10-04:00" Createuserid="SYSTEM"
+    Lockid="0" LongDescription="MasterCard" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:12:10-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora" PaymentCardType="MASTERCARD"
+    PaymentCardTypeKey="20212215563" PaymentType="CREDIT_CARD" ShortDescription="MasterCard">
+    <PaymentConfiguration/>
+</PaymentCardType>
+<PaymentCardType Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:10-04:00" Createuserid="SYSTEM"
+    Lockid="0" LongDescription="American Express"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:12:10-04:00"
+    Modifyuserid="SYSTEM" OrganizationCode="Aurora"
+    PaymentCardType="AMEX" PaymentCardTypeKey="2027998398"
+    PaymentType="CREDIT_CARD" ShortDescription="American Express">
+    <PaymentConfiguration/>
+</PaymentCardType>
+<PaymentCardType Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:45-04:00" Createuserid="SYSTEM"
+    Lockid="0" LongDescription="American Express"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:45-04:00"
+    Modifyuserid="SYSTEM" OrganizationCode="Aurora-Corp"
+    PaymentCardType="AMEX" PaymentCardTypeKey="20661312377"
+    PaymentType="CREDIT_CARD" ShortDescription="American Express">
+    <PaymentConfiguration/>
+</PaymentCardType>
+<PaymentCardType Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:45-04:00" Createuserid="SYSTEM"
+    Lockid="0" LongDescription="JCB" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:45-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="Aurora-Corp" PaymentCardType="JCB"
+    PaymentCardTypeKey="2076258073" PaymentType="CREDIT_CARD" ShortDescription="JCB">
+    <PaymentConfiguration/>
+</PaymentCardType>
+</YFS_PAYMENT_CARD_TYPEList>

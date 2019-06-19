@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_CUSTOMER_GRADEList TableName="YFS_CUSTOMER_GRADE" TotalNumberOfRecords="6">
+<CustomerGrade Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:44-04:00" Createuserid="SYSTEM"
+    CustomerGradeKey="200667464638" GradeCode="LOW"
+    GradeDescription="Low Value Customer" Lockid="0"
+    MaximumRating="0.49" MinimumRating="0.00" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:44-04:00" Modifyuserid="SYSTEM" OrganizationCode="Aurora-Corp"/>
+<CustomerGrade Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:09-04:00" Createuserid="SYSTEM"
+    CustomerGradeKey="200676367164" GradeCode="MEDIUM"
+    GradeDescription="Medium Value Customer" Lockid="0"
+    MaximumRating="1.49" MinimumRating="0.50" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:12:09-04:00" Modifyuserid="SYSTEM" OrganizationCode="Aurora"/>
+<CustomerGrade Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:09-04:00" Createuserid="SYSTEM"
+    CustomerGradeKey="200684830651" GradeCode="LOW"
+    GradeDescription="Low Value Customer" Lockid="0"
+    MaximumRating="0.49" MinimumRating="0.00" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:12:09-04:00" Modifyuserid="SYSTEM" OrganizationCode="Aurora"/>
+<CustomerGrade Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:44-04:00" Createuserid="SYSTEM"
+    CustomerGradeKey="201278450599" GradeCode="MEDIUM"
+    GradeDescription="Medium Value Customer" Lockid="0"
+    MaximumRating="1.49" MinimumRating="0.50" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:44-04:00" Modifyuserid="SYSTEM" OrganizationCode="Aurora-Corp"/>
+<CustomerGrade Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:12:09-04:00" Createuserid="SYSTEM"
+    CustomerGradeKey="20244960945" GradeCode="HIGH"
+    GradeDescription="High Value Customer" Lockid="0"
+    MaximumRating="2.00" MinimumRating="1.50" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:12:09-04:00" Modifyuserid="SYSTEM" OrganizationCode="Aurora"/>
+<CustomerGrade Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:44-04:00" Createuserid="SYSTEM"
+    CustomerGradeKey="20783307348" GradeCode="HIGH"
+    GradeDescription="High Value Customer" Lockid="0"
+    MaximumRating="2.00" MinimumRating="1.50" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:11:44-04:00" Modifyuserid="SYSTEM" OrganizationCode="Aurora-Corp"/>
+</YFS_CUSTOMER_GRADEList>

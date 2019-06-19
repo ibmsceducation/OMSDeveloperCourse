@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_REGIONList TableName="YFS_REGION" TotalNumberOfRecords="1">
+<Region CanAggregate="N" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:43-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:43-04:00" Modifyuserid="SYSTEM"
+    ParentRegionKey="" RegionDescription="" RegionKey="DEFAULT_R1"
+    RegionLevelName="Country" RegionName="All" RegionSchemaKey="DEFAULT_RS1"/>
+</YFS_REGIONList>

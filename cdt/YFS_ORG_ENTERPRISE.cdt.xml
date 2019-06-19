@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_ORG_ENTERPRISEList TableName="YFS_ORG_ENTERPRISE" TotalNumberOfRecords="36">
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:19-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora-Corp" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:19-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="200293169169" OrganizationKey="Auro_Store_9"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:19-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora-Corp" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:19-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="200927534657" OrganizationKey="Auro_Store_10"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:19-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora-Corp" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:19-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201173845866" OrganizationKey="Auro_Store_4"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:19-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora-Corp" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:19-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201467248873" OrganizationKey="Auro_Store_3"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:19-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora-Corp" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:19-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201760651880" OrganizationKey="Auro_Store_2"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:17-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:17-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201905282211171766" OrganizationKey="Aurora"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:17-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora-Corp" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:17-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201905282211171776" OrganizationKey="Aurora-Corp"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:17-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora-Corp" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:17-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201905282211171788" OrganizationKey="Aurora_WH1"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:17-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora-Corp" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:17-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201905282211171797" OrganizationKey="Aurora_WH2"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:17-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora-Corp" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:17-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201905282211171806" OrganizationKey="Aurora_WH4"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:18-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora-Corp" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:18-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201905282211181815" OrganizationKey="Aurora_WH3"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:18-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:18-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201905282211181824" OrganizationKey="Auro_Store_1"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:18-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:18-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201905282211181833" OrganizationKey="Auro_Store_2"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:18-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:18-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201905282211181842" OrganizationKey="Auro_Store_3"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:18-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:18-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201905282211181851" OrganizationKey="Auro_Store_4"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:18-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:18-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201905282211181860" OrganizationKey="Auro_Store_5"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:18-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:18-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201905282211181869" OrganizationKey="Auro_Store_6"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:18-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:18-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201905282211181878" OrganizationKey="Auro_Store_7"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:18-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:18-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201905282211181887" OrganizationKey="Auro_Store_8"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:18-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:18-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201905282211181896" OrganizationKey="Auro_Store_9"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:18-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:18-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201905282211181905" OrganizationKey="Auro_Store_10"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:18-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="DEFAULT" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:18-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="201905282211181908" OrganizationKey="Y_ANY"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:19-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora-Corp" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:19-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="202054054887" OrganizationKey="Auro_Store_1"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:19-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora-Corp" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:19-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="20233838" OrganizationKey="Auro_Store_8"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:19-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora-Corp" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:19-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="20293636845" OrganizationKey="Auro_Store_7"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:19-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora-Corp" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:19-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="20587039852" OrganizationKey="Auro_Store_6"/>
+<OrgEnterprise Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:11:19-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="Aurora-Corp" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:19-04:00"
+    Modifyuserid="SYSTEM" OrgEnterpriseKey="20880442859" OrganizationKey="Auro_Store_5"/>
+<OrgEnterprise Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="DEFAULT" Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrgEnterpriseKey="DEFAULT" OrganizationKey="DEFAULT"/>
+<OrgEnterprise Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="DEFAULT" Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrgEnterpriseKey="FEDX" OrganizationKey="FEDX"/>
+<OrgEnterprise Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="DEFAULT" Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrgEnterpriseKey="Purolator" OrganizationKey="Purolator"/>
+<OrgEnterprise Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="DEFAULT" Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrgEnterpriseKey="UPSA" OrganizationKey="UPSA"/>
+<OrgEnterprise Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="DEFAULT" Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrgEnterpriseKey="UPSC" OrganizationKey="UPSC"/>
+<OrgEnterprise Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="DEFAULT" Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrgEnterpriseKey="UPSE" OrganizationKey="UPSE"/>
+<OrgEnterprise Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="DEFAULT" Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrgEnterpriseKey="UPSL" OrganizationKey="UPSL"/>
+<OrgEnterprise Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="DEFAULT" Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrgEnterpriseKey="UPSN" OrganizationKey="UPSN"/>
+<OrgEnterprise Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:38-04:00" Createuserid="SYSTEM"
+    EnterpriseOrganizationKey="DEFAULT" Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:38-04:00" Modifyuserid="SYSTEM"
+    OrgEnterpriseKey="USPS" OrganizationKey="USPS"/>
+</YFS_ORG_ENTERPRISEList>

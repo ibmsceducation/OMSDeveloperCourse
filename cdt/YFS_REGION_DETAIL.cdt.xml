@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_REGION_DETAILList TableName="YFS_REGION_DETAIL" TotalNumberOfRecords="1">
+<RegionDetail Country="US" Createprogid="XMLMigrator"
+    Createts="2019-05-28T22:15:43-04:00" Createuserid="SYSTEM"
+    FromZip="00000" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T22:15:43-04:00" Modifyuserid="SYSTEM"
+    RegionDetailKey="20986605397" RegionKey="DEFAULT_R1" ToZip="99999" ZipcodeLength="0"/>
+</YFS_REGION_DETAILList>

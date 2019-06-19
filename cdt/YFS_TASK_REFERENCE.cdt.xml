@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_TASK_REFERENCEList TableName="YFS_TASK_REFERENCE" TotalNumberOfRecords="34">
+<TaskReference ActivityGroupId="COUNT" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="BatchNo" TaskReferenceKey="BatchNo_COUNT"/>
+<TaskReference ActivityGroupId="OUTBOUND_PICKING"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="BatchNo" TaskReferenceKey="BatchNo_OUT_PICK"/>
+<TaskReference ActivityGroupId="PUTAWAY" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="BatchNo" TaskReferenceKey="BatchNo_PUTAWAY"/>
+<TaskReference ActivityGroupId="REPLENISHMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="BatchNo" TaskReferenceKey="BatchNo_REPLEN"/>
+<TaskReference ActivityGroupId="RETRIEVAL" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="BatchNo" TaskReferenceKey="BatchNo_RETRIEVE"/>
+<TaskReference ActivityGroupId="VAS" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="BatchNo" TaskReferenceKey="BatchNo_VAS"/>
+<TaskReference ActivityGroupId="SHIP" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="BolNo" TaskReferenceKey="BolNo_SHIP"/>
+<TaskReference ActivityGroupId="OUTBOUND_PICKING"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="ContainerNo" TaskReferenceKey="ContainerNo_OUT_PICK"/>
+<TaskReference ActivityGroupId="PACK" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="ContainerNo" TaskReferenceKey="ContainerNo_PACK"/>
+<TaskReference ActivityGroupId="PUTAWAY" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="ContainerNo" TaskReferenceKey="ContainerNo_PUTAWAY"/>
+<TaskReference ActivityGroupId="VAS" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="ContainerNo" TaskReferenceKey="ContainerNo_VAS"/>
+<TaskReference ActivityGroupId="COUNT" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="CountRequestNo" TaskReferenceKey="CountRequestNo_COUNT"/>
+<TaskReference ActivityGroupId="OUTBOUND_INVENTORY_CONTAINER_BUILD"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="LoadNo" TaskReferenceKey="LoadNo_INVPLT_BUILD"/>
+<TaskReference ActivityGroupId="SHIPPING_CONTAINER_BUILD"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="LoadNo" TaskReferenceKey="LoadNo_SHPPLT_BUILD"/>
+<TaskReference ActivityGroupId="SHIP" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="ManifestNo" TaskReferenceKey="ManifestNo_SHIP"/>
+<TaskReference ActivityGroupId="PUTAWAY" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="MoveRequestNo" TaskReferenceKey="MoveRequestNo_PUTAWAY"/>
+<TaskReference ActivityGroupId="REPLENISHMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="MoveRequestNo" TaskReferenceKey="MoveRequestNo_REPLEN"/>
+<TaskReference ActivityGroupId="RETRIEVAL" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="MoveRequestNo" TaskReferenceKey="MoveRequestNo_RETRIEVE"/>
+<TaskReference ActivityGroupId="PUTAWAY" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="ReceiptNo" TaskReferenceKey="ReceiptNo_PUTAWAY"/>
+<TaskReference ActivityGroupId="RECEIPT" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="ReceiptNo" TaskReferenceKey="ReceiptNo_RECEIPT"/>
+<TaskReference ActivityGroupId="OUTBOUND_INVENTORY_CONTAINER_BUILD"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="Scac" TaskReferenceKey="Scac_INVPLT_BUILD"/>
+<TaskReference ActivityGroupId="OUTBOUND_INVENTORY_CONTAINER_BUILD"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="ShipmentNo" TaskReferenceKey="ShipmentNo_INVPLT_BUILD"/>
+<TaskReference ActivityGroupId="OUTBOUND_PICKING"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="ShipmentNo" TaskReferenceKey="ShipmentNo_OUT_PICK"/>
+<TaskReference ActivityGroupId="PACK" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="ShipmentNo" TaskReferenceKey="ShipmentNo_PACK"/>
+<TaskReference ActivityGroupId="PUTAWAY" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="ShipmentNo" TaskReferenceKey="ShipmentNo_PUTAWAY"/>
+<TaskReference ActivityGroupId="RETRIEVAL" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="ShipmentNo" TaskReferenceKey="ShipmentNo_RETRIEVE"/>
+<TaskReference ActivityGroupId="SHIPPING_CONTAINER_BUILD"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="ShipmentNo" TaskReferenceKey="ShipmentNo_SHPPLT_BUILD"/>
+<TaskReference ActivityGroupId="VAS" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="ShipmentNo" TaskReferenceKey="ShipmentNo_VAS"/>
+<TaskReference ActivityGroupId="SHIP" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="TrailerNo" TaskReferenceKey="TrailerNo_SHIP"/>
+<TaskReference ActivityGroupId="OUTBOUND_PICKING"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="WaveNo" TaskReferenceKey="WaveNo_OUT_PICK"/>
+<TaskReference ActivityGroupId="REPLENISHMENT"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="WaveNo" TaskReferenceKey="WaveNo_REPLEN"/>
+<TaskReference ActivityGroupId="PUTAWAY" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="WorkOrderNo" TaskReferenceKey="WorkOrderNo_PUTAWAY"/>
+<TaskReference ActivityGroupId="RETRIEVAL" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="WorkOrderNo" TaskReferenceKey="WorkOrderNo_RETRIEVE"/>
+<TaskReference ActivityGroupId="VAS" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    SystemDefined="Y" TaskReference="WorkOrderNo" TaskReferenceKey="WorkOrderNo_VAS"/>
+</YFS_TASK_REFERENCEList>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_MODULE_DOCUMENT_TYPEList TableName="YFS_MODULE_DOCUMENT_TYPE" TotalNumberOfRecords="10">
+<ModuleDocumentType AddToConsole="Y" ApplicationCode="omd"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" DefaultForApplication="N" DocumentType="0004"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    ModuleCode="" ModuleDocumentTypeKey="200303251546200000" SystemDefined="Y"/>
+<ModuleDocumentType AddToConsole="Y" ApplicationCode="omd"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" DefaultForApplication="N" DocumentType="0006"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    ModuleCode="" ModuleDocumentTypeKey="200303251546200001" SystemDefined="Y"/>
+<ModuleDocumentType AddToConsole="Y" ApplicationCode="omd"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" DefaultForApplication="Y" DocumentType="0001"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    ModuleCode="" ModuleDocumentTypeKey="200303251546200002" SystemDefined="Y"/>
+<ModuleDocumentType AddToConsole="Y" ApplicationCode="oms"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" DefaultForApplication="Y" DocumentType="0005"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    ModuleCode="" ModuleDocumentTypeKey="200303251546200003" SystemDefined="Y"/>
+<ModuleDocumentType AddToConsole="Y" ApplicationCode="ydm"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" DefaultForApplication="Y" DocumentType="1001"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    ModuleCode="" ModuleDocumentTypeKey="200303251546200004" SystemDefined="Y"/>
+<ModuleDocumentType AddToConsole="Y" ApplicationCode="omr"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" DefaultForApplication="Y" DocumentType="0003"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    ModuleCode="" ModuleDocumentTypeKey="200303251546200005" SystemDefined="Y"/>
+<ModuleDocumentType AddToConsole="Y" ApplicationCode="oms"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" DefaultForApplication="N" DocumentType="0006"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    ModuleCode="" ModuleDocumentTypeKey="200303251546200006" SystemDefined="Y"/>
+<ModuleDocumentType AddToConsole="N" ApplicationCode="omd"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" DefaultForApplication="N" DocumentType="0007"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    ModuleCode="" ModuleDocumentTypeKey="200810130946130000" SystemDefined="Y"/>
+<ModuleDocumentType AddToConsole="N" ApplicationCode="omd"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:42-04:00"
+    Createuserid="SYSTEM" DefaultForApplication="N" DocumentType="0015"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:42-04:00" Modifyuserid="SYSTEM"
+    ModuleCode="" ModuleDocumentTypeKey="200910130946130000" SystemDefined="Y"/>
+<ModuleDocumentType AddToConsole="Y" ApplicationCode="wms"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:43:57-04:00"
+    Createuserid="SYSTEM" DefaultForApplication="" DocumentType="3001"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM"
+    ModuleCode="COUNT" ModuleDocumentTypeKey="WMS_Count" SystemDefined="Y"/>
+</YFS_MODULE_DOCUMENT_TYPEList>

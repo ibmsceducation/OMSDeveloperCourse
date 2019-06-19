@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_TRAN_ROLLBACK_STATUSList TableName="YFS_TRAN_ROLLBACK_STATUS" TotalNumberOfRecords="1">
+<TransactionRollbackStatus Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:42:44-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:44-04:00" Modifyuserid="SYSTEM"
+    StatusKey="ORDER_STATUS_1300"
+    TranRollbackStatusKey="ACCEPT_RESERVATION" TransactionKey="ACCEPT_RESERVATION"/>
+</YFS_TRAN_ROLLBACK_STATUSList>

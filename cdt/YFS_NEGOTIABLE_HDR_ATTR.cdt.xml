@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_NEGOTIABLE_HDR_ATTRList TableName="YFS_NEGOTIABLE_HDR_ATTR" TotalNumberOfRecords="2">
+<NegotiableHdrAttr AttributeName="FreightTerms" Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:50-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:50-04:00" Modifyuserid="SYSTEM"
+    NegotiableHdrAttrKey="DEFAULT2" NegotiationRuleKey="DEFAULT"/>
+<NegotiableHdrAttr AttributeName="PaymentTerms" Createprogid="SYSTEM"
+    Createts="2019-05-28T20:42:50-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2019-05-28T20:42:50-04:00" Modifyuserid="SYSTEM"
+    NegotiableHdrAttrKey="DEFAULT3" NegotiationRuleKey="DEFAULT"/>
+</YFS_NEGOTIABLE_HDR_ATTRList>

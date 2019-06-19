@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_SCAC_ADAPTER_SUPPORTList TableName="YFS_SCAC_ADAPTER_SUPPORT" TotalNumberOfRecords="10">
+<ScacAdapterSupport CarrierAdapterImplKey="PierbridgeAdaptor"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    Scac="UPSC" ScacAdapterSupportKey="10"/>
+<ScacAdapterSupport CarrierAdapterImplKey="PierbridgeAdaptor"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    Scac="UPSA" ScacAdapterSupportKey="12"/>
+<ScacAdapterSupport CarrierAdapterImplKey="PierbridgeAdaptor"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    Scac="UPSE" ScacAdapterSupportKey="14"/>
+<ScacAdapterSupport CarrierAdapterImplKey="PierbridgeAdaptor"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    Scac="UPSL" ScacAdapterSupportKey="16"/>
+<ScacAdapterSupport CarrierAdapterImplKey="PierbridgeAdaptor"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    Scac="DHL" ScacAdapterSupportKey="17"/>
+<ScacAdapterSupport CarrierAdapterImplKey="PierbridgeAdaptor"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    Scac="Purolator" ScacAdapterSupportKey="18"/>
+<ScacAdapterSupport CarrierAdapterImplKey="PierbridgeAdaptor"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    Scac="PurolatorCourier" ScacAdapterSupportKey="19"/>
+<ScacAdapterSupport CarrierAdapterImplKey="PierbridgeAdaptor"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    Scac="USPS" ScacAdapterSupportKey="2"/>
+<ScacAdapterSupport CarrierAdapterImplKey="PierbridgeAdaptor"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    Scac="FEDX" ScacAdapterSupportKey="4"/>
+<ScacAdapterSupport CarrierAdapterImplKey="PierbridgeAdaptor"
+    Createprogid="XMLMigrator" Createts="2019-05-28T20:42:46-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:42:46-04:00" Modifyuserid="SYSTEM"
+    Scac="UPSN" ScacAdapterSupportKey="5"/>
+</YFS_SCAC_ADAPTER_SUPPORTList>

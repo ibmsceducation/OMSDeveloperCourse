@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PLT_DB_COLONY_POOLList TableName="PLT_DB_COLONY_POOL" TotalNumberOfRecords="5">
+<ColonyPool ColonyKey="20190528204220501"
+    Createprogid="YSCPreInstallMetadataCreator"
+    Createts="2019-05-28T20:42:20-04:00" Createuserid="SYSTEM"
+    DbColonyPoolKey="20190528204220502" Lockid="0"
+    Modifyprogid="YSCPreInstallMetadataCreator"
+    Modifyts="2019-05-28T20:42:20-04:00" Modifyuserid="SYSTEM"
+    PoolId="DEFAULT_MASTER_100" TableType="MASTER"/>
+<ColonyPool ColonyKey="20190528204220501"
+    Createprogid="YSCPreInstallMetadataCreator"
+    Createts="2019-05-28T20:42:20-04:00" Createuserid="SYSTEM"
+    DbColonyPoolKey="20190528204220504" Lockid="0"
+    Modifyprogid="YSCPreInstallMetadataCreator"
+    Modifyts="2019-05-28T20:42:20-04:00" Modifyuserid="SYSTEM"
+    PoolId="DEFAULT_CONFIGURATION_100" TableType="CONFIGURATION"/>
+<ColonyPool ColonyKey="20190528204220501"
+    Createprogid="YSCPreInstallMetadataCreator"
+    Createts="2019-05-28T20:42:20-04:00" Createuserid="SYSTEM"
+    DbColonyPoolKey="20190528204220506" Lockid="0"
+    Modifyprogid="YSCPreInstallMetadataCreator"
+    Modifyts="2019-05-28T20:42:20-04:00" Modifyuserid="SYSTEM"
+    PoolId="DEFAULT_TRANSACTION_100" TableType="TRANSACTION"/>
+<ColonyPool ColonyKey="20190528204220501"
+    Createprogid="YSCPreInstallMetadataCreator"
+    Createts="2019-05-28T20:42:20-04:00" Createuserid="SYSTEM"
+    DbColonyPoolKey="20190528204220508" Lockid="0"
+    Modifyprogid="YSCPreInstallMetadataCreator"
+    Modifyts="2019-05-28T20:42:20-04:00" Modifyuserid="SYSTEM"
+    PoolId="DEFAULT_STATISTICS_100" TableType="STATISTICS"/>
+<ColonyPool ColonyKey="20190528204220501"
+    Createprogid="YSCPreInstallMetadataCreator"
+    Createts="2019-05-28T20:42:20-04:00" Createuserid="SYSTEM"
+    DbColonyPoolKey="20190528204220510" Lockid="0"
+    Modifyprogid="YSCPreInstallMetadataCreator"
+    Modifyts="2019-05-28T20:42:20-04:00" Modifyuserid="SYSTEM"
+    PoolId="DEFAULT_METADATA" TableType="METADATA"/>
+</PLT_DB_COLONY_POOLList>

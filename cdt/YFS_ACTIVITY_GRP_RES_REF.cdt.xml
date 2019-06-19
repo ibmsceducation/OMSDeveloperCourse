@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_ACTIVITY_GRP_RES_REFList TableName="YFS_ACTIVITY_GRP_RES_REF" TotalNumberOfRecords="5">
+<ActivityGrpResRef ActivityGroupId="OUTBOUND_PICKING"
+    ActivityGrpResRefKey="ActGrpResRefKey_1" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM" ResourceId="rfretrieval"/>
+<ActivityGrpResRef ActivityGroupId="PUTAWAY"
+    ActivityGrpResRefKey="ActGrpResRefKey_2" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM" ResourceId="rfputaway"/>
+<ActivityGrpResRef ActivityGroupId="RETRIEVAL"
+    ActivityGrpResRefKey="ActGrpResRefKey_3" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM" ResourceId="rfretrieval"/>
+<ActivityGrpResRef ActivityGroupId="REPLENISHMENT"
+    ActivityGrpResRefKey="ActGrpResRefKey_4" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM" ResourceId="rfretrieval"/>
+<ActivityGrpResRef ActivityGroupId="COUNT"
+    ActivityGrpResRefKey="ActGrpResRefKey_5" Createprogid="XMLMigrator"
+    Createts="2019-05-28T20:43:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2019-05-28T20:43:57-04:00" Modifyuserid="SYSTEM" ResourceId="rfcount"/>
+</YFS_ACTIVITY_GRP_RES_REFList>

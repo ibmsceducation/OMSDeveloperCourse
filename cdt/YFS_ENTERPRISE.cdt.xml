@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_ENTERPRISEList TableName="YFS_ENTERPRISE" TotalNumberOfRecords="3">
+<Enterprise Activateflag="" BillingaddressKey="" CommercialContactKey=""
+    ContactaddressKey="" CorporateaddressKey=""
+    Createprogid="XMLMigrator" Createts="2019-05-28T22:11:19-04:00"
+    Createuserid="SYSTEM" DefaultDistributionRuleId=""
+    EnterpriseKey="Aurora" Enterprisecode="Aurora"
+    Enterprisename="Aurora E-Site" IsDeliverySourcingKept=""
+    IsServiceSourcingKept="" IsSourcingKept="" LegalContactKey=""
+    Localecode="" Lockid="0" Logoimagefile="" Longdesc=""
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:19-04:00"
+    Modifyuserid="SYSTEM" NoteKey="" TaxpayerId=""
+    UseDefaultDistribution="N" UseDefaultOrderStatusRules="N"/>
+<Enterprise Activateflag="" BillingaddressKey="" CommercialContactKey=""
+    ContactaddressKey="" CorporateaddressKey=""
+    Createprogid="XMLMigrator" Createts="2019-05-28T22:11:19-04:00"
+    Createuserid="SYSTEM" DefaultDistributionRuleId=""
+    EnterpriseKey="Aurora-Corp" Enterprisecode="Aurora-Corp"
+    Enterprisename="Aurora Corp." IsDeliverySourcingKept=""
+    IsServiceSourcingKept="" IsSourcingKept="" LegalContactKey=""
+    Localecode="" Lockid="0" Logoimagefile="" Longdesc=""
+    Modifyprogid="XMLMigrator" Modifyts="2019-05-28T22:11:19-04:00"
+    Modifyuserid="SYSTEM" NoteKey="" TaxpayerId=""
+    UseDefaultDistribution="N" UseDefaultOrderStatusRules="N"/>
+<Enterprise Activateflag="Y" BillingaddressKey=""
+    CommercialContactKey="" ContactaddressKey="" CorporateaddressKey=""
+    Createprogid="CONFIG" Createts="2019-05-28T20:42:26-04:00"
+    Createuserid="SYSTEM" DefaultDistributionRuleId=""
+    EnterpriseKey="DEFAULT" Enterprisecode="DEFAULT"
+    Enterprisename="DEFAULT" IsDeliverySourcingKept=""
+    IsServiceSourcingKept="" IsSourcingKept="" LegalContactKey=""
+    Localecode="en_US_EST" Lockid="0" Logoimagefile="" Longdesc=""
+    Modifyprogid="CONFIG" Modifyts="2019-05-28T20:42:26-04:00"
+    Modifyuserid="SYSTEM" NoteKey="" TaxpayerId=""
+    UseDefaultDistribution="Y" UseDefaultOrderStatusRules="Y"/>
+</YFS_ENTERPRISEList>
