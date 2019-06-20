@@ -32,8 +32,10 @@ pipeline {
     }
     stage('Update Helm') {
       agent {
-        label 'master'
-        customWorkspace '${WORKSPACE}/course/helmcharts'
+        node {
+          label 'master'
+          customWorkspace '${WORKSPACE}/course/helmcharts'
+        }
       }
       steps {
         writeFile(file: 'override.yaml', text: 'appserver:\n  image:\n    tag: extn_${BUILD_NUMBER}\nomserver:\n  image:\n    tag: extn_${BUILD_NUMBER}', encoding: 'UTF-8')
