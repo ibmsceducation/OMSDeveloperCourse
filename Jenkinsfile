@@ -34,7 +34,7 @@ pipeline {
       agent {
         node {
           label 'master'
-          customWorkspace '${WORKSPACE}/course/helmcharts'
+          customWorkspace '/course/helmcharts'
         }
       }
       steps {
