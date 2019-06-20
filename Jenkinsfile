@@ -23,6 +23,16 @@ pipeline {
       steps {
         sh 'docker tag om-app:extn_${BUILD_NUMBER} mycluster.icp:8500/default/om-app:extn_${BUILD_NUMBER}'
         sh 'docker tag om-agent:extn_${BUILD_NUMBER} mycluster.icp:8500/default/om-agent:extn_${BUILD_NUMBER}'
+        sh 'docker login -u admin -p admin mycluster.icp:8500 && docker push om-app:extn_${BUILD_NUMBER} mycluster.icp:8500/default/om-app:extn_${BUILD_NUMBER} && docker push om-agent:extn_${BUILD_NUMBER} mycluster.icp:8500/default/om-agent:extn_${BUILD_NUMBER}''
+      }
+    }
+    stage('Update Helm') {
+      agent {
+        label 'master'
+        customWorkspace '${WORKSPACE}/course/helmcharts'
+      }
+      steps {
+         
       }
     }
     stage('CDT') {

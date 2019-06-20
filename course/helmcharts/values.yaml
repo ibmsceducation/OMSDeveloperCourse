@@ -1,0 +1,142 @@
+global:
+  image:
+    repository: mycluster.icp:8500/default
+  appSecret: omsprod-db-secret
+  database:
+    serverName: 172.16.1.5
+    port: 50000
+    dbname: OMDB
+    user: db2inst1
+    dbvendor: DB2
+    datasourceName: jdbc/OMDS
+    systemPool: true
+    schema: OMDB
+  serviceAccountName: default
+  customerOverrides: 
+  - yfs.oms_provider_url=file:///opt/ssfs
+  - yfs.oms_qcf=qcf
+  - yfs.yfs.agent.override.icf=com.sun.jndi.fscontext.RefFSContextFactory
+  - yfs.yfs.agent.override.providerurl=file:///opt/ssfs
+  - yfs.yfs.agent.override.qcf=qcf
+  - yfs.yfs.flow.override.icf=com.sun.jndi.fscontext.RefFSContextFactory
+  - yfs.yfs.flow.override.providerurl=file:///opt/ssfs
+  - yfs.yfs.flow.override.qcf=qcf
+  - yfs.sci.queuebasedsecurity.userid=mqm
+  - yfs.sci.queuebasedsecurity.password=mqm
+  envs: []
+  persistence:
+    claims:
+      name: oms-common
+      accessMode: ReadWriteMany
+      capacity: 10
+      capacityUnit: Gi
+    securityContext:
+      fsGroup: 0
+      supplementalGroup: 0
+  mq:
+    bindingConfigName: omsprod-binding
+    bindingMountPath: /opt/ssfs/.bindings
+  arch:
+    amd64: 2 - No preference
+    ppc64le: 2 - No preference
+  log:
+    format: json
+appserver:
+  replicaCount: 1
+  image:
+    name: om-app
+    tag: extn_2
+    pullPolicy: IfNotPresent
+  config:
+    vendor: websphere
+    vendorFile: servers.properties
+    serverName: DefaultAppServer
+    jvm:
+      xms: 1024m
+      xmx: 2048m
+      params: []
+    database:
+      maxPoolSize: 50
+      minPoolSize: 10
+    corethreads: 20
+    maxthreads: 100
+    libertyServerXml: ""
+    libertyStartupWrapper: /opt/ibm/helpers/runtime/docker-server.sh
+  livenessCheckBeginAfterSeconds: 900
+  livenessFailRestartAfterMinutes: 10
+  service:
+    type: NodePort
+    http:
+      port: 9080
+      nodePort: 30083
+    https:
+      port: 9443
+      nodePort: 30446
+  resources:
+    requests:
+      memory: 2560Mi
+      cpu: 1
+  ingress:
+    enabled: true
+    host: myoms.icp
+    ssl:
+      enabled: true
+      secretname: omsprod-ingress-secret
+    controller: nginx
+    contextRoots:
+    - smcfs
+    - sbc
+    - sma
+    - isccs
+    - wsc
+    - adminCenter
+    annotations: {}
+  podLabels: {}
+  tolerations: []
+  nodeAffinity:
+    requiredDuringSchedulingIgnoredDuringExecution: {}
+    preferredDuringSchedulingIgnoredDuringExecution: []
+  podAffinity:
+    requiredDuringSchedulingIgnoredDuringExecution: []
+    preferredDuringSchedulingIgnoredDuringExecution: []
+  podAntiAffinity:
+    requiredDuringSchedulingIgnoredDuringExecution: []
+    preferredDuringSchedulingIgnoredDuringExecution: []
+    replicaNotOnSameNode:
+      mode: prefer
+      weightForPreference: 100
+omserver:
+  image:
+    name: om-agent
+    tag: extn_2
+    pullPolicy: IfNotPresent
+  common:
+    jvmArgs: -Xms512m -Xmx1024m
+    replicaCount: 1
+    resources:
+      requests:
+        memory: 1024Mi
+        cpu: 0.5
+    readinessFailRestartAfterMinutes: 10
+    podLabels: {}
+    tolerations: []
+    nodeAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution: {}
+      preferredDuringSchedulingIgnoredDuringExecution: []
+    podAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution: []
+      preferredDuringSchedulingIgnoredDuringExecution: []
+    podAntiAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution: []
+      preferredDuringSchedulingIgnoredDuringExecution: []
+      replicaNotOnSameNode:
+        mode: prefer
+        weightForPreference: 100
+  deployHealthMonitor: true
+  servers:
+  - group: Default Server
+    name:
+    - server1
+datasetup:
+  loadFactoryData: donotinstall
+  mode: create

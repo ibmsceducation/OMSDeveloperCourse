@@ -1,0 +1,13 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: oms-common
+spec:
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteMany
+  persistentVolumeReclaimPolicy: Delete
+  nfs:
+    path: "/mnt/data"
+    server: "172.16.1.1"
