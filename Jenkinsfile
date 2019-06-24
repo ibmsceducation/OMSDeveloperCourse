@@ -33,7 +33,7 @@ pipeline {
     stage('Update Helm') {
       steps {
         sh 'sudo echo -e "appserver:\n  image:\n    tag: extn_${BUILD_NUMBER}\nomserver:\n  image:\n    tag: extn_${BUILD_NUMBER}"\n > /opt/ssfs/shared/course/helmcharts/override.yaml'
-        sh '/opt/ssfs/shared/course/helmcharts/connecticp.sh && helm upgrade -f /opt/ssfs/shared/course/helmcharts/values.yaml -f /opt/ssfs/shared/course/helmcharts/override.yaml omsprod --tls .'
+        sh '/opt/ssfs/shared/course/helmcharts/connecticp.sh && helm upgrade -f /opt/ssfs/shared/course/helmcharts/values.yaml -f /opt/ssfs/shared/course/helmcharts/override.yaml omsprod --tls /opt/ssfs/shared/course/helmcharts/.'
       }
     }
   }
