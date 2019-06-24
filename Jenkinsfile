@@ -34,11 +34,12 @@ pipeline {
       agent {
         node {
           label 'master'
+          customWorkspace 'course/helmcharts'
         }
       }
       steps {
-        writeFile(file: '${WORKSPACE}/course/helmcharts/override.yaml', text: 'appserver:\n  image:\n    tag: extn_${BUILD_NUMBER}\nomserver:\n  image:\n    tag: extn_${BUILD_NUMBER}', encoding: 'UTF-8')
-        sh '${WORKSPACE}/course/helmcharts/connecticp.sh && helm upgrade -f ${WORKSPACE}/course/helmcharts/values.yaml -f ${WORKSPACE}/course/helmcharts/override.yaml omsprod --tls .'
+        writeFile(file: 'override.yaml', text: 'appserver:\n  image:\n    tag: extn_${BUILD_NUMBER}\nomserver:\n  image:\n    tag: extn_${BUILD_NUMBER}', encoding: 'UTF-8')
+        sh './connecticp.sh && helm upgrade -f values.yaml -f override.yaml omsprod --tls .'
       }
     }
   }
