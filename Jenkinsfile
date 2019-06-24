@@ -15,7 +15,7 @@ pipeline {
     }
     stage('Build Environment') {
       steps {
-        sh '/opt/ssfs/runtime/docker-samples/imagebuild/generateImages.sh --OM_TAG=extn_${BUILD_NUMBER}  --WAR_FILES=smcfs,sbc,sma'
+        sh '/opt/ssfs/runtime/docker-samples/imagebuild/generateImages.sh --OM_TAG=extn_${BUILD_NUMBER} --WAR_FILES=smcfs,sbc,sma'
       }
     }
     stage('Tag and Push') {
@@ -32,7 +32,7 @@ pipeline {
     }
     stage('Update Helm') {
       steps {
-        writeFile(file: '/opt/ssfs/shared/course/helmcharts/override.yaml', text: 'appserver:\n  image:\n    tag: extn_${BUILD_NUMBER}\nomserver:\n  image:\n    tag: extn_${BUILD_NUMBER}', encoding: 'UTF-8')
+        sh 'sudo echo -e "appserver:\n  image:\n    tag: extn_${BUILD_NUMBER}\nomserver:\n  image:\n    tag: extn_${BUILD_NUMBER}"\n > /opt/ssfs/shared/course/helmcharts/override.yaml'
         sh '/opt/ssfs/shared/course/helmcharts/connecticp.sh && helm upgrade -f /opt/ssfs/shared/course/helmcharts/values.yaml -f /opt/ssfs/shared/course/helmcharts/override.yaml omsprod --tls .'
       }
     }
