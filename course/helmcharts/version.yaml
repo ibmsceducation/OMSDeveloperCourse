@@ -1,0 +1,6 @@
+appserver:
+  image:
+    tag: extn_3
+omserver:
+  image:
+    tag: extn_3

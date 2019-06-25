@@ -4,7 +4,6 @@ pipeline {
       image 'mycluster.icp:8500/default/om-build:latest'
       args '-v /var/run/docker.sock:/var/run/docker.sock -v ${WORKSPACE}:/opt/ssfs/shared -u root -it'
     }
-
   }
   stages {
     stage('Install Extensions') {
@@ -16,18 +15,25 @@ pipeline {
     }
     stage('Build Environment') {
       steps {
-        sh '/opt/ssfs/runtime/docker-samples/imagebuild/generateImages.sh --OM_TAG=extn_${BUILD_NUMBER}'
+        sh '/opt/ssfs/runtime/docker-samples/imagebuild/generateImages.sh --OM_TAG=extn_${BUILD_NUMBER} --WAR_FILES=smcfs,sbc,sma'
       }
     }
     stage('Tag and Push') {
       steps {
         sh 'docker tag om-app:extn_${BUILD_NUMBER} mycluster.icp:8500/default/om-app:extn_${BUILD_NUMBER}'
         sh 'docker tag om-agent:extn_${BUILD_NUMBER} mycluster.icp:8500/default/om-agent:extn_${BUILD_NUMBER}'
+        sh 'docker login -u admin -p admin mycluster.icp:8500 && docker push mycluster.icp:8500/default/om-app:extn_${BUILD_NUMBER} && docker push mycluster.icp:8500/default/om-agent:extn_${BUILD_NUMBER}'
       }
     }
     stage('CDT') {
       steps {
         sh '/opt/ssfs/runtime/bin/cdtshell.sh -Source DEFAULTXMLDB -Target SYSTEMDB -DefaultXMLDir /opt/ssfs/shared/cdt'
+      }
+    }
+    stage('Update Helm') {
+      steps {
+        sh 'sudo echo -e "appserver:\n  image:\n    tag: extn_${BUILD_NUMBER}\nomserver:\n  image:\n    tag: extn_${BUILD_NUMBER}"\n > /opt/ssfs/shared/course/helmcharts/override.yaml'
+        sh '/opt/ssfs/shared/course/helmcharts/connecticp.sh && helm upgrade -f /opt/ssfs/shared/course/helmcharts/values.yaml -f /opt/ssfs/shared/course/helmcharts/override.yaml omsprod --tls /opt/ssfs/shared/course/helmcharts/.'
       }
     }
   }
