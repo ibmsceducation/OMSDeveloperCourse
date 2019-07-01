@@ -23,7 +23,8 @@ pipeline {
         sh 'docker tag om-app:extn_${BUILD_NUMBER} mycluster.icp:8500/default/om-app:extn_${BUILD_NUMBER}'
         sh 'docker tag om-agent:extn_${BUILD_NUMBER} mycluster.icp:8500/default/om-agent:extn_${BUILD_NUMBER}'
         sh 'docker login -u admin -p admin mycluster.icp:8500 && docker push mycluster.icp:8500/default/om-app:extn_${BUILD_NUMBER} && docker push mycluster.icp:8500/default/om-agent:extn_${BUILD_NUMBER}'
-        sh 'echo -e "appserver:\n  image:\n    tag: extn_${BUILD_NUMBER}\nomserver:\n  image:\n    tag: extn_${BUILD_NUMBER}"\n > /opt/ssfs/shared/course/helmcharts/override.yaml'
+        sh 'echo -e "appserver:\n  image:\n    tag: extn_${BUILD_NUMBER}\nomserver:\n  image:\n    tag: extn_${BUILD_NUMBER}\n" > /opt/ssfs/shared/course/helmcharts/override.yaml'
+        writeFile file: "overrides.yaml", text: appserver:\n  image:\n    tag: extn_${BUILD_NUMBER}\nomserver:\n  image:\n    tag: extn_${BUILD_NUMBER}\n"
       }
     }
     stage('CDT') {
@@ -33,7 +34,7 @@ pipeline {
     }
     stage('Deploy Helm') {
       steps {
-        sh '/opt/ssfs/shared/course/helmcharts/connecticp.sh && helm upgrade -f /opt/ssfs/shared/course/helmcharts/values.yaml -f /opt/ssfs/shared/course/helmcharts/override.yaml omsprod --tls /opt/ssfs/shared/course/helmcharts/.'
+        sh '/opt/ssfs/shared/course/helmcharts/connecticp.sh && helm upgrade -f /opt/ssfs/shared/course/helmcharts/values.yaml -f /opt/ssfs/shared/override.yaml omsprod --tls /opt/ssfs/shared/course/helmcharts/.'
       }
     }
   }
