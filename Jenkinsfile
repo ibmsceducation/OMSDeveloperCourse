@@ -15,7 +15,7 @@ pipeline {
     }
     stage('Build Environment') {
       steps {
-        sh '/opt/ssfs/runtime/docker-samples/imagebuild/generateImages.sh --OM_TAG=extn_${BUILD_NUMBER} --WAR_FILES=smcfs,sbc,sma'
+        sh '/opt/ssfs/runtime/docker-samples/imagebuild/generateImages.sh --OM_TAG=extn_${BUILD_NUMBER}'
       }
     }
     stage('Tag Push Update Helm') {
